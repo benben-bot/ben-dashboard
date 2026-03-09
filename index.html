@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ben's Deploy Dashboard</title>
+  <style>
+    :root {
+      --bg: #0a0a10;
+      --surface: #12121c;
+      --card: #1a1a28;
+      --border: #252538;
+      --accent: #7c6af7;
+      --accent2: #4fc3f7;
+      --green: #50c878;
+      --text: #e8e8f0;
+      --muted: #6a6a88;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 32px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-size: 18px; font-weight: 800; }
+    .logo span { color: var(--accent); }
+    .header-meta { font-size: 13px; color: var(--muted); }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 14px;
+      margin-bottom: 40px;
+    }
+    .stat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      text-align: center;
+    }
+    .stat-num { font-size: 32px; font-weight: 900; color: var(--accent); }
+    .stat-label { font-size: 12px; color: var(--muted); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    h2 { font-size: 16px; font-weight: 700; margin-bottom: 16px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+
+    .sites { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; margin-bottom: 40px; }
+
+    .site-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .site-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+
+    .site-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 12px; }
+    .site-icon { font-size: 28px; }
+    .site-status {
+      font-size: 11px; font-weight: 700; padding: 3px 10px;
+      border-radius: 20px;
+    }
+    .status-live { background: rgba(80,200,120,0.12); color: var(--green); border: 1px solid rgba(80,200,120,0.3); }
+    .status-updated { background: rgba(124,106,247,0.12); color: #a498ff; border: 1px solid rgba(124,106,247,0.3); }
+    .status-wip  { background: rgba(255,159,67,0.12); color: #ffb86c; border: 1px solid rgba(255,159,67,0.3); }
+
+    .site-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+    .site-url { font-size: 12px; color: var(--accent2); margin-bottom: 10px; font-family: monospace; }
+    .site-desc { font-size: 13px; color: var(--muted); line-height: 1.5; }
+    .site-date { font-size: 11px; color: var(--muted); margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
+
+    .site-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+    .tag-mini { font-size: 11px; padding: 2px 8px; border-radius: 20px; font-weight: 600; background: rgba(124,106,247,0.12); color: #a498ff; border: 1px solid rgba(124,106,247,0.2); }
+
+    .changelog {
+      background: rgba(80,200,120,0.05);
+      border: 1px solid rgba(80,200,120,0.15);
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-top: 10px;
+      font-size: 12px;
+      color: #6edda0;
+    }
+    .changelog strong { display: block; margin-bottom: 4px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    .add-card {
+      background: transparent;
+      border: 2px dashed var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 14px;
+      min-height: 160px;
+      cursor: default;
+    }
+    .add-card .plus { font-size: 32px; color: var(--border); }
+
+    /* BENVIS 상태 섹션 */
+    .benvis-section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 40px;
+    }
+    .benvis-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .benvis-title { font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+    .benvis-dot {
+      width: 10px; height: 10px; border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 8px rgba(80,200,120,0.7);
+      animation: pulse 2s infinite;
+    }
+    .benvis-dot.offline { background: #ff6b6b; box-shadow: 0 0 8px rgba(255,107,107,0.7); animation: none; }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .benvis-status-badge {
+      font-size: 12px; font-weight: 700; padding: 4px 12px;
+      border-radius: 20px;
+    }
+    .badge-online { background: rgba(80,200,120,0.12); color: var(--green); border: 1px solid rgba(80,200,120,0.3); }
+    .badge-offline { background: rgba(255,107,107,0.12); color: #ff6b6b; border: 1px solid rgba(255,107,107,0.3); }
+    .benvis-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px;
+    }
+    .benvis-metric {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+    }
+    .metric-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+    .metric-value { font-size: 15px; font-weight: 700; }
+    .metric-value.online { color: var(--green); }
+    .metric-value.offline { color: #ff6b6b; }
+    .metric-value.normal { color: var(--text); }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🚀 <span>Ben</span>'s Dashboard</div>
+  <div class="header-meta">마지막 업데이트: 2026년 3월 8일 21:40 KST · BENVIS 자동 관리</div>
+</header>
+
+<div class="container">
+
+  <!-- BENVIS 상태 -->
+  <div class="benvis-section">
+    <div class="benvis-header">
+      <div class="benvis-title">
+        <div class="benvis-dot" id="benvisDot"></div>
+        🤖 BENVIS 상태
+      </div>
+      <span class="benvis-status-badge badge-online" id="benvisBadge">확인 중...</span>
+    </div>
+    <div class="benvis-grid">
+      <div class="benvis-metric">
+        <div class="metric-label">응답 가능 여부</div>
+        <div class="metric-value" id="benvisOnline">확인 중...</div>
+      </div>
+      <div class="benvis-metric">
+        <div class="metric-label">마지막 확인 시각</div>
+        <div class="metric-value normal" id="benvisLastHB">-</div>
+      </div>
+      <div class="benvis-metric">
+        <div class="metric-label">경과 시간</div>
+        <div class="metric-value" id="benvisElapsed">-</div>
+      </div>
+      <div class="benvis-metric">
+        <div class="metric-label">체크 주기</div>
+        <div class="metric-value normal">5분</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-num">1</div>
+      <div class="stat-label">배포된 사이트</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">1</div>
+      <div class="stat-label">라이브 중</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">13</div>
+      <div class="stat-label">분석된 영상</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">Vercel</div>
+      <div class="stat-label">호스팅 플랫폼</div>
+    </div>
+  </div>
+
+  <h2>배포된 사이트</h2>
+
+  <div class="sites">
+
+    <a class="site-card" href="https://openclaw-guide-omega.vercel.app" target="_blank">
+      <div class="site-top">
+        <div class="site-icon">📺</div>
+        <span class="site-status status-updated">✨ UPDATED</span>
+      </div>
+      <div class="site-title">OpenClaw 유튜브 가이드</div>
+      <div class="site-url">openclaw-guide-omega.vercel.app</div>
+      <div class="site-tags">
+        <span class="tag-mini">영상 요약</span>
+        <span class="tag-mini">마케터용</span>
+        <span class="tag-mini">한국어</span>
+      </div>
+      <div class="site-desc">유튜브 영상 13개 분석 — OpenClaw 핵심 정리. 입문부터 고급 설정까지 섹션별 구성.</div>
+      <div class="changelog">
+        <strong>🆕 2026.03.08 2차 업데이트</strong>
+        즉시 활용 가능한 기능 7선 섹션 추가 (크론잡·Heartbeat·Webhook·Hooks·멀티채널·Web UI·서브에이전트)
+      </div>
+      <div class="site-date">📅 최초: 2026.03.08 · 업데이트: 2026.03.08 · 호스팅: Vercel</div>
+    </a>
+
+    <div class="add-card">
+      <div class="plus">+</div>
+      <div>다음 프로젝트</div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>BENVIS가 관리하는 Ben의 배포 현황판 · 사이트 배포 시 자동 업데이트</footer>
+
+<script>
+// BENVIS 상태 체크 (5분 heartbeat 기반)
+const HEARTBEAT_URL = 'https://raw.githubusercontent.com/benben-bot/ben-dashboard/main/benvis-status.json';
+
+async function checkBenvisStatus() {
+  try {
+    const res = await fetch(HEARTBEAT_URL + '?t=' + Date.now());
+    const data = await res.json();
+
+    const lastHB = new Date(data.last_heartbeat);
+    const now = new Date();
+    const diffMin = Math.floor((now - lastHB) / 60000);
+
+    const isOnline = diffMin <= 10; // 10분 이내면 온라인
+    
+    document.getElementById('benvisDot').className = 'benvis-dot' + (isOnline ? '' : ' offline');
+    document.getElementById('benvisBadge').className = 'benvis-status-badge ' + (isOnline ? 'badge-online' : 'badge-offline');
+    document.getElementById('benvisBadge').textContent = isOnline ? '🟢 응답 가능' : '🔴 오프라인';
+    document.getElementById('benvisOnline').className = 'metric-value ' + (isOnline ? 'online' : 'offline');
+    document.getElementById('benvisOnline').textContent = isOnline ? '✅ 응답 가능' : '❌ 응답 불가';
+    document.getElementById('benvisLastHB').textContent = data.last_heartbeat_readable || '-';
+    document.getElementById('benvisElapsed').className = 'metric-value ' + (isOnline ? 'online' : 'offline');
+    document.getElementById('benvisElapsed').textContent = diffMin === 0 ? '방금 전' : diffMin + '분 전';
+
+  } catch (e) {
+    document.getElementById('benvisBadge').textContent = '⚠️ 확인 불가';
+    document.getElementById('benvisOnline').textContent = '확인 불가';
+  }
+}
+
+checkBenvisStatus();
+setInterval(checkBenvisStatus, 60000); // 1분마다 갱신
+</script>
+
+</body>
+</html>
