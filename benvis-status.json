@@ -1,6 +1,179 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-09T21:50:01+09:00",
-  "last_heartbeat_readable": "2026-03-09 21:50:01 KST",
-  "check_interval_min": 5
+  "last_heartbeat": "2026-03-09T21:54:54+09:00",
+  "last_heartbeat_readable": "2026-03-09 21:54:54 KST",
+  "check_interval_min": 5,
+  "sessions": {
+    "total_24h": 36,
+    "active_1h": 5,
+    "list": [
+      {
+        "id": "dc50c7c2",
+        "type": "thread",
+        "last_active": "방금 전",
+        "last_active_ts": 1773060894,
+        "last_active_readable": "21:54",
+        "msg_count": 202,
+        "last_role": "assistant",
+        "is_active": true
+      },
+      {
+        "id": "e04fa17a",
+        "type": "main",
+        "last_active": "4분 전",
+        "last_active_ts": 1773060613,
+        "last_active_readable": "21:50",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "is_active": true
+      },
+      {
+        "id": "61abe103",
+        "type": "thread",
+        "last_active": "31분 전",
+        "last_active_ts": 1773058996,
+        "last_active_readable": "21:23",
+        "msg_count": 15,
+        "last_role": "assistant",
+        "is_active": true
+      },
+      {
+        "id": "ffed1287",
+        "type": "thread",
+        "last_active": "32분 전",
+        "last_active_ts": 1773058964,
+        "last_active_readable": "21:22",
+        "msg_count": 104,
+        "last_role": "assistant",
+        "is_active": true
+      },
+      {
+        "id": "be78fe34",
+        "type": "main",
+        "last_active": "51분 전",
+        "last_active_ts": 1773057815,
+        "last_active_readable": "21:03",
+        "msg_count": 17,
+        "last_role": "toolResult",
+        "is_active": true
+      },
+      {
+        "id": "59d55d8b",
+        "type": "main",
+        "last_active": "2시간 전",
+        "last_active_ts": 1773052640,
+        "last_active_readable": "19:37",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "is_active": false
+      },
+      {
+        "id": "ddcb34e2",
+        "type": "thread",
+        "last_active": "2시간 전",
+        "last_active_ts": 1773052503,
+        "last_active_readable": "19:35",
+        "msg_count": 15,
+        "last_role": "toolResult",
+        "is_active": false
+      },
+      {
+        "id": "a11126c9",
+        "type": "thread",
+        "last_active": "2시간 전",
+        "last_active_ts": 1773051229,
+        "last_active_readable": "19:13",
+        "msg_count": 92,
+        "last_role": "user",
+        "is_active": false
+      },
+      {
+        "id": "56d9c712",
+        "type": "thread",
+        "last_active": "2시간 전",
+        "last_active_ts": 1773051201,
+        "last_active_readable": "19:13",
+        "msg_count": 15,
+        "last_role": "assistant",
+        "is_active": false
+      },
+      {
+        "id": "2d18ecaa",
+        "type": "thread",
+        "last_active": "2시간 전",
+        "last_active_ts": 1773050694,
+        "last_active_readable": "19:04",
+        "msg_count": 10,
+        "last_role": "toolResult",
+        "is_active": false
+      },
+      {
+        "id": "3e2292b3",
+        "type": "thread",
+        "last_active": "3시간 전",
+        "last_active_ts": 1773049408,
+        "last_active_readable": "18:43",
+        "msg_count": 20,
+        "last_role": "toolResult",
+        "is_active": false
+      },
+      {
+        "id": "9f6657d1",
+        "type": "thread",
+        "last_active": "3시간 전",
+        "last_active_ts": 1773049200,
+        "last_active_readable": "18:40",
+        "msg_count": 76,
+        "last_role": "assistant",
+        "is_active": false
+      },
+      {
+        "id": "59c63e6f",
+        "type": "main",
+        "last_active": "3시간 전",
+        "last_active_ts": 1773048965,
+        "last_active_readable": "18:36",
+        "msg_count": 5,
+        "last_role": "assistant",
+        "is_active": false
+      },
+      {
+        "id": "a632ea59",
+        "type": "thread",
+        "last_active": "3시간 전",
+        "last_active_ts": 1773048094,
+        "last_active_readable": "18:21",
+        "msg_count": 48,
+        "last_role": "assistant",
+        "is_active": false
+      },
+      {
+        "id": "2f21bf1f",
+        "type": "thread",
+        "last_active": "3시간 전",
+        "last_active_ts": 1773047924,
+        "last_active_readable": "18:18",
+        "msg_count": 11,
+        "last_role": "assistant",
+        "is_active": false
+      }
+    ]
+  },
+  "crons": {
+    "benvis-heartbeat": {
+      "registered": true,
+      "last_run": "2026-03-09 21:50:01 KST",
+      "status": "ok"
+    },
+    "benvis-sync": {
+      "registered": true,
+      "last_run": "2026-03-09 21:00:03 KST",
+      "status": "ok"
+    },
+    "openclaw-nightly-restart": {
+      "registered": false,
+      "last_run": null,
+      "status": "missing"
+    }
+  }
 }
