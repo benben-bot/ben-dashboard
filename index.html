@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ben's Deploy Dashboard</title>
+  <title>BENVIS 대시보드</title>
   <style>
     :root {
       --bg: #0a0a10;
@@ -13,6 +13,8 @@
       --accent: #7c6af7;
       --accent2: #4fc3f7;
       --green: #50c878;
+      --yellow: #f5c842;
+      --red: #ff6b6b;
       --text: #e8e8f0;
       --muted: #6a6a88;
     }
@@ -22,269 +24,312 @@
     header {
       background: var(--surface);
       border-bottom: 1px solid var(--border);
-      padding: 20px 32px;
+      padding: 18px 32px;
       display: flex; align-items: center; justify-content: space-between;
     }
-    .logo { font-size: 18px; font-weight: 800; }
+    .logo { font-size: 17px; font-weight: 800; }
     .logo span { color: var(--accent); }
-    .header-meta { font-size: 13px; color: var(--muted); }
+    .header-meta { font-size: 12px; color: var(--muted); }
 
-    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
 
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-      gap: 14px;
-      margin-bottom: 40px;
-    }
-    .stat-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px;
-      text-align: center;
-    }
-    .stat-num { font-size: 32px; font-weight: 900; color: var(--accent); }
-    .stat-label { font-size: 12px; color: var(--muted); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
-
-    h2 { font-size: 16px; font-weight: 700; margin-bottom: 16px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
-
-    .sites { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; margin-bottom: 40px; }
-
-    .site-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 20px;
-      text-decoration: none;
-      color: inherit;
-      display: block;
-      transition: border-color 0.2s, transform 0.2s;
-    }
-    .site-card:hover { border-color: var(--accent); transform: translateY(-2px); }
-
-    .site-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 12px; }
-    .site-icon { font-size: 28px; }
-    .site-status {
-      font-size: 11px; font-weight: 700; padding: 3px 10px;
-      border-radius: 20px;
-    }
-    .status-live { background: rgba(80,200,120,0.12); color: var(--green); border: 1px solid rgba(80,200,120,0.3); }
-    .status-updated { background: rgba(124,106,247,0.12); color: #a498ff; border: 1px solid rgba(124,106,247,0.3); }
-    .status-wip  { background: rgba(255,159,67,0.12); color: #ffb86c; border: 1px solid rgba(255,159,67,0.3); }
-
-    .site-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
-    .site-url { font-size: 12px; color: var(--accent2); margin-bottom: 10px; font-family: monospace; }
-    .site-desc { font-size: 13px; color: var(--muted); line-height: 1.5; }
-    .site-date { font-size: 11px; color: var(--muted); margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
-
-    .site-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
-    .tag-mini { font-size: 11px; padding: 2px 8px; border-radius: 20px; font-weight: 600; background: rgba(124,106,247,0.12); color: #a498ff; border: 1px solid rgba(124,106,247,0.2); }
-
-    .changelog {
-      background: rgba(80,200,120,0.05);
-      border: 1px solid rgba(80,200,120,0.15);
-      border-radius: 8px;
-      padding: 10px 14px;
-      margin-top: 10px;
-      font-size: 12px;
-      color: #6edda0;
-    }
-    .changelog strong { display: block; margin-bottom: 4px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
-
-    .add-card {
-      background: transparent;
-      border: 2px dashed var(--border);
-      border-radius: 14px;
-      padding: 20px;
-      display: flex; align-items: center; justify-content: center;
-      flex-direction: column;
-      gap: 8px;
-      color: var(--muted);
-      font-size: 14px;
-      min-height: 160px;
-      cursor: default;
-    }
-    .add-card .plus { font-size: 32px; color: var(--border); }
-
-    /* BENVIS 상태 섹션 */
-    .benvis-section {
+    /* ── 섹션 공통 ── */
+    .section {
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 40px;
+      padding: 22px;
+      margin-bottom: 24px;
     }
-    .benvis-header {
+    .section-header {
       display: flex; align-items: center; justify-content: space-between;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
     }
-    .benvis-title { font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
-    .benvis-dot {
-      width: 10px; height: 10px; border-radius: 50%;
-      background: var(--green);
-      box-shadow: 0 0 8px rgba(80,200,120,0.7);
+    .section-title { font-size: 14px; font-weight: 700; display: flex; align-items: center; gap: 8px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+
+    /* ── BENVIS 상태 ── */
+    .status-dot {
+      width: 9px; height: 9px; border-radius: 50%;
+      background: var(--green); box-shadow: 0 0 8px rgba(80,200,120,0.7);
       animation: pulse 2s infinite;
     }
-    .benvis-dot.offline { background: #ff6b6b; box-shadow: 0 0 8px rgba(255,107,107,0.7); animation: none; }
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.4; }
-    }
-    .benvis-status-badge {
-      font-size: 12px; font-weight: 700; padding: 4px 12px;
-      border-radius: 20px;
-    }
+    .status-dot.offline { background: var(--red); box-shadow: 0 0 8px rgba(255,107,107,0.7); animation: none; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+    .status-badge { font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; }
     .badge-online { background: rgba(80,200,120,0.12); color: var(--green); border: 1px solid rgba(80,200,120,0.3); }
-    .badge-offline { background: rgba(255,107,107,0.12); color: #ff6b6b; border: 1px solid rgba(255,107,107,0.3); }
-    .benvis-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px;
+    .badge-offline { background: rgba(255,107,107,0.12); color: var(--red); border: 1px solid rgba(255,107,107,0.3); }
+
+    .metrics-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px;
     }
-    .benvis-metric {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 14px;
+    .metric {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px;
     }
     .metric-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
     .metric-value { font-size: 15px; font-weight: 700; }
-    .metric-value.online { color: var(--green); }
-    .metric-value.offline { color: #ff6b6b; }
-    .metric-value.normal { color: var(--text); }
+    .v-green { color: var(--green); }
+    .v-red { color: var(--red); }
+    .v-yellow { color: var(--yellow); }
+    .v-normal { color: var(--text); }
 
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 24px;
-      text-align: center;
-      font-size: 12px;
-      color: var(--muted);
+    /* ── 세션 ── */
+    .sessions-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px;
     }
+    .session-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px;
+    }
+    .session-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+    .session-id { font-size: 12px; font-family: monospace; color: var(--accent2); }
+    .session-badge { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 20px; }
+    .sb-active { background: rgba(80,200,120,0.12); color: var(--green); border: 1px solid rgba(80,200,120,0.3); }
+    .sb-idle { background: rgba(106,106,136,0.15); color: var(--muted); border: 1px solid var(--border); }
+    .session-info { font-size: 12px; color: var(--muted); line-height: 1.7; }
+    .session-info span { color: var(--text); }
+
+    .sessions-summary {
+      display: flex; gap: 20px; margin-bottom: 16px; flex-wrap: wrap;
+    }
+    .summary-item { font-size: 13px; color: var(--muted); }
+    .summary-item strong { color: var(--text); font-size: 22px; display: block; line-height: 1.2; }
+
+    /* ── 크론잡 ── */
+    .cron-list { display: flex; flex-direction: column; gap: 10px; }
+    .cron-item {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+      padding: 12px 16px; display: flex; align-items: center; justify-content: space-between;
+    }
+    .cron-left { display: flex; align-items: center; gap: 10px; }
+    .cron-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .cron-dot.ok { background: var(--green); }
+    .cron-dot.miss { background: var(--red); }
+    .cron-name { font-size: 13px; font-weight: 600; font-family: monospace; }
+    .cron-last { font-size: 11px; color: var(--muted); }
+
+    /* ── 사이트 ── */
+    .sites { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+    .site-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+      padding: 18px; text-decoration: none; color: inherit; display: block;
+      transition: border-color 0.2s;
+    }
+    .site-card:hover { border-color: var(--accent); }
+    .site-icon { font-size: 24px; margin-bottom: 10px; }
+    .site-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+    .site-url { font-size: 11px; color: var(--accent2); font-family: monospace; margin-bottom: 8px; }
+    .site-desc { font-size: 12px; color: var(--muted); line-height: 1.5; }
+    .site-status { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 20px; float: right; }
+    .st-live { background: rgba(80,200,120,0.12); color: var(--green); border: 1px solid rgba(80,200,120,0.3); }
+
+    footer { border-top: 1px solid var(--border); padding: 20px; text-align: center; font-size: 11px; color: var(--muted); }
+
+    #lastUpdated { color: var(--muted); }
   </style>
 </head>
 <body>
 
 <header>
-  <div class="logo">🚀 <span>Ben</span>'s Dashboard</div>
-  <div class="header-meta">마지막 업데이트: 2026년 3월 8일 21:40 KST · BENVIS 자동 관리</div>
+  <div class="logo">🤖 <span>BENVIS</span> 대시보드</div>
+  <div class="header-meta" id="lastUpdated">로딩 중...</div>
 </header>
 
 <div class="container">
 
-  <!-- BENVIS 상태 -->
-  <div class="benvis-section">
-    <div class="benvis-header">
-      <div class="benvis-title">
-        <div class="benvis-dot" id="benvisDot"></div>
-        🤖 BENVIS 상태
+  <!-- 1. BENVIS 상태 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">
+        <div class="status-dot" id="statusDot"></div>
+        BENVIS 응답 상태
       </div>
-      <span class="benvis-status-badge badge-online" id="benvisBadge">확인 중...</span>
+      <span class="status-badge badge-online" id="statusBadge">확인 중...</span>
     </div>
-    <div class="benvis-grid">
-      <div class="benvis-metric">
-        <div class="metric-label">응답 가능 여부</div>
-        <div class="metric-value" id="benvisOnline">확인 중...</div>
+    <div class="metrics-grid">
+      <div class="metric">
+        <div class="metric-label">응답 가능</div>
+        <div class="metric-value" id="mOnline">-</div>
       </div>
-      <div class="benvis-metric">
-        <div class="metric-label">마지막 확인 시각</div>
-        <div class="metric-value normal" id="benvisLastHB">-</div>
+      <div class="metric">
+        <div class="metric-label">마지막 확인</div>
+        <div class="metric-value v-normal" id="mLastHB">-</div>
       </div>
-      <div class="benvis-metric">
+      <div class="metric">
         <div class="metric-label">경과 시간</div>
-        <div class="metric-value" id="benvisElapsed">-</div>
+        <div class="metric-value" id="mElapsed">-</div>
       </div>
-      <div class="benvis-metric">
+      <div class="metric">
+        <div class="metric-label">활성 세션</div>
+        <div class="metric-value v-green" id="mActiveSessions">-</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">오늘 전체 세션</div>
+        <div class="metric-value v-normal" id="mTotalSessions">-</div>
+      </div>
+      <div class="metric">
         <div class="metric-label">체크 주기</div>
-        <div class="metric-value normal">5분</div>
+        <div class="metric-value v-normal">5분</div>
       </div>
     </div>
   </div>
 
-  <div class="stats">
-    <div class="stat-card">
-      <div class="stat-num">1</div>
-      <div class="stat-label">배포된 사이트</div>
+  <!-- 2. 세션 목록 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">💬 세션 목록 (최근 24시간)</div>
+      <div class="sessions-summary" style="margin:0">
+        <div class="summary-item"><strong id="sumActive">-</strong>활성 (1h)</div>
+        <div class="summary-item"><strong id="sumTotal">-</strong>전체 (24h)</div>
+      </div>
     </div>
-    <div class="stat-card">
-      <div class="stat-num">1</div>
-      <div class="stat-label">라이브 중</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-num">13</div>
-      <div class="stat-label">분석된 영상</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-num">Vercel</div>
-      <div class="stat-label">호스팅 플랫폼</div>
+    <div class="sessions-grid" id="sessionsGrid">
+      <div style="color:var(--muted);font-size:13px;">로딩 중...</div>
     </div>
   </div>
 
-  <h2>배포된 사이트</h2>
-
-  <div class="sites">
-
-    <a class="site-card" href="https://openclaw-guide-omega.vercel.app" target="_blank">
-      <div class="site-top">
-        <div class="site-icon">📺</div>
-        <span class="site-status status-updated">✨ UPDATED</span>
-      </div>
-      <div class="site-title">OpenClaw 유튜브 가이드</div>
-      <div class="site-url">openclaw-guide-omega.vercel.app</div>
-      <div class="site-tags">
-        <span class="tag-mini">영상 요약</span>
-        <span class="tag-mini">마케터용</span>
-        <span class="tag-mini">한국어</span>
-      </div>
-      <div class="site-desc">유튜브 영상 13개 분석 — OpenClaw 핵심 정리. 입문부터 고급 설정까지 섹션별 구성.</div>
-      <div class="changelog">
-        <strong>🆕 2026.03.08 2차 업데이트</strong>
-        즉시 활용 가능한 기능 7선 섹션 추가 (크론잡·Heartbeat·Webhook·Hooks·멀티채널·Web UI·서브에이전트)
-      </div>
-      <div class="site-date">📅 최초: 2026.03.08 · 업데이트: 2026.03.08 · 호스팅: Vercel</div>
-    </a>
-
-    <div class="add-card">
-      <div class="plus">+</div>
-      <div>다음 프로젝트</div>
+  <!-- 3. 크론잡 현황 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">⏰ 크론잡 현황</div>
     </div>
+    <div class="cron-list" id="cronList">
+      <div style="color:var(--muted);font-size:13px;">로딩 중...</div>
+    </div>
+  </div>
 
+  <!-- 4. 배포된 사이트 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">🚀 배포된 사이트</div>
+    </div>
+    <div class="sites">
+      <a class="site-card" href="https://openclaw-guide-omega.vercel.app" target="_blank">
+        <div style="display:flex;justify-content:space-between;align-items:start">
+          <div class="site-icon">📺</div>
+          <span class="site-status st-live">LIVE</span>
+        </div>
+        <div class="site-title">OpenClaw 유튜브 가이드</div>
+        <div class="site-url">openclaw-guide-omega.vercel.app</div>
+        <div class="site-desc">유튜브 영상 13개 분석 — OpenClaw 핵심 정리</div>
+      </a>
+    </div>
   </div>
 
 </div>
 
-<footer>BENVIS가 관리하는 Ben의 배포 현황판 · 사이트 배포 시 자동 업데이트</footer>
+<footer>BENVIS 자동 관리 · 5분마다 자동 업데이트 · <span id="footerTime"></span></footer>
 
 <script>
-// BENVIS 상태 체크 (5분 heartbeat 기반)
-const HEARTBEAT_URL = 'https://raw.githubusercontent.com/benben-bot/ben-dashboard/main/benvis-status.json';
+const STATUS_URL = 'https://raw.githubusercontent.com/benben-bot/ben-dashboard/main/benvis-status.json';
 
-async function checkBenvisStatus() {
+const CRON_LABELS = {
+  'benvis-heartbeat': '벤비스 하트비트',
+  'benvis-sync': '벤비스 동기화',
+  'openclaw-nightly-restart': '야간 재시작'
+};
+
+async function loadStatus() {
   try {
-    const res = await fetch(HEARTBEAT_URL + '?t=' + Date.now());
+    const res = await fetch(STATUS_URL + '?t=' + Date.now());
     const data = await res.json();
-
-    const lastHB = new Date(data.last_heartbeat);
-    const now = new Date();
-    const diffMin = Math.floor((now - lastHB) / 60000);
-
-    const isOnline = diffMin <= 10; // 10분 이내면 온라인
-    
-    document.getElementById('benvisDot').className = 'benvis-dot' + (isOnline ? '' : ' offline');
-    document.getElementById('benvisBadge').className = 'benvis-status-badge ' + (isOnline ? 'badge-online' : 'badge-offline');
-    document.getElementById('benvisBadge').textContent = isOnline ? '🟢 응답 가능' : '🔴 오프라인';
-    document.getElementById('benvisOnline').className = 'metric-value ' + (isOnline ? 'online' : 'offline');
-    document.getElementById('benvisOnline').textContent = isOnline ? '✅ 응답 가능' : '❌ 응답 불가';
-    document.getElementById('benvisLastHB').textContent = data.last_heartbeat_readable || '-';
-    document.getElementById('benvisElapsed').className = 'metric-value ' + (isOnline ? 'online' : 'offline');
-    document.getElementById('benvisElapsed').textContent = diffMin === 0 ? '방금 전' : diffMin + '분 전';
-
-  } catch (e) {
-    document.getElementById('benvisBadge').textContent = '⚠️ 확인 불가';
-    document.getElementById('benvisOnline').textContent = '확인 불가';
+    renderStatus(data);
+  } catch(e) {
+    document.getElementById('statusBadge').textContent = '⚠️ 확인 불가';
+    document.getElementById('statusBadge').className = 'status-badge badge-offline';
   }
 }
 
-checkBenvisStatus();
-setInterval(checkBenvisStatus, 60000); // 1분마다 갱신
+function renderStatus(data) {
+  const lastHB = new Date(data.last_heartbeat);
+  const now = new Date();
+  const diffMin = Math.floor((now - lastHB) / 60000);
+  const isOnline = diffMin <= 10;
+
+  // 헤더
+  document.getElementById('lastUpdated').textContent = `마지막 업데이트: ${data.last_heartbeat_readable}`;
+  document.getElementById('footerTime').textContent = data.last_heartbeat_readable;
+
+  // 상태 섹션
+  document.getElementById('statusDot').className = 'status-dot' + (isOnline ? '' : ' offline');
+  document.getElementById('statusBadge').className = 'status-badge ' + (isOnline ? 'badge-online' : 'badge-offline');
+  document.getElementById('statusBadge').textContent = isOnline ? '🟢 응답 가능' : '🔴 오프라인';
+
+  document.getElementById('mOnline').className = 'metric-value ' + (isOnline ? 'v-green' : 'v-red');
+  document.getElementById('mOnline').textContent = isOnline ? '✅ 응답 가능' : '❌ 응답 불가';
+
+  document.getElementById('mLastHB').textContent = data.last_heartbeat_readable;
+
+  document.getElementById('mElapsed').className = 'metric-value ' + (isOnline ? 'v-green' : 'v-red');
+  document.getElementById('mElapsed').textContent = diffMin === 0 ? '방금 전' : diffMin + '분 전';
+
+  // 세션 요약
+  const sessions = data.sessions || {};
+  const activeCnt = sessions.active_1h ?? '-';
+  const totalCnt = sessions.total_24h ?? '-';
+
+  document.getElementById('mActiveSessions').textContent = activeCnt;
+  document.getElementById('mTotalSessions').textContent = totalCnt;
+  document.getElementById('sumActive').textContent = activeCnt;
+  document.getElementById('sumTotal').textContent = totalCnt;
+
+  // 세션 카드
+  const grid = document.getElementById('sessionsGrid');
+  const list = (sessions.list || []).slice(0, 12);
+
+  if (list.length === 0) {
+    grid.innerHTML = '<div style="color:var(--muted);font-size:13px;">세션 없음</div>';
+  } else {
+    const typeIcon = { main: '🏠', thread: '💬', heartbeat: '💓' };
+    const typeLabel = { main: 'MAIN', thread: 'THREAD', heartbeat: 'HB' };
+    grid.innerHTML = list.map(s => {
+      const active = s.is_active;
+      const icon = typeIcon[s.type] || '💬';
+      const label = typeLabel[s.type] || s.type.toUpperCase();
+      return `
+        <div class="session-card">
+          <div class="session-top">
+            <span class="session-id">${icon} ${s.id}</span>
+            <span class="session-badge ${active ? 'sb-active' : 'sb-idle'}">${active ? '● 활성' : '대기'}</span>
+          </div>
+          <div class="session-info">
+            유형: <span>${label}</span><br>
+            마지막 활동: <span>${s.last_active_readable} (${s.last_active})</span><br>
+            메시지: <span>${s.msg_count}개</span> · 마지막: <span>${s.last_role}</span>
+          </div>
+        </div>`;
+    }).join('');
+  }
+
+  // 크론잡
+  const cronList = document.getElementById('cronList');
+  const crons = data.crons || {};
+
+  if (Object.keys(crons).length === 0) {
+    cronList.innerHTML = '<div style="color:var(--muted);font-size:13px;">크론 정보 없음</div>';
+  } else {
+    cronList.innerHTML = Object.entries(crons).map(([name, info]) => {
+      const ok = info.registered;
+      const label = CRON_LABELS[name] || name;
+      return `
+        <div class="cron-item">
+          <div class="cron-left">
+            <div class="cron-dot ${ok ? 'ok' : 'miss'}"></div>
+            <div>
+              <div class="cron-name">${name}</div>
+              <div class="cron-last">${label}</div>
+            </div>
+          </div>
+          <div style="text-align:right">
+            <div style="font-size:11px;font-weight:700;color:${ok ? 'var(--green)' : 'var(--red)'}">${ok ? '등록됨' : '미등록'}</div>
+            <div style="font-size:11px;color:var(--muted)">${info.last_run ? '최근: ' + info.last_run : '-'}</div>
+          </div>
+        </div>`;
+    }).join('');
+  }
+}
+
+loadStatus();
+setInterval(loadStatus, 60000);
 </script>
 
 </body>
