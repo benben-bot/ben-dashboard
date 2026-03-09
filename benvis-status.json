@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T01:55:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 01:55:01 KST",
+  "last_heartbeat": "2026-03-10T02:00:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 02:00:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 40,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "4분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773075005,
         "last_active_readable": "01:50",
         "msg_count": 40,
@@ -27,7 +27,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "33분 전",
+        "last_active": "38분 전",
         "last_active_ts": 1773073309,
         "last_active_readable": "01:21",
         "msg_count": 22,
@@ -41,7 +41,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "48분 전",
+        "last_active": "53분 전",
         "last_active_ts": 1773072410,
         "last_active_readable": "01:06",
         "msg_count": 45,
@@ -55,7 +55,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "vercel 배포 접근 안되는데 나는",
-        "last_active": "48분 전",
+        "last_active": "53분 전",
         "last_active_ts": 1773072384,
         "last_active_readable": "01:06",
         "msg_count": 34,
@@ -222,12 +222,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 01:50:01 KST",
+      "last_run": "2026-03-10 01:55:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-10 01:00:04 KST",
+      "last_run": "2026-03-10 02:00:01 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
