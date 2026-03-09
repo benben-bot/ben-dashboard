@@ -6,125 +6,83 @@
   <title>BENVIS 대시보드</title>
   <style>
     :root {
-      --bg: #0a0a10;
-      --surface: #12121c;
-      --card: #1a1a28;
-      --border: #252538;
-      --accent: #7c6af7;
-      --accent2: #4fc3f7;
-      --green: #50c878;
-      --yellow: #f5c842;
-      --red: #ff6b6b;
-      --text: #e8e8f0;
-      --muted: #6a6a88;
+      --bg: #0a0a10; --surface: #12121c; --card: #1a1a28; --border: #252538;
+      --accent: #7c6af7; --accent2: #4fc3f7; --green: #50c878;
+      --yellow: #f5c842; --red: #ff6b6b; --text: #e8e8f0; --muted: #6a6a88;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; }
 
-    header {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      padding: 18px 32px;
-      display: flex; align-items: center; justify-content: space-between;
-    }
+    header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 18px 32px; display: flex; align-items: center; justify-content: space-between; }
     .logo { font-size: 17px; font-weight: 800; }
     .logo span { color: var(--accent); }
     .header-meta { font-size: 12px; color: var(--muted); }
 
-    .container { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 28px 20px; }
 
-    /* ── 섹션 공통 ── */
-    .section {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 22px;
-      margin-bottom: 24px;
-    }
-    .section-header {
-      display: flex; align-items: center; justify-content: space-between;
-      margin-bottom: 18px;
-    }
-    .section-title { font-size: 14px; font-weight: 700; display: flex; align-items: center; gap: 8px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+    .section { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; margin-bottom: 20px; }
+    .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+    .section-title { font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; gap: 8px; }
 
-    /* ── BENVIS 상태 ── */
-    .status-dot {
-      width: 9px; height: 9px; border-radius: 50%;
-      background: var(--green); box-shadow: 0 0 8px rgba(80,200,120,0.7);
-      animation: pulse 2s infinite;
-    }
+    /* 상태 */
+    .status-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--green); box-shadow: 0 0 8px rgba(80,200,120,0.7); animation: pulse 2s infinite; }
     .status-dot.offline { background: var(--red); box-shadow: 0 0 8px rgba(255,107,107,0.7); animation: none; }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+    .badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; }
+    .b-green { background: rgba(80,200,120,0.12); color: var(--green); border: 1px solid rgba(80,200,120,0.3); }
+    .b-red { background: rgba(255,107,107,0.12); color: var(--red); border: 1px solid rgba(255,107,107,0.3); }
+    .b-yellow { background: rgba(245,200,66,0.12); color: var(--yellow); border: 1px solid rgba(245,200,66,0.3); }
+    .b-gray { background: rgba(106,106,136,0.15); color: var(--muted); border: 1px solid var(--border); }
 
-    .status-badge { font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; }
-    .badge-online { background: rgba(80,200,120,0.12); color: var(--green); border: 1px solid rgba(80,200,120,0.3); }
-    .badge-offline { background: rgba(255,107,107,0.12); color: var(--red); border: 1px solid rgba(255,107,107,0.3); }
-
-    .metrics-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px;
-    }
-    .metric {
-      background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px;
-    }
-    .metric-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+    .metrics-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+    .metric { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px; }
+    .metric-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }
     .metric-value { font-size: 15px; font-weight: 700; }
-    .v-green { color: var(--green); }
-    .v-red { color: var(--red); }
-    .v-yellow { color: var(--yellow); }
-    .v-normal { color: var(--text); }
+    .v-green { color: var(--green); } .v-red { color: var(--red); } .v-yellow { color: var(--yellow); } .v-normal { color: var(--text); }
 
-    /* ── 세션 ── */
-    .sessions-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px;
-    }
-    .session-card {
-      background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px;
-    }
-    .session-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
-    .session-id { font-size: 12px; font-family: monospace; color: var(--accent2); }
-    .session-badge { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 20px; }
-    .sb-active { background: rgba(80,200,120,0.12); color: var(--green); border: 1px solid rgba(80,200,120,0.3); }
-    .sb-idle { background: rgba(106,106,136,0.15); color: var(--muted); border: 1px solid var(--border); }
-    .session-info { font-size: 12px; color: var(--muted); line-height: 1.7; }
-    .session-info span { color: var(--text); }
+    /* 세션 */
+    .sessions-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+    .session-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
+    .session-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+    .session-id { font-size: 12px; font-family: monospace; color: var(--accent2); cursor: pointer; }
+    .session-id:hover { text-decoration: underline; }
+    .session-preview { font-size: 13px; color: var(--text); margin-bottom: 8px; line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .session-meta { display: flex; gap: 12px; font-size: 11px; color: var(--muted); flex-wrap: wrap; }
+    .session-meta span { display: flex; align-items: center; gap: 3px; }
 
-    .sessions-summary {
-      display: flex; gap: 20px; margin-bottom: 16px; flex-wrap: wrap;
-    }
-    .summary-item { font-size: 13px; color: var(--muted); }
-    .summary-item strong { color: var(--text); font-size: 22px; display: block; line-height: 1.2; }
+    /* idle 단계 색상 */
+    .idle-active { border-left: 3px solid var(--green); }
+    .idle-1h { border-left: 3px solid var(--yellow); }
+    .idle-6h { border-left: 3px solid var(--muted); }
 
-    /* ── 크론잡 ── */
-    .cron-list { display: flex; flex-direction: column; gap: 10px; }
-    .cron-item {
-      background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
-      padding: 12px 16px; display: flex; align-items: center; justify-content: space-between;
-    }
+    /* 종료 명령어 힌트 */
+    .kill-hint { font-size: 10px; color: var(--muted); margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+    .kill-cmd { font-family: monospace; background: rgba(255,107,107,0.08); color: #ff9999; padding: 2px 6px; border-radius: 4px; font-size: 10px; cursor: pointer; border: 1px solid rgba(255,107,107,0.2); }
+    .kill-cmd:hover { background: rgba(255,107,107,0.15); }
+
+    /* 크론잡 */
+    .cron-list { display: flex; flex-direction: column; gap: 8px; }
+    .cron-item { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; }
     .cron-left { display: flex; align-items: center; gap: 10px; }
     .cron-dot { width: 8px; height: 8px; border-radius: 50%; }
-    .cron-dot.ok { background: var(--green); }
-    .cron-dot.miss { background: var(--red); }
-    .cron-name { font-size: 13px; font-weight: 600; font-family: monospace; }
-    .cron-last { font-size: 11px; color: var(--muted); }
+    .cron-dot.ok { background: var(--green); } .cron-dot.miss { background: var(--red); }
+    .cron-name { font-size: 12px; font-weight: 600; font-family: monospace; }
+    .cron-desc { font-size: 11px; color: var(--muted); margin-top: 2px; }
 
-    /* ── 사이트 ── */
-    .sites { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
-    .site-card {
-      background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
-      padding: 18px; text-decoration: none; color: inherit; display: block;
-      transition: border-color 0.2s;
-    }
+    /* 사이트 */
+    .sites { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+    .site-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; text-decoration: none; color: inherit; display: block; transition: border-color 0.2s; }
     .site-card:hover { border-color: var(--accent); }
-    .site-icon { font-size: 24px; margin-bottom: 10px; }
-    .site-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
-    .site-url { font-size: 11px; color: var(--accent2); font-family: monospace; margin-bottom: 8px; }
-    .site-desc { font-size: 12px; color: var(--muted); line-height: 1.5; }
-    .site-status { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 20px; float: right; }
-    .st-live { background: rgba(80,200,120,0.12); color: var(--green); border: 1px solid rgba(80,200,120,0.3); }
 
-    footer { border-top: 1px solid var(--border); padding: 20px; text-align: center; font-size: 11px; color: var(--muted); }
+    /* 세션 요약 바 */
+    .session-summary { display: flex; gap: 20px; margin-bottom: 14px; }
+    .sum-item strong { font-size: 20px; display: block; color: var(--text); }
+    .sum-item span { font-size: 11px; color: var(--muted); }
 
-    #lastUpdated { color: var(--muted); }
+    /* 복사 완료 토스트 */
+    #toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 10px 18px; font-size: 13px; color: var(--text); display: none; z-index: 999; }
+
+    footer { border-top: 1px solid var(--border); padding: 18px; text-align: center; font-size: 11px; color: var(--muted); }
   </style>
 </head>
 <body>
@@ -136,201 +94,187 @@
 
 <div class="container">
 
-  <!-- 1. BENVIS 상태 -->
+  <!-- 1. BENVIS 응답 상태 -->
   <div class="section">
     <div class="section-header">
-      <div class="section-title">
-        <div class="status-dot" id="statusDot"></div>
-        BENVIS 응답 상태
-      </div>
-      <span class="status-badge badge-online" id="statusBadge">확인 중...</span>
+      <div class="section-title"><div class="status-dot" id="statusDot"></div> BENVIS 응답 상태</div>
+      <span class="badge b-green" id="statusBadge">확인 중...</span>
     </div>
     <div class="metrics-grid">
-      <div class="metric">
-        <div class="metric-label">응답 가능</div>
-        <div class="metric-value" id="mOnline">-</div>
-      </div>
-      <div class="metric">
-        <div class="metric-label">마지막 확인</div>
-        <div class="metric-value v-normal" id="mLastHB">-</div>
-      </div>
-      <div class="metric">
-        <div class="metric-label">경과 시간</div>
-        <div class="metric-value" id="mElapsed">-</div>
-      </div>
-      <div class="metric">
-        <div class="metric-label">활성 세션</div>
-        <div class="metric-value v-green" id="mActiveSessions">-</div>
-      </div>
-      <div class="metric">
-        <div class="metric-label">오늘 전체 세션</div>
-        <div class="metric-value v-normal" id="mTotalSessions">-</div>
-      </div>
-      <div class="metric">
-        <div class="metric-label">체크 주기</div>
-        <div class="metric-value v-normal">5분</div>
-      </div>
+      <div class="metric"><div class="metric-label">응답 가능</div><div class="metric-value" id="mOnline">-</div></div>
+      <div class="metric"><div class="metric-label">마지막 확인</div><div class="metric-value v-normal" id="mLastHB">-</div></div>
+      <div class="metric"><div class="metric-label">경과 시간</div><div class="metric-value" id="mElapsed">-</div></div>
+      <div class="metric"><div class="metric-label">활성 세션 (1h)</div><div class="metric-value v-green" id="mActive">-</div></div>
+      <div class="metric"><div class="metric-label">전체 세션 (24h)</div><div class="metric-value v-normal" id="mTotal">-</div></div>
+      <div class="metric"><div class="metric-label">체크 주기</div><div class="metric-value v-normal">5분</div></div>
     </div>
   </div>
 
   <!-- 2. 세션 목록 -->
   <div class="section">
     <div class="section-header">
-      <div class="section-title">💬 세션 목록 (최근 24시간)</div>
-      <div class="sessions-summary" style="margin:0">
-        <div class="summary-item"><strong id="sumActive">-</strong>활성 (1h)</div>
-        <div class="summary-item"><strong id="sumTotal">-</strong>전체 (24h)</div>
-      </div>
+      <div class="section-title">💬 세션 목록</div>
+      <div style="font-size:11px;color:var(--muted)">● 초록 = 활성(1h이내) · 노랑 = 휴면(1-6h) · 회색 = 비활성(6h+)</div>
     </div>
-    <div class="sessions-grid" id="sessionsGrid">
-      <div style="color:var(--muted);font-size:13px;">로딩 중...</div>
+    <div class="session-summary">
+      <div class="sum-item"><strong id="sumActive">-</strong><span>활성 (1h이내)</span></div>
+      <div class="sum-item"><strong id="sumTotal">-</strong><span>전체 (24h)</span></div>
     </div>
+    <div class="sessions-grid" id="sessionsGrid"><div style="color:var(--muted);font-size:13px;">로딩 중...</div></div>
   </div>
 
-  <!-- 3. 크론잡 현황 -->
+  <!-- 3. 크론잡 -->
   <div class="section">
     <div class="section-header">
       <div class="section-title">⏰ 크론잡 현황</div>
     </div>
-    <div class="cron-list" id="cronList">
-      <div style="color:var(--muted);font-size:13px;">로딩 중...</div>
+    <div class="cron-list" id="cronList"><div style="color:var(--muted);font-size:13px;">로딩 중...</div></div>
+  </div>
+
+  <!-- 4. 세션 강제 종료 안내 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">🔴 세션 강제 종료</div>
+    </div>
+    <div style="font-size:13px;color:var(--muted);line-height:2;">
+      세션 ID를 복사한 후 슬랙에서 아래 명령어를 보내세요.<br>
+      <span style="font-family:monospace;background:rgba(255,107,107,0.08);color:#ff9999;padding:3px 10px;border-radius:6px;border:1px solid rgba(255,107,107,0.2);">세션 종료 [세션ID]</span>
+      &nbsp;예: <span style="font-family:monospace;color:var(--accent2);">세션 종료 dc50c7c2</span>
     </div>
   </div>
 
-  <!-- 4. 배포된 사이트 -->
+  <!-- 5. 배포된 사이트 -->
   <div class="section">
-    <div class="section-header">
-      <div class="section-title">🚀 배포된 사이트</div>
-    </div>
+    <div class="section-header"><div class="section-title">🚀 배포된 사이트</div></div>
     <div class="sites">
       <a class="site-card" href="https://openclaw-guide-omega.vercel.app" target="_blank">
-        <div style="display:flex;justify-content:space-between;align-items:start">
-          <div class="site-icon">📺</div>
-          <span class="site-status st-live">LIVE</span>
+        <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:10px">
+          <span style="font-size:22px">📺</span>
+          <span class="badge b-green">LIVE</span>
         </div>
-        <div class="site-title">OpenClaw 유튜브 가이드</div>
-        <div class="site-url">openclaw-guide-omega.vercel.app</div>
-        <div class="site-desc">유튜브 영상 13개 분석 — OpenClaw 핵심 정리</div>
+        <div style="font-size:14px;font-weight:700;margin-bottom:4px">OpenClaw 유튜브 가이드</div>
+        <div style="font-size:11px;color:var(--accent2);font-family:monospace;margin-bottom:6px">openclaw-guide-omega.vercel.app</div>
+        <div style="font-size:12px;color:var(--muted)">유튜브 영상 13개 분석 — OpenClaw 핵심 정리</div>
       </a>
     </div>
   </div>
 
 </div>
 
+<div id="toast">✅ 복사됨</div>
+
 <footer>BENVIS 자동 관리 · 5분마다 자동 업데이트 · <span id="footerTime"></span></footer>
 
 <script>
 const STATUS_URL = 'https://raw.githubusercontent.com/benben-bot/ben-dashboard/main/benvis-status.json';
-
 const CRON_LABELS = {
-  'benvis-heartbeat': '벤비스 하트비트',
-  'benvis-sync': '벤비스 동기화',
-  'openclaw-nightly-restart': '야간 재시작'
+  'benvis-heartbeat': '벤비스 하트비트 (5분마다)',
+  'benvis-sync': '벤비스 동기화 (1시간마다)',
+  'openclaw-nightly-restart': '야간 재시작 (매일 04:00)'
 };
+
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(() => {
+    const t = document.getElementById('toast');
+    t.style.display = 'block';
+    setTimeout(() => t.style.display = 'none', 1500);
+  });
+}
 
 async function loadStatus() {
   try {
     const res = await fetch(STATUS_URL + '?t=' + Date.now());
     const data = await res.json();
-    renderStatus(data);
+    render(data);
   } catch(e) {
     document.getElementById('statusBadge').textContent = '⚠️ 확인 불가';
-    document.getElementById('statusBadge').className = 'status-badge badge-offline';
+    document.getElementById('statusBadge').className = 'badge b-red';
   }
 }
 
-function renderStatus(data) {
+function render(data) {
   const lastHB = new Date(data.last_heartbeat);
   const now = new Date();
   const diffMin = Math.floor((now - lastHB) / 60000);
   const isOnline = diffMin <= 10;
 
-  // 헤더
   document.getElementById('lastUpdated').textContent = `마지막 업데이트: ${data.last_heartbeat_readable}`;
   document.getElementById('footerTime').textContent = data.last_heartbeat_readable;
 
-  // 상태 섹션
   document.getElementById('statusDot').className = 'status-dot' + (isOnline ? '' : ' offline');
-  document.getElementById('statusBadge').className = 'status-badge ' + (isOnline ? 'badge-online' : 'badge-offline');
+  document.getElementById('statusBadge').className = 'badge ' + (isOnline ? 'b-green' : 'b-red');
   document.getElementById('statusBadge').textContent = isOnline ? '🟢 응답 가능' : '🔴 오프라인';
 
   document.getElementById('mOnline').className = 'metric-value ' + (isOnline ? 'v-green' : 'v-red');
   document.getElementById('mOnline').textContent = isOnline ? '✅ 응답 가능' : '❌ 응답 불가';
-
   document.getElementById('mLastHB').textContent = data.last_heartbeat_readable;
-
-  document.getElementById('mElapsed').className = 'metric-value ' + (isOnline ? 'v-green' : 'v-red');
+  document.getElementById('mElapsed').className = 'metric-value ' + (diffMin < 10 ? 'v-green' : diffMin < 30 ? 'v-yellow' : 'v-red');
   document.getElementById('mElapsed').textContent = diffMin === 0 ? '방금 전' : diffMin + '분 전';
 
-  // 세션 요약
   const sessions = data.sessions || {};
-  const activeCnt = sessions.active_1h ?? '-';
-  const totalCnt = sessions.total_24h ?? '-';
-
-  document.getElementById('mActiveSessions').textContent = activeCnt;
-  document.getElementById('mTotalSessions').textContent = totalCnt;
-  document.getElementById('sumActive').textContent = activeCnt;
-  document.getElementById('sumTotal').textContent = totalCnt;
+  document.getElementById('mActive').textContent = sessions.active_1h ?? '-';
+  document.getElementById('mTotal').textContent = sessions.total_24h ?? '-';
+  document.getElementById('sumActive').textContent = sessions.active_1h ?? '-';
+  document.getElementById('sumTotal').textContent = sessions.total_24h ?? '-';
 
   // 세션 카드
-  const grid = document.getElementById('sessionsGrid');
   const list = (sessions.list || []).slice(0, 12);
+  const typeIcon = { main: '🏠', thread: '💬', heartbeat: '💓' };
+  const idleClass = { active: 'idle-active', idle_1h: 'idle-1h', idle_6h: 'idle-6h' };
+  const idleBadge = {
+    active: ['b-green', '● 활성'],
+    idle_1h: ['b-yellow', '휴면 (1h+)'],
+    idle_6h: ['b-gray', '비활성 (6h+)']
+  };
 
-  if (list.length === 0) {
-    grid.innerHTML = '<div style="color:var(--muted);font-size:13px;">세션 없음</div>';
-  } else {
-    const typeIcon = { main: '🏠', thread: '💬', heartbeat: '💓' };
-    const typeLabel = { main: 'MAIN', thread: 'THREAD', heartbeat: 'HB' };
-    grid.innerHTML = list.map(s => {
-      const active = s.is_active;
-      const icon = typeIcon[s.type] || '💬';
-      const label = typeLabel[s.type] || s.type.toUpperCase();
-      return `
-        <div class="session-card">
+  document.getElementById('sessionsGrid').innerHTML = list.length === 0
+    ? '<div style="color:var(--muted);font-size:13px;">세션 없음</div>'
+    : list.map(s => {
+        const icon = typeIcon[s.type] || '💬';
+        const [bc, bl] = idleBadge[s.idle_level] || ['b-gray', '알 수 없음'];
+        const cls = idleClass[s.idle_level] || '';
+        return `
+        <div class="session-card ${cls}">
           <div class="session-top">
-            <span class="session-id">${icon} ${s.id}</span>
-            <span class="session-badge ${active ? 'sb-active' : 'sb-idle'}">${active ? '● 활성' : '대기'}</span>
+            <span class="session-id" onclick="copyToClipboard('${s.id}')" title="클릭하면 ID 복사">${icon} ${s.id} 📋</span>
+            <span class="badge ${bc}">${bl}</span>
           </div>
-          <div class="session-info">
-            유형: <span>${label}</span><br>
-            마지막 활동: <span>${s.last_active_readable} (${s.last_active})</span><br>
-            메시지: <span>${s.msg_count}개</span> · 마지막: <span>${s.last_role}</span>
+          <div class="session-preview" title="${s.preview}">${s.preview}</div>
+          <div class="session-meta">
+            <span>📡 ${s.channel}</span>
+            <span>🕐 ${s.last_active_readable} (${s.last_active})</span>
+            <span>💬 ${s.msg_count}개</span>
+            <span>↩ ${s.last_role}</span>
+          </div>
+          <div class="kill-hint">
+            종료하려면 슬랙에서:
+            <span class="kill-cmd" onclick="copyToClipboard('세션 종료 ${s.id}')" title="클릭하면 명령어 복사">세션 종료 ${s.id} 📋</span>
           </div>
         </div>`;
-    }).join('');
-  }
+      }).join('');
 
   // 크론잡
-  const cronList = document.getElementById('cronList');
   const crons = data.crons || {};
-
-  if (Object.keys(crons).length === 0) {
-    cronList.innerHTML = '<div style="color:var(--muted);font-size:13px;">크론 정보 없음</div>';
-  } else {
-    cronList.innerHTML = Object.entries(crons).map(([name, info]) => {
-      const ok = info.registered;
-      const label = CRON_LABELS[name] || name;
-      return `
+  document.getElementById('cronList').innerHTML = Object.keys(crons).length === 0
+    ? '<div style="color:var(--muted);font-size:13px;">크론 정보 없음</div>'
+    : Object.entries(crons).map(([name, info]) => `
         <div class="cron-item">
           <div class="cron-left">
-            <div class="cron-dot ${ok ? 'ok' : 'miss'}"></div>
+            <div class="cron-dot ${info.registered ? 'ok' : 'miss'}"></div>
             <div>
               <div class="cron-name">${name}</div>
-              <div class="cron-last">${label}</div>
+              <div class="cron-desc">${CRON_LABELS[name] || name}</div>
             </div>
           </div>
           <div style="text-align:right">
-            <div style="font-size:11px;font-weight:700;color:${ok ? 'var(--green)' : 'var(--red)'}">${ok ? '등록됨' : '미등록'}</div>
+            <div style="font-size:12px;font-weight:700;color:${info.registered ? 'var(--green)' : 'var(--red)'}">${info.registered ? '✅ 등록됨' : '❌ 미등록'}</div>
             <div style="font-size:11px;color:var(--muted)">${info.last_run ? '최근: ' + info.last_run : '-'}</div>
           </div>
-        </div>`;
-    }).join('');
-  }
+        </div>`).join('');
 }
 
 loadStatus();
 setInterval(loadStatus, 60000);
 </script>
-
 </body>
 </html>
