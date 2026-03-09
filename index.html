@@ -83,13 +83,29 @@
     #toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 10px 18px; font-size: 13px; color: var(--text); display: none; z-index: 999; }
 
     footer { border-top: 1px solid var(--border); padding: 18px; text-align: center; font-size: 11px; color: var(--muted); }
+
+    .refresh-btn {
+      background: rgba(124,106,247,0.12); border: 1px solid rgba(124,106,247,0.3);
+      color: var(--accent); font-size: 13px; font-weight: 700; padding: 8px 18px;
+      border-radius: 10px; cursor: pointer; display: flex; align-items: center; gap: 8px;
+      transition: background 0.2s;
+    }
+    .refresh-btn:hover { background: rgba(124,106,247,0.22); }
+    .refresh-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .spin { animation: spin 0.8s linear infinite; display: inline-block; }
+    @keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
   </style>
 </head>
 <body>
 
 <header>
   <div class="logo">🤖 <span>BENVIS</span> 대시보드</div>
-  <div class="header-meta" id="lastUpdated">로딩 중...</div>
+  <div style="display:flex;align-items:center;gap:14px">
+    <div class="header-meta" id="lastUpdated">로딩 중...</div>
+    <button class="refresh-btn" id="refreshBtn" onclick="manualRefresh()">
+      <span id="refreshIcon">🔄</span> 지금 체크
+    </button>
+  </div>
 </header>
 
 <div class="container">
@@ -271,6 +287,18 @@ function render(data) {
             <div style="font-size:11px;color:var(--muted)">${info.last_run ? '최근: ' + info.last_run : '-'}</div>
           </div>
         </div>`).join('');
+}
+
+async function manualRefresh() {
+  const btn = document.getElementById('refreshBtn');
+  const icon = document.getElementById('refreshIcon');
+  btn.disabled = true;
+  icon.className = 'spin';
+  icon.textContent = '⟳';
+  await loadStatus();
+  icon.className = '';
+  icon.textContent = '✅';
+  setTimeout(() => { icon.textContent = '🔄'; btn.disabled = false; }, 1500);
 }
 
 loadStatus();
