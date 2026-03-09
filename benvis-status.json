@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-09T22:20:01+09:00",
-  "last_heartbeat_readable": "2026-03-09 22:20:01 KST",
+  "last_heartbeat": "2026-03-09T22:25:01+09:00",
+  "last_heartbeat_readable": "2026-03-09 22:25:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 37,
-    "active_1h": 5,
+    "active_1h": 3,
     "list": [
       {
         "id": "dc50c7c2",
@@ -14,10 +14,10 @@
         "chat_type": "direct",
         "preview": "됐어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773062401,
-        "last_active_readable": "22:20",
-        "msg_count": 263,
-        "last_role": "toolResult",
+        "last_active_ts": 1773062677,
+        "last_active_readable": "22:24",
+        "msg_count": 274,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true
       },
@@ -27,10 +27,10 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "3분 전",
-        "last_active_ts": 1773062202,
-        "last_active_readable": "22:16",
-        "msg_count": 1,
+        "last_active": "2분 전",
+        "last_active_ts": 1773062544,
+        "last_active_readable": "22:22",
+        "msg_count": 2,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true
@@ -41,7 +41,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "29분 전",
+        "last_active": "34분 전",
         "last_active_ts": 1773060613,
         "last_active_readable": "21:50",
         "msg_count": 1,
@@ -55,13 +55,13 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "크롱, 루피 여기서 그로밋 대표님이거든. 벤비스 현비스 세팅관련해서 잘 ",
-        "last_active": "56분 전",
+        "last_active": "1시간 전",
         "last_active_ts": 1773058996,
         "last_active_readable": "21:23",
         "msg_count": 15,
         "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true
+        "idle_level": "idle_1h",
+        "is_active": false
       },
       {
         "id": "ffed1287",
@@ -69,13 +69,13 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "57분 전",
+        "last_active": "1시간 전",
         "last_active_ts": 1773058964,
         "last_active_readable": "21:22",
         "msg_count": 104,
         "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true
+        "idle_level": "idle_1h",
+        "is_active": false
       },
       {
         "id": "be78fe34",
@@ -209,7 +209,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "3시간 전",
+        "last_active": "4시간 전",
         "last_active_ts": 1773048094,
         "last_active_readable": "18:21",
         "msg_count": 48,
@@ -222,7 +222,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-09 22:15:01 KST",
+      "last_run": "2026-03-09 22:20:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
