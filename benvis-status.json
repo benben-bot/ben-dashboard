@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-09T23:00:01+09:00",
-  "last_heartbeat_readable": "2026-03-09 23:00:01 KST",
+  "last_heartbeat": "2026-03-09T23:05:01+09:00",
+  "last_heartbeat_readable": "2026-03-09 23:05:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 38,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "15분 전",
+        "last_active": "20분 전",
         "last_active_ts": 1773063844,
         "last_active_readable": "22:44",
         "msg_count": 15,
@@ -27,7 +27,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "됐어?",
-        "last_active": "35분 전",
+        "last_active": "40분 전",
         "last_active_ts": 1773062677,
         "last_active_readable": "22:24",
         "msg_count": 274,
@@ -41,7 +41,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "37분 전",
+        "last_active": "42분 전",
         "last_active_ts": 1773062544,
         "last_active_readable": "22:22",
         "msg_count": 2,
@@ -97,7 +97,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "1시간 전",
+        "last_active": "2시간 전",
         "last_active_ts": 1773057815,
         "last_active_readable": "21:03",
         "msg_count": 17,
@@ -167,7 +167,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "3시간 전",
+        "last_active": "4시간 전",
         "last_active_ts": 1773050694,
         "last_active_readable": "19:04",
         "msg_count": 10,
@@ -222,12 +222,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-09 22:55:02 KST",
+      "last_run": "2026-03-09 23:00:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-09 23:00:01 KST",
+      "last_run": "2026-03-09 23:00:05 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
