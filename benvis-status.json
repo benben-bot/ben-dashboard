@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:34:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:34:01 KST",
+  "last_heartbeat": "2026-03-10T15:35:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:35:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
@@ -14,9 +14,9 @@
         "chat_type": "group",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
         "last_active": "방금 전",
-        "last_active_ts": 1773124431,
-        "last_active_readable": "15:33",
-        "msg_count": 10,
+        "last_active_ts": 1773124461,
+        "last_active_readable": "15:34",
+        "msg_count": 11,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -32,6 +32,10 @@
           {
             "role": "assistant",
             "text": "현재 상태 파악 완료:\n- Row 3-5: H열에 URL 있음 (이미 게시됨 or 이전 실행)\n- Row 6-8: 제목 있음 + H열 비어있음 "
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 로그인 막히는 부분 확인됐습니다.\n\n**문제**: 3개 계정 모두 로그인 실패 — 서버 헤드리스 브라우저에"
           }
         ]
       },
@@ -41,7 +45,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "아까 그로밋이 부탁했으니까 해당 스레드 찾아서 그쪽으로 전달해줘 json키는 그로밋이 가지",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773124355,
         "last_active_readable": "15:32",
         "msg_count": 8,
@@ -81,7 +85,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773124351,
         "last_active_readable": "15:32",
         "msg_count": 3,
@@ -109,7 +113,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -133,7 +137,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -161,7 +165,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "12분 전",
+        "last_active": "13분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -181,7 +185,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "16분 전",
+        "last_active": "17분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -213,7 +217,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "19분 전",
+        "last_active": "20분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -233,7 +237,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "20분 전",
+        "last_active": "21분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -253,7 +257,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "23분 전",
+        "last_active": "24분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -411,7 +415,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:33:02 KST",
+      "last_run": "2026-03-10 15:34:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
