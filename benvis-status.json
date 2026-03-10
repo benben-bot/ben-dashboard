@@ -1,10 +1,10 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T10:18:18+09:00",
-  "last_heartbeat_readable": "2026-03-10 10:18:18 KST",
+  "last_heartbeat": "2026-03-10T10:19:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 10:19:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 44,
+    "total_24h": 43,
     "active_1h": 5,
     "list": [
       {
@@ -13,18 +13,14 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n현비가가 태그하면 답하도록 수정해줘.\n앱에서 태그하는거라서 답은",
-        "last_active": "1분 전",
-        "last_active_ts": 1773105437,
-        "last_active_readable": "10:17",
-        "msg_count": 54,
+        "last_active": "방금 전",
+        "last_active_ts": 1773105514,
+        "last_active_readable": "10:18",
+        "msg_count": 56,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "✅ 두 가지 모두 완료됐습니다.\n\n**1. 앱 태그 응답** — `allowBots: true` 설정 후 게이트웨이 재시작 완료. 이제 현비가가"
-          },
           {
             "role": "user",
             "text": "적용 안됐어. 이것도 하트비트로 5분마다만 확인 가능해?"
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "이제 1분 뒤 첫 실행 기다렸다가 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "✅ 완료. 하트비트 1분 주기로 변경됐습니다.\n\n- 크론: `*/5` → `*/1`\n- 대시보드는 이제 최대 1분 내 상태 반영\n- 직전 하트비"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773105272,
         "last_active_readable": "10:14",
         "msg_count": 150,
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "세션 종료 69ee173a",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773104780,
         "last_active_readable": "10:06",
         "msg_count": 5,
@@ -137,7 +137,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM> 이거는 세션종료하면 안돼?\n\n:house: b6713050 :c",
-        "last_active": "25분 전",
+        "last_active": "26분 전",
         "last_active_ts": 1773103952,
         "last_active_readable": "09:52",
         "msg_count": 14,
@@ -568,7 +568,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 10:18:02 KST",
+      "last_run": "2026-03-10 10:18:18 KST",
       "status": "ok"
     },
     "benvis-sync": {
