@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T10:00:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 10:00:01 KST",
+  "last_heartbeat": "2026-03-10T10:02:33+09:00",
+  "last_heartbeat_readable": "2026-03-10 10:02:33 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 43,
@@ -13,22 +13,14 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "1분 전",
-        "last_active_ts": 1773104321,
-        "last_active_readable": "09:58",
-        "msg_count": 112,
+        "last_active": "방금 전",
+        "last_active_ts": 1773104553,
+        "last_active_readable": "10:02",
+        "msg_count": 117,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "탭 확인됨. `localhost:18790` 탭이 열려있습니다. JavaScript로 직접 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "탭에서 서버 응답 있는지 GET으로 확인합니다."
-          },
           {
             "role": "assistant",
             "text": "로그가 비어있어서 Chrome에서 실제로 요청이 왔는지 모름. 서버에 로깅 추가하고 재시작 후 Chrome에서 직접 테스트합니다."
@@ -52,6 +44,14 @@
           {
             "role": "assistant",
             "text": "테스트 페이지는 로드됨. 트리거 서버 로그 파일 직접 확인:"
+          },
+          {
+            "role": "user",
+            "text": "답변할때 너가 너 태그해서 일 계속 이어나가고 끝나면 얘기해줄수 있어?"
+          },
+          {
+            "role": "assistant",
+            "text": "알겠습니다. 계속 진행하고 결과 나오면 알려드리겠습니다.\n\n작업 계속합니다. 테스트 페이지 CORS 문제(origin 불일치) 때문에 POST가"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM> 이거는 세션종료하면 안돼?\n\n:house: b6713050 :c",
-        "last_active": "7분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773103952,
         "last_active_readable": "09:52",
         "msg_count": 14,
@@ -85,7 +85,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n현비가가 태그하면 답하도록 수정해줘.\n앱에서 태그하는거라서 답은",
-        "last_active": "12분 전",
+        "last_active": "15분 전",
         "last_active_ts": 1773103642,
         "last_active_readable": "09:47",
         "msg_count": 42,
@@ -133,7 +133,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "36분 전",
+        "last_active": "39분 전",
         "last_active_ts": 1773102185,
         "last_active_readable": "09:23",
         "msg_count": 2,
@@ -588,12 +588,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 09:56:30 KST",
+      "last_run": "2026-03-10 10:00:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-10 10:00:01 KST",
+      "last_run": "2026-03-10 10:00:04 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
