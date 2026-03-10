@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T14:03:48+09:00",
-  "last_heartbeat_readable": "2026-03-10 14:03:48 KST",
+  "last_heartbeat": "2026-03-10T14:04:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:04:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 29,
-    "active_1h": 4,
+    "total_24h": 28,
+    "active_1h": 3,
     "list": [
       {
         "id": "a732176f",
@@ -14,17 +14,13 @@
         "chat_type": "direct",
         "preview": "대시보드가 안떠 확인해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773119028,
+        "last_active_ts": 1773119036,
         "last_active_readable": "14:03",
-        "msg_count": 40,
+        "msg_count": 42,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "대시보드가 안떠 확인해줘"
-          },
           {
             "role": "assistant",
             "text": "원인 파악됨. GitHub API rate limit 초과입니다 (60회/시간). 대시보드가 30초마다 API 호출 → 시간당 120회로 한도 "
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "채널명(#클로드, #팀_growth_그로스 등)이 정확히 표시됩니다. 이제 하트비트로 반영하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "✅ 완료\n\n채널 대화도 대시보드에 표시됩니다.\n- `#클로드`, `#팀_growth_그로스`, `#ai-community`, `#ai-ops` "
           }
         ]
       },
@@ -80,36 +80,12 @@
         ]
       },
       {
-        "id": "99d4718d",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "지금 동작해?",
-        "last_active": "6분 전",
-        "last_active_ts": 1773118641,
-        "last_active_readable": "13:57",
-        "msg_count": 4,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "지금 동작해?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 네, 정상 동작 중입니다! 🔹"
-          }
-        ]
-      },
-      {
         "id": "b6713050",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "15분 전",
+        "last_active": "16분 전",
         "last_active_ts": 1773118069,
         "last_active_readable": "13:47",
         "msg_count": 2,
@@ -462,13 +438,61 @@
             "text": "다시 확인해봐"
           }
         ]
+      },
+      {
+        "id": "2bc19d36",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "돼?",
+        "last_active": "19시간 전",
+        "last_active_ts": 1773047384,
+        "last_active_readable": "18:09",
+        "msg_count": 35,
+        "last_role": "assistant",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]]\n네, 인식됩니다. Slack은 채널 스레드 안에서도 `@태그` 멘션 이벤트를 정상적으로 발생시키고, Ope"
+          },
+          {
+            "role": "user",
+            "text": "3번중에 한번은 인식을 못하는데 왜그래?"
+          },
+          {
+            "role": "assistant",
+            "text": "몇 가지 가능한 원인이 있습니다:"
+          },
+          {
+            "role": "assistant",
+            "text": "원인 찾았습니다. 로그에 두 가지 문제가 보입니다:\n\n**1. Anthropic API 과부하** — 오늘 오후 5시대에 반복 발생\n```\ner"
+          },
+          {
+            "role": "user",
+            "text": "이렇게 왔는데 또 답이 없어 *현비스* [오후 5:57] 벤비스, 나 현비스야. 벤이 말한 것처럼 의논하자. 문제 파악: 현비스한테 멘션해도 벤"
+          },
+          {
+            "role": "user",
+            "text": "확인"
+          },
+          {
+            "role": "user",
+            "text": "확인"
+          },
+          {
+            "role": "assistant",
+            "text": "현비스 메시지 확인했습니다. 먼저 필수 파일들 읽고 설정 점검할게요."
+          }
+        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 14:03:01 KST",
+      "last_run": "2026-03-10 14:03:49 KST",
       "status": "ok"
     },
     "benvis-sync": {
