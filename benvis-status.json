@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:48:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:48:01 KST",
+  "last_heartbeat": "2026-03-10T15:49:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:49:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 37,
@@ -14,17 +14,13 @@
         "chat_type": "group",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
         "last_active": "방금 전",
-        "last_active_ts": 1773125277,
-        "last_active_readable": "15:47",
-        "msg_count": 42,
+        "last_active_ts": 1773125332,
+        "last_active_readable": "15:48",
+        "msg_count": 43,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "로그인 자체는 성공하는데 run_mode2.py에서만 실패. IP 보안이 ON일 때 추가 페이지로 이동하는 것 같습니다. 실제 네이버 로그인 페"
-          },
           {
             "role": "assistant",
             "text": "IP 보안이 현재 `ON` 상태입니다. 셀렉터가 `.ip_check`였습니다 (`.ip_btn` 아님). 수정합니다."
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "이제 새 글쓰기 페이지 셀렉터 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "글쓰기 페이지 UI 확인됐습니다. 제목/본문 셀렉터 직접 테스트합니다."
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "내가 안열었고 갑자기 크롬창이 열렸어",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773125115,
         "last_active_readable": "15:45",
         "msg_count": 6,
@@ -85,7 +85,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773125105,
         "last_active_readable": "15:45",
         "msg_count": 17,
@@ -133,7 +133,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "지금 내 컴퓨터 제어중이야? [Slack file: 20260310_154047.jpg]",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773125056,
         "last_active_readable": "15:44",
         "msg_count": 2,
@@ -157,7 +157,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "25분 전",
+        "last_active": "26분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -181,7 +181,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "25분 전",
+        "last_active": "26분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -209,7 +209,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "26분 전",
+        "last_active": "27분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -229,7 +229,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "30분 전",
+        "last_active": "31분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -261,7 +261,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "33분 전",
+        "last_active": "34분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -281,7 +281,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "34분 전",
+        "last_active": "35분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -301,7 +301,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "37분 전",
+        "last_active": "38분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -411,7 +411,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:47:01 KST",
+      "last_run": "2026-03-10 15:48:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
