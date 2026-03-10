@@ -1,32 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T14:01:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 14:01:01 KST",
+  "last_heartbeat": "2026-03-10T14:02:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:02:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
     "active_1h": 4,
     "list": [
-      {
-        "id": "fde2abab",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "답변이 길어질만하면 자동으로 끊기는것 같은데 확인하고 수정해줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773118860,
-        "last_active_readable": "14:01",
-        "msg_count": 15,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "답변이 길어질만하면 자동으로 끊기는것 같은데 확인하고 수정해줘"
-          }
-        ]
-      },
       {
         "id": "a732176f",
         "type": "thread",
@@ -34,9 +14,9 @@
         "chat_type": "direct",
         "preview": "대시보드가 안떠 확인해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773118824,
-        "last_active_readable": "14:00",
-        "msg_count": 23,
+        "last_active_ts": 1773118918,
+        "last_active_readable": "14:01",
+        "msg_count": 29,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -56,6 +36,34 @@
           {
             "role": "assistant",
             "text": "raw URL은 정상 작동. GitHub Pages 배포가 아직 반영 안 된 것. 약 1분 후 자동 반영됩니다.\n\n✅ **수정 완료**\n- 원인"
+          },
+          {
+            "role": "user",
+            "text": "채널에서 하는 대화는 대시보드에 안뜨는데 채널대화도 대시보드에 포함해줘"
+          }
+        ]
+      },
+      {
+        "id": "fde2abab",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "답변이 길어질만하면 자동으로 끊기는것 같은데 확인하고 수정해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773118877,
+        "last_active_readable": "14:01",
+        "msg_count": 17,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "답변이 길어질만하면 자동으로 끊기는것 같은데 확인하고 수정해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "원인 찾았습니다. 로그에서 확인:\n\n```\nembedded run timeout: timeoutMs=180000\n```\n\n`timeoutSeco"
           }
         ]
       },
@@ -65,7 +73,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "지금 동작해?",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773118641,
         "last_active_readable": "13:57",
         "msg_count": 4,
@@ -89,7 +97,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "13분 전",
+        "last_active": "14분 전",
         "last_active_ts": 1773118069,
         "last_active_readable": "13:47",
         "msg_count": 2,
@@ -456,7 +464,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 14:00:01 KST",
+      "last_run": "2026-03-10 14:01:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
