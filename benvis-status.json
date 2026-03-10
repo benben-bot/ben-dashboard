@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T19:18:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 19:18:01 KST",
+  "last_heartbeat": "2026-03-10T19:19:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 19:19:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 16,
-    "active_1h": 3,
+    "active_1h": 2,
     "list": [
       {
         "id": "3f6115c4",
@@ -13,7 +13,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "38분 전",
+        "last_active": "39분 전",
         "last_active_ts": 1773135598,
         "last_active_readable": "18:39",
         "msg_count": 158,
@@ -61,7 +61,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "57분 전",
+        "last_active": "58분 전",
         "last_active_ts": 1773134414,
         "last_active_readable": "18:20",
         "msg_count": 289,
@@ -109,13 +109,13 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY ",
-        "last_active": "59분 전",
+        "last_active": "1시간 전",
         "last_active_ts": 1773134294,
         "last_active_readable": "18:18",
         "msg_count": 22,
         "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
+        "idle_level": "idle_1h",
+        "is_active": false,
         "messages": [
           {
             "role": "assistant",
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 19:17:01 KST",
+      "last_run": "2026-03-10 19:18:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
