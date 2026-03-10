@@ -1,78 +1,26 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T17:59:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 17:59:01 KST",
+  "last_heartbeat": "2026-03-10T18:00:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 18:00:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 28,
+    "total_24h": 27,
     "active_1h": 3,
     "list": [
-      {
-        "id": "74d44fb5",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773133131,
-        "last_active_readable": "17:58",
-        "msg_count": 213,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "너가 못해? 크롬으로 <https://github.com/gromeetmk-pixel/uvid-keyword-pipeline>"
-          },
-          {
-            "role": "assistant",
-            "text": "`github.com/sessions/sudo` 탭에 인증코드 입력 필요!"
-          },
-          {
-            "role": "assistant",
-            "text": "이전 코드가 실패했어요. 이메일로 새 인증코드 받을게요."
-          },
-          {
-            "role": "assistant",
-            "text": "이메일로 새 코드 전송됨. Gmail 확인할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "최신 코드 확인! `67014869` (Mar 3). 입력할게요."
-          },
-          {
-            "role": "user",
-            "text": "<mailto:gromeet.mk3@gmail.com|gromeet.mk3@gmail.com> 프로필로 다시 시도해봐"
-          },
-          {
-            "role": "assistant",
-            "text": "네! `gromeet.mk3@gmail.com` 프로필로 시도할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "탭이 초기화됐네요. 새로 열게요."
-          }
-        ]
-      },
       {
         "id": "3f6115c4",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "1분 전",
-        "last_active_ts": 1773133056,
-        "last_active_readable": "17:57",
-        "msg_count": 123,
+        "last_active": "방금 전",
+        "last_active_ts": 1773133198,
+        "last_active_readable": "17:59",
+        "msg_count": 126,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "코드 확인 완료. 이제 H열 초기화하고 재실행합니다."
-          },
           {
             "role": "assistant",
             "text": "크롬이 실행 중입니다. 로그인 후 게시 진행 중이에요. 기다립니다."
@@ -100,6 +48,58 @@
           {
             "role": "assistant",
             "text": "Xvfb 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 네, 진행 중입니다. 현재 상태:\n\n- ✅ Row3, Row4: 게시 완료 (이미지 버튼 셀렉터 찾아서 코"
+          }
+        ]
+      },
+      {
+        "id": "74d44fb5",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "삭제했어 마저 마무리해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773133196,
+        "last_active_readable": "17:59",
+        "msg_count": 221,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "이전 코드가 실패했어요. 이메일로 새 인증코드 받을게요."
+          },
+          {
+            "role": "assistant",
+            "text": "이메일로 새 코드 전송됨. Gmail 확인할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "최신 코드 확인! `67014869` (Mar 3). 입력할게요."
+          },
+          {
+            "role": "user",
+            "text": "<mailto:gromeet.mk3@gmail.com|gromeet.mk3@gmail.com> 프로필로 다시 시도해봐"
+          },
+          {
+            "role": "assistant",
+            "text": "네! `gromeet.mk3@gmail.com` 프로필로 시도할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "탭이 초기화됐네요. 새로 열게요."
+          },
+          {
+            "role": "assistant",
+            "text": "현재는 gromeet.mk 계정이네요. 계정 전환할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "gromeet.mk3 계정 맞아요! 새 코드 확인: `25024500` (오늘 PM 5:51). GitHub Confirm access 페이지에"
           }
         ]
       },
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "34분 전",
+        "last_active": "35분 전",
         "last_active_ts": 1773131052,
         "last_active_readable": "17:24",
         "msg_count": 3,
@@ -443,12 +443,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 17:58:01 KST",
+      "last_run": "2026-03-10 17:59:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-10 17:00:03 KST",
+      "last_run": "2026-03-10 18:00:01 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
