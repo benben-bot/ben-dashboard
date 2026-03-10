@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T10:28:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 10:28:01 KST",
+  "last_heartbeat": "2026-03-10T10:29:02+09:00",
+  "last_heartbeat_readable": "2026-03-10 10:29:02 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 44,
@@ -13,10 +13,10 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "세션종료하는 기준이 뭐야? 계속 세션이 쌓여가서 많이 쌓이면 멈추고있어",
-        "last_active": "1분 전",
-        "last_active_ts": 1773106009,
-        "last_active_readable": "10:26",
-        "msg_count": 8,
+        "last_active": "방금 전",
+        "last_active_ts": 1773106102,
+        "last_active_readable": "10:28",
+        "msg_count": 12,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -28,6 +28,10 @@
           {
             "role": "assistant",
             "text": "현재 세션 16개 쌓여 있고, 일부는 87%까지 컨텍스트 찬 상태네요.\n\n**세션이 종료되는 기준 (현재 설정)**\n\n| 조건 | 현재 설정 |"
+          },
+          {
+            "role": "user",
+            "text": "적용해줘"
           }
         ]
       },
@@ -37,7 +41,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n현비가가 태그하면 답하도록 수정해줘.\n앱에서 태그하는거라서 답은",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773105860,
         "last_active_readable": "10:24",
         "msg_count": 74,
@@ -85,7 +89,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "13분 전",
+        "last_active": "14분 전",
         "last_active_ts": 1773105272,
         "last_active_readable": "10:14",
         "msg_count": 150,
@@ -133,7 +137,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "세션 종료 69ee173a",
-        "last_active": "21분 전",
+        "last_active": "22분 전",
         "last_active_ts": 1773104780,
         "last_active_readable": "10:06",
         "msg_count": 5,
@@ -161,7 +165,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM> 이거는 세션종료하면 안돼?\n\n:house: b6713050 :c",
-        "last_active": "35분 전",
+        "last_active": "36분 전",
         "last_active_ts": 1773103952,
         "last_active_readable": "09:52",
         "msg_count": 14,
@@ -572,7 +576,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 10:27:02 KST",
+      "last_run": "2026-03-10 10:28:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
