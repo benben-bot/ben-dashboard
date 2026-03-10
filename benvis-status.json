@@ -1,34 +1,46 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T12:19:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 12:19:01 KST",
+  "last_heartbeat": "2026-03-10T12:20:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 12:20:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
-    "active_1h": 2,
+    "active_1h": 3,
     "list": [
       {
-        "id": "35d965af",
-        "type": "thread",
+        "id": "bcafdfb9",
+        "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
-        "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
-        "last_active": "6분 전",
-        "last_active_ts": 1773112352,
-        "last_active_readable": "12:12",
-        "msg_count": 40,
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773112801,
+        "last_active_readable": "12:20",
+        "msg_count": 1,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
             "role": "assistant",
-            "text": "[[reply_to_current]] 분석 완료했습니다.\n\n---\n\n## LLMGenerator V4 구조 분석\n\n**버전**: V4_26022"
-          },
-          {
-            "role": "user",
-            "text": "메인실행프로그램 코드구성 알고싶어"
-          },
+            "text": "✅ 빌드 완료 — `/home/ben/llm-generator/`\n\n전체 모듈 구성:\n• `main.py` (166줄) — 진입점\n• `ui/m"
+          }
+        ]
+      },
+      {
+        "id": "35d965af",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
+        "last_active": "방금 전",
+        "last_active_ts": 1773112801,
+        "last_active_readable": "12:20",
+        "msg_count": 44,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 디컴파일까지 완료했습니다. 코드 구성 정리드립니다.\n\n---\n\n## LLMGenerator.exe 코드 구"
@@ -52,6 +64,14 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 빌드 시작했습니다. Claude Code가 전체 모듈 작성 중이에요.\n\n완료되면 알림 드릴게요 (보통 5~"
+          },
+          {
+            "role": "user",
+            "text": "Current time: Tuesday, March 10th, 2026 — 12:19 PM (Asia/Seoul) / 2026-03-10 03:"
+          },
+          {
+            "role": "assistant",
+            "text": "빌드 완료됐네요. 벤에게 결과 알려드릴게요."
           }
         ]
       },
@@ -61,9 +81,9 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "39분 전",
-        "last_active_ts": 1773110343,
-        "last_active_readable": "11:39",
+        "last_active": "방금 전",
+        "last_active_ts": 1773112762,
+        "last_active_readable": "12:19",
         "msg_count": 2,
         "last_role": "assistant",
         "idle_level": "active",
@@ -124,54 +144,6 @@
           {
             "role": "assistant",
             "text": "✅ 현재 4개, 이미 최소 상태입니다."
-          }
-        ]
-      },
-      {
-        "id": "dfe88785",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "<@U09TRNYM1SM>\n현비가가 태그하면 답하도록 수정해줘.\n앱에서 태그하는거라서 답은",
-        "last_active": "1시간 전",
-        "last_active_ts": 1773105860,
-        "last_active_readable": "10:24",
-        "msg_count": 74,
-        "last_role": "assistant",
-        "idle_level": "idle_1h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "이제 1분 뒤 첫 실행 기다렸다가 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "✅ 완료. 하트비트 1분 주기로 변경됐습니다.\n\n- 크론: `*/5` → `*/1`\n- 대시보드는 이제 최대 1분 내 상태 반영\n- 직전 하트비"
-          },
-          {
-            "role": "user",
-            "text": "대시보드는 바로바로 적용이 안돼는것 같아"
-          },
-          {
-            "role": "assistant",
-            "text": "원인: `raw.githubusercontent.com`은 CDN 캐시가 최대 5분. `?t=` 붙여도 CDN에서 캐시 반환.\n\nauto-ref"
-          },
-          {
-            "role": "assistant",
-            "text": "균형 맞음. 배포합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "✅ 완료.\n\n변경 내용:\n- auto-refresh를 `raw CDN` → **GitHub API** 방식으로 교체 (CDN 캐시 없음)\n- 새"
-          },
-          {
-            "role": "user",
-            "text": "세션정리"
-          },
-          {
-            "role": "assistant",
-            "text": "✅ 세션 정리 완료.\n\n**오늘 작업 요약 (2026-03-10)**\n1. **allowBots: true** — 현비가 태그 시 응답\n2. *"
           }
         ]
       },
@@ -524,7 +496,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 12:18:01 KST",
+      "last_run": "2026-03-10 12:19:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
