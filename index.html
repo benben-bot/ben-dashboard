@@ -42,13 +42,27 @@
 
     /* 세션 */
     .sessions-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
-    .session-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
-    .session-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
-    .session-id { font-size: 12px; font-family: monospace; color: var(--accent2); cursor: pointer; }
-    .session-id:hover { text-decoration: underline; }
-    .session-preview { font-size: 13px; color: var(--text); margin-bottom: 8px; line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .session-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px; transition: border-color 0.2s; }
+    .session-card:hover { border-color: var(--accent); }
+    .session-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; cursor: pointer; }
+    .session-id { font-size: 12px; font-family: monospace; color: var(--accent2); }
+    .session-preview { font-size: 13px; color: var(--text); margin-bottom: 8px; line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer; }
     .session-meta { display: flex; gap: 12px; font-size: 11px; color: var(--muted); flex-wrap: wrap; }
     .session-meta span { display: flex; align-items: center; gap: 3px; }
+
+    /* 펼치기 버튼 */
+    .expand-btn { font-size: 11px; color: var(--muted); cursor: pointer; background: none; border: 1px solid var(--border); border-radius: 6px; padding: 2px 8px; white-space: nowrap; transition: all 0.15s; }
+    .expand-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* 대화 히스토리 패널 */
+    .chat-history { display: none; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
+    .chat-history.open { display: block; }
+    .chat-msg { display: flex; gap: 8px; margin-bottom: 8px; align-items: flex-start; }
+    .chat-msg .role-icon { font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+    .chat-msg .msg-bubble { font-size: 12px; line-height: 1.5; padding: 7px 10px; border-radius: 8px; max-width: 100%; word-break: break-word; }
+    .chat-msg.user .msg-bubble { background: rgba(79,195,247,0.08); color: var(--text); border: 1px solid rgba(79,195,247,0.15); }
+    .chat-msg.assistant .msg-bubble { background: rgba(124,106,247,0.08); color: var(--text); border: 1px solid rgba(124,106,247,0.15); }
+    .no-history { font-size: 12px; color: var(--muted); font-style: italic; }
 
     /* idle 단계 색상 */
     .idle-active { border-left: 3px solid var(--green); }
@@ -259,23 +273,37 @@ function render(data) {
 
   document.getElementById('sessionsGrid').innerHTML = list.length === 0
     ? '<div style="color:var(--muted);font-size:13px;">세션 없음</div>'
-    : list.map(s => {
+    : list.map((s, idx) => {
         const icon = typeIcon[s.type] || '💬';
         const [bc, bl] = idleBadge[s.idle_level] || ['b-gray', '알 수 없음'];
         const cls = idleClass[s.idle_level] || '';
+        const msgs = s.messages || [];
+        const hasMsgs = msgs.length > 0;
+        const histHtml = hasMsgs
+          ? msgs.map(m => {
+              const ri = m.role === 'user' ? '🧑' : '🤖';
+              const esc = m.text.replace(/</g,'&lt;').replace(/>/g,'&gt;');
+              return `<div class="chat-msg ${m.role}"><span class="role-icon">${ri}</span><div class="msg-bubble">${esc}</div></div>`;
+            }).join('')
+          : '<div class="no-history">대화 내역 없음</div>';
+
         return `
-        <div class="session-card ${cls}">
-          <div class="session-top">
-            <span class="session-id" onclick="copyToClipboard('${s.id}')" title="클릭하면 ID 복사">${icon} ${s.id} 📋</span>
-            <span class="badge ${bc}">${bl}</span>
+        <div class="session-card ${cls}" id="sc-${idx}">
+          <div class="session-top" onclick="toggleHistory(${idx})">
+            <span class="session-id" onclick="event.stopPropagation();copyToClipboard('${s.id}')" title="클릭하면 ID 복사">${icon} ${s.id} 📋</span>
+            <div style="display:flex;align-items:center;gap:6px">
+              <span class="badge ${bc}">${bl}</span>
+              <button class="expand-btn" id="eb-${idx}" onclick="event.stopPropagation();toggleHistory(${idx})" title="대화 펼치기">▼ 펼치기</button>
+            </div>
           </div>
-          <div class="session-preview" title="${s.preview}">${s.preview}</div>
+          <div class="session-preview" title="${s.preview}" onclick="toggleHistory(${idx})">${s.preview}</div>
           <div class="session-meta">
             <span>📡 ${s.channel}</span>
             <span>🕐 ${s.last_active_readable} (${s.last_active})</span>
             <span>💬 ${s.msg_count}개</span>
             <span>↩ ${s.last_role}</span>
           </div>
+          <div class="chat-history" id="ch-${idx}">${histHtml}</div>
           <div class="kill-hint">
             종료하려면 슬랙에서:
             <span class="kill-cmd" onclick="copyToClipboard('세션 종료 ${s.id}')" title="클릭하면 명령어 복사">세션 종료 ${s.id} 📋</span>
@@ -301,6 +329,14 @@ function render(data) {
             <div style="font-size:11px;color:var(--muted)">${info.last_run ? '최근: ' + info.last_run : '-'}</div>
           </div>
         </div>`).join('');
+}
+
+function toggleHistory(idx) {
+  const ch = document.getElementById('ch-' + idx);
+  const eb = document.getElementById('eb-' + idx);
+  if (!ch) return;
+  const isOpen = ch.classList.toggle('open');
+  if (eb) eb.textContent = isOpen ? '▲ 접기' : '▼ 펼치기';
 }
 
 async function manualRefresh() {
