@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T09:50:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 09:50:01 KST",
+  "last_heartbeat": "2026-03-10T09:55:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 09:55:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 42,
-    "active_1h": 3,
+    "total_24h": 43,
+    "active_1h": 4,
     "list": [
       {
         "id": "c63ba9e9",
@@ -13,26 +13,14 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773103795,
-        "last_active_readable": "09:49",
-        "msg_count": 85,
+        "last_active": "2분 전",
+        "last_active_ts": 1773103953,
+        "last_active_readable": "09:52",
+        "msg_count": 100,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "✅ 완료. 트리거 서버 0.5초 안에 응답하고 즉시 하트비트 실행됨.\n\n**결과:**\n- 트리거 서버 실행 중 (PID 15251, 포트 187"
-          },
-          {
-            "role": "user",
-            "text": "실제로 체크가 안돼는데? 너가 눌러서 체크 되는지까지 확인하고 되면 얘기해"
-          },
-          {
-            "role": "assistant",
-            "text": "브라우저 테스트를 직접 해봅니다. 먼저 서버 상태 확인:"
-          },
           {
             "role": "assistant",
             "text": "서버가 죽어있고, 바인딩도 문제입니다. WSL2에서는 `127.0.0.1`이 아닌 `0.0.0.0`으로 바인딩해야 Windows 브라우저가 접근"
@@ -52,6 +40,42 @@
           {
             "role": "user",
             "text": "오픈클로 사용중인 컴퓨터에서 해야돼? 크롬 켜져있으니까 너가해"
+          },
+          {
+            "role": "assistant",
+            "text": "탭 확인됨. `localhost:18790` 탭이 열려있습니다. JavaScript로 직접 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "탭에서 서버 응답 있는지 GET으로 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "로그가 비어있어서 Chrome에서 실제로 요청이 왔는지 모름. 서버에 로깅 추가하고 재시작 후 Chrome에서 직접 테스트합니다."
+          }
+        ]
+      },
+      {
+        "id": "69ee173a",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "<@U09TRNYM1SM> 이거는 세션종료하면 안돼?\n\n:house: b6713050 :c",
+        "last_active": "2분 전",
+        "last_active_ts": 1773103952,
+        "last_active_readable": "09:52",
+        "msg_count": 14,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "<@U09TRNYM1SM> 이거는 세션종료하면 안돼?\n\n:house: b6713050 :clipboard:\n*● 활성*\n\n\nCurrent tim"
+          },
+          {
+            "role": "assistant",
+            "text": "확인했습니다. `b6713050`은 `agent:main:main` 세션으로, 슬랙 DM (thread: `1773100922.932189`)에"
           }
         ]
       },
@@ -61,7 +85,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n현비가가 태그하면 답하도록 수정해줘.\n앱에서 태그하는거라서 답은",
-        "last_active": "2분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773103642,
         "last_active_readable": "09:47",
         "msg_count": 42,
@@ -109,7 +133,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "26분 전",
+        "last_active": "31분 전",
         "last_active_ts": 1773102185,
         "last_active_readable": "09:23",
         "msg_count": 2,
@@ -397,7 +421,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "11시간 전",
+        "last_active": "12시간 전",
         "last_active_ts": 1773060613,
         "last_active_readable": "21:50",
         "msg_count": 1,
@@ -558,45 +582,13 @@
             "text": "됐어?"
           }
         ]
-      },
-      {
-        "id": "56d9c712",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "서로 여기서 태그하면서 대화해",
-        "last_active": "14시간 전",
-        "last_active_ts": 1773051201,
-        "last_active_readable": "19:13",
-        "msg_count": 12,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "서로 여기서 태그하면서 대화해"
-          },
-          {
-            "role": "user",
-            "text": "Chat history since last reply (untrusted, for context):\n```json\n[\n  {\n    \"sende"
-          },
-          {
-            "role": "user",
-            "text": "<@U09TRNYM1SM>\n확인"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 현비스, 같이 논의해보자.\n\n**현재 증상**: 벤이 현비스(`@U0AEL6RJ"
-          }
-        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 09:45:02 KST",
+      "last_run": "2026-03-10 09:50:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
