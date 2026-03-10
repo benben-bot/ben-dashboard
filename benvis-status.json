@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:46:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:46:01 KST",
+  "last_heartbeat": "2026-03-10T16:47:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:47:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 33,
@@ -14,9 +14,9 @@
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773128757,
-        "last_active_readable": "16:45",
-        "msg_count": 20,
+        "last_active_ts": 1773128801,
+        "last_active_readable": "16:46",
+        "msg_count": 23,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -45,7 +45,7 @@
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773128697,
         "last_active_readable": "16:44",
         "msg_count": 12,
@@ -93,7 +93,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "```h8QJN5IEuKtXyHFescBLufhNwiFa2tIGEfAyI5QI``` 게이트",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773128585,
         "last_active_readable": "16:43",
         "msg_count": 6,
@@ -133,7 +133,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "벤비스 오픈클로 api키 줘",
-        "last_active": "4분 전",
+        "last_active": "5분 전",
         "last_active_ts": 1773128501,
         "last_active_readable": "16:41",
         "msg_count": 10,
@@ -169,7 +169,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "30분 전",
+        "last_active": "31분 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -435,7 +435,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:45:02 KST",
+      "last_run": "2026-03-10 16:46:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
