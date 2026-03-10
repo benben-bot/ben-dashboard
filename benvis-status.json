@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T14:04:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 14:04:01 KST",
+  "last_heartbeat": "2026-03-10T14:05:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:05:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 28,
-    "active_1h": 3,
+    "total_24h": 29,
+    "active_1h": 4,
     "list": [
       {
         "id": "a732176f",
@@ -14,17 +14,13 @@
         "chat_type": "direct",
         "preview": "대시보드가 안떠 확인해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773119036,
-        "last_active_readable": "14:03",
-        "msg_count": 42,
+        "last_active_ts": 1773119101,
+        "last_active_readable": "14:05",
+        "msg_count": 44,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "원인 파악됨. GitHub API rate limit 초과입니다 (60회/시간). 대시보드가 30초마다 API 호출 → 시간당 120회로 한도 "
-          },
           {
             "role": "assistant",
             "text": "배포 완료. 이제 대시보드 새로고침 해보세요."
@@ -52,30 +48,54 @@
           {
             "role": "assistant",
             "text": "✅ 완료\n\n채널 대화도 대시보드에 표시됩니다.\n- `#클로드`, `#팀_growth_그로스`, `#ai-community`, `#ai-ops` "
+          },
+          {
+            "role": "user",
+            "text": "채널 대화는 안뜨는데?"
           }
         ]
       },
       {
-        "id": "fde2abab",
+        "id": "595fe357",
         "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "답변이 길어질만하면 자동으로 끊기는것 같은데 확인하고 수정해줘",
-        "last_active": "2분 전",
-        "last_active_ts": 1773118877,
-        "last_active_readable": "14:01",
-        "msg_count": 17,
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "위 내용 확인하고 모드 1, 2 실행해",
+        "last_active": "방금 전",
+        "last_active_ts": 1773119095,
+        "last_active_readable": "14:04",
+        "msg_count": 6,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
             "role": "user",
-            "text": "답변이 길어질만하면 자동으로 끊기는것 같은데 확인하고 수정해줘"
+            "text": "위 내용 확인하고 모드 1, 2 실행해"
           },
           {
             "role": "assistant",
-            "text": "원인 찾았습니다. 로그에서 확인:\n\n```\nembedded run timeout: timeoutMs=180000\n```\n\n`timeoutSeco"
+            "text": "RULES.md, gromit-rules.md, LEARNINGS.md 확인 완료. 린님이 처음 요청하셨으니 벤님께 DM 알림 보내겠습니다."
+          }
+        ]
+      },
+      {
+        "id": "5ab35f65",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773119088,
+        "last_active_readable": "14:04",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "👤 린님이 새 대화를 시작했습니다."
           }
         ]
       },
@@ -85,7 +105,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "16분 전",
+        "last_active": "17분 전",
         "last_active_ts": 1773118069,
         "last_active_readable": "13:47",
         "msg_count": 2,
@@ -209,7 +229,7 @@
         "channel": "#팀_growth_그로스",
         "chat_type": "group",
         "preview": "설정 변경 완료입니다! 근데 아직도 답변을 못하고 있네요ㅜ 확인해줘",
-        "last_active": "18시간 전",
+        "last_active": "19시간 전",
         "last_active_ts": 1773050694,
         "last_active_readable": "19:04",
         "msg_count": 7,
@@ -438,61 +458,13 @@
             "text": "다시 확인해봐"
           }
         ]
-      },
-      {
-        "id": "2bc19d36",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "돼?",
-        "last_active": "19시간 전",
-        "last_active_ts": 1773047384,
-        "last_active_readable": "18:09",
-        "msg_count": 35,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]]\n네, 인식됩니다. Slack은 채널 스레드 안에서도 `@태그` 멘션 이벤트를 정상적으로 발생시키고, Ope"
-          },
-          {
-            "role": "user",
-            "text": "3번중에 한번은 인식을 못하는데 왜그래?"
-          },
-          {
-            "role": "assistant",
-            "text": "몇 가지 가능한 원인이 있습니다:"
-          },
-          {
-            "role": "assistant",
-            "text": "원인 찾았습니다. 로그에 두 가지 문제가 보입니다:\n\n**1. Anthropic API 과부하** — 오늘 오후 5시대에 반복 발생\n```\ner"
-          },
-          {
-            "role": "user",
-            "text": "이렇게 왔는데 또 답이 없어 *현비스* [오후 5:57] 벤비스, 나 현비스야. 벤이 말한 것처럼 의논하자. 문제 파악: 현비스한테 멘션해도 벤"
-          },
-          {
-            "role": "user",
-            "text": "확인"
-          },
-          {
-            "role": "user",
-            "text": "확인"
-          },
-          {
-            "role": "assistant",
-            "text": "현비스 메시지 확인했습니다. 먼저 필수 파일들 읽고 설정 점검할게요."
-          }
-        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 14:03:49 KST",
+      "last_run": "2026-03-10 14:04:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
