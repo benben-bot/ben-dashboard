@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T17:28:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 17:28:01 KST",
+  "last_heartbeat": "2026-03-10T17:29:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 17:29:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 28,
@@ -13,7 +13,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773131064,
         "last_active_readable": "17:24",
         "msg_count": 92,
@@ -61,7 +61,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773131059,
         "last_active_readable": "17:24",
         "msg_count": 89,
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773131052,
         "last_active_readable": "17:24",
         "msg_count": 3,
@@ -129,7 +129,7 @@
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
-        "last_active": "43분 전",
+        "last_active": "44분 전",
         "last_active_ts": 1773128697,
         "last_active_readable": "16:44",
         "msg_count": 12,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 17:27:01 KST",
+      "last_run": "2026-03-10 17:28:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
