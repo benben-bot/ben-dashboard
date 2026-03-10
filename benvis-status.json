@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T17:23:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 17:23:01 KST",
+  "last_heartbeat": "2026-03-10T17:24:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 17:24:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
@@ -14,8 +14,8 @@
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773130938,
-        "last_active_readable": "17:22",
+        "last_active_ts": 1773131021,
+        "last_active_readable": "17:23",
         "msg_count": 88,
         "last_role": "assistant",
         "idle_level": "active",
@@ -61,7 +61,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773130931,
         "last_active_readable": "17:22",
         "msg_count": 92,
@@ -109,7 +109,7 @@
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
-        "last_active": "38분 전",
+        "last_active": "39분 전",
         "last_active_ts": 1773128697,
         "last_active_readable": "16:44",
         "msg_count": 12,
@@ -157,7 +157,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "```h8QJN5IEuKtXyHFescBLufhNwiFa2tIGEfAyI5QI``` 게이트",
-        "last_active": "39분 전",
+        "last_active": "40분 전",
         "last_active_ts": 1773128585,
         "last_active_readable": "16:43",
         "msg_count": 6,
@@ -463,7 +463,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 17:22:02 KST",
+      "last_run": "2026-03-10 17:23:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
