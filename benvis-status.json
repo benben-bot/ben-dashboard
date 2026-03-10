@@ -1,19 +1,55 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:41:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:41:01 KST",
+  "last_heartbeat": "2026-03-10T16:42:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:42:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 33,
+    "total_24h": 32,
     "active_1h": 4,
     "list": [
+      {
+        "id": "707a50d8",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "벤비스 오픈클로 api키 줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773128501,
+        "last_active_readable": "16:41",
+        "msg_count": 10,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "벤비스 오픈클로 api키 줘"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 보안상 API 키를 채팅으로 직접 전달하는 건 어렵습니다. 🔒\n\n**OpenClaw API 키 확인 방법:"
+          },
+          {
+            "role": "assistant",
+            "text": "어떤 API 키를 말씀하시는 건가요?\n\n1. **Anthropic API 키** (Claude 모델용) → `openclaw config` 또는"
+          },
+          {
+            "role": "user",
+            "text": "OpenClaw Gateway 토큰 줘"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] Gateway 토큰 찾았습니다.\n\n```\nh8QJN5IEuKtXyHFescBLufhNwiFa2tIGEfAy"
+          }
+        ]
+      },
       {
         "id": "be526196",
         "type": "main",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "AIzaSyAmYQvob7pko-1CBQqy_LWIdthwGUMG3v8 새로운 api 키야",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773128411,
         "last_active_readable": "16:40",
         "msg_count": 7,
@@ -49,7 +85,7 @@
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "너도 글 하나 써봐",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773128369,
         "last_active_readable": "16:39",
         "msg_count": 44,
@@ -92,40 +128,12 @@
         ]
       },
       {
-        "id": "707a50d8",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "벤비스 오픈클로 api키 줘",
-        "last_active": "3분 전",
-        "last_active_ts": 1773128250,
-        "last_active_readable": "16:37",
-        "msg_count": 4,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "벤비스 오픈클로 api키 줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 보안상 API 키를 채팅으로 직접 전달하는 건 어렵습니다. 🔒\n\n**OpenClaw API 키 확인 방법:"
-          },
-          {
-            "role": "assistant",
-            "text": "어떤 API 키를 말씀하시는 건가요?\n\n1. **Anthropic API 키** (Claude 모델용) → `openclaw config` 또는"
-          }
-        ]
-      },
-      {
         "id": "c049a963",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "25분 전",
+        "last_active": "26분 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -415,7 +423,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:40:01 KST",
+      "last_run": "2026-03-10 16:41:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
