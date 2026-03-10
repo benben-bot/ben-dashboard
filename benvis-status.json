@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:31:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:31:01 KST",
+  "last_heartbeat": "2026-03-10T15:32:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:32:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
@@ -9,14 +9,14 @@
     "list": [
       {
         "id": "85fdb3fc",
-        "type": "heartbeat",
+        "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "아까 그로밋이 부탁했으니까 해당 스레드 찾아서 그쪽으로 전달해줘 json키는 그로밋이 가지",
         "last_active": "방금 전",
-        "last_active_ts": 1773124260,
-        "last_active_readable": "15:31",
-        "msg_count": 2,
+        "last_active_ts": 1773124321,
+        "last_active_readable": "15:32",
+        "msg_count": 6,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -28,6 +28,34 @@
           {
             "role": "assistant",
             "text": "필수 파일들 읽고 그로밋 스레드 찾겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "이제 그로밋의 최근 슬랙 메시지를 찾겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "`#ai-ops` 관련 스레드 확인했습니다. 이제 해당 스레드 상태를 확인하겠습니다."
+          }
+        ]
+      },
+      {
+        "id": "c049a963",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
+        "last_active": "방금 전",
+        "last_active_ts": 1773124318,
+        "last_active_readable": "15:31",
+        "msg_count": 6,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3ef180b084d1e00037f854da?source="
           }
         ]
       },
@@ -37,7 +65,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773124137,
         "last_active_readable": "15:28",
         "msg_count": 2,
@@ -56,40 +84,12 @@
         ]
       },
       {
-        "id": "34637eee",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "어떤문제가 발생한건지 파악하고 해결해줘",
-        "last_active": "2분 전",
-        "last_active_ts": 1773124117,
-        "last_active_readable": "15:28",
-        "msg_count": 8,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "어떤문제가 발생한건지 파악하고 해결해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "먼저 스크립트와 로그를 확인하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "진단 완료됐습니다. 결과 요약드립니다.\n\n---\n\n**🔍 진단 결과**\n\n**bash 스크립트 (`benvis-heartbeat.sh`)는 정상"
-          }
-        ]
-      },
-      {
         "id": "ebc771e6",
         "type": "thread",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -113,7 +113,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -141,7 +141,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "9분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -161,7 +161,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "13분 전",
+        "last_active": "14분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -193,7 +193,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "15분 전",
+        "last_active": "17분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -213,7 +213,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "17분 전",
+        "last_active": "18분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -233,7 +233,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "20분 전",
+        "last_active": "21분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -391,7 +391,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:30:02 KST",
+      "last_run": "2026-03-10 15:31:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
