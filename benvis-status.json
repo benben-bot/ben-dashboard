@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T11:58:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 11:58:01 KST",
+  "last_heartbeat": "2026-03-10T11:59:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 11:59:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773111420,
         "last_active_readable": "11:57",
         "msg_count": 7,
@@ -41,7 +41,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "18분 전",
+        "last_active": "19분 전",
         "last_active_ts": 1773110343,
         "last_active_readable": "11:39",
         "msg_count": 2,
@@ -504,7 +504,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 11:57:02 KST",
+      "last_run": "2026-03-10 11:58:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
