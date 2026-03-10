@@ -1,19 +1,67 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:58:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:58:01 KST",
+  "last_heartbeat": "2026-03-10T15:59:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:59:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
     "active_1h": 11,
     "list": [
       {
+        "id": "cd3aa81b",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
+        "last_active": "방금 전",
+        "last_active_ts": 1773125926,
+        "last_active_readable": "15:58",
+        "msg_count": 31,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "벤비스 말 맞아. 그로밋, 키 로테이션 필요해. 환경변수 추가는 이미 완료됨. *지금 할 것:* Google Cloud Console → 서비스"
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "권한 설정 완료 했어. 근데 스프레드 시트에 아무 헤더설정이 안되어있는데? 필요한 헤더 전부 가독성 좋게 적용해줘. [Slack file: im"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U07RSJSCTHA> 공유 설정 완료 확인했어요! 헤더 바로 설정할게요."
+          },
+          {
+            "role": "user",
+            "text": "권한 설정 완료 했어. 근데 스프레드 시트에 아무 헤더설정이 안되어있는데? 필요한 헤더 전부 가독성 좋게 적용해줘. [Slack file: im"
+          },
+          {
+            "role": "assistant",
+            "text": "공유 설정 완료 확인됐어요! sheets-editor 편집자로 잘 추가됐네요. 이제 헤더 설정할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "`/api/sheets/init` 엔드포인트가 있어요. 바로 호출해서 헤더 설정할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U07RSJSCTHA> 헤더 설정 완료됐어요! ✅\n\n시트에 **\"키워드 데이터\"** 탭이 생성되고 아래"
+          }
+        ]
+      },
+      {
         "id": "e460fd4a",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773125870,
         "last_active_readable": "15:57",
         "msg_count": 26,
@@ -52,60 +100,12 @@
         ]
       },
       {
-        "id": "cd3aa81b",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "방금 전",
-        "last_active_ts": 1773125869,
-        "last_active_readable": "15:57",
-        "msg_count": 25,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "보내줄게 안전하게 관리해 [Slack file: n8n-test2-467001-52c510fbb5e3.json]"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] ⚠️ <@U07RSJSCTHA> 그로밋, **공개 채널에 Private Key가 노출됐어요!**\n\n이 키는"
-          },
-          {
-            "role": "user",
-            "text": ":white_check_mark: _완료_ Vercel 환경변수 3개 업데이트 + 재배포 완료. <https://uvid-keyword-pipe"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U07RSJSCTHA> 그로밋, 마지막 한 가지만요!\n\n아래 시트에 `sheets-editor@n8n-"
-          },
-          {
-            "role": "user",
-            "text": "벤비스 말 맞아. 그로밋, 키 로테이션 필요해. 환경변수 추가는 이미 완료됨. *지금 할 것:* Google Cloud Console → 서비스"
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "권한 설정 완료 했어. 근데 스프레드 시트에 아무 헤더설정이 안되어있는데? 필요한 헤더 전부 가독성 좋게 적용해줘. [Slack file: im"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U07RSJSCTHA> 공유 설정 완료 확인했어요! 헤더 바로 설정할게요."
-          }
-        ]
-      },
-      {
         "id": "c049a963",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773125446,
         "last_active_readable": "15:50",
         "msg_count": 48,
@@ -153,7 +153,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "내가 안열었고 갑자기 크롬창이 열렸어",
-        "last_active": "12분 전",
+        "last_active": "13분 전",
         "last_active_ts": 1773125115,
         "last_active_readable": "15:45",
         "msg_count": 6,
@@ -177,7 +177,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "35분 전",
+        "last_active": "36분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -201,7 +201,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "35분 전",
+        "last_active": "36분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -229,7 +229,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "36분 전",
+        "last_active": "37분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -249,7 +249,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "40분 전",
+        "last_active": "41분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -281,7 +281,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "43분 전",
+        "last_active": "44분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -301,7 +301,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "44분 전",
+        "last_active": "45분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -321,7 +321,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "47분 전",
+        "last_active": "48분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -431,7 +431,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:57:01 KST",
+      "last_run": "2026-03-10 15:58:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
