@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T13:59:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 13:59:01 KST",
+  "last_heartbeat": "2026-03-10T14:00:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:00:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
@@ -14,9 +14,9 @@
         "chat_type": "direct",
         "preview": "대시보드가 안떠 확인해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773118741,
-        "last_active_readable": "13:59",
-        "msg_count": 8,
+        "last_active_ts": 1773118800,
+        "last_active_readable": "14:00",
+        "msg_count": 20,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -28,6 +28,30 @@
           {
             "role": "assistant",
             "text": "원인 파악됨. GitHub API rate limit 초과입니다 (60회/시간). 대시보드가 30초마다 API 호출 → 시간당 120회로 한도 "
+          },
+          {
+            "role": "assistant",
+            "text": "배포 완료. 이제 대시보드 새로고침 해보세요."
+          }
+        ]
+      },
+      {
+        "id": "fde2abab",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "답변이 길어질만하면 자동으로 끊기는것 같은데 확인하고 수정해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773118794,
+        "last_active_readable": "13:59",
+        "msg_count": 8,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "답변이 길어질만하면 자동으로 끊기는것 같은데 확인하고 수정해줘"
           }
         ]
       },
@@ -37,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "지금 동작해?",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773118641,
         "last_active_readable": "13:57",
         "msg_count": 4,
@@ -56,56 +80,12 @@
         ]
       },
       {
-        "id": "bb3c6528",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
-        "last_active": "5분 전",
-        "last_active_ts": 1773118418,
-        "last_active_readable": "13:53",
-        "msg_count": 43,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3ef180b084d1e00037f854da>\n노션페이지에"
-          },
-          {
-            "role": "assistant",
-            "text": "노션 페이지가 로그인이 필요한 것 같습니다. 브라우저로 시도해볼게요."
-          },
-          {
-            "role": "assistant",
-            "text": "메인 페이지 구조 파악했습니다. 각 하위 페이지 내용을 확인하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "URL 목록 확보했습니다. 각 모드 상세 페이지를 확인합니다."
-          },
-          {
-            "role": "user",
-            "text": "로그인 필요없어 다 확인해"
-          },
-          {
-            "role": "assistant",
-            "text": "계속 읽겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "브라우저 연결이 불안정합니다. 게이트웨이 재시작 후 나머지 페이지 확인하겠습니다."
-          }
-        ]
-      },
-      {
         "id": "b6713050",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773118069,
         "last_active_readable": "13:47",
         "msg_count": 2,
@@ -472,12 +452,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 13:58:01 KST",
+      "last_run": "2026-03-10 13:59:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-10 13:00:02 KST",
+      "last_run": "2026-03-10 14:00:01 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
