@@ -1,82 +1,26 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:40:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:40:01 KST",
+  "last_heartbeat": "2026-03-10T15:41:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:41:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
     "active_1h": 10,
     "list": [
       {
-        "id": "c049a963",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
-        "last_active": "방금 전",
-        "last_active_ts": 1773124794,
-        "last_active_readable": "15:39",
-        "msg_count": 22,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 로그인 막히는 부분 확인됐습니다.\n\n**문제**: 3개 계정 모두 로그인 실패 — 서버 헤드리스 브라우저에"
-          },
-          {
-            "role": "user",
-            "text": "백그라운드 말고 실제 크롬창 켜서 진행해 로그인하기전에 ip보안토클은 항상 off로 해야돼"
-          },
-          {
-            "role": "assistant",
-            "text": "Xvfb가 있습니다. `headless=False` + IP보안 토글 OFF + Xvfb로 실행하도록 `run_mode2.py` 수정합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이제 Xvfb(가상 디스플레이)로 실행합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "여전히 실패. 상세 디버그로 실제 로그인 URL 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "로그인 자체는 성공합니다. 문제는 성공 판단 로직 — 네이버 SSO URL에 \"login\"이 포함되어 실패로 잘못 판단합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "로그인 자체는 성공하는데 run_mode2.py에서만 실패. IP 보안이 ON일 때 추가 페이지로 이동하는 것 같습니다. 실제 네이버 로그인 페"
-          },
-          {
-            "role": "assistant",
-            "text": "IP 보안이 현재 `ON` 상태입니다. 셀렉터가 `.ip_check`였습니다 (`.ip_btn` 아님). 수정합니다."
-          }
-        ]
-      },
-      {
         "id": "cd3aa81b",
         "type": "thread",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "1분 전",
-        "last_active_ts": 1773124708,
-        "last_active_readable": "15:38",
-        "msg_count": 11,
+        "last_active": "방금 전",
+        "last_active_ts": 1773124859,
+        "last_active_readable": "15:40",
+        "msg_count": 13,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "여기서 어떻게 설정해야돼? [Slack file: image.png]"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U07RSJSCTHA> 이미 서비스 계정들이 있네요! 새로 만들 필요 없어요.\n\n**`sheets-ed"
-          },
           {
             "role": "user",
             "text": "여기서 어떻게 설정해야돼? [Slack file: image.png]"
@@ -100,6 +44,62 @@
           {
             "role": "assistant",
             "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "보내줄게 안전하게 관리해 [Slack file: n8n-test2-467001-52c510fbb5e3.json]"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] ⚠️ <@U07RSJSCTHA> 그로밋, **공개 채널에 Private Key가 노출됐어요!**\n\n이 키는"
+          }
+        ]
+      },
+      {
+        "id": "c049a963",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
+        "last_active": "방금 전",
+        "last_active_ts": 1773124849,
+        "last_active_readable": "15:40",
+        "msg_count": 25,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "Xvfb가 있습니다. `headless=False` + IP보안 토글 OFF + Xvfb로 실행하도록 `run_mode2.py` 수정합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "이제 Xvfb(가상 디스플레이)로 실행합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "여전히 실패. 상세 디버그로 실제 로그인 URL 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "로그인 자체는 성공합니다. 문제는 성공 판단 로직 — 네이버 SSO URL에 \"login\"이 포함되어 실패로 잘못 판단합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "로그인 자체는 성공하는데 run_mode2.py에서만 실패. IP 보안이 ON일 때 추가 페이지로 이동하는 것 같습니다. 실제 네이버 로그인 페"
+          },
+          {
+            "role": "assistant",
+            "text": "IP 보안이 현재 `ON` 상태입니다. 셀렉터가 `.ip_check`였습니다 (`.ip_btn` 아님). 수정합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "IP 보안 OFF는 됐는데 아직 실패. 로그인 후 실제 URL 추적합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "로그인 자체는 성공(www.naver.com)인데 run_mode2.py에서만 실패. `networkidle` 후 실제 URL이 다를 수 있습니"
           }
         ]
       },
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "아까 그로밋이 부탁했으니까 해당 스레드 찾아서 그쪽으로 전달해줘 json키는 그로밋이 가지",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773124355,
         "last_active_readable": "15:32",
         "msg_count": 8,
@@ -149,7 +149,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "17분 전",
+        "last_active": "18분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -173,7 +173,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "17분 전",
+        "last_active": "18분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -201,7 +201,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "18분 전",
+        "last_active": "19분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -221,7 +221,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "22분 전",
+        "last_active": "23분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -253,7 +253,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "25분 전",
+        "last_active": "26분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -273,7 +273,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "26분 전",
+        "last_active": "27분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -293,7 +293,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "29분 전",
+        "last_active": "30분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -451,7 +451,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:39:01 KST",
+      "last_run": "2026-03-10 15:40:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
