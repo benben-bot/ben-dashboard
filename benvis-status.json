@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:54:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:54:01 KST",
+  "last_heartbeat": "2026-03-10T15:55:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:55:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 37,
@@ -14,16 +14,24 @@
         "chat_type": "group",
         "preview": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?",
         "last_active": "방금 전",
-        "last_active_ts": 1773125631,
-        "last_active_readable": "15:53",
-        "msg_count": 16,
-        "last_role": "assistant",
+        "last_active_ts": 1773125694,
+        "last_active_readable": "15:54",
+        "msg_count": 18,
+        "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
             "role": "user",
             "text": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 네, 이미 그런 구조입니다.\n\n현재 설정:\n- `timeoutSeconds: 900` (15분) — **작"
+          },
+          {
+            "role": "user",
+            "text": "늘리면 안좋은점이 있을까?"
           }
         ]
       },
@@ -33,7 +41,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773125446,
         "last_active_readable": "15:50",
         "msg_count": 48,
@@ -81,7 +89,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "내가 안열었고 갑자기 크롬창이 열렸어",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773125115,
         "last_active_readable": "15:45",
         "msg_count": 6,
@@ -105,7 +113,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773125105,
         "last_active_readable": "15:45",
         "msg_count": 17,
@@ -153,7 +161,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "31분 전",
+        "last_active": "32분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -177,7 +185,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "31분 전",
+        "last_active": "32분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -205,7 +213,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "32분 전",
+        "last_active": "33분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -225,7 +233,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "36분 전",
+        "last_active": "37분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -257,7 +265,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "39분 전",
+        "last_active": "40분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -277,7 +285,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "40분 전",
+        "last_active": "41분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -297,7 +305,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "43분 전",
+        "last_active": "44분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -407,7 +415,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:53:02 KST",
+      "last_run": "2026-03-10 15:54:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
