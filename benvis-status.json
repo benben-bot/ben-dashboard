@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T09:34:41+09:00",
-  "last_heartbeat_readable": "2026-03-10 09:34:41 KST",
+  "last_heartbeat": "2026-03-10T09:35:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 09:35:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 41,
@@ -14,17 +14,13 @@
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773102881,
+        "last_active_ts": 1773102893,
         "last_active_readable": "09:34",
-        "msg_count": 61,
+        "msg_count": 62,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "트리거 서버랑 지금 대시보드랑 별개야?"
-          },
           {
             "role": "assistant",
             "text": "맞습니다. 지금은 별개입니다.\n\n**현재 구조:**\n```\n[대시보드 GitHub Pages]\n  └─ \"지금 체크\" 클릭\n      └─ Gi"
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "동작 테스트합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "✅ 완료. 트리거 서버 0.5초 안에 응답하고 즉시 하트비트 실행됨.\n\n**결과:**\n- 트리거 서버 실행 중 (PID 15251, 포트 187"
           }
         ]
       },
@@ -568,7 +568,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 09:30:02 KST",
+      "last_run": "2026-03-10 09:34:42 KST",
       "status": "ok"
     },
     "benvis-sync": {
