@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T18:53:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 18:53:01 KST",
+  "last_heartbeat": "2026-03-10T18:54:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 18:54:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 19,
@@ -13,7 +13,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "13분 전",
+        "last_active": "14분 전",
         "last_active_ts": 1773135598,
         "last_active_readable": "18:39",
         "msg_count": 158,
@@ -61,7 +61,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "32분 전",
+        "last_active": "33분 전",
         "last_active_ts": 1773134414,
         "last_active_readable": "18:20",
         "msg_count": 289,
@@ -109,7 +109,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY ",
-        "last_active": "34분 전",
+        "last_active": "35분 전",
         "last_active_ts": 1773134294,
         "last_active_readable": "18:18",
         "msg_count": 22,
@@ -145,7 +145,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "여기서 아까 하던작업 현비스랑마무리해줘 배포 완료됐습니다. :link: _<https://",
-        "last_active": "41분 전",
+        "last_active": "42분 전",
         "last_active_ts": 1773133883,
         "last_active_readable": "18:11",
         "msg_count": 8,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 18:52:02 KST",
+      "last_run": "2026-03-10 18:53:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
