@@ -1,102 +1,26 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T18:13:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 18:13:01 KST",
+  "last_heartbeat": "2026-03-10T18:14:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 18:14:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 26,
+    "total_24h": 25,
     "active_1h": 4,
     "list": [
-      {
-        "id": "dd1c9b2f",
-        "type": "main",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY ",
-        "last_active": "방금 전",
-        "last_active_ts": 1773133981,
-        "last_active_readable": "18:13",
-        "msg_count": 4,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "<@U0AEL6RJW0N> UVID 키워드 파이프라인 Google Sheets 연동 배포 마무리 건입니다.\n\n현재 상황:\n• 파이프라인 사이트:"
-          },
-          {
-            "role": "user",
-            "text": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY (<https://uvid-keyword-pipelin"
-          }
-        ]
-      },
-      {
-        "id": "74d44fb5",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773133981,
-        "last_active_readable": "18:13",
-        "msg_count": 278,
-        "last_role": "user",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "대화가 너무 많이 쌓였으니까 세션정리하고 압축해서 대화 다시 시작해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "네, 메모리 저장하고 세션 초기화할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "저장 완료. 새 대화로 이어갈게요.\n\n[[reply_to_current]] 세션 정리 완료. 오늘 작업 요약:\n\n**완료한 일**\n- `benb"
-          },
-          {
-            "role": "user",
-            "text": "새 대화창에서 이어서 작업 마무리해"
-          },
-          {
-            "role": "assistant",
-            "text": "🔹 **세션 새로 시작합니다.**\n\n이전 스레드 작업 완료 상황:\n- `benben-bot/uvid-keyword-pipeline` → `gro"
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "쓰기 권한 확보. 코드 수정 후 push할게."
-          }
-        ]
-      },
       {
         "id": "3f6115c4",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "1분 전",
-        "last_active_ts": 1773133896,
-        "last_active_readable": "18:11",
-        "msg_count": 130,
+        "last_active": "방금 전",
+        "last_active_ts": 1773134034,
+        "last_active_readable": "18:13",
+        "msg_count": 132,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "먼저 방금 게시된 글들 URL 확인하고 삭제 후 이미지 디버그 테스트 진행합니다."
-          },
           {
             "role": "user",
             "text": "하고있어?"
@@ -124,6 +48,82 @@
           {
             "role": "assistant",
             "text": "파악 완료. 서브에이전트로 수정합니다.\n\n**수정 내용:**\n1. `[이미지N]` 태그 1개당 이미지 2장씩 소비\n2. 이미지 인덱스 파일로 전"
+          },
+          {
+            "role": "assistant",
+            "text": "수정 완료. 테스트 게시 1개 진행합니다."
+          }
+        ]
+      },
+      {
+        "id": "dd1c9b2f",
+        "type": "main",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY ",
+        "last_active": "방금 전",
+        "last_active_ts": 1773134034,
+        "last_active_readable": "18:13",
+        "msg_count": 11,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> UVID 키워드 파이프라인 Google Sheets 연동 배포 마무리 건입니다.\n\n현재 상황:\n• 파이프라인 사이트:"
+          },
+          {
+            "role": "user",
+            "text": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY (<https://uvid-keyword-pipelin"
+          }
+        ]
+      },
+      {
+        "id": "74d44fb5",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "삭제했어 마저 마무리해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773134002,
+        "last_active_readable": "18:13",
+        "msg_count": 287,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "초대 와있어! 바로 수락할게."
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "코드 push 완료. 이제 Vercel에 `ANTHROPIC_API_KEY` 추가하고 Redeploy할게."
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "`ANTHROPIC_API_KEY` 이미 있어. GitHub push로 Vercel 자동 배포 중인지 확인할게."
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "GitHub push 반영 안 됐어. 수동 Redeploy 트리거할게."
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
           }
         ]
       },
@@ -133,7 +133,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "여기서 아까 하던작업 현비스랑마무리해줘 배포 완료됐습니다. :link: _<https://",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773133883,
         "last_active_readable": "18:11",
         "msg_count": 8,
@@ -325,7 +325,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "2시간 전",
+        "last_active": "3시간 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -431,7 +431,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 18:12:01 KST",
+      "last_run": "2026-03-10 18:13:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
