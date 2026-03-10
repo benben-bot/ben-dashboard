@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T17:21:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 17:21:01 KST",
+  "last_heartbeat": "2026-03-10T17:22:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 17:22:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 30,
@@ -14,17 +14,13 @@
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773130851,
-        "last_active_readable": "17:20",
-        "msg_count": 88,
-        "last_role": "assistant",
+        "last_active_ts": 1773130911,
+        "last_active_readable": "17:21",
+        "msg_count": 89,
+        "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U07TTUV3D7H> 문제 확정됐어.\n\n**같은 구글 계정이면 프로젝트 달라도 quota 공유됨** "
-          },
           {
             "role": "user",
             "text": "바로 위 메시지 확인해 — Redeploy는 이미 완료됐는데, S2 테스트해보니 새 키도 동일하게 429. 키 교체만으로는 안 풀리는 상황이야."
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 아직 429 quota 에러야. Vercel Redeploy 필요해.\n\n<@U0AEL6RJW0N> Rede"
+          },
+          {
+            "role": "user",
+            "text": "Redeploy 완료했는데 S2 여전히 429. 새 키(`AIzaSyDlET8DWEz...`)도 같은 에러 — 역시 동일 구글 계정 quota "
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773130811,
         "last_active_readable": "17:20",
         "msg_count": 86,
@@ -109,7 +109,7 @@
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
-        "last_active": "36분 전",
+        "last_active": "37분 전",
         "last_active_ts": 1773128697,
         "last_active_readable": "16:44",
         "msg_count": 12,
@@ -157,7 +157,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "```h8QJN5IEuKtXyHFescBLufhNwiFa2tIGEfAyI5QI``` 게이트",
-        "last_active": "37분 전",
+        "last_active": "38분 전",
         "last_active_ts": 1773128585,
         "last_active_readable": "16:43",
         "msg_count": 6,
@@ -285,7 +285,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "1시간 전",
+        "last_active": "2시간 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -463,7 +463,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 17:20:01 KST",
+      "last_run": "2026-03-10 17:21:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
