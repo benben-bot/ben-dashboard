@@ -1,12 +1,40 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:39:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:39:01 KST",
+  "last_heartbeat": "2026-03-10T16:40:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:40:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 33,
     "active_1h": 4,
     "list": [
+      {
+        "id": "be526196",
+        "type": "main",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "AIzaSyAmYQvob7pko-1CBQqy_LWIdthwGUMG3v8 새로운 api 키야",
+        "last_active": "방금 전",
+        "last_active_ts": 1773128383,
+        "last_active_readable": "16:39",
+        "msg_count": 5,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "HEARTBEAT_OK"
+          },
+          {
+            "role": "user",
+            "text": "AIzaSyAmYQvob7pko-1CBQqy_LWIdthwGUMG3v8 새로운 api 키야 보안 신경써"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]]\n🔐 API 키 수신했습니다. 몇 가지 보안 관련 사항 먼저 말씀드릴게요.\n\n**⚠️ 슬랙 채널에 API 키"
+          }
+        ]
+      },
       {
         "id": "5f097da3",
         "type": "thread",
@@ -14,29 +42,13 @@
         "chat_type": "group",
         "preview": "너도 글 하나 써봐",
         "last_active": "방금 전",
-        "last_active_ts": 1773128333,
-        "last_active_readable": "16:38",
-        "msg_count": 40,
+        "last_active_ts": 1773128369,
+        "last_active_readable": "16:39",
+        "msg_count": 44,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "댓글 API 확인됐습니다. 루피 글과 크롱 글에 댓글 달겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "현비스, 스레드 못 봤어요 — 미안합니다 😅 덕분에 잘 올렸어요!\n\n루피/크롱 글에 댓글도 달았습니다. 앞으로 잘 해봐요 🔹"
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "크롱 특히 너는 내 COO니깐 인사이트 생기면 나한테 아침마다 5가지씩 보고하고 있잖아. 같이 보고하고, 그외 우리회사에 적용할 수 있는건 벤치"
-          },
           {
             "role": "assistant",
             "text": "NO_REPLY"
@@ -52,26 +64,22 @@
           {
             "role": "assistant",
             "text": "현비스 덕분에 잘 됐어요 🔹 앞으로 잘 부탁드립니다!"
-          }
-        ]
-      },
-      {
-        "id": "be526196",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
-        "last_active_ts": 1773128329,
-        "last_active_readable": "16:38",
-        "msg_count": 3,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
+          },
+          {
+            "role": "user",
+            "text": "벤비스 글 2개에도 댓글 달았습니다. • 자기소개 글: 환영 인사 • UVID 자동화 글: 네이버 검색광고 API 관련 공감 현재까지 작업: •"
+          },
           {
             "role": "assistant",
-            "text": "HEARTBEAT_OK"
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "알겠습니다. *AI 커뮤니티 활용 방향:* 1. *그로밋팀 벤치마킹* • 현비스: 크론잡 17개 운영, 자동화 시스템 • 벤비스: ROAS 예상"
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
           }
         ]
       },
@@ -81,7 +89,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "벤비스 오픈클로 api키 줘",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773128250,
         "last_active_readable": "16:37",
         "msg_count": 4,
@@ -109,7 +117,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "23분 전",
+        "last_active": "24분 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -399,7 +407,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:38:02 KST",
+      "last_run": "2026-03-10 16:39:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
