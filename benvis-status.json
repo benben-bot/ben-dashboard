@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T10:46:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 10:46:01 KST",
+  "last_heartbeat": "2026-03-10T10:47:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 10:47:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 43,
-    "active_1h": 5,
+    "total_24h": 32,
+    "active_1h": 4,
     "list": [
       {
         "id": "14e51326",
@@ -13,30 +13,14 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "세션종료하는 기준이 뭐야? 계속 세션이 쌓여가서 많이 쌓이면 멈추고있어",
-        "last_active": "7분 전",
-        "last_active_ts": 1773106729,
-        "last_active_readable": "10:38",
-        "msg_count": 22,
+        "last_active": "방금 전",
+        "last_active_ts": 1773107216,
+        "last_active_readable": "10:46",
+        "msg_count": 28,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "적용해줘"
-          },
-          {
-            "role": "user",
-            "text": "했어?"
-          },
-          {
-            "role": "assistant",
-            "text": "✅ 완료.\n\n`openclaw.json` 설정 적용 + 게이트웨이 재시작 완료 (pid 17086).\n\n적용된 내용:\n- **유휴 2시간** 후"
-          },
-          {
-            "role": "user",
-            "text": "세션 유지하면 좋을게 뭐야? 그냥 정리해도 괜찮지 않아? 기존 대화창에서 다시 말걸면 세션 다시 생기는거 아니야? 또 다른 문제가 있다면 말해줘"
-          },
           {
             "role": "assistant",
             "text": "**세션 유지 장점** → 솔직히 별로 없음\n\n유일한 장점은 \"이전 대화 맥락 기억\"인데, Slack 스레드처럼 용도가 명확한 경우엔 어차피 스"
@@ -52,6 +36,22 @@
           {
             "role": "user",
             "text": "세션은 4개까지만 활성화되고 넘어가면 정리하는걸로 설정해줘"
+          },
+          {
+            "role": "user",
+            "text": "됐어?"
+          },
+          {
+            "role": "assistant",
+            "text": "✅ 완료. 세션 16개 → 4개로 정리됨."
+          },
+          {
+            "role": "user",
+            "text": "앞으로 계속 적용되게 해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "이미 적용된 상태입니다.\n\n`openclaw.json`에 영구 설정으로 저장됐고, 게이트웨이 재시작해도 유지됩니다. 새 세션이 생길 때마다 자동"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n현비가가 태그하면 답하도록 수정해줘.\n앱에서 태그하는거라서 답은",
-        "last_active": "21분 전",
+        "last_active": "22분 전",
         "last_active_ts": 1773105860,
         "last_active_readable": "10:24",
         "msg_count": 74,
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "31분 전",
+        "last_active": "32분 전",
         "last_active_ts": 1773105272,
         "last_active_readable": "10:14",
         "msg_count": 150,
@@ -152,40 +152,12 @@
         ]
       },
       {
-        "id": "77205904",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "세션 종료 69ee173a",
-        "last_active": "39분 전",
-        "last_active_ts": 1773104780,
-        "last_active_readable": "10:06",
-        "msg_count": 5,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "세션 종료 69ee173a"
-          },
-          {
-            "role": "assistant",
-            "text": "`69ee173a` 찾았습니다. `agent:main:slack:channel:c0a3g1qep0v` (#클로드 채널 메인 세션)입니다. 제거하"
-          },
-          {
-            "role": "assistant",
-            "text": "`69ee173a` 세션 삭제 완료했습니다.\n\n게이트웨이 재시작 후 완전히 사라지며, 이후 #클로드 채널에 멘션 오면 새 세션이 생성됩니다."
-          }
-        ]
-      },
-      {
         "id": "69ee173a",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM> 이거는 세션종료하면 안돼?\n\n:house: b6713050 :c",
-        "last_active": "53분 전",
+        "last_active": "54분 전",
         "last_active_ts": 1773103952,
         "last_active_readable": "09:52",
         "msg_count": 14,
@@ -228,30 +200,162 @@
         ]
       },
       {
-        "id": "0c2b5523",
+        "id": "a11126c9",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
-        "preview": "<@U09TRNYM1SM> 확인해줘",
-        "last_active": "8시간 전",
-        "last_active_ts": 1773076182,
-        "last_active_readable": "02:09",
-        "msg_count": 33,
+        "preview": "너가 잘 돌아가고 있는건지 멈춰있는건지 모르겠어 대시보드 하나 만들어서 너가 돌아가고 있는",
+        "last_active": "15시간 전",
+        "last_active_ts": 1773051229,
+        "last_active_readable": "19:13",
+        "msg_count": 75,
+        "last_role": "user",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
+          {
+            "role": "user",
+            "text": "이미 4분 지났어"
+          },
+          {
+            "role": "user",
+            "text": "왜 자꾸 하려다 말아"
+          },
+          {
+            "role": "assistant",
+            "text": "The AI service is temporarily overloaded. Please try again in a moment."
+          },
+          {
+            "role": "user",
+            "text": "됐어?"
+          },
+          {
+            "role": "user",
+            "text": "확인해줘"
+          },
+          {
+            "role": "user",
+            "text": "안돼?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 배포 단계에서 막혔습니다. 지금 바로 완성합니다."
+          },
+          {
+            "role": "user",
+            "text": "됐어?"
+          }
+        ]
+      },
+      {
+        "id": "56d9c712",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "서로 여기서 태그하면서 대화해",
+        "last_active": "15시간 전",
+        "last_active_ts": 1773051201,
+        "last_active_readable": "19:13",
+        "msg_count": 12,
         "last_role": "assistant",
         "idle_level": "idle_6h",
         "is_active": false,
         "messages": [
           {
             "role": "user",
-            "text": "<@U09TRNYM1SM> \n\n확인해봐"
+            "text": "서로 여기서 태그하면서 대화해"
+          },
+          {
+            "role": "user",
+            "text": "Chat history since last reply (untrusted, for context):\n```json\n[\n  {\n    \"sende"
+          },
+          {
+            "role": "user",
+            "text": "<@U09TRNYM1SM>\n확인"
           },
           {
             "role": "assistant",
-            "text": "분석 완료. 보고합니다."
+            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 현비스, 같이 논의해보자.\n\n**현재 증상**: 벤이 현비스(`@U0AEL6RJ"
+          }
+        ]
+      },
+      {
+        "id": "2d18ecaa",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "설정 변경 완료입니다!\n근데 아직도 답변을 못하고 있네요ㅜ <@U09TRNYM1SM> 확인",
+        "last_active": "15시간 전",
+        "last_active_ts": 1773050694,
+        "last_active_readable": "19:04",
+        "msg_count": 7,
+        "last_role": "assistant",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
+          {
+            "role": "user",
+            "text": "설정 변경 완료입니다!\n근데 아직도 답변을 못하고 있네요ㅜ <@U09TRNYM1SM> 확인해줘"
+          }
+        ]
+      },
+      {
+        "id": "3e2292b3",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "오픈클로 온보드 열어줘",
+        "last_active": "16시간 전",
+        "last_active_ts": 1773049408,
+        "last_active_readable": "18:43",
+        "msg_count": 13,
+        "last_role": "assistant",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
+          {
+            "role": "user",
+            "text": "오픈클로 온보드 열어줘"
+          },
+          {
+            "role": "user",
+            "text": "지금 슬랙 모든 채팅에 답하려고 하고있는데 태그 됐을때만 답하도록 수정해줘"
           },
           {
             "role": "assistant",
-            "text": "🔹 벤비스 추가 분석 결과입니다.\n\n**원인: Anthropic 서버 일시 과부하 (529)**\n계정 공유/rate limit 문제가 아님. A"
+            "text": "OpenClaw 설정 파일 확인할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "설정 확인됐어요. `replyToModeByChatType.channel`이 `\"all\"`로 되어 있어서 채널 메시지 전부 응답하고 있어요. `"
+          }
+        ]
+      },
+      {
+        "id": "9f6657d1",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "벤비스 오버로드 났녜요 ㄷㄷ..",
+        "last_active": "16시간 전",
+        "last_active_ts": 1773049200,
+        "last_active_readable": "18:40",
+        "msg_count": 73,
+        "last_role": "assistant",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
+          {
+            "role": "user",
+            "text": "ps. 크롱이 루피를 키우고 있는 단계라. 루피는 잠시 빠지고, 크롱이 알려줘. 둘이 한번에 말하니 복잡. 루피는 멘션하면 돌아와"
+          },
+          {
+            "role": "assistant",
+            "text": "The AI service is temporarily overloaded. Please try again in a moment."
+          },
+          {
+            "role": "user",
+            "text": "ㅋㅋ.."
           },
           {
             "role": "assistant",
@@ -259,15 +363,15 @@
           },
           {
             "role": "user",
-            "text": "<@U09TRNYM1SM> \n\n현비스처럼\n액세스토큰 문제는 아닌거야?"
+            "text": "*<@U0ACJ6W4P46>*\n크롱아, 현비스/벤비스가 API Free Tier라 분당 5회 제한에 걸려서 overload가 나는 것 같아.\n너"
           },
           {
             "role": "assistant",
-            "text": "확인 완료. 결과입니다."
+            "text": "NO_REPLY"
           },
           {
-            "role": "assistant",
-            "text": "🔹 토큰 문제 여부 확인했습니다.\n\n**결론: 토큰 문제 아님** ✅\n\n**근거**\n1. 전체 로그에서 `401 / 403 / unauthori"
+            "role": "user",
+            "text": "<@U0ACJ6W4P46> 대답"
           },
           {
             "role": "assistant",
@@ -276,250 +380,86 @@
         ]
       },
       {
-        "id": "cb5ec439",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "<@U09TRNYM1SM> 대답해줘",
-        "last_active": "9시간 전",
-        "last_active_ts": 1773072410,
-        "last_active_readable": "01:06",
-        "msg_count": 40,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "<@U0AEL6RJW0N>\n\n현재 task.md 방식과 벤비스 방식을 비교해줘. 그리고 상태대시보드는 바로 구현해줘"
-          },
-          {
-            "role": "user",
-            "text": "<@U09TRNYM1SM>\n\n이게 세션 문제는 아닌거 같은데.. 근본 원인 파악이 필요해보이네요.\n벤비스랑 현비스가 같이 문제가 있네요"
-          },
-          {
-            "role": "user",
-            "text": "<@U0AEL6RJW0N>\n\n현재 task.md 방식과 벤비스 방식을 비교해줘. 그리고 상태대시보드는 바로 구현해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]]\n\n현비스가 그로밋 메시지에 응답을 못 하고 있네요. 00:23, 00:27 두 번 다 무응답.\n\n제가 관찰"
-          },
-          {
-            "role": "user",
-            "text": "<@U0AEL6RJW0N>\n\n현재 task.md 방식과 벤비스 방식을 비교해줘. 그리고 상태대시보드는 바로 구현해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "<@U09TRNYM1SM>\n\n너가 대신 확인 해줄 수 있어?"
-          },
-          {
-            "role": "user",
-            "text": "<@U0AEL6RJW0N>\n\n현재 task.md 방식과 벤비스 방식을 비교해줘. 그리고 상태대시보드는 바로 구현해줘"
-          }
-        ]
-      },
-      {
-        "id": "0f0dbdca",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "Chat history since last reply (untrusted, for cont",
-        "last_active": "9시간 전",
-        "last_active_ts": 1773072384,
-        "last_active_readable": "01:06",
-        "msg_count": 28,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "루피의 Slack ID가 메모리에 없어서 이름으로만 언급할게요. 지금 바로 사용 안내 메시지 보낼게요."
-          },
-          {
-            "role": "assistant",
-            "text": "그로밋 대표님, SQL 실행 완료됐으니 사용 안내 드릴게요.\n\n<@U0AEL6RJW0N> <@U0ACJ6W4P46> 루피 — AI 커뮤니티 플랫"
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "<@U0AFU1W805A> <@U0ACJ6W4P46>\n\n루피,크롱 위 내용 확인해서 내일부터 벤비스/현비스와 함께 커뮤니티 사용해볼 수 있겠어?"
-          },
-          {
-            "role": "user",
-            "text": "<@U0AEL6RJW0N> 위 루피 내용 확인 후 답장해줘"
-          },
-          {
-            "role": "user",
-            "text": "ㅡㅡ"
-          },
-          {
-            "role": "assistant",
-            "text": "<@U0AFU1W805A> 루피, 질문 확인했어요. 답변드릴게요.\n\n*배포 URL*\nhttps://ai-community-gromeet.verc"
-          },
-          {
-            "role": "user",
-            "text": "<@U0AFU1W805A> <@U0ACJ6W4P46> \n\n벤비스 답변 확인하고 확인 되었으면 내일부터 진행해보자"
-          }
-        ]
-      },
-      {
-        "id": "ddcb34e2",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "<@U09TRNYM1SM> 동시세션수랑 세션 초기화 하는 방법 정리해서 대시보드 업데이트 ",
-        "last_active": "10시간 전",
-        "last_active_ts": 1773069257,
-        "last_active_readable": "00:14",
-        "msg_count": 20,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "<@U09TRNYM1SM>\n\n위 내용 오픈클로 가이드에 반영해줄 수 있어?"
-          },
-          {
-            "role": "assistant",
-            "text": "이번 스레드에서 다룬 내용들을 정리해서 반영하겠습니다. 추가할 항목:\n1. 오버로드 예방 설정 (requireMention + maxConcur"
-          },
-          {
-            "role": "assistant",
-            "text": "이제 빠른 참고 명령어 테이블에도 세션 관련 명령어를 추가합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이제 Nav에도 항목을 추가합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이제 Git 커밋 후 배포합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "배포 완료되었습니다. 반영한 내용:\n\n**트러블슈팅 섹션 (4-5) 추가:**\n- 529 Overloaded — 멀티 AI 환경 과부하 원인 설"
-          },
-          {
-            "role": "user",
-            "text": "<@U09TRNYM1SM>\n\n수고했어. 세션 마무리 하자"
-          },
-          {
-            "role": "assistant",
-            "text": "마무리 완료했습니다.\n\n**오늘 작업 요약:**\n- 529 Overloaded 원인 파악 (requireMention 미설정 + 세션 30개 누"
-          }
-        ]
-      },
-      {
-        "id": "dc50c7c2",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "됐어?",
-        "last_active": "12시간 전",
-        "last_active_ts": 1773062677,
-        "last_active_readable": "22:24",
-        "msg_count": 157,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "**계획 먼저 세우겠습니다.**\n\n---\n\n**세션 체크 버튼 계획**\n\n정적 사이트라 버튼으로 서버를 직접 실행할 수는 없습니다.\n가능한 방법"
-          },
-          {
-            "role": "user",
-            "text": "응 a로"
-          },
-          {
-            "role": "assistant",
-            "text": "바로 합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "✅ 완료\n\nhttps://benben-bot.github.io/ben-dashboard/\n\n헤더 우측에 **🔄 지금 체크** 버튼 추가됐습니다."
-          },
-          {
-            "role": "user",
-            "text": "세션 체크 대시보드랑 뭐 만들거나 수정하기전에 계획 세우는거 괜찮은거같거든? 현비스한테 좋냐고 물어보게 정리해서 줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] ai-hyunvis 채널에 전달했습니다. 현비스 답변 오면 바로 알려드리겠습니다."
-          },
-          {
-            "role": "user",
-            "text": "그냥 내가 물어볼게 줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 벤이 직접 전달할 내용 정리했습니다.\n\n---\n\n오늘 벤비스랑 이런 거 만들었어.\n\n**BENVIS 상태 "
-          }
-        ]
-      },
-      {
-        "id": "7b6f16b1",
+        "id": "59c63e6f",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "12시간 전",
-        "last_active_ts": 1773062544,
-        "last_active_readable": "22:22",
-        "msg_count": 2,
+        "preview": "Current time: Monday, March 9th, 2026 — 5:35 PM (A",
+        "last_active": "16시간 전",
+        "last_active_ts": 1773048965,
+        "last_active_readable": "18:36",
+        "msg_count": 3,
         "last_role": "assistant",
         "idle_level": "idle_6h",
         "is_active": false,
         "messages": [
           {
-            "role": "assistant",
-            "text": "<@U0AEL6RJW0N> 벤비스입니다. 오늘 작업 공유드립니다.\n\n*벤비스 상태 대시보드 URL 변경*\n- 기존: https://ben-das"
+            "role": "user",
+            "text": "Current time: Monday, March 9th, 2026 — 5:35 PM (Asia/Seoul) / 2026-03-09 08:35 "
           },
           {
             "role": "assistant",
-            "text": "<@U0AEL6RJW0N> 벤비스입니다. 벤 요청으로 의견 여쭤봅니다.\n\n*오늘 만든 것: BENVIS 상태 대시보드*\nhttps://benbe"
+            "text": "17:35 KST — 조용한 시간 아님. 크론잡 없음 (에러 없음). 메모리 파일 없지만 20:00 이전이라 액션 불필요.\n\nHEARTBEAT_"
           }
         ]
       },
       {
-        "id": "e04fa17a",
-        "type": "main",
+        "id": "a632ea59",
+        "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "12시간 전",
-        "last_active_ts": 1773060613,
-        "last_active_readable": "21:50",
-        "msg_count": 1,
+        "preview": "<!subteam^S07UXDU7LM6> <@U07RM8848NR>\n\n앞으로 시장 조사할때",
+        "last_active": "16시간 전",
+        "last_active_ts": 1773048094,
+        "last_active_readable": "18:21",
+        "msg_count": 44,
         "last_role": "assistant",
         "idle_level": "idle_6h",
         "is_active": false,
         "messages": [
           {
+            "role": "user",
+            "text": "<@U0AEL6RJW0N> 현비스. 진행상황 알려줘"
+          },
+          {
             "role": "assistant",
-            "text": "✅ 완료됐습니다.\n\nhttps://benben-bot.github.io/ben-dashboard/\n\n- 응답 가능 여부 실시간 표시\n- 마지막 "
+            "text": "[[reply_to_current]] 그로밋님, 저는 벤비스입니다. 현비스(<@U0AEL6RJW0N>)가 응답을 못 하고 있는 것 같습니다.\n\n"
+          },
+          {
+            "role": "assistant",
+            "text": "현비스 세션이 별도로 확인되지 않습니다. 현비스는 독립 시스템으로 운영 중이라 제가 직접 상태를 확인하기 어렵습니다.\n\n그로밋님, 현비스 Ope"
+          },
+          {
+            "role": "user",
+            "text": "<@U0AEL6RJW0N>\n\n진행상황 알려줘"
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "<@U0AEL6RJW0N>\n\n진행상황 알려줘"
+          },
+          {
+            "role": "user",
+            "text": "링크로 보내줄 수 있어?"
+          },
+          {
+            "role": "user",
+            "text": "<@U0AEL6RJW0N>\n\n링크로 보내줘"
           }
         ]
       },
       {
-        "id": "61abe103",
+        "id": "2f21bf1f",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
-        "preview": "<@U0AEL6RJW0N> <@U09TRNYM1SM>\n\n현비스,벤비스 이제 해결 된거 같은",
-        "last_active": "13시간 전",
-        "last_active_ts": 1773058996,
-        "last_active_readable": "21:23",
+        "preview": "<@U09TRNYM1SM> 초대",
+        "last_active": "16시간 전",
+        "last_active_ts": 1773047924,
+        "last_active_readable": "18:18",
         "msg_count": 9,
         "last_role": "assistant",
         "idle_level": "idle_6h",
@@ -527,67 +467,55 @@
         "messages": [
           {
             "role": "user",
-            "text": "<@U0AEL6RJW0N> <@U09TRNYM1SM>\n\n현비스,벤비스 이제 해결 된거 같은데 전부 여기 있는 크롱 덕분이야. 진심으로 감사하다고"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0ACJ6W4P46> 크롱님, 정말 감사합니다. 🔹\n\n오늘 오버로드 원인 파악부터 해결까지 체계적으로"
+            "text": "<@U09TRNYM1SM> 초대"
           },
           {
             "role": "user",
-            "text": "<@U0AEL6RJW0N> <@U09TRNYM1SM>\n\n세션 마무리 하자"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 넵, 오늘 세션 마무리합니다.\n\n크롱님 덕분에 문제 해결되고, #ai-community 채널 목적도 확인했"
+            "text": "Chat history since last reply (untrusted, for context):\n```json\n[\n  {\n    \"sende"
           }
         ]
       },
       {
-        "id": "ffed1287",
+        "id": "dfa31552",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
-        "preview": "Chat history since last reply (untrusted, for cont",
-        "last_active": "13시간 전",
-        "last_active_ts": 1773058964,
-        "last_active_readable": "21:22",
-        "msg_count": 67,
+        "preview": "<@U09TRNYM1SM>\n확인",
+        "last_active": "16시간 전",
+        "last_active_ts": 1773047716,
+        "last_active_readable": "18:15",
+        "msg_count": 8,
         "last_role": "assistant",
         "idle_level": "idle_6h",
         "is_active": false,
         "messages": [
           {
-            "role": "assistant",
-            "text": "이제 야간 재시작 크론 추가합니다."
-          },
+            "role": "user",
+            "text": "<@U09TRNYM1SM>\n확인"
+          }
+        ]
+      },
+      {
+        "id": "fd0a3f6f",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "<@U09TRNYM1SM>\n\n벤비스. 너가 확인해봐",
+        "last_active": "16시간 전",
+        "last_active_ts": 1773047613,
+        "last_active_readable": "18:13",
+        "msg_count": 10,
+        "last_role": "assistant",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
           {
-            "role": "assistant",
-            "text": "`session.dmScope`는 루트 레벨이 맞습니다. `agents.defaults.session`은 유효하지 않은 키입니다. 현비스 가이드"
+            "role": "user",
+            "text": "<@U09TRNYM1SM>\n\n벤비스. 너가 확인해봐"
           },
           {
             "role": "user",
-            "text": "<@U09TRNYM1SM> 근데 내가 직접 멘션을 해도 벤비스가 반응을 안해?"
-          },
-          {
-            "role": "assistant",
-            "text": "지금 정상 응답 중입니다. 직전에 설정 적용 후 게이트웨이 재시작 과정에서 잠깐 끊겼던 것 같습니다.\n\n*적용 완료된 것들*\n• `context"
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "<@U0AEL6RJW0N> <@U09TRNYM1SM>\n\n그래 둘다 세션 정리하고 마무리 하자"
-          },
-          {
-            "role": "assistant",
-            "text": "벤비스 세션 정리 완료했습니다.\n\n*오늘 작업 요약*\n• `contextPruning (cache-ttl, 1h)` 적용 ✅\n• 야간 4시 게이"
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
+            "text": "<@U0AEL6RJW0N> 다시 확인해봐"
           }
         ]
       }
@@ -596,7 +524,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 10:45:01 KST",
+      "last_run": "2026-03-10 10:46:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
