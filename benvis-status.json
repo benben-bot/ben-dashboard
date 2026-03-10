@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:11:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:11:01 KST",
+  "last_heartbeat": "2026-03-10T15:12:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:12:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 31,
@@ -14,9 +14,9 @@
         "chat_type": "group",
         "preview": "시트 링크 보내주고 완료되면 보고해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773123055,
-        "last_active_readable": "15:10",
-        "msg_count": 6,
+        "last_active_ts": 1773123120,
+        "last_active_readable": "15:12",
+        "msg_count": 16,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -34,9 +34,9 @@
         "chat_type": "group",
         "preview": "실행한게 맞아? 가입은 돼있으니까 될때까지 해봐 어디 문제있으면 바로 말해",
         "last_active": "방금 전",
-        "last_active_ts": 1773123041,
-        "last_active_readable": "15:10",
-        "msg_count": 4,
+        "last_active_ts": 1773123095,
+        "last_active_readable": "15:11",
+        "msg_count": 7,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -44,6 +44,14 @@
           {
             "role": "user",
             "text": "실행한게 맞아? 가입은 돼있으니까 될때까지 해봐 어디 문제있으면 바로 말해"
+          },
+          {
+            "role": "assistant",
+            "text": "대상 3개 남은 거 확인했습니다 (row6, 7, 8 — faultiti3 계정). 로그인 실패 원인부터 디버그하고 재시도합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "faultiti3 로그인 자체는 정상입니다 (네이버 홈으로 리다이렉트 확인). 이전 실패 원인은 로그인 URL 감지 오류였을 가능성입니다. 바로"
           }
         ]
       },
@@ -53,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -73,7 +81,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "A completed subagent task is ready for user delive",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773123020,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -97,7 +105,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773123003,
         "last_active_readable": "15:10",
         "msg_count": 11,
@@ -117,7 +125,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "45분 전",
+        "last_active": "46분 전",
         "last_active_ts": 1773120337,
         "last_active_readable": "14:25",
         "msg_count": 11,
@@ -149,7 +157,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "46분 전",
+        "last_active": "47분 전",
         "last_active_ts": 1773120255,
         "last_active_readable": "14:24",
         "msg_count": 9,
@@ -407,7 +415,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:10:02 KST",
+      "last_run": "2026-03-10 15:11:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
