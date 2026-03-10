@@ -1,19 +1,47 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T11:56:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 11:56:01 KST",
+  "last_heartbeat": "2026-03-10T11:57:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 11:57:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
-    "active_1h": 1,
+    "active_1h": 2,
     "list": [
+      {
+        "id": "35d965af",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
+        "last_active": "방금 전",
+        "last_active_ts": 1773111420,
+        "last_active_readable": "11:57",
+        "msg_count": 7,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3ef180b084d1e00037f854da> 이거 다운 받아서 압축풀고 실행시켜봐"
+          },
+          {
+            "role": "assistant",
+            "text": "노션 페이지 확인할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "노션 페이지가 로그인 없이는 내용을 볼 수 없네요. 브라우저 릴레이도 현재 연결된 탭이 없어서 접근이 안 됩니다.\n\n이 페이지에 어떤 파일이 있"
+          }
+        ]
+      },
       {
         "id": "b6713050",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "16분 전",
+        "last_active": "17분 전",
         "last_active_ts": 1773110343,
         "last_active_readable": "11:39",
         "msg_count": 2,
@@ -124,54 +152,6 @@
           {
             "role": "assistant",
             "text": "✅ 세션 정리 완료.\n\n**오늘 작업 요약 (2026-03-10)**\n1. **allowBots: true** — 현비가 태그 시 응답\n2. *"
-          }
-        ]
-      },
-      {
-        "id": "c63ba9e9",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "1시간 전",
-        "last_active_ts": 1773105272,
-        "last_active_readable": "10:14",
-        "msg_count": 150,
-        "last_role": "assistant",
-        "idle_level": "idle_1h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "Cloudflare HTTPS 터널 통해서 트리거 정상 작동. 대시보드 배포합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "배포 완료. 대시보드에서 \"지금 체크\" 눌러봐 주세요.\n\nhttps://benben-bot.github.io/ben-dashboard/\n\n**참"
-          },
-          {
-            "role": "user",
-            "text": "그냥 지금체크 기능은 쓰지말자 없애줘"
-          },
-          {
-            "role": "assistant",
-            "text": "버튼 관련 JS와 스타일도 정리합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "GitHub 배포 + cloudflared 정리합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "✅ 완료\n\n- 버튼 제거 + 관련 JS/CSS 전부 정리\n- cloudflared, 트리거 서버 서비스 중단 및 비활성화\n- crontab 정리"
-          },
-          {
-            "role": "user",
-            "text": "세션정리밎 종료"
-          },
-          {
-            "role": "assistant",
-            "text": "✅ 세션 정리 완료\n\n**오늘 최종 요약 (2026-03-10)**\n- 대시보드 CDN 캐시 우회 개선 ✅\n- 세션 미리보기 파싱 개선 ✅\n- "
           }
         ]
       },
@@ -524,7 +504,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 11:55:01 KST",
+      "last_run": "2026-03-10 11:56:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
