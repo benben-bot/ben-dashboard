@@ -1,19 +1,43 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:30:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:30:01 KST",
+  "last_heartbeat": "2026-03-10T15:31:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:31:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 37,
-    "active_1h": 11,
+    "total_24h": 36,
+    "active_1h": 10,
     "list": [
+      {
+        "id": "85fdb3fc",
+        "type": "heartbeat",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "아까 그로밋이 부탁했으니까 해당 스레드 찾아서 그쪽으로 전달해줘 json키는 그로밋이 가지",
+        "last_active": "방금 전",
+        "last_active_ts": 1773124260,
+        "last_active_readable": "15:31",
+        "msg_count": 2,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "아까 그로밋이 부탁했으니까 해당 스레드 찾아서 그쪽으로 전달해줘 json키는 그로밋이 가지고있어"
+          },
+          {
+            "role": "assistant",
+            "text": "필수 파일들 읽고 그로밋 스레드 찾겠습니다."
+          }
+        ]
+      },
       {
         "id": "cd3aa81b",
         "type": "heartbeat",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773124137,
         "last_active_readable": "15:28",
         "msg_count": 2,
@@ -37,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "어떤문제가 발생한건지 파악하고 해결해줘",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773124117,
         "last_active_readable": "15:28",
         "msg_count": 8,
@@ -60,72 +84,12 @@
         ]
       },
       {
-        "id": "f93c497c",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "1분 전",
-        "last_active_ts": 1773124114,
-        "last_active_readable": "15:28",
-        "msg_count": 3,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "HEARTBEAT_OK"
-          }
-        ]
-      },
-      {
-        "id": "a7414057",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "완료했어",
-        "last_active": "1분 전",
-        "last_active_ts": 1773124100,
-        "last_active_readable": "15:28",
-        "msg_count": 21,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "완료했어"
-          },
-          {
-            "role": "assistant",
-            "text": "Now, let me deploy the project."
-          },
-          {
-            "role": "assistant",
-            "text": "Google Sheets 서비스 계정 키가 아직 없네요. 일단 빌드 확인 후 배포 진행하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "빌드 성공. Vercel 배포 진행합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "배포 완료! 이제 Google Sheets 서비스 계정 키가 필요합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          }
-        ]
-      },
-      {
         "id": "ebc771e6",
         "type": "thread",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -149,7 +113,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -177,7 +141,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -197,7 +161,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "12분 전",
+        "last_active": "13분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -249,7 +213,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "16분 전",
+        "last_active": "17분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -269,7 +233,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "19분 전",
+        "last_active": "20분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -373,13 +337,61 @@
             "text": "확인했습니다. `b6713050`은 `agent:main:main` 세션으로, 슬랙 DM (thread: `1773100922.932189`)에"
           }
         ]
+      },
+      {
+        "id": "a11126c9",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "너가 잘 돌아가고 있는건지 멈춰있는건지 모르겠어 대시보드 하나 만들어서 너가 돌아가고 있는",
+        "last_active": "20시간 전",
+        "last_active_ts": 1773051229,
+        "last_active_readable": "19:13",
+        "msg_count": 75,
+        "last_role": "user",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
+          {
+            "role": "user",
+            "text": "이미 4분 지났어"
+          },
+          {
+            "role": "user",
+            "text": "왜 자꾸 하려다 말아"
+          },
+          {
+            "role": "assistant",
+            "text": "The AI service is temporarily overloaded. Please try again in a moment."
+          },
+          {
+            "role": "user",
+            "text": "됐어?"
+          },
+          {
+            "role": "user",
+            "text": "확인해줘"
+          },
+          {
+            "role": "user",
+            "text": "안돼?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 배포 단계에서 막혔습니다. 지금 바로 완성합니다."
+          },
+          {
+            "role": "user",
+            "text": "됐어?"
+          }
+        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:29:01 KST",
+      "last_run": "2026-03-10 15:30:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
