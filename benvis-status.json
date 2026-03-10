@@ -1,12 +1,56 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T14:54:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 14:54:01 KST",
+  "last_heartbeat": "2026-03-10T14:55:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:55:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 30,
     "active_1h": 7,
     "list": [
+      {
+        "id": "096aa123",
+        "type": "thread",
+        "channel": "#팀_growth_그로스",
+        "chat_type": "group",
+        "preview": "현비스. 이미 진행한거니까 너가 마무리 하는게 좋겠어. 그리고 벤비스는 응답을 했는데 너는",
+        "last_active": "방금 전",
+        "last_active_ts": 1773122098,
+        "last_active_readable": "14:54",
+        "msg_count": 9,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "현비스. 이미 진행한거니까 너가 마무리 하는게 좋겠어. 그리고 벤비스는 응답을 했는데 너는 벤비스의 응답을 확인 못하는거야? 벤비스 이번에는 현"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 알겠습니다! 현비스가 마무리하도록 하겠습니다. 진행 중단할게요. 🔹"
+          },
+          {
+            "role": "user",
+            "text": "배포 완료됐습니다. :link: _<https://uvid-keyword-pipeline.vercel.app>_ _구현 내용_ • 6단계 파이프"
+          },
+          {
+            "role": "assistant",
+            "text": "수고하셨습니다! 🔹 배포 내용 메모리에 기록해 두겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "기록 완료했습니다.\n\n**UVID 키워드 파이프라인** — https://uvid-keyword-pipeline.vercel.app\n- 6단계 "
+          },
+          {
+            "role": "user",
+            "text": "스프레드 시트 연동해서 구현하는 방식이 편할거 같아. 가독성 좋게 기존 아키텍처 참고해서 스프레드 시트를 먼저 만들어서 대시보드에 연동해줘."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 확인했습니다! 몇 가지 확인이 필요합니다.\n\n1. **어떤 대시보드**에 연동할까요? 방금 현비스가 배포한"
+          }
+        ]
+      },
       {
         "id": "422e77fc",
         "type": "thread",
@@ -14,17 +58,13 @@
         "chat_type": "group",
         "preview": "확인하고 계속 진행해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773122038,
-        "last_active_readable": "14:53",
-        "msg_count": 51,
+        "last_active_ts": 1773122086,
+        "last_active_readable": "14:54",
+        "msg_count": 54,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "Mode 2 네이버 카페 업로드 스크립트 작성:"
-          },
           {
             "role": "assistant",
             "text": "시스템 Playwright 브라우저 사용으로 수정:"
@@ -52,6 +92,10 @@
           {
             "role": "assistant",
             "text": "셀렉터 확인 완료:\n- 제목: `textarea.textarea_input`\n- 에디터: `div[contenteditable=true]`\n- "
+          },
+          {
+            "role": "assistant",
+            "text": "에디터는 x=-9999 위치 (숨겨진 상태). JS focus 후 keyboard.type으로 해결됩니다. 긴 텍스트는 JS innerText "
           }
         ]
       },
@@ -61,7 +105,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "타임아웃 15분으로 설정해줘",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773122011,
         "last_active_readable": "14:53",
         "msg_count": 40,
@@ -104,48 +148,12 @@
         ]
       },
       {
-        "id": "096aa123",
-        "type": "thread",
-        "channel": "#팀_growth_그로스",
-        "chat_type": "group",
-        "preview": "현비스. 이미 진행한거니까 너가 마무리 하는게 좋겠어. 그리고 벤비스는 응답을 했는데 너는",
-        "last_active": "23분 전",
-        "last_active_ts": 1773120641,
-        "last_active_readable": "14:30",
-        "msg_count": 7,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "현비스. 이미 진행한거니까 너가 마무리 하는게 좋겠어. 그리고 벤비스는 응답을 했는데 너는 벤비스의 응답을 확인 못하는거야? 벤비스 이번에는 현"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 알겠습니다! 현비스가 마무리하도록 하겠습니다. 진행 중단할게요. 🔹"
-          },
-          {
-            "role": "user",
-            "text": "배포 완료됐습니다. :link: _<https://uvid-keyword-pipeline.vercel.app>_ _구현 내용_ • 6단계 파이프"
-          },
-          {
-            "role": "assistant",
-            "text": "수고하셨습니다! 🔹 배포 내용 메모리에 기록해 두겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "기록 완료했습니다.\n\n**UVID 키워드 파이프라인** — https://uvid-keyword-pipeline.vercel.app\n- 6단계 "
-          }
-        ]
-      },
-      {
         "id": "b8d0f146",
         "type": "heartbeat",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "바쁘니",
-        "last_active": "24분 전",
+        "last_active": "25분 전",
         "last_active_ts": 1773120569,
         "last_active_readable": "14:29",
         "msg_count": 2,
@@ -169,7 +177,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "28분 전",
+        "last_active": "29분 전",
         "last_active_ts": 1773120337,
         "last_active_readable": "14:25",
         "msg_count": 11,
@@ -201,7 +209,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "29분 전",
+        "last_active": "30분 전",
         "last_active_ts": 1773120255,
         "last_active_readable": "14:24",
         "msg_count": 9,
@@ -216,7 +224,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "45분 전",
+        "last_active": "46분 전",
         "last_active_ts": 1773119331,
         "last_active_readable": "14:08",
         "msg_count": 2,
@@ -507,7 +515,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 14:53:02 KST",
+      "last_run": "2026-03-10 14:54:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
