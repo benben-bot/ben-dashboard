@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T09:10:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 09:10:01 KST",
+  "last_heartbeat": "2026-03-10T09:15:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 09:15:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 41,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정",
-        "last_active": "2분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773101279,
         "last_active_readable": "09:07",
         "msg_count": 36,
@@ -27,7 +27,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "48분 전",
+        "last_active": "53분 전",
         "last_active_ts": 1773098477,
         "last_active_readable": "08:21",
         "msg_count": 2,
@@ -83,7 +83,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "8시간 전",
+        "last_active": "9시간 전",
         "last_active_ts": 1773069257,
         "last_active_readable": "00:14",
         "msg_count": 35,
@@ -181,7 +181,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "너가 잘 돌아가고 있는건지 멈춰있는건지 모르겠어 대시보드 하나 만들어서 ",
-        "last_active": "13시간 전",
+        "last_active": "14시간 전",
         "last_active_ts": 1773051229,
         "last_active_readable": "19:13",
         "msg_count": 92,
@@ -195,7 +195,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "13시간 전",
+        "last_active": "14시간 전",
         "last_active_ts": 1773051201,
         "last_active_readable": "19:13",
         "msg_count": 15,
@@ -222,7 +222,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 09:05:01 KST",
+      "last_run": "2026-03-10 09:10:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
