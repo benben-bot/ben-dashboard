@@ -1,60 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:01:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:01:01 KST",
+  "last_heartbeat": "2026-03-10T15:02:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:02:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 30,
     "active_1h": 7,
     "list": [
-      {
-        "id": "422e77fc",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "확인하고 계속 진행해줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773122454,
-        "last_active_readable": "15:00",
-        "msg_count": 60,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "로그인은 성공했지만 글쓰기 셀렉터 문제가 있습니다. 디버그 스크립트로 페이지 구조 파악:"
-          },
-          {
-            "role": "user",
-            "text": "계속 하고있는거야?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]]\n네, 진행 중입니다. 글쓰기 페이지 구조 파악 완료됐고 이제 실제 업로드 스크립트 완성 단계입니다.\n\n- "
-          },
-          {
-            "role": "assistant",
-            "text": "셀렉터 확인 완료:\n- 제목: `textarea.textarea_input`\n- 에디터: `div[contenteditable=true]`\n- "
-          },
-          {
-            "role": "assistant",
-            "text": "에디터는 x=-9999 위치 (숨겨진 상태). JS focus 후 keyboard.type으로 해결됩니다. 긴 텍스트는 JS innerText "
-          },
-          {
-            "role": "assistant",
-            "text": "게시 성공! `제빙기 가정용으로 사도 괜찮을까요?` 가 첫 번째로 올라왔습니다.\n\nURL 추적 수정 후 나머지 5개 업로드:"
-          },
-          {
-            "role": "assistant",
-            "text": "게시 완료. 게시판에서 실제 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "아이디3의 게시 여부 재확인:"
-          }
-        ]
-      },
       {
         "id": "096aa123",
         "type": "thread",
@@ -62,8 +14,8 @@
         "chat_type": "group",
         "preview": "현비스. 이미 진행한거니까 너가 마무리 하는게 좋겠어. 그리고 벤비스는 응답을 했는데 너는",
         "last_active": "방금 전",
-        "last_active_ts": 1773122445,
-        "last_active_readable": "15:00",
+        "last_active_ts": 1773122510,
+        "last_active_readable": "15:01",
         "msg_count": 32,
         "last_role": "assistant",
         "idle_level": "active",
@@ -110,17 +62,13 @@
         "chat_type": "group",
         "preview": "타임아웃 15분으로 설정해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773122429,
-        "last_active_readable": "15:00",
-        "msg_count": 54,
-        "last_role": "assistant",
+        "last_active_ts": 1773122508,
+        "last_active_readable": "15:01",
+        "msg_count": 55,
+        "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "자동 압축하고 하던일 계속 하는거지?"
-          },
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 네, 맞습니다.\n\n**동작 순서:**\n1. 컨텍스트가 한계에 가까워지면 → 자동 압축 실행\n2. 과거 대화"
@@ -148,6 +96,58 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 그로스팀 업무 기준으로 추천합니다.\n\n---\n\n**🔥 우선순위 높음**\n\n**1. 광고 성과 분석 에이전트"
+          },
+          {
+            "role": "user",
+            "text": "2. 구글 시트 자동화 에이전트 3. 크론잡 모니터링 에이전트 4. Playwright 자동화 에이전트 5. 키워드 리서치 에이전트"
+          }
+        ]
+      },
+      {
+        "id": "422e77fc",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "확인하고 계속 진행해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773122507,
+        "last_active_readable": "15:01",
+        "msg_count": 62,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]]\n네, 진행 중입니다. 글쓰기 페이지 구조 파악 완료됐고 이제 실제 업로드 스크립트 완성 단계입니다.\n\n- "
+          },
+          {
+            "role": "assistant",
+            "text": "셀렉터 확인 완료:\n- 제목: `textarea.textarea_input`\n- 에디터: `div[contenteditable=true]`\n- "
+          },
+          {
+            "role": "assistant",
+            "text": "에디터는 x=-9999 위치 (숨겨진 상태). JS focus 후 keyboard.type으로 해결됩니다. 긴 텍스트는 JS innerText "
+          },
+          {
+            "role": "assistant",
+            "text": "게시 성공! `제빙기 가정용으로 사도 괜찮을까요?` 가 첫 번째로 올라왔습니다.\n\nURL 추적 수정 후 나머지 5개 업로드:"
+          },
+          {
+            "role": "assistant",
+            "text": "게시 완료. 게시판에서 실제 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "아이디3의 게시 여부 재확인:"
+          },
+          {
+            "role": "assistant",
+            "text": "결과 파악됐습니다. 시트 복구 후 보고합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]]\n완료 결과 보고드립니다.\n\n*✅ 성공 (3개 - 아이디1/evenypc8)*\n- `제빙기 가정용으로 사도 "
           }
         ]
       },
@@ -157,7 +157,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "바쁘니",
-        "last_active": "31분 전",
+        "last_active": "32분 전",
         "last_active_ts": 1773120569,
         "last_active_readable": "14:29",
         "msg_count": 2,
@@ -181,7 +181,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "35분 전",
+        "last_active": "36분 전",
         "last_active_ts": 1773120337,
         "last_active_readable": "14:25",
         "msg_count": 11,
@@ -213,7 +213,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "36분 전",
+        "last_active": "37분 전",
         "last_active_ts": 1773120255,
         "last_active_readable": "14:24",
         "msg_count": 9,
@@ -228,7 +228,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "52분 전",
+        "last_active": "53분 전",
         "last_active_ts": 1773119331,
         "last_active_readable": "14:08",
         "msg_count": 2,
@@ -519,7 +519,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:00:01 KST",
+      "last_run": "2026-03-10 15:01:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
