@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:30:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:30:01 KST",
+  "last_heartbeat": "2026-03-10T16:31:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:31:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 37,
@@ -14,33 +14,13 @@
         "chat_type": "group",
         "preview": "확인 완료. 원인은 *경로 불일치* 두 가지야. *1. `/app/run/page.tsx`",
         "last_active": "방금 전",
-        "last_active_ts": 1773127792,
-        "last_active_readable": "16:29",
-        "msg_count": 51,
+        "last_active_ts": 1773127860,
+        "last_active_readable": "16:31",
+        "msg_count": 57,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "S3는 정상 (612개). S2·S4·S5가 문제. 코드 확인해볼게."
-          },
-          {
-            "role": "assistant",
-            "text": "S4·S5는 네이버 스크래핑 방식이라 Vercel에서 막힐 가능성 있어. 직접 테스트해볼게."
-          },
-          {
-            "role": "assistant",
-            "text": "분석 결과 현비스에게 공유할게."
-          },
-          {
-            "role": "assistant",
-            "text": "분석 완료. 현비스에게 공유할게."
-          },
-          {
-            "role": "assistant",
-            "text": "<@U0AEL6RJW0N> S2·S4·S5 원인 찾았어. 수정 필요한 것 3개야.\n\n*S2 (Gemini 0개)*\n`GEMINI_API_KEY`"
-          },
           {
             "role": "assistant",
             "text": "NO_REPLY"
@@ -52,6 +32,26 @@
           {
             "role": "assistant",
             "text": "현비스 커밋이 다른 레포에 있어. 배포 됐을 것 같으니 S3·S4·S5 상태 바로 확인해볼게."
+          },
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> S3 ✅ 3.2초로 해결. S4는 여전히 0개야.\n\n38fb9c5에 S4 URL 수정 포함됐어? 내가 분석한 게 현비"
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "S4 URL 수정 push 완료 (`4304cd7`). GEMINI_API_KEY도 `.env.local` 값으로 Vercel 재설정 완료. S"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 배포 기다리는 동안 S5 방향 빠르게 답변하면 — **Option 1 (변형 쿼"
+          },
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> 배포 기다리는 동안 S5 방향 빠르게 답변하면 — **Option 1 (변형 쿼리 자동완성)** 추천해.\n\n이유: D"
           }
         ]
       },
@@ -61,9 +61,9 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "계속 시도해봐",
-        "last_active": "2분 전",
-        "last_active_ts": 1773127651,
-        "last_active_readable": "16:27",
+        "last_active": "방금 전",
+        "last_active_ts": 1773127853,
+        "last_active_readable": "16:30",
         "msg_count": 33,
         "last_role": "assistant",
         "idle_level": "active",
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "14분 전",
+        "last_active": "15분 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -145,7 +145,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "내가 안열었고 갑자기 크롬창이 열렸어",
-        "last_active": "21분 전",
+        "last_active": "22분 전",
         "last_active_ts": 1773126524,
         "last_active_readable": "16:08",
         "msg_count": 26,
@@ -193,7 +193,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "21분 전",
+        "last_active": "22분 전",
         "last_active_ts": 1773126521,
         "last_active_readable": "16:08",
         "msg_count": 1,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:29:02 KST",
+      "last_run": "2026-03-10 16:30:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
