@@ -1,42 +1,22 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:12:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:12:01 KST",
+  "last_heartbeat": "2026-03-10T16:13:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:13:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 37,
     "active_1h": 11,
     "list": [
       {
-        "id": "bb7e64d5",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "확인 완료. 원인은 *경로 불일치* 두 가지야. *1. `/app/run/page.tsx`",
-        "last_active": "방금 전",
-        "last_active_ts": 1773126714,
-        "last_active_readable": "16:11",
-        "msg_count": 19,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "확인 완료. 원인은 *경로 불일치* 두 가지야. *1. `/app/run/page.tsx` 호출 경로 오류* • 실제 API 위치: `app/a"
-          }
-        ]
-      },
-      {
         "id": "c049a963",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "1분 전",
-        "last_active_ts": 1773126654,
-        "last_active_readable": "16:10",
-        "msg_count": 4,
+        "last_active": "방금 전",
+        "last_active_ts": 1773126780,
+        "last_active_readable": "16:13",
+        "msg_count": 5,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -52,12 +32,36 @@
         ]
       },
       {
+        "id": "bb7e64d5",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "확인 완료. 원인은 *경로 불일치* 두 가지야. *1. `/app/run/page.tsx`",
+        "last_active": "방금 전",
+        "last_active_ts": 1773126727,
+        "last_active_readable": "16:12",
+        "msg_count": 20,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "확인 완료. 원인은 *경로 불일치* 두 가지야. *1. `/app/run/page.tsx` 호출 경로 오류* • 실제 API 위치: `app/a"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 로컬 레포 확인해봤어.\n\n**현황:**\n- `app/page.tsx` → 이미 "
+          }
+        ]
+      },
+      {
         "id": "6ce33641",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "내가 안열었고 갑자기 크롬창이 열렸어",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773126524,
         "last_active_readable": "16:08",
         "msg_count": 26,
@@ -105,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773126521,
         "last_active_readable": "16:08",
         "msg_count": 1,
@@ -125,7 +129,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773126114,
         "last_active_readable": "16:01",
         "msg_count": 38,
@@ -173,7 +177,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "49분 전",
+        "last_active": "50분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -197,7 +201,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "49분 전",
+        "last_active": "50분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -225,7 +229,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "50분 전",
+        "last_active": "51분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -245,7 +249,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "54분 전",
+        "last_active": "55분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -277,7 +281,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "57분 전",
+        "last_active": "58분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -297,7 +301,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "58분 전",
+        "last_active": "59분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -403,7 +407,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:11:01 KST",
+      "last_run": "2026-03-10 16:12:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
