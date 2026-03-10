@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T09:30:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 09:30:01 KST",
+  "last_heartbeat": "2026-03-10T09:34:41+09:00",
+  "last_heartbeat_readable": "2026-03-10 09:34:41 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 41,
@@ -13,45 +13,45 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "2분 전",
-        "last_active_ts": 1773102423,
-        "last_active_readable": "09:27",
-        "msg_count": 42,
+        "last_active": "방금 전",
+        "last_active_ts": 1773102881,
+        "last_active_readable": "09:34",
+        "msg_count": 61,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
-            "role": "assistant",
-            "text": "테스트 먼저 확인합니다."
+            "role": "user",
+            "text": "트리거 서버랑 지금 대시보드랑 별개야?"
           },
           {
             "role": "assistant",
-            "text": "미리보기와 대화 내역 정상 작동. GitHub에 배포합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "✅ 배포 완료\n\n**수정 내용 2가지:**\n\n**① 미리보기 없음 → 실제 텍스트 추출**\n- 기존: 정규식 패턴 1개만 시도 → 실패 시 \"("
+            "text": "맞습니다. 지금은 별개입니다.\n\n**현재 구조:**\n```\n[대시보드 GitHub Pages]\n  └─ \"지금 체크\" 클릭\n      └─ Gi"
           },
           {
             "role": "user",
-            "text": "지금체크 누르면 하트비트 실행시키는건 못해? 펼쳐도 대화내역이 없대"
+            "text": "해줘"
           },
           {
             "role": "assistant",
-            "text": "OpenClaw에 `/tools/invoke` HTTP API가 있네요. 게이트웨이 설정 확인합니다."
+            "text": "서버 실행 확인. 이제 cron 등록 + 대시보드 업데이트합니다."
           },
           {
             "role": "assistant",
-            "text": "게이트웨이가 `loopback(127.0.0.1)`에 바인딩되어 있어 GitHub Pages에서 직접 호출 불가합니다. 먼저 **대화내역 없음*"
+            "text": "이제 대시보드 `manualRefresh()` 업데이트합니다."
           },
           {
             "role": "assistant",
-            "text": "대화내역 확인:"
+            "text": "버튼 텍스트에 id 추가합니다."
           },
           {
             "role": "assistant",
-            "text": "대화내역 이제 정상. 이제 **\"지금 체크 → 하트비트 실행\"** 구현합니다.\n\n게이트웨이가 loopback 전용이라 GitHub Pages에서"
+            "text": "GitHub 배포합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "동작 테스트합니다."
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "6분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773102185,
         "last_active_readable": "09:23",
         "msg_count": 2,
@@ -568,7 +568,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 09:25:38 KST",
+      "last_run": "2026-03-10 09:30:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
