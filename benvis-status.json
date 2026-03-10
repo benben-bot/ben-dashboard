@@ -1,12 +1,44 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T18:14:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 18:14:01 KST",
+  "last_heartbeat": "2026-03-10T18:15:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 18:15:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 25,
     "active_1h": 4,
     "list": [
+      {
+        "id": "dd1c9b2f",
+        "type": "main",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY ",
+        "last_active": "방금 전",
+        "last_active_ts": 1773134092,
+        "last_active_readable": "18:14",
+        "msg_count": 15,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> UVID 키워드 파이프라인 Google Sheets 연동 배포 마무리 건입니다.\n\n현재 상황:\n• 파이프라인 사이트:"
+          },
+          {
+            "role": "user",
+            "text": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY (<https://uvid-keyword-pipelin"
+          },
+          {
+            "role": "assistant",
+            "text": "파이프라인 실행됐습니다. S1 완료(610개), S2 진행 중. 계속 대기합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "S2(Gemini AI) 여전히 진행 중. 조금 더 기다립니다."
+          }
+        ]
+      },
       {
         "id": "3f6115c4",
         "type": "thread",
@@ -14,17 +46,13 @@
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773134034,
-        "last_active_readable": "18:13",
-        "msg_count": 132,
+        "last_active_ts": 1773134070,
+        "last_active_readable": "18:14",
+        "msg_count": 135,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "하고있어?"
-          },
           {
             "role": "assistant",
             "text": "서브에이전트가 이미지 버튼 셀렉터(`button.se-image-toolbar-button`) 찾아서 코드 수정하고 Row3/4 게시까지 했습니"
@@ -52,30 +80,10 @@
           {
             "role": "assistant",
             "text": "수정 완료. 테스트 게시 1개 진행합니다."
-          }
-        ]
-      },
-      {
-        "id": "dd1c9b2f",
-        "type": "main",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY ",
-        "last_active": "방금 전",
-        "last_active_ts": 1773134034,
-        "last_active_readable": "18:13",
-        "msg_count": 11,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "<@U0AEL6RJW0N> UVID 키워드 파이프라인 Google Sheets 연동 배포 마무리 건입니다.\n\n현재 상황:\n• 파이프라인 사이트:"
           },
           {
-            "role": "user",
-            "text": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY (<https://uvid-keyword-pipelin"
+            "role": "assistant",
+            "text": "인덱스 확인. `[이미지1]` → 1.PNG+2.PNG, `[이미지2]` → 3.PNG+4.PNG로 순서대로 할당됩니다.\n\n이제 시트 H열 초기"
           }
         ]
       },
@@ -85,7 +93,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773134002,
         "last_active_readable": "18:13",
         "msg_count": 287,
@@ -133,7 +141,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "여기서 아까 하던작업 현비스랑마무리해줘 배포 완료됐습니다. :link: _<https://",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773133883,
         "last_active_readable": "18:11",
         "msg_count": 8,
@@ -305,7 +313,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "2시간 전",
+        "last_active": "3시간 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -431,7 +439,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 18:13:02 KST",
+      "last_run": "2026-03-10 18:14:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
