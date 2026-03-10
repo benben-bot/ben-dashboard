@@ -1,19 +1,67 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T18:20:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 18:20:01 KST",
+  "last_heartbeat": "2026-03-10T18:21:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 18:21:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 23,
     "active_1h": 4,
     "list": [
       {
+        "id": "74d44fb5",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "삭제했어 마저 마무리해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773134414,
+        "last_active_readable": "18:20",
+        "msg_count": 289,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "코드 push 완료. 이제 Vercel에 `ANTHROPIC_API_KEY` 추가하고 Redeploy할게."
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "`ANTHROPIC_API_KEY` 이미 있어. GitHub push로 Vercel 자동 배포 중인지 확인할게."
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "GitHub push 반영 안 됐어. 수동 Redeploy 트리거할게."
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "현재까지 완료: :white_check_mark: `gromeet` Collaborator 추가 :white_check_mark: `lib/ge"
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          }
+        ]
+      },
+      {
         "id": "dd1c9b2f",
         "type": "main",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY ",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773134294,
         "last_active_readable": "18:18",
         "msg_count": 22,
@@ -49,7 +97,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "4분 전",
+        "last_active": "5분 전",
         "last_active_ts": 1773134142,
         "last_active_readable": "18:15",
         "msg_count": 137,
@@ -92,60 +140,12 @@
         ]
       },
       {
-        "id": "74d44fb5",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "6분 전",
-        "last_active_ts": 1773134002,
-        "last_active_readable": "18:13",
-        "msg_count": 287,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "초대 와있어! 바로 수락할게."
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "코드 push 완료. 이제 Vercel에 `ANTHROPIC_API_KEY` 추가하고 Redeploy할게."
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "`ANTHROPIC_API_KEY` 이미 있어. GitHub push로 Vercel 자동 배포 중인지 확인할게."
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "GitHub push 반영 안 됐어. 수동 Redeploy 트리거할게."
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          }
-        ]
-      },
-      {
         "id": "a4868e6a",
         "type": "thread",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "여기서 아까 하던작업 현비스랑마무리해줘 배포 완료됐습니다. :link: _<https://",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773133883,
         "last_active_readable": "18:11",
         "msg_count": 8,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 18:19:02 KST",
+      "last_run": "2026-03-10 18:20:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
