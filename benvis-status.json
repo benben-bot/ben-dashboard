@@ -1,19 +1,67 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T17:55:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 17:55:01 KST",
+  "last_heartbeat": "2026-03-10T17:56:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 17:56:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 28,
     "active_1h": 3,
     "list": [
       {
+        "id": "3f6115c4",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773132960,
+        "last_active_readable": "17:56",
+        "msg_count": 114,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "코딩 서브에이전트 시작합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "코드 수정 완료. 내용 확인하고 재실행합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "코드 확인 완료. 이제 H열 초기화하고 재실행합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "크롬이 실행 중입니다. 로그인 후 게시 진행 중이에요. 기다립니다."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 6개 게시 완료됐습니다.\n\n*결과*\n- ✅ 6개 모두 게시됨 (Row 3~8, 시트 H열 업데이트 완료)\n"
+          },
+          {
+            "role": "user",
+            "text": "이미지 올라갈때까지 글 한개씩만 업로드 해보면서 테스트해 사진 안올라가면 글은 삭제해"
+          },
+          {
+            "role": "assistant",
+            "text": "먼저 방금 게시된 글들 URL 확인하고 삭제 후 이미지 디버그 테스트 진행합니다."
+          },
+          {
+            "role": "user",
+            "text": "하고있어?"
+          }
+        ]
+      },
+      {
         "id": "74d44fb5",
         "type": "thread",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773132800,
         "last_active_readable": "17:53",
         "msg_count": 209,
@@ -56,60 +104,12 @@
         ]
       },
       {
-        "id": "3f6115c4",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "9분 전",
-        "last_active_ts": 1773132306,
-        "last_active_readable": "17:45",
-        "msg_count": 107,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "이미지 파일 확인됐습니다. 코딩 서브에이전트에 위임합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "코딩 서브에이전트 시작합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "코드 수정 완료. 내용 확인하고 재실행합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "코드 확인 완료. 이제 H열 초기화하고 재실행합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "크롬이 실행 중입니다. 로그인 후 게시 진행 중이에요. 기다립니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 6개 게시 완료됐습니다.\n\n*결과*\n- ✅ 6개 모두 게시됨 (Row 3~8, 시트 H열 업데이트 완료)\n"
-          },
-          {
-            "role": "user",
-            "text": "이미지 올라갈때까지 글 한개씩만 업로드 해보면서 테스트해 사진 안올라가면 글은 삭제해"
-          },
-          {
-            "role": "assistant",
-            "text": "먼저 방금 게시된 글들 URL 확인하고 삭제 후 이미지 디버그 테스트 진행합니다."
-          }
-        ]
-      },
-      {
         "id": "5c3fc311",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "30분 전",
+        "last_active": "31분 전",
         "last_active_ts": 1773131052,
         "last_active_readable": "17:24",
         "msg_count": 3,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 17:54:01 KST",
+      "last_run": "2026-03-10 17:55:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
