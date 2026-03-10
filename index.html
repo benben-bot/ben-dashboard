@@ -100,28 +100,14 @@
 
     footer { border-top: 1px solid var(--border); padding: 18px; text-align: center; font-size: 11px; color: var(--muted); }
 
-    .refresh-btn {
-      background: rgba(124,106,247,0.12); border: 1px solid rgba(124,106,247,0.3);
-      color: var(--accent); font-size: 13px; font-weight: 700; padding: 8px 18px;
-      border-radius: 10px; cursor: pointer; display: flex; align-items: center; gap: 8px;
-      transition: background 0.2s;
-    }
-    .refresh-btn:hover { background: rgba(124,106,247,0.22); }
-    .refresh-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-    .spin { animation: spin 0.8s linear infinite; display: inline-block; }
-    @keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+
   </style>
 </head>
 <body>
 
 <header>
   <div class="logo">🤖 <span>BENVIS</span> 대시보드</div>
-  <div style="display:flex;align-items:center;gap:14px">
-    <div class="header-meta" id="lastUpdated">로딩 중...</div>
-    <button class="refresh-btn" id="refreshBtn" onclick="manualRefresh()">
-      <span id="refreshIcon">🔄</span> <span id="refreshLabel">지금 체크</span>
-    </button>
-  </div>
+  <div class="header-meta" id="lastUpdated">로딩 중...</div>
 </header>
 
 <div class="container">
@@ -343,44 +329,6 @@ function toggleHistory(idx) {
   if (eb) eb.textContent = isOpen ? '▲ 접기' : '▼ 펼치기';
 }
 
-async function triggerHeartbeat() {
-  // Cloudflare Tunnel HTTPS URL → Mixed Content 문제 없음
-  const TRIGGER_URL = 'https://guarantee-anatomy-travis-suzuki.trycloudflare.com/trigger';
-  try {
-    const res = await fetch(TRIGGER_URL, {
-      method: 'POST',
-      signal: AbortSignal.timeout(10000)
-    });
-    return res.ok;
-  } catch (e) {
-    return false;
-  }
-}
-
-async function manualRefresh() {
-  const btn = document.getElementById('refreshBtn');
-  const icon = document.getElementById('refreshIcon');
-  const label = document.getElementById('refreshLabel');
-  btn.disabled = true;
-  icon.className = 'spin';
-  icon.textContent = '⟳';
-  if (label) label.textContent = '하트비트 실행 중...';
-
-  // 1. 로컬 트리거 서버로 하트비트 즉시 실행
-  const triggered = await triggerHeartbeat();
-
-  // 2. 최신 데이터 로드 (GitHub API로 CDN 우회)
-  await loadStatus(true);
-
-  icon.className = '';
-  icon.textContent = '✅';
-  if (label) label.textContent = triggered ? '실시간 체크' : '지금 체크';
-  setTimeout(() => {
-    icon.textContent = '🔄';
-    if (label) label.textContent = triggered ? '실시간 체크' : '지금 체크';
-    btn.disabled = false;
-  }, 1500);
-}
 
 loadStatus();
 setInterval(loadStatus, 60000);
