@@ -117,7 +117,7 @@
   <div style="display:flex;align-items:center;gap:14px">
     <div class="header-meta" id="lastUpdated">로딩 중...</div>
     <button class="refresh-btn" id="refreshBtn" onclick="manualRefresh()">
-      <span id="refreshIcon">🔄</span> 지금 체크
+      <span id="refreshIcon">🔄</span> <span id="refreshLabel">지금 체크</span>
     </button>
   </div>
 </header>
@@ -339,17 +339,43 @@ function toggleHistory(idx) {
   if (eb) eb.textContent = isOpen ? '▲ 접기' : '▼ 펼치기';
 }
 
+async function triggerHeartbeat() {
+  // 로컬 트리거 서버 (벤 PC에서만 작동)
+  // Chrome은 HTTPS → localhost HTTP 허용 (Mixed Content 예외)
+  try {
+    const res = await fetch('http://127.0.0.1:18790/trigger', {
+      method: 'POST',
+      signal: AbortSignal.timeout(8000)
+    });
+    return res.ok;
+  } catch (e) {
+    return false; // 서버 없으면 fallback
+  }
+}
+
 async function manualRefresh() {
   const btn = document.getElementById('refreshBtn');
   const icon = document.getElementById('refreshIcon');
+  const label = document.getElementById('refreshLabel');
   btn.disabled = true;
   icon.className = 'spin';
   icon.textContent = '⟳';
-  // bypassCache=true: GitHub API로 CDN 우회, 최신 데이터 즉시 로드
+  if (label) label.textContent = '하트비트 실행 중...';
+
+  // 1. 로컬 트리거 서버로 하트비트 즉시 실행
+  const triggered = await triggerHeartbeat();
+
+  // 2. 최신 데이터 로드 (GitHub API로 CDN 우회)
   await loadStatus(true);
+
   icon.className = '';
   icon.textContent = '✅';
-  setTimeout(() => { icon.textContent = '🔄'; btn.disabled = false; }, 1500);
+  if (label) label.textContent = triggered ? '실시간 체크' : '지금 체크';
+  setTimeout(() => {
+    icon.textContent = '🔄';
+    if (label) label.textContent = triggered ? '실시간 체크' : '지금 체크';
+    btn.disabled = false;
+  }, 1500);
 }
 
 loadStatus();
