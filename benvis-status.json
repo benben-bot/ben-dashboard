@@ -1,36 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T14:15:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 14:15:01 KST",
+  "last_heartbeat": "2026-03-10T14:16:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:16:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
     "active_1h": 5,
     "list": [
-      {
-        "id": "ed8e0d51",
-        "type": "main",
-        "channel": "#팀_growth_그로스",
-        "chat_type": "group",
-        "preview": "1. 유비드는 선케어의 모든 키워드야. (선크림,선패드,선세럼 등등) 2. 안전하게 보관해",
-        "last_active": "방금 전",
-        "last_active_ts": 1773119696,
-        "last_active_readable": "14:14",
-        "msg_count": 7,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "네, 지금 살아있습니다. 응답 늦어서 죄송합니다.\n\n사이트 확인했습니다. 키워드 디스커버리 파이프라인 v5 — 네이버 쇼핑인사이트 + Gemin"
-          },
-          {
-            "role": "user",
-            "text": "1. 유비드는 선케어의 모든 키워드야. (선크림,선패드,선세럼 등등) 2. 안전하게 보관해. a. 네이버 CUSTOMER_ID = 1748252"
-          }
-        ]
-      },
       {
         "id": "ba4ab542",
         "type": "thread",
@@ -38,9 +14,9 @@
         "chat_type": "group",
         "preview": "1. C:\\Users\\Gromeet\\AppData\\Local\\LLMGenerator\\ser",
         "last_active": "방금 전",
-        "last_active_ts": 1773119687,
-        "last_active_readable": "14:14",
-        "msg_count": 10,
+        "last_active_ts": 1773119753,
+        "last_active_readable": "14:15",
+        "msg_count": 12,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -52,12 +28,52 @@
         ]
       },
       {
+        "id": "ed8e0d51",
+        "type": "main",
+        "channel": "#팀_growth_그로스",
+        "chat_type": "group",
+        "preview": "1. 유비드는 선케어의 모든 키워드야. (선크림,선패드,선세럼 등등) 2. 안전하게 보관해",
+        "last_active": "방금 전",
+        "last_active_ts": 1773119748,
+        "last_active_readable": "14:15",
+        "msg_count": 12,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "네, 지금 살아있습니다. 응답 늦어서 죄송합니다.\n\n사이트 확인했습니다. 키워드 디스커버리 파이프라인 v5 — 네이버 쇼핑인사이트 + Gemin"
+          },
+          {
+            "role": "user",
+            "text": "1. 유비드는 선케어의 모든 키워드야. (선크림,선패드,선세럼 등등) 2. 안전하게 보관해. a. 네이버 CUSTOMER_ID = 1748252"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 확인했습니다.\n\n**1. 키워드 범위 — 선케어 전체**\n유비드 = 선케어 카테고리 전체 (선크림, 선패드"
+          },
+          {
+            "role": "user",
+            "text": "벤비스 대신 일단 제가 받아두겠습니다. _크레덴셜_ — 제 서버 `.secrets/benvis-credentials.md`에 안전하게 저장했어요"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 고마워요, 저 방금 복구됐어요.\n\n그로밋 질문들은 위에서 이미 답변했습니다.\n\n"
+          },
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> 고마워요, 저 방금 복구됐어요.\n\n그로밋 질문들은 위에서 이미 답변했습니다.\n\n스프레드시트 vs Vercel 직접 배"
+          }
+        ]
+      },
+      {
         "id": "c574a7d6",
         "type": "heartbeat",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773119331,
         "last_active_readable": "14:08",
         "msg_count": 2,
@@ -77,7 +93,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773119289,
         "last_active_readable": "14:08",
         "msg_count": 1,
@@ -97,7 +113,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773119262,
         "last_active_readable": "14:07",
         "msg_count": 1,
@@ -413,7 +429,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "확인",
-        "last_active": "19시간 전",
+        "last_active": "20시간 전",
         "last_active_ts": 1773047716,
         "last_active_readable": "18:15",
         "msg_count": 8,
@@ -432,7 +448,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 14:14:01 KST",
+      "last_run": "2026-03-10 14:15:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
