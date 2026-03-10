@@ -203,14 +203,11 @@ function copyToClipboard(text) {
 
 async function loadStatus(bypassCache = false) {
   try {
-    let data;
-    // 항상 GitHub API 사용: CDN 캐시 완전 우회 → 최신 데이터 즉시 반영
-    const res = await fetch(STATUS_API_URL, {
-      headers: { 'Accept': 'application/vnd.github.raw+json' },
-      cache: 'no-store'
-    });
-    if (!res.ok) throw new Error('API ' + res.status);
-    data = await res.json();
+    // timestamp 쿼리 파라미터로 CDN 캐시 우회 (API rate limit 없음)
+    const url = STATUS_URL + '?t=' + Date.now();
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
     render(data);
   } catch(e) {
     document.getElementById('statusBadge').textContent = '⚠️ 확인 불가';
