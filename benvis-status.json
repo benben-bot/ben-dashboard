@@ -1,12 +1,60 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T18:04:02+09:00",
-  "last_heartbeat_readable": "2026-03-10 18:04:02 KST",
+  "last_heartbeat": "2026-03-10T18:05:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 18:05:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 27,
     "active_1h": 3,
     "list": [
+      {
+        "id": "74d44fb5",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "삭제했어 마저 마무리해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773133500,
+        "last_active_readable": "18:05",
+        "msg_count": 260,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "`gromeet` 선택됐어요! \"Add gromeet\" 클릭할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "완료! ✅\n\n[[reply_to_current]] 두 계정 모두 추가됐어요:\n- **gromeet** → Collaborator ✅ (추가 완료"
+          },
+          {
+            "role": "assistant",
+            "text": "`gromeet`으로 다시 검색할게요! 현재 화면에서 Add people 클릭."
+          },
+          {
+            "role": "assistant",
+            "text": "`gromeet` 선택됐어요! \"Add gromeet\" 클릭할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "완료! ✅\n\n두 계정 모두 추가됐어요:\n- **gromeet** → Collaborator ✅ (추가 완료)\n- **gromeetmk-pixel"
+          },
+          {
+            "role": "user",
+            "text": "`gromeetmk-pixel`은 내 계정이 아니야. \"Add people\" 다시 클릭 → `gromeet` 검색 → 추가해줘 (정확히 `gro"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] `gromeet` Collaborator 추가 완료됐어요 ✅ `gromeetmk-pixel` 초대는 현비스"
+          },
+          {
+            "role": "assistant",
+            "text": "`gromeetmk-pixel` 초대 취소할게요."
+          }
+        ]
+      },
       {
         "id": "3f6115c4",
         "type": "thread",
@@ -14,10 +62,10 @@
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773133440,
+        "last_active_ts": 1773133446,
         "last_active_readable": "18:04",
-        "msg_count": 128,
-        "last_role": "user",
+        "msg_count": 127,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -56,60 +104,12 @@
         ]
       },
       {
-        "id": "74d44fb5",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773133440,
-        "last_active_readable": "18:04",
-        "msg_count": 254,
-        "last_role": "user",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "이메일에 코드 보여 — `25024500` (PM 5:51). 바로 입력해."
-          },
-          {
-            "role": "assistant",
-            "text": "`gromeet`으로 다시 검색할게요! 현재 화면에서 Add people 클릭."
-          },
-          {
-            "role": "assistant",
-            "text": "`gromeet` 선택됐어요! \"Add gromeet\" 클릭할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "완료! ✅\n\n[[reply_to_current]] 두 계정 모두 추가됐어요:\n- **gromeet** → Collaborator ✅ (추가 완료"
-          },
-          {
-            "role": "assistant",
-            "text": "`gromeet`으로 다시 검색할게요! 현재 화면에서 Add people 클릭."
-          },
-          {
-            "role": "assistant",
-            "text": "`gromeet` 선택됐어요! \"Add gromeet\" 클릭할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "완료! ✅\n\n두 계정 모두 추가됐어요:\n- **gromeet** → Collaborator ✅ (추가 완료)\n- **gromeetmk-pixel"
-          },
-          {
-            "role": "user",
-            "text": "`gromeetmk-pixel`은 내 계정이 아니야. \"Add people\" 다시 클릭 → `gromeet` 검색 → 추가해줘 (정확히 `gro"
-          }
-        ]
-      },
-      {
         "id": "5c3fc311",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "39분 전",
+        "last_active": "40분 전",
         "last_active_ts": 1773131052,
         "last_active_readable": "17:24",
         "msg_count": 3,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 18:03:02 KST",
+      "last_run": "2026-03-10 18:04:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
