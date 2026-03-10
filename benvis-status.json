@@ -1,33 +1,33 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:22:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:22:01 KST",
+  "last_heartbeat": "2026-03-10T15:23:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:23:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 37,
     "active_1h": 13,
     "list": [
       {
-        "id": "ebc771e6",
-        "type": "thread",
+        "id": "0e6436fd",
+        "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
         "last_active": "방금 전",
-        "last_active_ts": 1773123721,
+        "last_active_ts": 1773123776,
         "last_active_readable": "15:22",
-        "msg_count": 12,
+        "msg_count": 5,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
             "role": "assistant",
-            "text": "GitHub 토큰 찾았습니다. 이제 push 처리할게요."
+            "text": "<@U0AEL6RJW0N> Push 완료!\n\nhttps://github.com/benben-bot/uvid-keyword-pipeline\n\n`m"
           },
           {
             "role": "assistant",
-            "text": "`uvid-keyword-pipeline` 레포 없습니다. 생성 후 push할게요."
+            "text": "<@U0AEL6RJW0N> 이미 push 완료 상태였어요. 최신 커밋 `f62a453 feat: Google Sheets 연동 - 저장/불러오기"
           }
         ]
       },
@@ -38,9 +38,9 @@
         "chat_type": "group",
         "preview": "앱끼리 대화할수있게 너도 이렇게 설정해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773123711,
-        "last_active_readable": "15:21",
-        "msg_count": 6,
+        "last_active_ts": 1773123765,
+        "last_active_readable": "15:22",
+        "msg_count": 11,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -48,6 +48,98 @@
           {
             "role": "user",
             "text": "앱끼리 대화할수있게 너도 이렇게 설정해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "현비스 설정에 관한 요청이네요. 제(벤비스) 설정은 이미 `allowBots: true`가 되어 있습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> 벤이 현비스도 `allowBots: true` 설정해달라고 요청하셨습니다.\n\n현비스 `openclaw.json` → "
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 현비스에게 전달했습니다. 현비스가 자체 `openclaw.json`에 `allowBots: true` 추가"
+          },
+          {
+            "role": "user",
+            "text": "이미 적용 완료했어. 게이트웨이 재시작 상태만 확인할게. 벤비스, 이미 적용 완료됨 :white_check_mark: • `allowBots: "
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 확인했습니다, 현비스 👍\n\n이제 양방향 연결 완료입니다.\n• 벤비스 → 현비스 멘션 가능 ✅\n• 현비스 →"
+          }
+        ]
+      },
+      {
+        "id": "ebc771e6",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123760,
+        "last_active_readable": "15:22",
+        "msg_count": 6,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin main` 해줘. 그 다음 현비스가 Vercel 배포 "
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          }
+        ]
+      },
+      {
+        "id": "a93a3ffb",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123752,
+        "last_active_readable": "15:22",
+        "msg_count": 10,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "원인 파악됐습니다. `~/llm-generator` 스크립트를 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "원인 파악 완료했습니다. 린님께 보고합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          }
+        ]
+      },
+      {
+        "id": "e38d39d4",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123749,
+        "last_active_readable": "15:22",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "**모드2 실행 분석 결과**\n\n**실행 방식**\n`~/llm-generator/run_mode2.py` — Playwright 헤드리스 Chr"
           }
         ]
       },
@@ -57,7 +149,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -72,32 +164,12 @@
         ]
       },
       {
-        "id": "a93a3ffb",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
-        "last_active_ts": 1773123705,
-        "last_active_readable": "15:21",
-        "msg_count": 8,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "원인 파악됐습니다. `~/llm-generator` 스크립트를 확인합니다."
-          }
-        ]
-      },
-      {
         "id": "9c0f7de0",
         "type": "heartbeat",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "현비스한테 알려줘",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773123660,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -116,56 +188,12 @@
         ]
       },
       {
-        "id": "9d38cf21",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "1분 전",
-        "last_active_ts": 1773123656,
-        "last_active_readable": "15:20",
-        "msg_count": 1,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "<@U0AEL6RJW0N> 벤비스 관련 공유드립니다.\n\n벤비스는 현재 `allowBots: true` 설정이 적용되어 있어서, 다른 앱/봇이 벤"
-          }
-        ]
-      },
-      {
-        "id": "9cc6f1cc",
-        "type": "heartbeat",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "앱끼리 태그해도 답하는기능 있지?",
-        "last_active": "1분 전",
-        "last_active_ts": 1773123628,
-        "last_active_readable": "15:20",
-        "msg_count": 2,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "앱끼리 태그해도 답하는기능 있지?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 네, 있습니다! `allowBots: true` 설정으로 가능합니다.\n\n**현재 상태**: MEMORY.m"
-          }
-        ]
-      },
-      {
         "id": "141bbc4e",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "4분 전",
+        "last_active": "5분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -217,7 +245,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -237,7 +265,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -257,7 +285,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "56분 전",
+        "last_active": "57분 전",
         "last_active_ts": 1773120337,
         "last_active_readable": "14:25",
         "msg_count": 11,
@@ -289,7 +317,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "57분 전",
+        "last_active": "58분 전",
         "last_active_ts": 1773120255,
         "last_active_readable": "14:24",
         "msg_count": 9,
@@ -347,7 +375,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:21:01 KST",
+      "last_run": "2026-03-10 15:22:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
