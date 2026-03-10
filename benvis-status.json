@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:38:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:38:01 KST",
+  "last_heartbeat": "2026-03-10T15:39:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:39:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
@@ -14,21 +14,13 @@
         "chat_type": "group",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
         "last_active": "방금 전",
-        "last_active_ts": 1773124675,
-        "last_active_readable": "15:37",
-        "msg_count": 18,
+        "last_active_ts": 1773124735,
+        "last_active_readable": "15:38",
+        "msg_count": 20,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3ef180b084d1e00037f854da?source="
-          },
-          {
-            "role": "assistant",
-            "text": "이제 구글 시트 상태 확인하고 직접 실행합니다."
-          },
           {
             "role": "assistant",
             "text": "현재 상태 파악 완료:\n- Row 3-5: H열에 URL 있음 (이미 게시됨 or 이전 실행)\n- Row 6-8: 제목 있음 + H열 비어있음 "
@@ -52,6 +44,14 @@
           {
             "role": "assistant",
             "text": "여전히 실패. 상세 디버그로 실제 로그인 URL 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "로그인 자체는 성공합니다. 문제는 성공 판단 로직 — 네이버 SSO URL에 \"login\"이 포함되어 실패로 잘못 판단합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "로그인 자체는 성공하는데 run_mode2.py에서만 실패. IP 보안이 ON일 때 추가 페이지로 이동하는 것 같습니다. 실제 네이버 로그인 페"
           }
         ]
       },
@@ -61,26 +61,14 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "1분 전",
-        "last_active_ts": 1773124584,
-        "last_active_readable": "15:36",
-        "msg_count": 7,
+        "last_active": "방금 전",
+        "last_active_ts": 1773124708,
+        "last_active_readable": "15:38",
+        "msg_count": 11,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": ":white_check_mark: _배포 완료_ <https://uvid-keyword-pipeline.vercel.app> _처리한 것:_ •"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 수고했어요! 벤한테 상황 전달할게요.\n\n---\n\n<@U07TTUV3D7H> UV"
-          },
-          {
-            "role": "assistant",
-            "text": "<@U07RSJSCTHA> 그로밋, JSON 키 갖고 계신 거 확인했습니다. <@U0AEL6RJW0N> 현비스한테 슬랙 DM으로 전달해주시면 V"
-          },
           {
             "role": "user",
             "text": "여기서 어떻게 설정해야돼? [Slack file: image.png]"
@@ -96,6 +84,22 @@
           {
             "role": "assistant",
             "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "벤비스. 서비스 계정에는 아무 계정도 없어. [Slack file: image.png]"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U07RSJSCTHA> 확인했어요! 서비스 계정이 없네요. 새로 만들어야 합니다.\n\n**서비스 계정 만"
+          },
+          {
+            "role": "user",
+            "text": "벤비스. 서비스 계정에는 아무 계정도 없어. [Slack file: image.png]"
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
           }
         ]
       },
@@ -105,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "아까 그로밋이 부탁했으니까 해당 스레드 찾아서 그쪽으로 전달해줘 json키는 그로밋이 가지",
-        "last_active": "5분 전",
+        "last_active": "6분 전",
         "last_active_ts": 1773124355,
         "last_active_readable": "15:32",
         "msg_count": 8,
@@ -145,7 +149,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "15분 전",
+        "last_active": "16분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -169,7 +173,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "15분 전",
+        "last_active": "16분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -197,7 +201,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "16분 전",
+        "last_active": "17분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -217,7 +221,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "20분 전",
+        "last_active": "21분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -269,7 +273,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "24분 전",
+        "last_active": "25분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -289,7 +293,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "27분 전",
+        "last_active": "28분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -447,7 +451,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:37:01 KST",
+      "last_run": "2026-03-10 15:38:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
