@@ -204,19 +204,13 @@ function copyToClipboard(text) {
 async function loadStatus(bypassCache = false) {
   try {
     let data;
-    if (bypassCache) {
-      // GitHub API 사용: CDN 캐시 완전 우회 → 최신 커밋 데이터 즉시 반영
-      const res = await fetch(STATUS_API_URL, {
-        headers: { 'Accept': 'application/vnd.github.raw+json' },
-        cache: 'no-store'
-      });
-      if (!res.ok) throw new Error('API ' + res.status);
-      data = await res.json();
-    } else {
-      // 자동 새로고침: raw CDN (속도 빠름, 레이트 리밋 없음)
-      const res = await fetch(STATUS_URL + '?t=' + Date.now());
-      data = await res.json();
-    }
+    // 항상 GitHub API 사용: CDN 캐시 완전 우회 → 최신 데이터 즉시 반영
+    const res = await fetch(STATUS_API_URL, {
+      headers: { 'Accept': 'application/vnd.github.raw+json' },
+      cache: 'no-store'
+    });
+    if (!res.ok) throw new Error('API ' + res.status);
+    data = await res.json();
     render(data);
   } catch(e) {
     document.getElementById('statusBadge').textContent = '⚠️ 확인 불가';
@@ -331,7 +325,7 @@ function toggleHistory(idx) {
 
 
 loadStatus();
-setInterval(loadStatus, 60000);
+setInterval(loadStatus, 30000);
 </script>
 </body>
 </html>
