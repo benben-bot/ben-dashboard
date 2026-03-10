@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T14:05:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 14:05:01 KST",
+  "last_heartbeat": "2026-03-10T14:06:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:06:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
@@ -14,9 +14,9 @@
         "chat_type": "direct",
         "preview": "대시보드가 안떠 확인해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773119101,
+        "last_active_ts": 1773119159,
         "last_active_readable": "14:05",
-        "msg_count": 44,
+        "msg_count": 54,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -62,9 +62,9 @@
         "chat_type": "group",
         "preview": "위 내용 확인하고 모드 1, 2 실행해",
         "last_active": "방금 전",
-        "last_active_ts": 1773119095,
-        "last_active_readable": "14:04",
-        "msg_count": 6,
+        "last_active_ts": 1773119158,
+        "last_active_readable": "14:05",
+        "msg_count": 10,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -76,6 +76,14 @@
           {
             "role": "assistant",
             "text": "RULES.md, gromit-rules.md, LEARNINGS.md 확인 완료. 린님이 처음 요청하셨으니 벤님께 DM 알림 보내겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "노션 페이지 내용 확인 및 main.py 구조 파악이 필요합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "노션 페이지를 브라우저로 확인합니다."
           }
         ]
       },
@@ -85,7 +93,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773119088,
         "last_active_readable": "14:04",
         "msg_count": 1,
@@ -105,7 +113,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "17분 전",
+        "last_active": "18분 전",
         "last_active_ts": 1773118069,
         "last_active_readable": "13:47",
         "msg_count": 2,
@@ -464,7 +472,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 14:04:01 KST",
+      "last_run": "2026-03-10 14:05:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
