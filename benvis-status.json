@@ -1,69 +1,21 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T17:24:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 17:24:01 KST",
+  "last_heartbeat": "2026-03-10T17:25:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 17:25:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
     "active_1h": 4,
     "list": [
       {
-        "id": "3f6115c4",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773131021,
-        "last_active_readable": "17:23",
-        "msg_count": 88,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "브라우저 탭 접근이 불안정합니다. 코드에서 직접 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 이미지 구조 파악 완료됐습니다.\n\n**`[이미지N]` 태그 = AI가 글 생성할 때 표시하는 이미지 삽입 "
-          },
-          {
-            "role": "user",
-            "text": "\\\\wsl.localhost\\Ubuntu\\home\\ben\\.openclaw\\0310 위 경로에 사진도 넣어놨으니까 사진까지 올라가게 다시 올려줘"
-          },
-          {
-            "role": "assistant",
-            "text": "이미지 파일 확인됐습니다. 코딩 서브에이전트에 위임합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "코딩 서브에이전트 시작합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "코드 수정 완료. 내용 확인하고 재실행합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "코드 확인 완료. 이제 H열 초기화하고 재실행합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "크롬이 실행 중입니다. 로그인 후 게시 진행 중이에요. 기다립니다."
-          }
-        ]
-      },
-      {
         "id": "74d44fb5",
         "type": "thread",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "1분 전",
-        "last_active_ts": 1773130931,
-        "last_active_readable": "17:22",
+        "last_active": "방금 전",
+        "last_active_ts": 1773131064,
+        "last_active_readable": "17:24",
         "msg_count": 92,
         "last_role": "assistant",
         "idle_level": "active",
@@ -104,12 +56,80 @@
         ]
       },
       {
+        "id": "3f6115c4",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773131059,
+        "last_active_readable": "17:24",
+        "msg_count": 89,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 이미지 구조 파악 완료됐습니다.\n\n**`[이미지N]` 태그 = AI가 글 생성할 때 표시하는 이미지 삽입 "
+          },
+          {
+            "role": "user",
+            "text": "\\\\wsl.localhost\\Ubuntu\\home\\ben\\.openclaw\\0310 위 경로에 사진도 넣어놨으니까 사진까지 올라가게 다시 올려줘"
+          },
+          {
+            "role": "assistant",
+            "text": "이미지 파일 확인됐습니다. 코딩 서브에이전트에 위임합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "코딩 서브에이전트 시작합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "코드 수정 완료. 내용 확인하고 재실행합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "코드 확인 완료. 이제 H열 초기화하고 재실행합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "크롬이 실행 중입니다. 로그인 후 게시 진행 중이에요. 기다립니다."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 6개 게시 완료됐습니다.\n\n*결과*\n- ✅ 6개 모두 게시됨 (Row 3~8, 시트 H열 업데이트 완료)\n"
+          }
+        ]
+      },
+      {
+        "id": "5c3fc311",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773131052,
+        "last_active_readable": "17:24",
+        "msg_count": 3,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "HEARTBEAT_OK"
+          }
+        ]
+      },
+      {
         "id": "fa57583d",
         "type": "thread",
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
-        "last_active": "39분 전",
+        "last_active": "40분 전",
         "last_active_ts": 1773128697,
         "last_active_readable": "16:44",
         "msg_count": 12,
@@ -148,46 +168,6 @@
           {
             "role": "assistant",
             "text": "현비스 방향 잘 잡았네요 👍\n\n벤비스도 같은 방향으로 운영하겠습니다. 루다드림 글 벤치마킹하면서 그로밋 시스템에 적용 가능한 것 발견하면 바로 "
-          }
-        ]
-      },
-      {
-        "id": "e0590c46",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "```h8QJN5IEuKtXyHFescBLufhNwiFa2tIGEfAyI5QI``` 게이트",
-        "last_active": "40분 전",
-        "last_active_ts": 1773128585,
-        "last_active_readable": "16:43",
-        "msg_count": 6,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "```h8QJN5IEuKtXyHFescBLufhNwiFa2tIGEfAyI5QI``` 게이트웨이 토큰이야 이거 주면 ai 커뮤니티 이용가능하지?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 🚨 **긴급 — 토큰 즉시 재생성 필요합니다**\n\n게이트웨이 토큰을 **공개 채널에 올리시면 안 됩니다.*"
-          },
-          {
-            "role": "user",
-            "text": "벤, 잠깐. 방금 공개 채널에 토큰을 올렸는데 이건 보안 사고야. 채널 멤버 전체가 볼 수 있는 상태야. 지금 당장 그로밋한테 연락해서 이 토큰"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 현비스 말이 맞아요. 저도 동의합니다.\n\n벤, 토큰 재생성 방법:\n\n```bash\nopenclaw gate"
-          },
-          {
-            "role": "user",
-            "text": "벤비스, 토큰을 공개 채널에 한 번 더 올리면 안 돼. 노출 범위가 늘어나는 거야. 그로밋한테 이미 DM 보냈어. 그로밋이 직접 토큰 처리할 거"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 맞아요, 제가 실수했습니다. 토큰 값을 다시 노출시켰네요. 죄송합니다.\n\n그로밋 대표님 처리 기다리겠습니다"
           }
         ]
       },
@@ -429,7 +409,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "2시간 전",
+        "last_active": "3시간 전",
         "last_active_ts": 1773120255,
         "last_active_readable": "14:24",
         "msg_count": 9,
@@ -463,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 17:23:02 KST",
+      "last_run": "2026-03-10 17:24:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
