@@ -1,12 +1,56 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:57:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:57:01 KST",
+  "last_heartbeat": "2026-03-10T15:58:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:58:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
     "active_1h": 11,
     "list": [
+      {
+        "id": "e460fd4a",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?",
+        "last_active": "방금 전",
+        "last_active_ts": 1773125870,
+        "last_active_readable": "15:57",
+        "msg_count": 26,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 네, 이미 그런 구조입니다.\n\n현재 설정:\n- `timeoutSeconds: 900` (15분) — **작"
+          },
+          {
+            "role": "user",
+            "text": "늘리면 안좋은점이 있을까?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 단점 2가지:\n\n**1. 오작동 시 오래 끌림**\n- 에이전트가 루프에 빠지거나 막혔을 때 30분 동안 리"
+          },
+          {
+            "role": "user",
+            "text": "서브에이전트가 끝나기전에 메인 에이전트가 끝나도 되는거야?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 네, 됩니다.\n\n서브에이전트는 독립 프로세스로 실행되어서 메인이 종료돼도 계속 돌아갑니다.\n\n완료되면 메인"
+          },
+          {
+            "role": "user",
+            "text": "응 해줘"
+          }
+        ]
+      },
       {
         "id": "cd3aa81b",
         "type": "thread",
@@ -14,17 +58,13 @@
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
         "last_active": "방금 전",
-        "last_active_ts": 1773125820,
+        "last_active_ts": 1773125869,
         "last_active_readable": "15:57",
-        "msg_count": 18,
-        "last_role": "user",
+        "msg_count": 25,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
           {
             "role": "user",
             "text": "보내줄게 안전하게 관리해 [Slack file: n8n-test2-467001-52c510fbb5e3.json]"
@@ -52,42 +92,10 @@
           {
             "role": "user",
             "text": "권한 설정 완료 했어. 근데 스프레드 시트에 아무 헤더설정이 안되어있는데? 필요한 헤더 전부 가독성 좋게 적용해줘. [Slack file: im"
-          }
-        ]
-      },
-      {
-        "id": "e460fd4a",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?",
-        "last_active": "방금 전",
-        "last_active_ts": 1773125819,
-        "last_active_readable": "15:56",
-        "msg_count": 20,
-        "last_role": "user",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?"
           },
           {
             "role": "assistant",
-            "text": "[[reply_to_current]] 네, 이미 그런 구조입니다.\n\n현재 설정:\n- `timeoutSeconds: 900` (15분) — **작"
-          },
-          {
-            "role": "user",
-            "text": "늘리면 안좋은점이 있을까?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 단점 2가지:\n\n**1. 오작동 시 오래 끌림**\n- 에이전트가 루프에 빠지거나 막혔을 때 30분 동안 리"
-          },
-          {
-            "role": "user",
-            "text": "서브에이전트가 끝나기전에 메인 에이전트가 끝나도 되는거야?"
+            "text": "[[reply_to_current]] <@U07RSJSCTHA> 공유 설정 완료 확인했어요! 헤더 바로 설정할게요."
           }
         ]
       },
@@ -97,7 +105,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773125446,
         "last_active_readable": "15:50",
         "msg_count": 48,
@@ -145,7 +153,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "내가 안열었고 갑자기 크롬창이 열렸어",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773125115,
         "last_active_readable": "15:45",
         "msg_count": 6,
@@ -169,7 +177,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "34분 전",
+        "last_active": "35분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -193,7 +201,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "34분 전",
+        "last_active": "35분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -221,7 +229,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "35분 전",
+        "last_active": "36분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -241,7 +249,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "39분 전",
+        "last_active": "40분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -273,7 +281,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "42분 전",
+        "last_active": "43분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -293,7 +301,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "43분 전",
+        "last_active": "44분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -313,7 +321,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "46분 전",
+        "last_active": "47분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -423,7 +431,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:56:02 KST",
+      "last_run": "2026-03-10 15:57:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
