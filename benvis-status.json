@@ -1,36 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T18:11:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 18:11:01 KST",
+  "last_heartbeat": "2026-03-10T18:12:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 18:12:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 26,
     "active_1h": 4,
     "list": [
-      {
-        "id": "a4868e6a",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "여기서 아까 하던작업 현비스랑마무리해줘 배포 완료됐습니다. :link: _<https://",
-        "last_active": "방금 전",
-        "last_active_ts": 1773133853,
-        "last_active_readable": "18:10",
-        "msg_count": 5,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "여기서 아까 하던작업 현비스랑마무리해줘 배포 완료됐습니다. :link: _<https://uvid-keyword-pipeline.vercel.a"
-          },
-          {
-            "role": "assistant",
-            "text": "이전 작업 컨텍스트를 파악하겠습니다."
-          }
-        ]
-      },
       {
         "id": "3f6115c4",
         "type": "thread",
@@ -38,17 +14,13 @@
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773133839,
-        "last_active_readable": "18:10",
-        "msg_count": 128,
-        "last_role": "user",
+        "last_active_ts": 1773133896,
+        "last_active_readable": "18:11",
+        "msg_count": 130,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "이미지 올라갈때까지 글 한개씩만 업로드 해보면서 테스트해 사진 안올라가면 글은 삭제해"
-          },
           {
             "role": "assistant",
             "text": "먼저 방금 게시된 글들 URL 확인하고 삭제 후 이미지 디버그 테스트 진행합니다."
@@ -76,6 +48,62 @@
           {
             "role": "user",
             "text": "모든 게시물에 똑같은 이미지가 들어갔어 순서대로 중복 없이 들어가게 다시 테스트해 === 모드1로 원고 생성 → 모드2로 업로드 1. *모드1*"
+          },
+          {
+            "role": "assistant",
+            "text": "파악 완료. 서브에이전트로 수정합니다.\n\n**수정 내용:**\n1. `[이미지N]` 태그 1개당 이미지 2장씩 소비\n2. 이미지 인덱스 파일로 전"
+          }
+        ]
+      },
+      {
+        "id": "a4868e6a",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "여기서 아까 하던작업 현비스랑마무리해줘 배포 완료됐습니다. :link: _<https://",
+        "last_active": "방금 전",
+        "last_active_ts": 1773133883,
+        "last_active_readable": "18:11",
+        "msg_count": 8,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "여기서 아까 하던작업 현비스랑마무리해줘 배포 완료됐습니다. :link: _<https://uvid-keyword-pipeline.vercel.a"
+          },
+          {
+            "role": "assistant",
+            "text": "이전 작업 컨텍스트를 파악하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "현비스에게 작업 현황 확인하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "사이트 정상 작동 확인. 현비스 응답 대기 중입니다.\n\n[[reply_to_current]] UVID 키워드 파이프라인 사이트 정상 작동 확인했"
+          }
+        ]
+      },
+      {
+        "id": "dd1c9b2f",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773133872,
+        "last_active_readable": "18:11",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> UVID 키워드 파이프라인 Google Sheets 연동 배포 마무리 건입니다.\n\n현재 상황:\n• 파이프라인 사이트:"
           }
         ]
       },
@@ -85,7 +113,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773133682,
         "last_active_readable": "18:08",
         "msg_count": 277,
@@ -124,26 +152,6 @@
           {
             "role": "assistant",
             "text": "NO_REPLY"
-          }
-        ]
-      },
-      {
-        "id": "5c3fc311",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "46분 전",
-        "last_active_ts": 1773131052,
-        "last_active_readable": "17:24",
-        "msg_count": 3,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "HEARTBEAT_OK"
           }
         ]
       },
@@ -419,7 +427,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 18:10:01 KST",
+      "last_run": "2026-03-10 18:11:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
