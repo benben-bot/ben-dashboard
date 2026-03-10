@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T10:23:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 10:23:01 KST",
+  "last_heartbeat": "2026-03-10T10:24:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 10:24:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 43,
-    "active_1h": 5,
+    "active_1h": 4,
     "list": [
       {
         "id": "dfe88785",
@@ -13,18 +13,14 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n현비가가 태그하면 답하도록 수정해줘.\n앱에서 태그하는거라서 답은",
-        "last_active": "1분 전",
-        "last_active_ts": 1773105692,
-        "last_active_readable": "10:21",
-        "msg_count": 69,
+        "last_active": "방금 전",
+        "last_active_ts": 1773105838,
+        "last_active_readable": "10:23",
+        "msg_count": 72,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "a로 구현하고 돼면 알려줘"
-          },
           {
             "role": "assistant",
             "text": "MEMORY.md 업데이트:"
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "✅ 완료.\n\n변경 내용:\n- auto-refresh를 `raw CDN` → **GitHub API** 방식으로 교체 (CDN 캐시 없음)\n- 새"
+          },
+          {
+            "role": "user",
+            "text": "세션정리"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773105272,
         "last_active_readable": "10:14",
         "msg_count": 150,
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "세션 종료 69ee173a",
-        "last_active": "16분 전",
+        "last_active": "17분 전",
         "last_active_ts": 1773104780,
         "last_active_readable": "10:06",
         "msg_count": 5,
@@ -137,7 +137,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM> 이거는 세션종료하면 안돼?\n\n:house: b6713050 :c",
-        "last_active": "30분 전",
+        "last_active": "31분 전",
         "last_active_ts": 1773103952,
         "last_active_readable": "09:52",
         "msg_count": 14,
@@ -161,13 +161,13 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "59분 전",
+        "last_active": "1시간 전",
         "last_active_ts": 1773102185,
         "last_active_readable": "09:23",
         "msg_count": 2,
         "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
+        "idle_level": "idle_1h",
+        "is_active": false,
         "messages": [
           {
             "role": "user",
@@ -469,7 +469,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U0AEL6RJW0N> <@U09TRNYM1SM>\n\n현비스,벤비스 이제 해결 된거 같은",
-        "last_active": "12시간 전",
+        "last_active": "13시간 전",
         "last_active_ts": 1773058996,
         "last_active_readable": "21:23",
         "msg_count": 9,
@@ -568,7 +568,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 10:22:01 KST",
+      "last_run": "2026-03-10 10:23:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
