@@ -1,12 +1,60 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:01:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:01:01 KST",
+  "last_heartbeat": "2026-03-10T16:02:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:02:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
     "active_1h": 11,
     "list": [
+      {
+        "id": "cd3aa81b",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
+        "last_active": "방금 전",
+        "last_active_ts": 1773126114,
+        "last_active_readable": "16:01",
+        "msg_count": 38,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "공유 설정 완료 확인됐어요! sheets-editor 편집자로 잘 추가됐네요. 이제 헤더 설정할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "`/api/sheets/init` 엔드포인트가 있어요. 바로 호출해서 헤더 설정할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U07RSJSCTHA> 헤더 설정 완료됐어요! ✅\n\n시트에 **\"키워드 데이터\"** 탭이 생성되고 아래"
+          },
+          {
+            "role": "user",
+            "text": "우리 아키텍처를 보면, 결핍 키워드 / 연관키워드 / 자동완성 키워드 등이 있는데 따로 탭을 만들지 않아도 되는거야? 그리고 만들어준 키워드 분"
+          },
+          {
+            "role": "assistant",
+            "text": "좋은 지적이에요. 코드 구조 먼저 확인할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U07RSJSCTHA> 두 가지 답변드릴게요.\n\n---\n\n**1. 탭 분리 → 지금은 단일 시트 방식*"
+          },
+          {
+            "role": "user",
+            "text": "코드 먼저 확인하고 답할게. 그로밋, 두 가지 답변할게. *1. 탭 분리 — 불필요* 현재 구조에서 모든 키워드가 `source` 컬럼으로 단계"
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          }
+        ]
+      },
       {
         "id": "c049a963",
         "type": "thread",
@@ -14,10 +62,10 @@
         "chat_type": "group",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
         "last_active": "방금 전",
-        "last_active_ts": 1773126060,
+        "last_active_ts": 1773126069,
         "last_active_readable": "16:01",
-        "msg_count": 49,
-        "last_role": "user",
+        "msg_count": 50,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -56,60 +104,12 @@
         ]
       },
       {
-        "id": "cd3aa81b",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "방금 전",
-        "last_active_ts": 1773126052,
-        "last_active_readable": "16:00",
-        "msg_count": 32,
-        "last_role": "user",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "권한 설정 완료 했어. 근데 스프레드 시트에 아무 헤더설정이 안되어있는데? 필요한 헤더 전부 가독성 좋게 적용해줘. [Slack file: im"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U07RSJSCTHA> 공유 설정 완료 확인했어요! 헤더 바로 설정할게요."
-          },
-          {
-            "role": "user",
-            "text": "권한 설정 완료 했어. 근데 스프레드 시트에 아무 헤더설정이 안되어있는데? 필요한 헤더 전부 가독성 좋게 적용해줘. [Slack file: im"
-          },
-          {
-            "role": "assistant",
-            "text": "공유 설정 완료 확인됐어요! sheets-editor 편집자로 잘 추가됐네요. 이제 헤더 설정할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "`/api/sheets/init` 엔드포인트가 있어요. 바로 호출해서 헤더 설정할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U07RSJSCTHA> 헤더 설정 완료됐어요! ✅\n\n시트에 **\"키워드 데이터\"** 탭이 생성되고 아래"
-          },
-          {
-            "role": "user",
-            "text": "우리 아키텍처를 보면, 결핍 키워드 / 연관키워드 / 자동완성 키워드 등이 있는데 따로 탭을 만들지 않아도 되는거야? 그리고 만들어준 키워드 분"
-          }
-        ]
-      },
-      {
         "id": "e460fd4a",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773125870,
         "last_active_readable": "15:57",
         "msg_count": 26,
@@ -153,7 +153,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "내가 안열었고 갑자기 크롬창이 열렸어",
-        "last_active": "15분 전",
+        "last_active": "16분 전",
         "last_active_ts": 1773125115,
         "last_active_readable": "15:45",
         "msg_count": 6,
@@ -177,7 +177,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "38분 전",
+        "last_active": "39분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -201,7 +201,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "38분 전",
+        "last_active": "39분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -229,7 +229,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "39분 전",
+        "last_active": "40분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -249,7 +249,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "43분 전",
+        "last_active": "44분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -301,7 +301,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "47분 전",
+        "last_active": "48분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -321,7 +321,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "50분 전",
+        "last_active": "51분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -431,7 +431,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:00:02 KST",
+      "last_run": "2026-03-10 16:01:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
