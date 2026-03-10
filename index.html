@@ -344,16 +344,16 @@ function toggleHistory(idx) {
 }
 
 async function triggerHeartbeat() {
-  // 로컬 트리거 서버 (벤 PC에서만 작동)
-  // Chrome은 HTTPS → localhost HTTP 허용 (Mixed Content 예외)
+  // Cloudflare Tunnel HTTPS URL → Mixed Content 문제 없음
+  const TRIGGER_URL = 'https://guarantee-anatomy-travis-suzuki.trycloudflare.com/trigger';
   try {
-    const res = await fetch('http://127.0.0.1:18790/trigger', {
+    const res = await fetch(TRIGGER_URL, {
       method: 'POST',
-      signal: AbortSignal.timeout(8000)
+      signal: AbortSignal.timeout(10000)
     });
     return res.ok;
   } catch (e) {
-    return false; // 서버 없으면 fallback
+    return false;
   }
 }
 
