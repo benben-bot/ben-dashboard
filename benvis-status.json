@@ -1,60 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:08:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:08:01 KST",
+  "last_heartbeat": "2026-03-10T16:09:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:09:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
     "active_1h": 11,
     "list": [
-      {
-        "id": "6ce33641",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "내가 안열었고 갑자기 크롬창이 열렸어",
-        "last_active": "방금 전",
-        "last_active_ts": 1773126431,
-        "last_active_readable": "16:07",
-        "msg_count": 23,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 확인했습니다. 저(벤비스)는 `uvid-deploy.vercel.app`을 열지 않았습니다.\n\n**현재 상"
-          },
-          {
-            "role": "user",
-            "text": "버셀은 버튼 클릭같은게 안돼지?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 아니요, 버셀이라고 특별히 다른 거 없습니다. 버셀은 그냥 호스팅 플랫폼이라 배포된 사이트는 일반 웹사이트"
-          },
-          {
-            "role": "user",
-            "text": "<https://docs.google.com/spreadsheets/d/1OtOq1p6pQJr4KAr-o5dUjBB_WMSoTiefV6NZKFe"
-          },
-          {
-            "role": "assistant",
-            "text": "파이프라인이 작동했습니다! Step 1이 실행 중 상태입니다. 잠시 기다리면서 결과 확인해볼게요."
-          },
-          {
-            "role": "assistant",
-            "text": "Step 1 아직 실행 중. 네이버 쇼핑인사이트 API 호출이라 조금 시간이 걸립니다. 계속 기다려볼게요."
-          },
-          {
-            "role": "assistant",
-            "text": "Step 1이 너무 오래 걸리고 있네요. 콘솔 확인해볼게요."
-          },
-          {
-            "role": "assistant",
-            "text": "원인 찾았습니다.\n\n**에러:** `/api/step1` → **404 Not Found**\n\nAPI 엔드포인트 자체가 없습니다. Vercel에"
-          }
-        ]
-      },
       {
         "id": "c049a963",
         "type": "thread",
@@ -62,8 +14,8 @@
         "chat_type": "group",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
         "last_active": "방금 전",
-        "last_active_ts": 1773126426,
-        "last_active_readable": "16:07",
+        "last_active_ts": 1773126535,
+        "last_active_readable": "16:08",
         "msg_count": 58,
         "last_role": "assistant",
         "idle_level": "active",
@@ -104,12 +56,80 @@
         ]
       },
       {
+        "id": "6ce33641",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "내가 안열었고 갑자기 크롬창이 열렸어",
+        "last_active": "방금 전",
+        "last_active_ts": 1773126524,
+        "last_active_readable": "16:08",
+        "msg_count": 26,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 아니요, 버셀이라고 특별히 다른 거 없습니다. 버셀은 그냥 호스팅 플랫폼이라 배포된 사이트는 일반 웹사이트"
+          },
+          {
+            "role": "user",
+            "text": "<https://docs.google.com/spreadsheets/d/1OtOq1p6pQJr4KAr-o5dUjBB_WMSoTiefV6NZKFe"
+          },
+          {
+            "role": "assistant",
+            "text": "파이프라인이 작동했습니다! Step 1이 실행 중 상태입니다. 잠시 기다리면서 결과 확인해볼게요."
+          },
+          {
+            "role": "assistant",
+            "text": "Step 1 아직 실행 중. 네이버 쇼핑인사이트 API 호출이라 조금 시간이 걸립니다. 계속 기다려볼게요."
+          },
+          {
+            "role": "assistant",
+            "text": "Step 1이 너무 오래 걸리고 있네요. 콘솔 확인해볼게요."
+          },
+          {
+            "role": "assistant",
+            "text": "원인 찾았습니다.\n\n**에러:** `/api/step1` → **404 Not Found**\n\nAPI 엔드포인트 자체가 없습니다. Vercel에"
+          },
+          {
+            "role": "user",
+            "text": "응 기존 채팅방 있으니까 거기서 말해"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] `#ai-ops`에 전달했습니다. 현비스가 확인하면 바로 잡아줄 거예요."
+          }
+        ]
+      },
+      {
+        "id": "bd16d5e6",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773126521,
+        "last_active_readable": "16:08",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> `uvid-keyword-pipeline.vercel.app` 파이프라인 실행 버튼 눌렀을 때 작동 안 하는 원인 찾"
+          }
+        ]
+      },
+      {
         "id": "cd3aa81b",
         "type": "thread",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773126114,
         "last_active_readable": "16:01",
         "msg_count": 38,
@@ -152,56 +172,12 @@
         ]
       },
       {
-        "id": "e460fd4a",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?",
-        "last_active": "10분 전",
-        "last_active_ts": 1773125870,
-        "last_active_readable": "15:57",
-        "msg_count": 26,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 네, 이미 그런 구조입니다.\n\n현재 설정:\n- `timeoutSeconds: 900` (15분) — **작"
-          },
-          {
-            "role": "user",
-            "text": "늘리면 안좋은점이 있을까?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 단점 2가지:\n\n**1. 오작동 시 오래 끌림**\n- 에이전트가 루프에 빠지거나 막혔을 때 30분 동안 리"
-          },
-          {
-            "role": "user",
-            "text": "서브에이전트가 끝나기전에 메인 에이전트가 끝나도 되는거야?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 네, 됩니다.\n\n서브에이전트는 독립 프로세스로 실행되어서 메인이 종료돼도 계속 돌아갑니다.\n\n완료되면 메인"
-          },
-          {
-            "role": "user",
-            "text": "응 해줘"
-          }
-        ]
-      },
-      {
         "id": "ebc771e6",
         "type": "thread",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "45분 전",
+        "last_active": "46분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -225,7 +201,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "45분 전",
+        "last_active": "46분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -253,7 +229,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "46분 전",
+        "last_active": "47분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -273,7 +249,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "50분 전",
+        "last_active": "51분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -305,7 +281,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "53분 전",
+        "last_active": "54분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -325,7 +301,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "54분 전",
+        "last_active": "55분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -345,7 +321,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "57분 전",
+        "last_active": "58분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -412,7 +388,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "1시간 전",
+        "last_active": "2시간 전",
         "last_active_ts": 1773119331,
         "last_active_readable": "14:08",
         "msg_count": 2,
@@ -455,7 +431,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:07:01 KST",
+      "last_run": "2026-03-10 16:08:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
