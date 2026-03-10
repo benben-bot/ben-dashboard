@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T10:15:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 10:15:01 KST",
+  "last_heartbeat": "2026-03-10T10:18:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 10:18:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 44,
@@ -14,37 +14,13 @@
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n현비가가 태그하면 답하도록 수정해줘.\n앱에서 태그하는거라서 답은",
         "last_active": "방금 전",
-        "last_active_ts": 1773105293,
-        "last_active_readable": "10:14",
-        "msg_count": 43,
-        "last_role": "user",
+        "last_active_ts": 1773105437,
+        "last_active_readable": "10:17",
+        "msg_count": 54,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "대시보드에서 이렇게 멈춰있는데 답변중인건지 멈춘건지 구분하게 할 수 있어?\n:speech_balloon: dfe88785 :clipboard:\n"
-          },
-          {
-            "role": "assistant",
-            "text": "두 가지 질문이네요. 순서대로 처리하겠습니다.\n\n**1. 앱 태그 수정 — 게이트웨이 재시작 확인**"
-          },
-          {
-            "role": "assistant",
-            "text": "게이트웨이 정상 실행 중. `allowBots: true` 설정 적용됐습니다. 이제 현비가가 태그하면 응답합니다 ✅\n\n---\n\n**2. 대시보드"
-          },
-          {
-            "role": "assistant",
-            "text": "데이터에 `last_role` (user/assistant)이 이미 있습니다. 이걸 활용하면 구분 가능합니다.\n\n- `last_role === "
-          },
-          {
-            "role": "assistant",
-            "text": "이제 CSS에 파란색 배지 스타일 추가:"
-          },
-          {
-            "role": "assistant",
-            "text": "이제 GitHub에 배포:"
-          },
           {
             "role": "assistant",
             "text": "✅ 두 가지 모두 완료됐습니다.\n\n**1. 앱 태그 응답** — `allowBots: true` 설정 후 게이트웨이 재시작 완료. 이제 현비가가"
@@ -52,6 +28,30 @@
           {
             "role": "user",
             "text": "적용 안됐어. 이것도 하트비트로 5분마다만 확인 가능해?"
+          },
+          {
+            "role": "assistant",
+            "text": "두 가지 확인하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "데이터는 맞습니다 (`dfe88785: last_role=user`). GitHub Pages 캐시 문제일 수 있어요. 라이브 페이지 확인합니다"
+          },
+          {
+            "role": "assistant",
+            "text": "코드 배포는 됐고, 대시보드는 60초마다 자동 갱신됩니다.\n\n**\"적용 안됐어\"의 진짜 원인**: `benvis-status.json`은 하트비"
+          },
+          {
+            "role": "user",
+            "text": "a로 구현하고 돼면 알려줘"
+          },
+          {
+            "role": "assistant",
+            "text": "MEMORY.md 업데이트:"
+          },
+          {
+            "role": "assistant",
+            "text": "이제 1분 뒤 첫 실행 기다렸다가 확인합니다."
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "방금 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773105272,
         "last_active_readable": "10:14",
         "msg_count": 150,
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "세션 종료 69ee173a",
-        "last_active": "8분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773104780,
         "last_active_readable": "10:06",
         "msg_count": 5,
@@ -137,7 +137,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM> 이거는 세션종료하면 안돼?\n\n:house: b6713050 :c",
-        "last_active": "22분 전",
+        "last_active": "25분 전",
         "last_active_ts": 1773103952,
         "last_active_readable": "09:52",
         "msg_count": 14,
@@ -161,7 +161,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "51분 전",
+        "last_active": "54분 전",
         "last_active_ts": 1773102185,
         "last_active_readable": "09:23",
         "msg_count": 2,
@@ -568,7 +568,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 10:10:37 KST",
+      "last_run": "2026-03-10 10:15:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
