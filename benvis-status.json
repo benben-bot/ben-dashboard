@@ -1,10 +1,10 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T19:13:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 19:13:01 KST",
+  "last_heartbeat": "2026-03-10T19:14:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 19:14:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 18,
+    "total_24h": 16,
     "active_1h": 3,
     "list": [
       {
@@ -13,7 +13,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "33분 전",
+        "last_active": "34분 전",
         "last_active_ts": 1773135598,
         "last_active_readable": "18:39",
         "msg_count": 158,
@@ -61,7 +61,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "52분 전",
+        "last_active": "53분 전",
         "last_active_ts": 1773134414,
         "last_active_readable": "18:20",
         "msg_count": 289,
@@ -109,7 +109,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY ",
-        "last_active": "54분 전",
+        "last_active": "55분 전",
         "last_active_ts": 1773134294,
         "last_active_readable": "18:18",
         "msg_count": 22,
@@ -337,7 +337,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "3시간 전",
+        "last_active": "4시간 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 19:12:01 KST",
+      "last_run": "2026-03-10 19:13:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
