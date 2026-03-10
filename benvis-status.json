@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T13:28:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 13:28:01 KST",
+  "last_heartbeat": "2026-03-10T13:29:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 13:29:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
-    "active_1h": 2,
+    "active_1h": 1,
     "list": [
       {
         "id": "35d965af",
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
-        "last_active": "40분 전",
+        "last_active": "41분 전",
         "last_active_ts": 1773114465,
         "last_active_readable": "12:47",
         "msg_count": 94,
@@ -61,13 +61,13 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "59분 전",
+        "last_active": "1시간 전",
         "last_active_ts": 1773113329,
         "last_active_readable": "12:28",
         "msg_count": 2,
         "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
+        "idle_level": "idle_1h",
+        "is_active": false,
         "messages": [
           {
             "role": "assistant",
@@ -500,7 +500,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 13:27:02 KST",
+      "last_run": "2026-03-10 13:28:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
