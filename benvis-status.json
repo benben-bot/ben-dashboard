@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T09:42:15+09:00",
-  "last_heartbeat_readable": "2026-03-10 09:42:15 KST",
+  "last_heartbeat": "2026-03-10T09:45:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 09:45:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 42,
@@ -13,10 +13,10 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773103335,
-        "last_active_readable": "09:42",
-        "msg_count": 75,
+        "last_active": "1분 전",
+        "last_active_ts": 1773103389,
+        "last_active_readable": "09:43",
+        "msg_count": 78,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n현비가가 태그하면 답하도록 수정해줘.\n앱에서 태그하는거라서 답은",
-        "last_active": "2분 전",
+        "last_active": "5분 전",
         "last_active_ts": 1773103169,
         "last_active_readable": "09:39",
         "msg_count": 22,
@@ -89,7 +89,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "19분 전",
+        "last_active": "21분 전",
         "last_active_ts": 1773102185,
         "last_active_readable": "09:23",
         "msg_count": 2,
@@ -576,7 +576,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 09:41:42 KST",
+      "last_run": "2026-03-10 09:42:16 KST",
       "status": "ok"
     },
     "benvis-sync": {
