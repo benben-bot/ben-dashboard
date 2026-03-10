@@ -1,19 +1,43 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T13:43:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 13:43:01 KST",
+  "last_heartbeat": "2026-03-10T13:44:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 13:44:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 28,
-    "active_1h": 1,
+    "total_24h": 29,
+    "active_1h": 2,
     "list": [
+      {
+        "id": "72cbaf01",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "<@U09TRNYM1SM>\n아래 내용 파악해줘.\n---\n:compression: 세션 컨텍",
+        "last_active": "방금 전",
+        "last_active_ts": 1773117801,
+        "last_active_readable": "13:43",
+        "msg_count": 4,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "<@U09TRNYM1SM>\n아래 내용 파악해줘.\n---\n:compression: 세션 컨텍스트 요약\n작업 개요\n원본 프로그램 `release_V"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 파악했습니다. 요약하면:\n\n---\n\n**🔹 LLMGenerator V4 → Python 오픈소스 재구현 현"
+          }
+        ]
+      },
       {
         "id": "35d965af",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773117753,
         "last_active_readable": "13:42",
         "msg_count": 96,
@@ -233,7 +257,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "오픈클로 온보드 열어줘",
-        "last_active": "18시간 전",
+        "last_active": "19시간 전",
         "last_active_ts": 1773049408,
         "last_active_readable": "18:43",
         "msg_count": 13,
@@ -446,61 +470,13 @@
             "text": "<@U0AEL6RJW0N> 다시 확인해봐"
           }
         ]
-      },
-      {
-        "id": "2bc19d36",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "돼?",
-        "last_active": "19시간 전",
-        "last_active_ts": 1773047384,
-        "last_active_readable": "18:09",
-        "msg_count": 35,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]]\n네, 인식됩니다. Slack은 채널 스레드 안에서도 `@태그` 멘션 이벤트를 정상적으로 발생시키고, Ope"
-          },
-          {
-            "role": "user",
-            "text": "3번중에 한번은 인식을 못하는데 왜그래?"
-          },
-          {
-            "role": "assistant",
-            "text": "몇 가지 가능한 원인이 있습니다:"
-          },
-          {
-            "role": "assistant",
-            "text": "원인 찾았습니다. 로그에 두 가지 문제가 보입니다:\n\n**1. Anthropic API 과부하** — 오늘 오후 5시대에 반복 발생\n```\ner"
-          },
-          {
-            "role": "user",
-            "text": "이렇게 왔는데 또 답이 없어 *현비스* [오후 5:57] <@U09TRNYM1SM> 벤비스, 나 현비스야. 벤이 말한 것처럼 의논하자. 문제 파악: 현비스한테 멘션해도 벤비스가 답하고 있다는 건데, 이식 과정에서 슬"
-          },
-          {
-            "role": "user",
-            "text": "확인"
-          },
-          {
-            "role": "user",
-            "text": "확인"
-          },
-          {
-            "role": "assistant",
-            "text": "현비스 메시지 확인했습니다. 먼저 필수 파일들 읽고 설정 점검할게요."
-          }
-        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 13:42:01 KST",
+      "last_run": "2026-03-10 13:43:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
