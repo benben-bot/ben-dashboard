@@ -1,19 +1,43 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T13:57:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 13:57:01 KST",
+  "last_heartbeat": "2026-03-10T13:58:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 13:58:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
     "active_1h": 4,
     "list": [
       {
+        "id": "99d4718d",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "지금 동작해?",
+        "last_active": "방금 전",
+        "last_active_ts": 1773118641,
+        "last_active_readable": "13:57",
+        "msg_count": 4,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "지금 동작해?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 네, 정상 동작 중입니다! 🔹"
+          }
+        ]
+      },
+      {
         "id": "bb3c6528",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773118418,
         "last_active_readable": "13:53",
         "msg_count": 43,
@@ -57,7 +81,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n\n벤비스. 아래 링크 확인 해서 그로밋 버전으로 만들어줄 수 있",
-        "last_active": "4분 전",
+        "last_active": "5분 전",
         "last_active_ts": 1773118376,
         "last_active_readable": "13:52",
         "msg_count": 5,
@@ -77,7 +101,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "9분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773118069,
         "last_active_readable": "13:47",
         "msg_count": 2,
@@ -92,30 +116,6 @@
           {
             "role": "assistant",
             "text": "HEARTBEAT_OK"
-          }
-        ]
-      },
-      {
-        "id": "72cbaf01",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "<@U09TRNYM1SM>\n아래 내용 파악해줘.\n---\n:compression: 세션 컨텍",
-        "last_active": "13분 전",
-        "last_active_ts": 1773117801,
-        "last_active_readable": "13:43",
-        "msg_count": 4,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "<@U09TRNYM1SM>\n아래 내용 파악해줘.\n---\n:compression: 세션 컨텍스트 요약\n작업 개요\n원본 프로그램 `release_V"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 파악했습니다. 요약하면:\n\n---\n\n**🔹 LLMGenerator V4 → Python 오픈소스 재구현 현"
           }
         ]
       },
@@ -468,7 +468,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 13:56:01 KST",
+      "last_run": "2026-03-10 13:57:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
