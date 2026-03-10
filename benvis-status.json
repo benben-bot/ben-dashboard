@@ -1,10 +1,10 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T18:36:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 18:36:01 KST",
+  "last_heartbeat": "2026-03-10T18:37:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 18:37:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 22,
+    "total_24h": 21,
     "active_1h": 4,
     "list": [
       {
@@ -14,29 +14,13 @@
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773135357,
-        "last_active_readable": "18:35",
-        "msg_count": 144,
+        "last_active_ts": 1773135419,
+        "last_active_readable": "18:36",
+        "msg_count": 152,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "수정 완료. 테스트 게시 1개 진행합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "인덱스 확인. `[이미지1]` → 1.PNG+2.PNG, `[이미지2]` → 3.PNG+4.PNG로 순서대로 할당됩니다.\n\n이제 시트 H열 초기"
-          },
-          {
-            "role": "assistant",
-            "text": "이미지 4장 (1.PNG~4.PNG) 순서대로 업로드 성공! 게시도 완료됐습니다. 시트만 업데이트합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 테스트 성공했습니다.\n\n*결과*\n- Row3: 게시 완료 (articles/6995)\n- `[이미지1]` "
-          },
           {
             "role": "user",
             "text": "글 1개당 `[이미지1]`(1장) + `[이미지2]`(1장) 고정으로 해줘 나머지 Row4부터 쭉 게시하고, 이미지 부족하면 업로드 하지 말고 "
@@ -52,6 +36,22 @@
           {
             "role": "assistant",
             "text": "이미지 부족 시 멈추는 로직 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "이미지 부족 시 `continue`(스킵)가 아닌 게시 중단(return)으로 변경합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "이제 main()에서 None 반환 시 루프 전체 멈추도록 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "이제 Row4~8 게시 실행합니다. 현재 인덱스 4 (캡처.PNG, 캡처1.PNG 2장 남음) → 글 1개당 2장 소비 → Row4 1개 가능."
+          },
+          {
+            "role": "assistant",
+            "text": "Row4~8에 이전 URL 남아있어서 스킵됨. H열 초기화 후 재실행합니다."
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "15분 전",
+        "last_active": "16분 전",
         "last_active_ts": 1773134414,
         "last_active_readable": "18:20",
         "msg_count": 289,
@@ -109,7 +109,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "배포 상태 확인 완료. _현황_ • 사이트: :white_check_mark: READY ",
-        "last_active": "17분 전",
+        "last_active": "18분 전",
         "last_active_ts": 1773134294,
         "last_active_readable": "18:18",
         "msg_count": 22,
@@ -145,7 +145,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "여기서 아까 하던작업 현비스랑마무리해줘 배포 완료됐습니다. :link: _<https://",
-        "last_active": "24분 전",
+        "last_active": "25분 전",
         "last_active_ts": 1773133883,
         "last_active_readable": "18:11",
         "msg_count": 8,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 18:35:01 KST",
+      "last_run": "2026-03-10 18:36:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
