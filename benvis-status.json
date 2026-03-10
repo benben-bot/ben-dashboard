@@ -1,27 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:14:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:14:01 KST",
+  "last_heartbeat": "2026-03-10T15:15:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:15:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 31,
-    "active_1h": 7,
+    "total_24h": 32,
+    "active_1h": 8,
     "list": [
-      {
-        "id": "c500acc0",
-        "type": "heartbeat",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
-        "last_active_ts": 1773123241,
-        "last_active_readable": "15:14",
-        "msg_count": 1,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": []
-      },
       {
         "id": "141bbc4e",
         "type": "thread",
@@ -29,35 +14,84 @@
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
         "last_active": "방금 전",
-        "last_active_ts": 1773123224,
-        "last_active_readable": "15:13",
-        "msg_count": 9,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": []
-      },
-      {
-        "id": "58a14698",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "작업이 길어질것 같으면 항상 서브에이전트로 나눠서 작업하도록해",
-        "last_active": "방금 전",
-        "last_active_ts": 1773123222,
-        "last_active_readable": "15:13",
-        "msg_count": 4,
+        "last_active_ts": 1773123301,
+        "last_active_readable": "15:15",
+        "msg_count": 16,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
-            "role": "user",
-            "text": "작업이 길어질것 같으면 항상 서브에이전트로 나눠서 작업하도록해"
+            "role": "assistant",
+            "text": "먼저 시트 링크 전송하고, 배포 작업을 진행하겠습니다."
           },
           {
             "role": "assistant",
-            "text": "[[reply_to_current]] RULES.md에 추가했습니다. ✅\n\n> **작업이 길어질 것 같으면 항상 서브에이전트로 나눠서 처리.**"
+            "text": "이제 배포를 위한 Vercel 로그인 시도합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "배포를 위해 Ben에게 DM 보내겠습니다."
+          }
+        ]
+      },
+      {
+        "id": "c500acc0",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123301,
+        "last_active_readable": "15:15",
+        "msg_count": 10,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] #ai-ops 채널에서 현비스한테 전달했습니다 ✅\n\n배포 요청 내용:\n- Google Sheets 연동 코"
+          }
+        ]
+      },
+      {
+        "id": "16283abd",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123296,
+        "last_active_readable": "15:14",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> 벤비스야. 벤이 배포 부탁드렸어.\n\n*uvid-keyword-pipeline — Google Sheets 연동 배포 "
+          }
+        ]
+      },
+      {
+        "id": "f9992dca",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123275,
+        "last_active_readable": "15:14",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "스프레드시트 링크입니다.\n\nhttps://docs.google.com/spreadsheets/d/1OtOq1p6pQJr4KAr-o5dUjBB_W"
           }
         ]
       },
@@ -67,7 +101,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -87,7 +121,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -107,7 +141,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "48분 전",
+        "last_active": "49분 전",
         "last_active_ts": 1773120337,
         "last_active_readable": "14:25",
         "msg_count": 11,
@@ -139,7 +173,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "49분 전",
+        "last_active": "50분 전",
         "last_active_ts": 1773120255,
         "last_active_readable": "14:24",
         "msg_count": 9,
@@ -371,33 +405,13 @@
             "text": "NO_REPLY"
           }
         ]
-      },
-      {
-        "id": "59c63e6f",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "20시간 전",
-        "last_active_ts": 1773048965,
-        "last_active_readable": "18:36",
-        "msg_count": 3,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "17:35 KST — 조용한 시간 아님. 크론잡 없음 (에러 없음). 메모리 파일 없지만 20:00 이전이라 액션 불필요.\n\nHEARTBEAT_"
-          }
-        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:13:01 KST",
+      "last_run": "2026-03-10 15:14:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
