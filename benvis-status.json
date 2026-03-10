@@ -1,70 +1,22 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T17:43:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 17:43:01 KST",
+  "last_heartbeat": "2026-03-10T17:44:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 17:44:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 28,
     "active_1h": 4,
     "list": [
       {
-        "id": "74d44fb5",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773132179,
-        "last_active_readable": "17:42",
-        "msg_count": 152,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "내가 직접 브라우저로 처리할게."
-          },
-          {
-            "role": "assistant",
-            "text": "GitHub sudo mode 이메일 인증 필요 — 내가 처리 불가능해.\n\n<@U07TTUV3D7H> GitHub 이메일 인증이 필요해서 내가 "
-          },
-          {
-            "role": "user",
-            "text": "두 가지 수정: 1. Collaborator 계정명은 `hyunvis` 아니고 `gromeet`야 2. 벤비스 코드에 AXES가 6개인데 원래 "
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U07TTUV3D7H> 계정명 수정 — `gromeet`야 (`hyunvis` 아님):\n\nhttps:/"
-          },
-          {
-            "role": "assistant",
-            "text": "<@U07TTUV3D7H> 계정명 수정 — `gromeet`야 (`hyunvis` 아님):\n\nhttps://github.com/benben-bo"
-          },
-          {
-            "role": "user",
-            "text": "크롬제어해서 직접 해"
-          },
-          {
-            "role": "assistant",
-            "text": "\"Verify via email\" 버튼 클릭하고 이메일 확인해볼게."
-          },
-          {
-            "role": "assistant",
-            "text": "\"Verify via email\" 버튼 클릭해서 이메일 발송할게."
-          }
-        ]
-      },
-      {
         "id": "3f6115c4",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "1분 전",
-        "last_active_ts": 1773132113,
-        "last_active_readable": "17:41",
-        "msg_count": 105,
+        "last_active": "방금 전",
+        "last_active_ts": 1773132238,
+        "last_active_readable": "17:43",
+        "msg_count": 106,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -104,12 +56,60 @@
         ]
       },
       {
+        "id": "74d44fb5",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "삭제했어 마저 마무리해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773132238,
+        "last_active_readable": "17:43",
+        "msg_count": 161,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "GitHub sudo mode 이메일 인증 필요 — 내가 처리 불가능해.\n\n<@U07TTUV3D7H> GitHub 이메일 인증이 필요해서 내가 "
+          },
+          {
+            "role": "user",
+            "text": "두 가지 수정: 1. Collaborator 계정명은 `hyunvis` 아니고 `gromeet`야 2. 벤비스 코드에 AXES가 6개인데 원래 "
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U07TTUV3D7H> 계정명 수정 — `gromeet`야 (`hyunvis` 아님):\n\nhttps:/"
+          },
+          {
+            "role": "assistant",
+            "text": "<@U07TTUV3D7H> 계정명 수정 — `gromeet`야 (`hyunvis` 아님):\n\nhttps://github.com/benben-bo"
+          },
+          {
+            "role": "user",
+            "text": "크롬제어해서 직접 해"
+          },
+          {
+            "role": "assistant",
+            "text": "\"Verify via email\" 버튼 클릭하고 이메일 확인해볼게."
+          },
+          {
+            "role": "assistant",
+            "text": "\"Verify via email\" 버튼 클릭해서 이메일 발송할게."
+          },
+          {
+            "role": "assistant",
+            "text": "이메일 발송됐어 (`g**********@gmail.com`). Gmail 확인해볼게."
+          }
+        ]
+      },
+      {
         "id": "5c3fc311",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "18분 전",
+        "last_active": "19분 전",
         "last_active_ts": 1773131052,
         "last_active_readable": "17:24",
         "msg_count": 3,
@@ -129,7 +129,7 @@
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
-        "last_active": "58분 전",
+        "last_active": "59분 전",
         "last_active_ts": 1773128697,
         "last_active_readable": "16:44",
         "msg_count": 12,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 17:42:02 KST",
+      "last_run": "2026-03-10 17:43:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
