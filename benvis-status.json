@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:36:02+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:36:02 KST",
+  "last_heartbeat": "2026-03-10T15:37:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:37:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
@@ -14,9 +14,9 @@
         "chat_type": "group",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
         "last_active": "방금 전",
-        "last_active_ts": 1773124561,
+        "last_active_ts": 1773124605,
         "last_active_readable": "15:36",
-        "msg_count": 13,
+        "msg_count": 17,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -40,6 +40,58 @@
           {
             "role": "user",
             "text": "백그라운드 말고 실제 크롬창 켜서 진행해 로그인하기전에 ip보안토클은 항상 off로 해야돼"
+          },
+          {
+            "role": "assistant",
+            "text": "Xvfb가 있습니다. `headless=False` + IP보안 토글 OFF + Xvfb로 실행하도록 `run_mode2.py` 수정합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "이제 Xvfb(가상 디스플레이)로 실행합니다."
+          }
+        ]
+      },
+      {
+        "id": "cd3aa81b",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
+        "last_active": "방금 전",
+        "last_active_ts": 1773124584,
+        "last_active_readable": "15:36",
+        "msg_count": 7,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": ":white_check_mark: _배포 완료_ <https://uvid-keyword-pipeline.vercel.app> _처리한 것:_ •"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 수고했어요! 벤한테 상황 전달할게요.\n\n---\n\n<@U07TTUV3D7H> UV"
+          },
+          {
+            "role": "assistant",
+            "text": "<@U07RSJSCTHA> 그로밋, JSON 키 갖고 계신 거 확인했습니다. <@U0AEL6RJW0N> 현비스한테 슬랙 DM으로 전달해주시면 V"
+          },
+          {
+            "role": "user",
+            "text": "여기서 어떻게 설정해야돼? [Slack file: image.png]"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U07RSJSCTHA> 이미 서비스 계정들이 있네요! 새로 만들 필요 없어요.\n\n**`sheets-ed"
+          },
+          {
+            "role": "user",
+            "text": "여기서 어떻게 설정해야돼? [Slack file: image.png]"
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
           }
         ]
       },
@@ -49,7 +101,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "아까 그로밋이 부탁했으니까 해당 스레드 찾아서 그쪽으로 전달해줘 json키는 그로밋이 가지",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773124355,
         "last_active_readable": "15:32",
         "msg_count": 8,
@@ -84,40 +136,12 @@
         ]
       },
       {
-        "id": "cd3aa81b",
-        "type": "heartbeat",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "3분 전",
-        "last_active_ts": 1773124351,
-        "last_active_readable": "15:32",
-        "msg_count": 3,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": ":white_check_mark: _배포 완료_ <https://uvid-keyword-pipeline.vercel.app> _처리한 것:_ •"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 수고했어요! 벤한테 상황 전달할게요.\n\n---\n\n<@U07TTUV3D7H> UV"
-          },
-          {
-            "role": "assistant",
-            "text": "<@U07RSJSCTHA> 그로밋, JSON 키 갖고 계신 거 확인했습니다. <@U0AEL6RJW0N> 현비스한테 슬랙 DM으로 전달해주시면 V"
-          }
-        ]
-      },
-      {
         "id": "ebc771e6",
         "type": "thread",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "13분 전",
+        "last_active": "14분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -141,7 +165,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "13분 전",
+        "last_active": "14분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -169,7 +193,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "14분 전",
+        "last_active": "15분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -189,7 +213,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "18분 전",
+        "last_active": "19분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -221,7 +245,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "21분 전",
+        "last_active": "22분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -241,7 +265,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "22분 전",
+        "last_active": "23분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -261,7 +285,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "25분 전",
+        "last_active": "26분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -419,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:35:02 KST",
+      "last_run": "2026-03-10 15:36:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
