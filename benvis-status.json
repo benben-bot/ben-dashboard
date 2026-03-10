@@ -1,19 +1,47 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T11:38:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 11:38:01 KST",
+  "last_heartbeat": "2026-03-10T11:39:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 11:39:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
-    "active_1h": 1,
+    "active_1h": 2,
     "list": [
+      {
+        "id": "b6713050",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
+        "last_active": "방금 전",
+        "last_active_ts": 1773110341,
+        "last_active_readable": "11:39",
+        "msg_count": 4,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "Current time: Tuesday, March 10th, 2026 — 4:21 AM (Asia/Seoul) / 2026-03-09 19:2"
+          },
+          {
+            "role": "assistant",
+            "text": "HEARTBEAT_OK"
+          },
+          {
+            "role": "user",
+            "text": "Current time: Tuesday, March 10th, 2026 — 11:38 AM (Asia/Seoul) / 2026-03-10 02:"
+          }
+        ]
+      },
       {
         "id": "14e51326",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "세션종료하는 기준이 뭐야? 계속 세션이 쌓여가서 많이 쌓이면 멈추고있어",
-        "last_active": "50분 전",
+        "last_active": "51분 전",
         "last_active_ts": 1773107243,
         "last_active_readable": "10:47",
         "msg_count": 31,
@@ -172,30 +200,6 @@
           {
             "role": "assistant",
             "text": "확인했습니다. `b6713050`은 `agent:main:main` 세션으로, 슬랙 DM (thread: `1773100922.932189`)에"
-          }
-        ]
-      },
-      {
-        "id": "b6713050",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "2시간 전",
-        "last_active_ts": 1773102185,
-        "last_active_readable": "09:23",
-        "msg_count": 2,
-        "last_role": "assistant",
-        "idle_level": "idle_1h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "Current time: Tuesday, March 10th, 2026 — 4:21 AM (Asia/Seoul) / 2026-03-09 19:2"
-          },
-          {
-            "role": "assistant",
-            "text": "HEARTBEAT_OK"
           }
         ]
       },
@@ -524,7 +528,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 11:37:01 KST",
+      "last_run": "2026-03-10 11:38:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
