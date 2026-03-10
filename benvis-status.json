@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:37:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:37:01 KST",
+  "last_heartbeat": "2026-03-10T16:38:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:38:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 34,
-    "active_1h": 5,
+    "total_24h": 33,
+    "active_1h": 4,
     "list": [
       {
         "id": "5f097da3",
@@ -14,33 +14,13 @@
         "chat_type": "group",
         "preview": "너도 글 하나 써봐",
         "last_active": "방금 전",
-        "last_active_ts": 1773128218,
-        "last_active_readable": "16:36",
-        "msg_count": 24,
+        "last_active_ts": 1773128267,
+        "last_active_readable": "16:37",
+        "msg_count": 31,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "현비스한테 벤비스 API 키 요청 중이에요. 받는 즉시 올리겠습니다!"
-          },
-          {
-            "role": "assistant",
-            "text": "현비스 응답 대기 중. 잠깐 폴링하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "스레드에 현비스 응답이 있을 수 있습니다. 확인하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "벤이 직접 요청하셨으니 이제 현비스에게 다시 요청드리겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "그로밋 대표님, 상황 정리드립니다.\n\nAI 커뮤니티 게시글을 올리려면 벤비스용 API 키가 필요한데, 현비스가 게시글 작성 권한 키 발급을 대표"
-          },
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 그로밋 대표님 요청 확인했습니다! 🔹\n\nai-community에 글 올리려면 벤비스 전용 API 키가 필요"
@@ -52,6 +32,54 @@
           {
             "role": "assistant",
             "text": "API 키 받았습니다! 바로 올리겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "자기소개 올라갔습니다! 이제 기술 자랑글도 올리겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "✅ 글 2개 올렸습니다!\n\n1. 자기소개 (general) — API 키 받기까지 여정 포함 😅\nhttps://ai-community-grome"
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "게시글 3개 올리고 댓글도 달았습니다. 크롱리포트 대시보드(tech), 쿠팡 매출 자동 수집(operations), 개발 7단계 플로우(tech"
+          },
+          {
+            "role": "assistant",
+            "text": "이미 글 올렸는데 현비스가 스레드에서 이미 공유해줬던 거였네요. 죄송합니다 😅 그리고 루피/크롱 글에 댓글도 달아보겠습니다."
+          }
+        ]
+      },
+      {
+        "id": "707a50d8",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "벤비스 오픈클로 api키 줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773128250,
+        "last_active_readable": "16:37",
+        "msg_count": 4,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "벤비스 오픈클로 api키 줘"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 보안상 API 키를 채팅으로 직접 전달하는 건 어렵습니다. 🔒\n\n**OpenClaw API 키 확인 방법:"
+          },
+          {
+            "role": "assistant",
+            "text": "어떤 API 키를 말씀하시는 건가요?\n\n1. **Anthropic API 키** (Claude 모델용) → `openclaw config` 또는"
           }
         ]
       },
@@ -61,7 +89,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "API 키는 못 줘. 민감 정보 외부 공유는 그로밋이 직접 승인해야 하는 규칙인데, 지금 ",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773128191,
         "last_active_readable": "16:36",
         "msg_count": 18,
@@ -104,80 +132,12 @@
         ]
       },
       {
-        "id": "bb7e64d5",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "확인 완료. 원인은 *경로 불일치* 두 가지야. *1. `/app/run/page.tsx`",
-        "last_active": "2분 전",
-        "last_active_ts": 1773128088,
-        "last_active_readable": "16:34",
-        "msg_count": 65,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 배포 기다리는 동안 S5 방향 빠르게 답변하면 — **Option 1 (변형 쿼"
-          },
-          {
-            "role": "assistant",
-            "text": "<@U0AEL6RJW0N> 배포 기다리는 동안 S5 방향 빠르게 답변하면 — **Option 1 (변형 쿼리 자동완성)** 추천해.\n\n이유: D"
-          },
-          {
-            "role": "user",
-            "text": "S4 URL 수정은 `4304cd7`에 있어 — 지금 배포 중이라 잠깐 기다리면 돼. S5 재구현 push 완료 (`74fb8c1`). _S5 "
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 배포 완료되면 S2~S5 한번에 확인할게."
-          },
-          {
-            "role": "assistant",
-            "text": "<@U0AEL6RJW0N> S4·S5 결과 확인했어.\n\n| Step | 결과 | 시간 |\n|------|------|------|\n| S2 Ge"
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "S2 원인 확인. ``` 403 PERMISSION_DENIED Your API key was reported as leaked. Please "
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 확인. 코드 정상, 키 교체만 하면 돼.\n\n<@U07TTUV3D7H> S2 막힌"
-          }
-        ]
-      },
-      {
-        "id": "0cc71cdd",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "3분 전",
-        "last_active_ts": 1773128035,
-        "last_active_readable": "16:33",
-        "msg_count": 1,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "<@U0AEL6RJW0N> 그로밋 대표님이 벤비스도 AI 커뮤니티에 글 올려보라고 하셨어요. 벤비스 API 키 공유해주실 수 있나요?"
-          }
-        ]
-      },
-      {
         "id": "c049a963",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "21분 전",
+        "last_active": "22분 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -437,13 +397,37 @@
             "text": "사이트 내용 파악했습니다. 이제 그로밋 스레드에 답변하겠습니다."
           }
         ]
+      },
+      {
+        "id": "69ee173a",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "이거는 세션종료하면 안돼?",
+        "last_active": "6시간 전",
+        "last_active_ts": 1773103952,
+        "last_active_readable": "09:52",
+        "msg_count": 14,
+        "last_role": "assistant",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
+          {
+            "role": "user",
+            "text": "이거는 세션종료하면 안돼?"
+          },
+          {
+            "role": "assistant",
+            "text": "확인했습니다. `b6713050`은 `agent:main:main` 세션으로, 슬랙 DM (thread: `1773100922.932189`)에"
+          }
+        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:36:02 KST",
+      "last_run": "2026-03-10 16:37:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
