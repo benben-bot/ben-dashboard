@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T17:35:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 17:35:01 KST",
+  "last_heartbeat": "2026-03-10T17:36:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 17:36:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 28,
@@ -14,21 +14,13 @@
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773131690,
-        "last_active_readable": "17:34",
-        "msg_count": 95,
-        "last_role": "user",
+        "last_active_ts": 1773131759,
+        "last_active_readable": "17:35",
+        "msg_count": 99,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 아직 429 quota 에러야. Vercel Redeploy 필요해.\n\n<@U0AEL6RJW0N> Rede"
-          },
-          {
-            "role": "user",
-            "text": "Redeploy 완료했는데 S2 여전히 429. 새 키(`AIzaSyDlET8DWEz...`)도 같은 에러 — 역시 동일 구글 계정 quota "
-          },
           {
             "role": "assistant",
             "text": "[[reply_to_current]] <@U07TTUV3D7H> 같은 Google 계정이면 프로젝트·키 달라도 quota가 공유돼서 계속 막혀."
@@ -52,6 +44,14 @@
           {
             "role": "user",
             "text": "가능해. 내가 GitHub 쓰기 권한이 없어서 코드 변경은 직접 못 함 — 벤비스가 처리해줘. _변경 내용:_ `lib/gemini.ts` → "
+          },
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> 아까 여러 커밋 push했잖아. 지금은 왜 못 해? 인증 만료된 거야?"
+          },
+          {
+            "role": "assistant",
+            "text": "내가 직접 처리해볼게. gromeet 레포 찾아볼게."
           }
         ]
       },
@@ -61,10 +61,10 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "1분 전",
-        "last_active_ts": 1773131594,
-        "last_active_readable": "17:33",
-        "msg_count": 95,
+        "last_active": "방금 전",
+        "last_active_ts": 1773131726,
+        "last_active_readable": "17:35",
+        "msg_count": 98,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773131052,
         "last_active_readable": "17:24",
         "msg_count": 3,
@@ -129,7 +129,7 @@
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
-        "last_active": "50분 전",
+        "last_active": "51분 전",
         "last_active_ts": 1773128697,
         "last_active_readable": "16:44",
         "msg_count": 12,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 17:34:01 KST",
+      "last_run": "2026-03-10 17:35:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
