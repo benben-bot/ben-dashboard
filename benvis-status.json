@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:04:02+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:04:02 KST",
+  "last_heartbeat": "2026-03-10T16:05:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:05:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
@@ -14,17 +14,13 @@
         "chat_type": "group",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
         "last_active": "방금 전",
-        "last_active_ts": 1773126240,
+        "last_active_ts": 1773126286,
         "last_active_readable": "16:04",
-        "msg_count": 52,
+        "msg_count": 55,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "글쓰기 페이지가 빈 화면 — 구버전 URL 문제. 현재 네이버 카페의 실제 글쓰기 URL을 직접 확인합니다."
-          },
           {
             "role": "assistant",
             "text": "실제 글쓰기 URL 확인 완료. CAFE_WRITE_URL 수정 후 제목/본문 셀렉터도 함께 확인합니다."
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "3개 게시 시도됐는데 본문 입력이 실패했고, 저장된 URL이 write 페이지 URL입니다. 실제 게시 여부 확인이 필요합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "H열 URL이 write 페이지 URL — 실제로 게시가 됐는지 불확실합니다. 시트 초기화 후 올바른 스크립트로 재시도합니다.\n\n두 가지 버그 "
           }
         ]
       },
@@ -62,10 +62,10 @@
         "chat_type": "group",
         "preview": "내가 안열었고 갑자기 크롬창이 열렸어",
         "last_active": "방금 전",
-        "last_active_ts": 1773126235,
-        "last_active_readable": "16:03",
-        "msg_count": 7,
-        "last_role": "user",
+        "last_active_ts": 1773126246,
+        "last_active_readable": "16:04",
+        "msg_count": 8,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -80,6 +80,10 @@
           {
             "role": "user",
             "text": "버셀은 버튼 클릭같은게 안돼지?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 아니요, 버셀이라고 특별히 다른 거 없습니다. 버셀은 그냥 호스팅 플랫폼이라 배포된 사이트는 일반 웹사이트"
           }
         ]
       },
@@ -89,7 +93,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773126114,
         "last_active_readable": "16:01",
         "msg_count": 38,
@@ -137,7 +141,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773125870,
         "last_active_readable": "15:57",
         "msg_count": 26,
@@ -181,7 +185,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "41분 전",
+        "last_active": "42분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -205,7 +209,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "41분 전",
+        "last_active": "42분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -233,7 +237,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "42분 전",
+        "last_active": "43분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -253,7 +257,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "46분 전",
+        "last_active": "47분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -285,7 +289,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "49분 전",
+        "last_active": "50분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -305,7 +309,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "50분 전",
+        "last_active": "51분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -325,7 +329,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "53분 전",
+        "last_active": "54분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -435,7 +439,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:03:02 KST",
+      "last_run": "2026-03-10 16:04:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
