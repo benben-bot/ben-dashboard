@@ -1,22 +1,70 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T17:33:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 17:33:01 KST",
+  "last_heartbeat": "2026-03-10T17:34:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 17:34:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 28,
     "active_1h": 4,
     "list": [
       {
+        "id": "74d44fb5",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "삭제했어 마저 마무리해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773131628,
+        "last_active_readable": "17:33",
+        "msg_count": 94,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> 아직 429 quota 에러 동일해. Vercel Redeploy 됐어? 환경변수 바꾸면 새 배포(Redeploy) "
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 아직 429 quota 에러야. Vercel Redeploy 필요해.\n\n<@U0AEL6RJW0N> Rede"
+          },
+          {
+            "role": "user",
+            "text": "Redeploy 완료했는데 S2 여전히 429. 새 키(`AIzaSyDlET8DWEz...`)도 같은 에러 — 역시 동일 구글 계정 quota "
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U07TTUV3D7H> 같은 Google 계정이면 프로젝트·키 달라도 quota가 공유돼서 계속 막혀."
+          },
+          {
+            "role": "user",
+            "text": "Redeploy 방금 완료됐어 (READY). S2 직접 테스트해봤는데 여전히 429 — 키 문제임. 벤에게 결제 연결 요청 보냈어."
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "제미나이 api말고 클로드api 설정해도 돼?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 돼. <@U0AEL6RJW0N> Claude API로 S2 교체 가능해?\n\n`@anthropic-ai/sd"
+          }
+        ]
+      },
+      {
         "id": "3f6115c4",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "1분 전",
-        "last_active_ts": 1773131470,
-        "last_active_readable": "17:31",
-        "msg_count": 94,
+        "last_active": "방금 전",
+        "last_active_ts": 1773131594,
+        "last_active_readable": "17:33",
+        "msg_count": 95,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -56,60 +104,12 @@
         ]
       },
       {
-        "id": "74d44fb5",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "8분 전",
-        "last_active_ts": 1773131064,
-        "last_active_readable": "17:24",
-        "msg_count": 92,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U07TTUV3D7H> 두 가지 문제 확정:\n\n- **이전 키** → Google이 유출 차단 (403"
-          },
-          {
-            "role": "user",
-            "text": "교체했어 다시해봐"
-          },
-          {
-            "role": "assistant",
-            "text": "<@U0AEL6RJW0N> 아직 429 quota 에러 동일해. Vercel Redeploy 됐어? 환경변수 바꾸면 새 배포(Redeploy) "
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 아직 429 quota 에러야. Vercel Redeploy 필요해.\n\n<@U0AEL6RJW0N> Rede"
-          },
-          {
-            "role": "user",
-            "text": "Redeploy 완료했는데 S2 여전히 429. 새 키(`AIzaSyDlET8DWEz...`)도 같은 에러 — 역시 동일 구글 계정 quota "
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U07TTUV3D7H> 같은 Google 계정이면 프로젝트·키 달라도 quota가 공유돼서 계속 막혀."
-          },
-          {
-            "role": "user",
-            "text": "Redeploy 방금 완료됐어 (READY). S2 직접 테스트해봤는데 여전히 429 — 키 문제임. 벤에게 결제 연결 요청 보냈어."
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          }
-        ]
-      },
-      {
         "id": "5c3fc311",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773131052,
         "last_active_readable": "17:24",
         "msg_count": 3,
@@ -129,7 +129,7 @@
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
-        "last_active": "48분 전",
+        "last_active": "49분 전",
         "last_active_ts": 1773128697,
         "last_active_readable": "16:44",
         "msg_count": 12,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 17:32:01 KST",
+      "last_run": "2026-03-10 17:33:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
