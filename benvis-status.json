@@ -1,36 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T12:28:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 12:28:01 KST",
+  "last_heartbeat": "2026-03-10T12:29:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 12:29:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
     "active_1h": 3,
     "list": [
-      {
-        "id": "b6713050",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "방금 전",
-        "last_active_ts": 1773113275,
-        "last_active_readable": "12:27",
-        "msg_count": 2,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "Current time: Tuesday, March 10th, 2026 — 4:21 AM (Asia/Seoul) / 2026-03-09 19:2"
-          },
-          {
-            "role": "assistant",
-            "text": "HEARTBEAT_OK"
-          }
-        ]
-      },
       {
         "id": "35d965af",
         "type": "thread",
@@ -38,13 +14,17 @@
         "chat_type": "direct",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
         "last_active": "방금 전",
-        "last_active_ts": 1773113275,
-        "last_active_readable": "12:27",
-        "msg_count": 70,
-        "last_role": "user",
+        "last_active_ts": 1773113333,
+        "last_active_readable": "12:28",
+        "msg_count": 69,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 아니요, 그건 다릅니다. 정리해드릴게요.\n\n---\n\n**빌드 중인 새 프로젝트** — Python 소스코드"
+          },
           {
             "role": "user",
             "text": "그대로 복붙해줘"
@@ -72,10 +52,6 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 아직 진행 중입니다. 오류 수정 작업 중이고요.\n\n완료되면 바로 결과 알려드릴게요."
-          },
-          {
-            "role": "user",
-            "text": "Current time: Tuesday, March 10th, 2026 — 12:27 PM (Asia/Seoul) / 2026-03-10 03:"
           }
         ]
       },
@@ -85,10 +61,10 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "7분 전",
-        "last_active_ts": 1773112801,
-        "last_active_readable": "12:20",
-        "msg_count": 1,
+        "last_active": "방금 전",
+        "last_active_ts": 1773113329,
+        "last_active_readable": "12:28",
+        "msg_count": 2,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -96,6 +72,34 @@
           {
             "role": "assistant",
             "text": "✅ 빌드 완료 — `/home/ben/llm-generator/`\n\n전체 모듈 구성:\n• `main.py` (166줄) — 진입점\n• `ui/m"
+          },
+          {
+            "role": "assistant",
+            "text": "✅ 실행 완료됐습니다.\n\n*헤드리스 테스트 결과 (데모 모드)*\n- 모듈 로드: 전체 정상\n- 라이선스: 통과 (제거됨)\n- LLM 생성: 6건"
+          }
+        ]
+      },
+      {
+        "id": "b6713050",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
+        "last_active": "1분 전",
+        "last_active_ts": 1773113275,
+        "last_active_readable": "12:27",
+        "msg_count": 2,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "Current time: Tuesday, March 10th, 2026 — 4:21 AM (Asia/Seoul) / 2026-03-09 19:2"
+          },
+          {
+            "role": "assistant",
+            "text": "HEARTBEAT_OK"
           }
         ]
       },
@@ -496,7 +500,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 12:27:01 KST",
+      "last_run": "2026-03-10 12:28:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
