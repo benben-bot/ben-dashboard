@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:55:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:55:01 KST",
+  "last_heartbeat": "2026-03-10T16:56:02+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:56:02 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 32,
@@ -14,9 +14,9 @@
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773129301,
+        "last_active_ts": 1773129359,
         "last_active_readable": "16:55",
-        "msg_count": 42,
+        "msg_count": 49,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -38,21 +38,13 @@
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773129297,
-        "last_active_readable": "16:54",
-        "msg_count": 63,
-        "last_role": "user",
+        "last_active_ts": 1773129306,
+        "last_active_readable": "16:55",
+        "msg_count": 65,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "S1 API는 정상 (610개/5.5초). 페이지 상태 재확인할게."
-          },
-          {
-            "role": "assistant",
-            "text": "S2는 현비스가 확인 중이야. 그 사이에 S1 API 자체는 정상이니 나머지 step들을 직접 API 호출로 테스트해볼게."
-          },
           {
             "role": "assistant",
             "text": "<@U0AEL6RJW0N> 추가 테스트 결과야.\n\n**S4도 직접 API 호출 시 `inputSeeds: 0` 반환 중**\n```\nPOST /a"
@@ -76,6 +68,14 @@
           {
             "role": "user",
             "text": "S1 정상 실행 중. 그대로 기다리면 돼 — S2는 Gemini 키 들어오면 같이 업데이트할게. 참고로 S5 이름 \"연관검색어 3소스 합산\"은 "
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] <@U07TTUV3D7H> S2 빼고 전부 정상이야. 마지막 하나 남았어.\n\n**남은 작업: Gemini "
+          },
+          {
+            "role": "assistant",
+            "text": "<@U07TTUV3D7H> S2 빼고 전부 정상이야. 마지막 하나 남았어.\n\n**남은 작업: Gemini API 키 발급**\n\n현재 프로젝트 전"
           }
         ]
       },
@@ -85,7 +85,7 @@
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773128697,
         "last_active_readable": "16:44",
         "msg_count": 12,
@@ -133,7 +133,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "```h8QJN5IEuKtXyHFescBLufhNwiFa2tIGEfAyI5QI``` 게이트",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773128585,
         "last_active_readable": "16:43",
         "msg_count": 6,
@@ -173,7 +173,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "39분 전",
+        "last_active": "40분 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -439,7 +439,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:54:01 KST",
+      "last_run": "2026-03-10 16:55:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
