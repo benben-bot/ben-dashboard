@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T10:47:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 10:47:01 KST",
+  "last_heartbeat": "2026-03-10T10:48:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 10:48:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 32,
@@ -14,21 +14,13 @@
         "chat_type": "direct",
         "preview": "세션종료하는 기준이 뭐야? 계속 세션이 쌓여가서 많이 쌓이면 멈추고있어",
         "last_active": "방금 전",
-        "last_active_ts": 1773107216,
-        "last_active_readable": "10:46",
-        "msg_count": 28,
+        "last_active_ts": 1773107243,
+        "last_active_readable": "10:47",
+        "msg_count": 31,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "**세션 유지 장점** → 솔직히 별로 없음\n\n유일한 장점은 \"이전 대화 맥락 기억\"인데, Slack 스레드처럼 용도가 명확한 경우엔 어차피 스"
-          },
-          {
-            "role": "user",
-            "text": "87% 찬 세션이 스레드 대화가 길어진거잖아? 세션 정리한다고해도 그 스레드에서 다시 말걸면 다시 차는거 아니야?"
-          },
           {
             "role": "assistant",
             "text": "맞음. 그 스레드에서 다시 말걸면 시스템 프롬프트 + 스레드 히스토리 다시 로드되면서 금방 다시 참.\n\n세션 정리는 의미 없음. 근본 원인은 *"
@@ -52,6 +44,14 @@
           {
             "role": "assistant",
             "text": "이미 적용된 상태입니다.\n\n`openclaw.json`에 영구 설정으로 저장됐고, 게이트웨이 재시작해도 유지됩니다. 새 세션이 생길 때마다 자동"
+          },
+          {
+            "role": "user",
+            "text": "세션정리"
+          },
+          {
+            "role": "assistant",
+            "text": "✅ 현재 4개, 이미 최소 상태입니다."
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n현비가가 태그하면 답하도록 수정해줘.\n앱에서 태그하는거라서 답은",
-        "last_active": "22분 전",
+        "last_active": "23분 전",
         "last_active_ts": 1773105860,
         "last_active_readable": "10:24",
         "msg_count": 74,
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "32분 전",
+        "last_active": "33분 전",
         "last_active_ts": 1773105272,
         "last_active_readable": "10:14",
         "msg_count": 150,
@@ -157,7 +157,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM> 이거는 세션종료하면 안돼?\n\n:house: b6713050 :c",
-        "last_active": "54분 전",
+        "last_active": "55분 전",
         "last_active_ts": 1773103952,
         "last_active_readable": "09:52",
         "msg_count": 14,
@@ -524,7 +524,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 10:46:01 KST",
+      "last_run": "2026-03-10 10:47:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
