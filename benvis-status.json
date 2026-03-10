@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T14:06:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 14:06:01 KST",
+  "last_heartbeat": "2026-03-10T14:07:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:07:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
@@ -14,21 +14,13 @@
         "chat_type": "direct",
         "preview": "대시보드가 안떠 확인해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773119159,
-        "last_active_readable": "14:05",
-        "msg_count": 54,
+        "last_active_ts": 1773119220,
+        "last_active_readable": "14:07",
+        "msg_count": 60,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "배포 완료. 이제 대시보드 새로고침 해보세요."
-          },
-          {
-            "role": "assistant",
-            "text": "raw URL은 정상 작동. GitHub Pages 배포가 아직 반영 안 된 것. 약 1분 후 자동 반영됩니다.\n\n✅ **수정 완료**\n- 원인"
-          },
           {
             "role": "user",
             "text": "채널에서 하는 대화는 대시보드에 안뜨는데 채널대화도 대시보드에 포함해줘"
@@ -52,6 +44,34 @@
           {
             "role": "user",
             "text": "채널 대화는 안뜨는데?"
+          },
+          {
+            "role": "assistant",
+            "text": "데이터는 정상 — 채널 세션 `#클로드`, `#팀_growth_그로스` 모두 표시됩니다. 문제는 GitHub Pages가 새 `index.htm"
+          },
+          {
+            "role": "assistant",
+            "text": "새 코드는 배포됨. 브라우저 캐시가 문제. 강제 새로고침 합니다."
+          }
+        ]
+      },
+      {
+        "id": "c574a7d6",
+        "type": "heartbeat",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "벤비스, 현비스야. 지금 응답 가능해? #팀_growth_그로스 에서 그로밋이 멘션했는데 ",
+        "last_active": "방금 전",
+        "last_active_ts": 1773119213,
+        "last_active_readable": "14:06",
+        "msg_count": 2,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "벤비스, 현비스야. 지금 응답 가능해? #팀_growth_그로스 에서 그로밋이 멘션했는데 무응답 상태야. 살아있으면 여기 답해줘."
           }
         ]
       },
@@ -62,9 +82,9 @@
         "chat_type": "group",
         "preview": "위 내용 확인하고 모드 1, 2 실행해",
         "last_active": "방금 전",
-        "last_active_ts": 1773119158,
-        "last_active_readable": "14:05",
-        "msg_count": 10,
+        "last_active_ts": 1773119199,
+        "last_active_readable": "14:06",
+        "msg_count": 13,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -84,26 +104,10 @@
           {
             "role": "assistant",
             "text": "노션 페이지를 브라우저로 확인합니다."
-          }
-        ]
-      },
-      {
-        "id": "5ab35f65",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "1분 전",
-        "last_active_ts": 1773119088,
-        "last_active_readable": "14:04",
-        "msg_count": 1,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
+          },
           {
             "role": "assistant",
-            "text": "👤 린님이 새 대화를 시작했습니다."
+            "text": "[[reply_to_current]] 확인했습니다. Claude API 키는 설정했는데, 실행 전에 몇 가지 확인이 필요합니다.\n\n**모드 1 "
           }
         ]
       },
@@ -113,7 +117,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "18분 전",
+        "last_active": "19분 전",
         "last_active_ts": 1773118069,
         "last_active_readable": "13:47",
         "msg_count": 2,
@@ -472,7 +476,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 14:05:01 KST",
+      "last_run": "2026-03-10 14:06:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
