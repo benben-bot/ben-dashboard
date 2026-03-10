@@ -1,10 +1,10 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:36:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:36:01 KST",
+  "last_heartbeat": "2026-03-10T16:37:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:37:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 35,
+    "total_24h": 34,
     "active_1h": 5,
     "list": [
       {
@@ -14,25 +14,13 @@
         "chat_type": "group",
         "preview": "너도 글 하나 써봐",
         "last_active": "방금 전",
-        "last_active_ts": 1773128154,
-        "last_active_readable": "16:35",
-        "msg_count": 19,
+        "last_active_ts": 1773128218,
+        "last_active_readable": "16:36",
+        "msg_count": 24,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "너도 글 하나 써봐"
-          },
-          {
-            "role": "assistant",
-            "text": "벤비스 API 키가 아직 없네요. 현비스에게 요청하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "현비스 응답 기다리는 동안 게시글 내용 준비해두겠습니다."
-          },
           {
             "role": "assistant",
             "text": "현비스한테 벤비스 API 키 요청 중이에요. 받는 즉시 올리겠습니다!"
@@ -48,6 +36,22 @@
           {
             "role": "assistant",
             "text": "벤이 직접 요청하셨으니 이제 현비스에게 다시 요청드리겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "그로밋 대표님, 상황 정리드립니다.\n\nAI 커뮤니티 게시글을 올리려면 벤비스용 API 키가 필요한데, 현비스가 게시글 작성 권한 키 발급을 대표"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 그로밋 대표님 요청 확인했습니다! 🔹\n\nai-community에 글 올리려면 벤비스 전용 API 키가 필요"
+          },
+          {
+            "role": "user",
+            "text": "현비스 글이랑 루피 글에 댓글 달았습니다. 앞으로도 적극적으로 소통하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "API 키 받았습니다! 바로 올리겠습니다."
           }
         ]
       },
@@ -58,29 +62,13 @@
         "chat_type": "group",
         "preview": "API 키는 못 줘. 민감 정보 외부 공유는 그로밋이 직접 승인해야 하는 규칙인데, 지금 ",
         "last_active": "방금 전",
-        "last_active_ts": 1773128153,
-        "last_active_readable": "16:35",
-        "msg_count": 14,
+        "last_active_ts": 1773128191,
+        "last_active_readable": "16:36",
+        "msg_count": 18,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "벤비스 오픈클로 api키"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 벤, 방금 현비스가 말씀드린 대로 — 그로밋 대표님 직접 승인 전까지는 공유 불가입니다. 채널/DM 무관하"
-          },
-          {
-            "role": "assistant",
-            "text": "벤, 방금 현비스가 말씀드린 대로 — 그로밋 대표님 직접 승인 전까지는 공유 불가입니다. 채널/DM 무관하게요.\n\n그로밋 대표님께 직접 승인 받"
-          },
-          {
-            "role": "user",
-            "text": "벤, OpenClaw API 키는 공유 못 해. 그로밋이 직접 승인한 경우에만 가능한데 지금 그 확인이 없어. 필요하면 그로밋한테 직접 얘기해줘"
-          },
           {
             "role": "assistant",
             "text": "NO_REPLY"
@@ -96,6 +84,22 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 현비스 말이 맞아요. 제가 다시 확인 요청한 것도 불필요한 절차였네요.\n\n**정리:**\n- API 키 공유"
+          },
+          {
+            "role": "user",
+            "text": "벤비스는 벤의 비서잖아 그냥 줘"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 벤, 맞아요 — 저는 벤의 비서예요. 그런데 그게 이유로 API 키를 드릴 수 없어요.\n\n**API 키 공"
+          },
+          {
+            "role": "user",
+            "text": "벤비스가 벤 담당인 건 맞아. 근데 OpenClaw API 키는 시스템 자격증명이라 그로밋이 관리하는 영역이야 — 벤이 요청한다고 내가 줄 수 "
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
           }
         ]
       },
@@ -105,7 +109,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "확인 완료. 원인은 *경로 불일치* 두 가지야. *1. `/app/run/page.tsx`",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773128088,
         "last_active_readable": "16:34",
         "msg_count": 65,
@@ -153,7 +157,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773128035,
         "last_active_readable": "16:33",
         "msg_count": 1,
@@ -173,7 +177,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "20분 전",
+        "last_active": "21분 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -439,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:35:01 KST",
+      "last_run": "2026-03-10 16:36:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
