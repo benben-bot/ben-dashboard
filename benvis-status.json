@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T01:40:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 01:40:01 KST",
+  "last_heartbeat": "2026-03-11T01:41:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 01:41:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 16,
-    "active_1h": 0,
+    "active_1h": 1,
     "list": [
       {
         "id": "620409bc",
@@ -13,13 +13,13 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "1시간 전",
-        "last_active_ts": 1773157191,
-        "last_active_readable": "00:39",
+        "last_active": "방금 전",
+        "last_active_ts": 1773160812,
+        "last_active_readable": "01:40",
         "msg_count": 3,
         "last_role": "assistant",
-        "idle_level": "idle_1h",
-        "is_active": false,
+        "idle_level": "active",
+        "is_active": true,
         "messages": [
           {
             "role": "assistant",
@@ -431,7 +431,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 01:39:01 KST",
+      "last_run": "2026-03-11 01:40:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
