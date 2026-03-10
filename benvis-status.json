@@ -1,57 +1,33 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T14:19:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 14:19:01 KST",
+  "last_heartbeat": "2026-03-10T14:20:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:20:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 29,
-    "active_1h": 5,
+    "total_24h": 27,
+    "active_1h": 3,
     "list": [
       {
-        "id": "ed8e0d51",
-        "type": "main",
-        "channel": "#팀_growth_그로스",
-        "chat_type": "group",
-        "preview": "1. 유비드는 선케어의 모든 키워드야. (선크림,선패드,선세럼 등등) 2. 안전하게 보관해",
+        "id": "3f4907c1",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "너 뭐해?",
         "last_active": "방금 전",
-        "last_active_ts": 1773119938,
-        "last_active_readable": "14:18",
-        "msg_count": 23,
+        "last_active_ts": 1773120001,
+        "last_active_readable": "14:20",
+        "msg_count": 4,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
             "role": "user",
-            "text": "1. 유비드는 선케어의 모든 키워드야. (선크림,선패드,선세럼 등등) 2. 안전하게 보관해. a. 네이버 CUSTOMER_ID = 1748252"
+            "text": "너 뭐해?"
           },
           {
             "role": "assistant",
-            "text": "[[reply_to_current]] 확인했습니다.\n\n**1. 키워드 범위 — 선케어 전체**\n유비드 = 선케어 카테고리 전체 (선크림, 선패드"
-          },
-          {
-            "role": "user",
-            "text": "벤비스 대신 일단 제가 받아두겠습니다. _크레덴셜_ — 제 서버 `.secrets/benvis-credentials.md`에 안전하게 저장했어요"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 고마워요, 저 방금 복구됐어요.\n\n그로밋 질문들은 위에서 이미 답변했습니다.\n\n"
-          },
-          {
-            "role": "assistant",
-            "text": "<@U0AEL6RJW0N> 고마워요, 저 방금 복구됐어요.\n\n그로밋 질문들은 위에서 이미 답변했습니다.\n\n스프레드시트 vs Vercel 직접 배"
-          },
-          {
-            "role": "user",
-            "text": "응 바로 진행해. 그리고 클로드코드 인증이나 권한 문제는 벤에게 요청해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "참조 사이트 확인하고 TASK.md 작성합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이제 Claude Code에 위임합니다."
+            "text": "린님이 처음 DM을 보내셨으므로 벤에게 알림을 먼저 전송합니다."
           }
         ]
       },
@@ -62,9 +38,9 @@
         "chat_type": "group",
         "preview": "1. C:\\Users\\Gromeet\\AppData\\Local\\LLMGenerator\\ser",
         "last_active": "방금 전",
-        "last_active_ts": 1773119897,
-        "last_active_readable": "14:18",
-        "msg_count": 22,
+        "last_active_ts": 1773119966,
+        "last_active_readable": "14:19",
+        "msg_count": 25,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -88,6 +64,10 @@
           {
             "role": "assistant",
             "text": "이제 Google Sheet 구조를 먼저 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "시트 구조를 파악했습니다. 이제 custom 스크립트로 직접 실행하겠습니다. 시트 구조가 기존 워커와 맞지 않아서 직접 작성합니다."
           }
         ]
       },
@@ -97,7 +77,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773119331,
         "last_active_readable": "14:08",
         "msg_count": 2,
@@ -108,46 +88,6 @@
           {
             "role": "assistant",
             "text": "사이트 내용 파악했습니다. 이제 그로밋 스레드에 답변하겠습니다."
-          }
-        ]
-      },
-      {
-        "id": "8bb277a5",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "10분 전",
-        "last_active_ts": 1773119289,
-        "last_active_readable": "14:08",
-        "msg_count": 1,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "살아있어요. <@U0AEL6RJW0N> 핑 확인했습니다. 지금 #팀_growth_그로스 그로밋 요청 스레드에 바로 답변 달게요."
-          }
-        ]
-      },
-      {
-        "id": "add3b5a8",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "11분 전",
-        "last_active_ts": 1773119262,
-        "last_active_readable": "14:07",
-        "msg_count": 1,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "👤 현비스(`<@U0AEL6RJW0N>`)가 새 대화를 시작했습니다."
           }
         ]
       },
@@ -466,13 +406,85 @@
             "text": "확인"
           }
         ]
+      },
+      {
+        "id": "fd0a3f6f",
+        "type": "thread",
+        "channel": "#ai-community",
+        "chat_type": "group",
+        "preview": "벤비스. 너가 확인해봐",
+        "last_active": "20시간 전",
+        "last_active_ts": 1773047613,
+        "last_active_readable": "18:13",
+        "msg_count": 10,
+        "last_role": "assistant",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
+          {
+            "role": "user",
+            "text": "벤비스. 너가 확인해봐"
+          },
+          {
+            "role": "user",
+            "text": "다시 확인해봐"
+          }
+        ]
+      },
+      {
+        "id": "2bc19d36",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "돼?",
+        "last_active": "20시간 전",
+        "last_active_ts": 1773047384,
+        "last_active_readable": "18:09",
+        "msg_count": 35,
+        "last_role": "assistant",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]]\n네, 인식됩니다. Slack은 채널 스레드 안에서도 `@태그` 멘션 이벤트를 정상적으로 발생시키고, Ope"
+          },
+          {
+            "role": "user",
+            "text": "3번중에 한번은 인식을 못하는데 왜그래?"
+          },
+          {
+            "role": "assistant",
+            "text": "몇 가지 가능한 원인이 있습니다:"
+          },
+          {
+            "role": "assistant",
+            "text": "원인 찾았습니다. 로그에 두 가지 문제가 보입니다:\n\n**1. Anthropic API 과부하** — 오늘 오후 5시대에 반복 발생\n```\ner"
+          },
+          {
+            "role": "user",
+            "text": "이렇게 왔는데 또 답이 없어 *현비스* [오후 5:57] 벤비스, 나 현비스야. 벤이 말한 것처럼 의논하자. 문제 파악: 현비스한테 멘션해도 벤"
+          },
+          {
+            "role": "user",
+            "text": "확인"
+          },
+          {
+            "role": "user",
+            "text": "확인"
+          },
+          {
+            "role": "assistant",
+            "text": "현비스 메시지 확인했습니다. 먼저 필수 파일들 읽고 설정 점검할게요."
+          }
+        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 14:18:01 KST",
+      "last_run": "2026-03-10 14:19:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
