@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T05:48:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 05:48:01 KST",
+  "last_heartbeat": "2026-03-11T05:49:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 05:49:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 16,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773175212,
         "last_active_readable": "05:40",
         "msg_count": 2,
@@ -431,7 +431,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 05:47:01 KST",
+      "last_run": "2026-03-11 05:48:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
