@@ -1,12 +1,40 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T14:22:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 14:22:01 KST",
+  "last_heartbeat": "2026-03-10T14:23:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:23:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 30,
     "active_1h": 6,
     "list": [
+      {
+        "id": "ba4ab542",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773120180,
+        "last_active_readable": "14:23",
+        "msg_count": 9,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "시트 구조를 완전히 파악했습니다. **모드 1 먼저 실행** (TRUE 체크박스 rows 6,7,8 → Claude로 제목/본문 생성 → 결과물"
+          },
+          {
+            "role": "assistant",
+            "text": "모델명 오류 - 변경하고 재실행합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "`claude-sonnet-4-5`로 실행합니다."
+          }
+        ]
+      },
       {
         "id": "3f4907c1",
         "type": "thread",
@@ -14,17 +42,13 @@
         "chat_type": "direct",
         "preview": "너 뭐해?",
         "last_active": "방금 전",
-        "last_active_ts": 1773120120,
+        "last_active_ts": 1773120157,
         "last_active_readable": "14:22",
-        "msg_count": 16,
+        "msg_count": 23,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "너 뭐해?"
-          },
           {
             "role": "assistant",
             "text": "린님이 처음 DM을 보내셨으므로 벤에게 알림을 먼저 전송합니다."
@@ -52,34 +76,10 @@
           {
             "role": "assistant",
             "text": "`general.json` 확인됐습니다. 모드 1/2 구조 확인합니다."
-          }
-        ]
-      },
-      {
-        "id": "ba4ab542",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
-        "last_active_ts": 1773120115,
-        "last_active_readable": "14:21",
-        "msg_count": 8,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "시트 구조를 완전히 파악했습니다. **모드 1 먼저 실행** (TRUE 체크박스 rows 6,7,8 → Claude로 제목/본문 생성 → 결과물"
           },
           {
             "role": "assistant",
-            "text": "모델명 오류 - 변경하고 재실행합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "`claude-sonnet-4-5`로 실행합니다."
+            "text": "구조 파악 완료. 모드 1 먼저 실행합니다."
           }
         ]
       },
@@ -89,7 +89,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773120067,
         "last_active_readable": "14:21",
         "msg_count": 2,
@@ -104,7 +104,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "바빠?",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773120014,
         "last_active_readable": "14:20",
         "msg_count": 4,
@@ -128,7 +128,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773120001,
         "last_active_readable": "14:20",
         "msg_count": 1,
@@ -148,7 +148,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "13분 전",
+        "last_active": "14분 전",
         "last_active_ts": 1773119331,
         "last_active_readable": "14:08",
         "msg_count": 2,
@@ -463,7 +463,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 14:21:02 KST",
+      "last_run": "2026-03-10 14:22:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
