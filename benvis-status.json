@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T11:39:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 11:39:01 KST",
+  "last_heartbeat": "2026-03-10T11:40:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 11:40:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
@@ -14,9 +14,9 @@
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
         "last_active": "방금 전",
-        "last_active_ts": 1773110341,
+        "last_active_ts": 1773110343,
         "last_active_readable": "11:39",
-        "msg_count": 4,
+        "msg_count": 2,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -28,10 +28,6 @@
           {
             "role": "assistant",
             "text": "HEARTBEAT_OK"
-          },
-          {
-            "role": "user",
-            "text": "Current time: Tuesday, March 10th, 2026 — 11:38 AM (Asia/Seoul) / 2026-03-10 02:"
           }
         ]
       },
@@ -41,7 +37,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "세션종료하는 기준이 뭐야? 계속 세션이 쌓여가서 많이 쌓이면 멈추고있어",
-        "last_active": "51분 전",
+        "last_active": "52분 전",
         "last_active_ts": 1773107243,
         "last_active_readable": "10:47",
         "msg_count": 31,
@@ -341,7 +337,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "벤비스 오버로드 났녜요 ㄷㄷ..",
-        "last_active": "16시간 전",
+        "last_active": "17시간 전",
         "last_active_ts": 1773049200,
         "last_active_readable": "18:40",
         "msg_count": 73,
@@ -528,7 +524,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 11:38:02 KST",
+      "last_run": "2026-03-10 11:39:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
