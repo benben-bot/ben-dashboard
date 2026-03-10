@@ -1,113 +1,127 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:20:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:20:01 KST",
+  "last_heartbeat": "2026-03-10T15:21:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:21:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 34,
-    "active_1h": 10,
+    "total_24h": 36,
+    "active_1h": 12,
     "list": [
       {
-        "id": "a93a3ffb",
-        "type": "main",
-        "channel": "#클로드",
+        "id": "9c0f7de0",
+        "type": "heartbeat",
+        "channel": "#벤비스-채팅방",
         "chat_type": "group",
-        "preview": "게시 안됐는데? 구글 시트 H6~8열에 게시 완료된 링크가 있어야해. 모드2 어떻게 실행했",
+        "preview": "현비스한테 알려줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773123595,
-        "last_active_readable": "15:19",
-        "msg_count": 15,
+        "last_active_ts": 1773123660,
+        "last_active_readable": "15:21",
+        "msg_count": 3,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
-            "role": "assistant",
-            "text": "HEARTBEAT_OK"
-          },
-          {
             "role": "user",
-            "text": "게시 안됐는데? 구글 시트 H6~8열에 게시 완료된 링크가 있어야해. 모드2 어떻게 실행했는지, 세팅 어떻게 했는지 구체적으로 설명하고 무슨 문"
+            "text": "현비스한테 알려줘"
           },
           {
             "role": "assistant",
-            "text": "먼저 관련 스크립트와 로그를 확인합니다."
+            "text": "[[reply_to_current]] #ai-ops 채널에서 현비스에게 전달했습니다. ✅"
           }
         ]
       },
       {
         "id": "ebc771e6",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "확인해줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773123595,
-        "last_active_readable": "15:19",
-        "msg_count": 13,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "확인해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "이제 UVID 키워드 파이프라인 프로젝트 상태를 확인해볼게요."
-          }
-        ]
-      },
-      {
-        "id": "36ee2e75",
-        "type": "thread",
+        "type": "heartbeat",
         "channel": "슬랙 DM",
         "chat_type": "direct",
-        "preview": "현비스와 대화할때는 항상 <#C0AKQ92DL0Z> 채널을 통해 대화해",
-        "last_active": "2분 전",
-        "last_active_ts": 1773123473,
-        "last_active_readable": "15:17",
-        "msg_count": 5,
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123659,
+        "last_active_readable": "15:20",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": []
+      },
+      {
+        "id": "737fae23",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "세션정리",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123658,
+        "last_active_readable": "15:20",
+        "msg_count": 6,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
             "role": "user",
-            "text": "현비스와 대화할때는 항상 <#C0AKQ92DL0Z> 채널을 통해 대화해"
-          },
-          {
-            "role": "assistant",
-            "text": "알겠습니다. MEMORY.md 업데이트 후 현비스에게 올바른 채널로 다시 전달할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "이제 올바른 채널로 현비스에게 배포 요청 전달할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] `#ai-ops` 채널로 현비스에게 배포 요청 전달 완료했습니다. 앞으로 현비스 대화는 항상 해당 채널 통"
+            "text": "세션정리"
           }
         ]
       },
       {
-        "id": "31412207",
+        "id": "a93a3ffb",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "2분 전",
-        "last_active_ts": 1773123459,
-        "last_active_readable": "15:17",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123657,
+        "last_active_readable": "15:20",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": []
+      },
+      {
+        "id": "9d38cf21",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123656,
+        "last_active_readable": "15:20",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> 벤비스 관련 공유드립니다.\n\n벤비스는 현재 `allowBots: true` 설정이 적용되어 있어서, 다른 앱/봇이 벤"
+          }
+        ]
+      },
+      {
+        "id": "9cc6f1cc",
+        "type": "heartbeat",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "앱끼리 태그해도 답하는기능 있지?",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123628,
+        "last_active_readable": "15:20",
         "msg_count": 2,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
+            "role": "user",
+            "text": "앱끼리 태그해도 답하는기능 있지?"
+          },
+          {
             "role": "assistant",
-            "text": "HEARTBEAT_OK"
+            "text": "[[reply_to_current]] 네, 있습니다! `allowBots: true` 설정으로 가능합니다.\n\n**현재 상태**: MEMORY.m"
           }
         ]
       },
@@ -117,7 +131,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -169,7 +183,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -189,7 +203,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "9분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -209,7 +223,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "54분 전",
+        "last_active": "55분 전",
         "last_active_ts": 1773120337,
         "last_active_readable": "14:25",
         "msg_count": 11,
@@ -241,7 +255,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "55분 전",
+        "last_active": "56분 전",
         "last_active_ts": 1773120255,
         "last_active_readable": "14:24",
         "msg_count": 9,
@@ -341,65 +355,13 @@
             "text": "됐어?"
           }
         ]
-      },
-      {
-        "id": "56d9c712",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "서로 여기서 태그하면서 대화해",
-        "last_active": "20시간 전",
-        "last_active_ts": 1773051201,
-        "last_active_readable": "19:13",
-        "msg_count": 12,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "서로 여기서 태그하면서 대화해"
-          },
-          {
-            "role": "user",
-            "text": "답해줘"
-          },
-          {
-            "role": "user",
-            "text": "확인"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 현비스, 같이 논의해보자.\n\n**현재 증상**: 벤이 현비스(`@U0AEL6RJ"
-          }
-        ]
-      },
-      {
-        "id": "2d18ecaa",
-        "type": "thread",
-        "channel": "#팀_growth_그로스",
-        "chat_type": "group",
-        "preview": "설정 변경 완료입니다! 근데 아직도 답변을 못하고 있네요ㅜ 확인해줘",
-        "last_active": "20시간 전",
-        "last_active_ts": 1773050694,
-        "last_active_readable": "19:04",
-        "msg_count": 7,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "설정 변경 완료입니다! 근데 아직도 답변을 못하고 있네요ㅜ 확인해줘"
-          }
-        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:19:01 KST",
+      "last_run": "2026-03-10 15:20:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
