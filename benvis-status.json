@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T10:05:02+09:00",
-  "last_heartbeat_readable": "2026-03-10 10:05:02 KST",
+  "last_heartbeat": "2026-03-10T10:10:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 10:10:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 43,
-    "active_1h": 4,
+    "total_24h": 44,
+    "active_1h": 5,
     "list": [
       {
         "id": "c63ba9e9",
@@ -13,34 +13,14 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
-        "last_active": "1분 전",
-        "last_active_ts": 1773104638,
-        "last_active_readable": "10:03",
-        "msg_count": 122,
+        "last_active": "방금 전",
+        "last_active_ts": 1773105000,
+        "last_active_readable": "10:10",
+        "msg_count": 131,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "서버 정상 작동. 이제 Chrome에서 실제 테스트합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "대시보드는 열었지만 버튼 클릭이 필요합니다. 자동으로 트리거를 호출하는 테스트 페이지를 만들어 Chrome에서 엽니다."
-          },
-          {
-            "role": "assistant",
-            "text": "테스트 페이지는 로드됨. 트리거 서버 로그 파일 직접 확인:"
-          },
-          {
-            "role": "user",
-            "text": "답변할때 너가 너 태그해서 일 계속 이어나가고 끝나면 얘기해줄수 있어?"
-          },
-          {
-            "role": "assistant",
-            "text": "알겠습니다. 계속 진행하고 결과 나오면 알려드리겠습니다.\n\n작업 계속합니다. 테스트 페이지 CORS 문제(origin 불일치) 때문에 POST가"
-          },
           {
             "role": "assistant",
             "text": "GET /status + POST /trigger 모두 Chrome에서 성공. 이제 실제 대시보드에서 테스트합니다."
@@ -52,6 +32,54 @@
           {
             "role": "assistant",
             "text": "Playwright 없어서 직접 클릭 불가. 하지만 테스트 결과 충분합니다.\n\n**테스트 로그 확인:**\n```\n[10:02:33] Chrome"
+          },
+          {
+            "role": "user",
+            "text": "끝난거야?"
+          },
+          {
+            "role": "assistant",
+            "text": "아직입니다. 현재 상태 정리해드립니다.\n\n**확인된 것:**\n- 트리거 서버 실행 중 ✅\n- Windows Chrome → WSL2 localh"
+          },
+          {
+            "role": "user",
+            "text": "안바껴 그대로 지금체크야"
+          },
+          {
+            "role": "assistant",
+            "text": "트리거 서버 로그 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "역시나. HTTPS 페이지에서 HTTP localhost 호출이 Mixed Content로 막혔습니다. 서버에 요청 자체가 안 왔습니다.\n\n근본"
+          }
+        ]
+      },
+      {
+        "id": "77205904",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "세션 종료 69ee173a",
+        "last_active": "3분 전",
+        "last_active_ts": 1773104780,
+        "last_active_readable": "10:06",
+        "msg_count": 5,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "세션 종료 69ee173a"
+          },
+          {
+            "role": "assistant",
+            "text": "`69ee173a` 찾았습니다. `agent:main:slack:channel:c0a3g1qep0v` (#클로드 채널 메인 세션)입니다. 제거하"
+          },
+          {
+            "role": "assistant",
+            "text": "`69ee173a` 세션 삭제 완료했습니다.\n\n게이트웨이 재시작 후 완전히 사라지며, 이후 #클로드 채널에 멘션 오면 새 세션이 생성됩니다."
           }
         ]
       },
@@ -61,7 +89,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM> 이거는 세션종료하면 안돼?\n\n:house: b6713050 :c",
-        "last_active": "12분 전",
+        "last_active": "17분 전",
         "last_active_ts": 1773103952,
         "last_active_readable": "09:52",
         "msg_count": 14,
@@ -85,7 +113,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n현비가가 태그하면 답하도록 수정해줘.\n앱에서 태그하는거라서 답은",
-        "last_active": "17분 전",
+        "last_active": "22분 전",
         "last_active_ts": 1773103642,
         "last_active_readable": "09:47",
         "msg_count": 42,
@@ -133,7 +161,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "41분 전",
+        "last_active": "46분 전",
         "last_active_ts": 1773102185,
         "last_active_readable": "09:23",
         "msg_count": 2,
@@ -157,7 +185,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM> 확인해줘",
-        "last_active": "7시간 전",
+        "last_active": "8시간 전",
         "last_active_ts": 1773076182,
         "last_active_readable": "02:09",
         "msg_count": 33,
@@ -205,7 +233,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM> 대답해줘",
-        "last_active": "8시간 전",
+        "last_active": "9시간 전",
         "last_active_ts": 1773072410,
         "last_active_readable": "01:06",
         "msg_count": 40,
@@ -253,7 +281,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Chat history since last reply (untrusted, for cont",
-        "last_active": "8시간 전",
+        "last_active": "9시간 전",
         "last_active_ts": 1773072384,
         "last_active_readable": "01:06",
         "msg_count": 28,
@@ -534,61 +562,13 @@
             "text": "📊 대시보드 업데이트됨 → https://hyunvis.vercel.app/openclaw-setup.html"
           }
         ]
-      },
-      {
-        "id": "a11126c9",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "너가 잘 돌아가고 있는건지 멈춰있는건지 모르겠어 대시보드 하나 만들어서 너가 돌아가고 있는",
-        "last_active": "14시간 전",
-        "last_active_ts": 1773051229,
-        "last_active_readable": "19:13",
-        "msg_count": 75,
-        "last_role": "user",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "이미 4분 지났어"
-          },
-          {
-            "role": "user",
-            "text": "왜 자꾸 하려다 말아"
-          },
-          {
-            "role": "assistant",
-            "text": "The AI service is temporarily overloaded. Please try again in a moment."
-          },
-          {
-            "role": "user",
-            "text": "됐어?"
-          },
-          {
-            "role": "user",
-            "text": "확인해줘"
-          },
-          {
-            "role": "user",
-            "text": "안돼?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 배포 단계에서 막혔습니다. 지금 바로 완성합니다."
-          },
-          {
-            "role": "user",
-            "text": "됐어?"
-          }
-        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 10:02:34 KST",
+      "last_run": "2026-03-10 10:05:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
