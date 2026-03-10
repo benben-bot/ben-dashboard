@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:07:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:07:01 KST",
+  "last_heartbeat": "2026-03-10T16:08:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:08:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
@@ -14,17 +14,13 @@
         "chat_type": "group",
         "preview": "내가 안열었고 갑자기 크롬창이 열렸어",
         "last_active": "방금 전",
-        "last_active_ts": 1773126415,
-        "last_active_readable": "16:06",
-        "msg_count": 21,
+        "last_active_ts": 1773126431,
+        "last_active_readable": "16:07",
+        "msg_count": 23,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "내가 안열었고 갑자기 크롬창이 열렸어"
-          },
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 확인했습니다. 저(벤비스)는 `uvid-deploy.vercel.app`을 열지 않았습니다.\n\n**현재 상"
@@ -48,6 +44,14 @@
           {
             "role": "assistant",
             "text": "Step 1 아직 실행 중. 네이버 쇼핑인사이트 API 호출이라 조금 시간이 걸립니다. 계속 기다려볼게요."
+          },
+          {
+            "role": "assistant",
+            "text": "Step 1이 너무 오래 걸리고 있네요. 콘솔 확인해볼게요."
+          },
+          {
+            "role": "assistant",
+            "text": "원인 찾았습니다.\n\n**에러:** `/api/step1` → **404 Not Found**\n\nAPI 엔드포인트 자체가 없습니다. Vercel에"
           }
         ]
       },
@@ -58,9 +62,9 @@
         "chat_type": "group",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
         "last_active": "방금 전",
-        "last_active_ts": 1773126413,
-        "last_active_readable": "16:06",
-        "msg_count": 56,
+        "last_active_ts": 1773126426,
+        "last_active_readable": "16:07",
+        "msg_count": 58,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -105,7 +109,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":white_check_mark: _배포 완료_ <https://uvid-keyword-p",
-        "last_active": "5분 전",
+        "last_active": "6분 전",
         "last_active_ts": 1773126114,
         "last_active_readable": "16:01",
         "msg_count": 38,
@@ -153,7 +157,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "작업이 멈춘게 아니고 계속 진행중일때만 30분으로 늘릴 수 있나?",
-        "last_active": "9분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773125870,
         "last_active_readable": "15:57",
         "msg_count": 26,
@@ -197,7 +201,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "44분 전",
+        "last_active": "45분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -221,7 +225,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "44분 전",
+        "last_active": "45분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -249,7 +253,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "45분 전",
+        "last_active": "46분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -269,7 +273,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "49분 전",
+        "last_active": "50분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -301,7 +305,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "51분 전",
+        "last_active": "53분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -321,7 +325,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "53분 전",
+        "last_active": "54분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -341,7 +345,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "56분 전",
+        "last_active": "57분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -451,7 +455,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:06:02 KST",
+      "last_run": "2026-03-10 16:07:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
