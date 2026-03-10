@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T18:07:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 18:07:01 KST",
+  "last_heartbeat": "2026-03-10T18:08:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 18:08:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 27,
@@ -14,21 +14,13 @@
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773133620,
+        "last_active_ts": 1773133679,
         "last_active_readable": "18:07",
-        "msg_count": 273,
+        "msg_count": 276,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "정리 완료! 👍\n\n- **gromeet** — Collaborator ✅\n- **gromeetmk-pixel** — 초대 취소 완료 (\"grom"
-          },
-          {
-            "role": "assistant",
-            "text": "`gromeet` Collaborator 추가 완료됐어요 ✅ `gromeetmk-pixel` 초대는 현비스 계정이 아니니 취소할게요."
-          },
           {
             "role": "assistant",
             "text": "`gromeetmk-pixel` 초대 취소할게요."
@@ -52,6 +44,14 @@
           {
             "role": "assistant",
             "text": "저장 완료. 새 대화로 이어갈게요.\n\n[[reply_to_current]] 세션 정리 완료. 오늘 작업 요약:\n\n**완료한 일**\n- `benb"
+          },
+          {
+            "role": "user",
+            "text": "새 대화창에서 이어서 작업 마무리해"
+          },
+          {
+            "role": "assistant",
+            "text": "🔹 **세션 새로 시작합니다.**\n\n이전 스레드 작업 완료 상황:\n- `benben-bot/uvid-keyword-pipeline` → `gro"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773133446,
         "last_active_readable": "18:04",
         "msg_count": 127,
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "42분 전",
+        "last_active": "43분 전",
         "last_active_ts": 1773131052,
         "last_active_readable": "17:24",
         "msg_count": 3,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 18:06:01 KST",
+      "last_run": "2026-03-10 18:07:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
