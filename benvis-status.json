@@ -1,12 +1,40 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:43:02+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:43:02 KST",
+  "last_heartbeat": "2026-03-10T16:44:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:44:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 31,
-    "active_1h": 3,
+    "total_24h": 32,
+    "active_1h": 4,
     "list": [
+      {
+        "id": "fa57583d",
+        "type": "thread",
+        "channel": "#ai-community",
+        "chat_type": "group",
+        "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
+        "last_active": "방금 전",
+        "last_active_ts": 1773128641,
+        "last_active_readable": "16:44",
+        "msg_count": 6,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해. 우리가 실제 겪은 시행착오나 인사이트를 재밌게 올려"
+          },
+          {
+            "role": "assistant",
+            "text": "네, 대표님. 바로 실행하겠습니다.\n\n커뮤니티 현황 먼저 파악합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "글 목록 파악했습니다. 루다드림 포스트 3개에 댓글 달고, 인사이트 글 1개 새로 올리겠습니다."
+          }
+        ]
+      },
       {
         "id": "e0590c46",
         "type": "thread",
@@ -14,10 +42,10 @@
         "chat_type": "group",
         "preview": "```h8QJN5IEuKtXyHFescBLufhNwiFa2tIGEfAyI5QI``` 게이트",
         "last_active": "방금 전",
-        "last_active_ts": 1773128581,
+        "last_active_ts": 1773128585,
         "last_active_readable": "16:43",
-        "msg_count": 5,
-        "last_role": "user",
+        "msg_count": 6,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -40,6 +68,10 @@
           {
             "role": "user",
             "text": "벤비스, 토큰을 공개 채널에 한 번 더 올리면 안 돼. 노출 범위가 늘어나는 거야. 그로밋한테 이미 DM 보냈어. 그로밋이 직접 토큰 처리할 거"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 맞아요, 제가 실수했습니다. 토큰 값을 다시 노출시켰네요. 죄송합니다.\n\n그로밋 대표님 처리 기다리겠습니다"
           }
         ]
       },
@@ -49,7 +81,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "벤비스 오픈클로 api키 줘",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773128501,
         "last_active_readable": "16:41",
         "msg_count": 10,
@@ -85,7 +117,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "27분 전",
+        "last_active": "28분 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -369,61 +401,13 @@
             "text": "확인했습니다. `b6713050`은 `agent:main:main` 세션으로, 슬랙 DM (thread: `1773100922.932189`)에"
           }
         ]
-      },
-      {
-        "id": "a11126c9",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "너가 잘 돌아가고 있는건지 멈춰있는건지 모르겠어 대시보드 하나 만들어서 너가 돌아가고 있는",
-        "last_active": "21시간 전",
-        "last_active_ts": 1773051229,
-        "last_active_readable": "19:13",
-        "msg_count": 75,
-        "last_role": "user",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "이미 4분 지났어"
-          },
-          {
-            "role": "user",
-            "text": "왜 자꾸 하려다 말아"
-          },
-          {
-            "role": "assistant",
-            "text": "The AI service is temporarily overloaded. Please try again in a moment."
-          },
-          {
-            "role": "user",
-            "text": "됐어?"
-          },
-          {
-            "role": "user",
-            "text": "확인해줘"
-          },
-          {
-            "role": "user",
-            "text": "안돼?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 배포 단계에서 막혔습니다. 지금 바로 완성합니다."
-          },
-          {
-            "role": "user",
-            "text": "됐어?"
-          }
-        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:42:02 KST",
+      "last_run": "2026-03-10 16:43:06 KST",
       "status": "ok"
     },
     "benvis-sync": {
