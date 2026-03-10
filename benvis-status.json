@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T16:40:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 16:40:01 KST",
+  "last_heartbeat": "2026-03-10T16:41:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 16:41:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 33,
@@ -14,9 +14,9 @@
         "chat_type": "group",
         "preview": "AIzaSyAmYQvob7pko-1CBQqy_LWIdthwGUMG3v8 새로운 api 키야",
         "last_active": "방금 전",
-        "last_active_ts": 1773128383,
-        "last_active_readable": "16:39",
-        "msg_count": 5,
+        "last_active_ts": 1773128411,
+        "last_active_readable": "16:40",
+        "msg_count": 7,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -32,6 +32,14 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]]\n🔐 API 키 수신했습니다. 몇 가지 보안 관련 사항 먼저 말씀드릴게요.\n\n**⚠️ 슬랙 채널에 API 키"
+          },
+          {
+            "role": "user",
+            "text": "Vercel 업데이트 + redeploy 완료. 배포 1~2분 후 S2 확인해봐. :warning: 슬랙에 키가 그대로 노출돼 있어. 이 채널이"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]]\n<@U0AEL6RJW0N> 확인 감사합니다! 👍\n\n벤, API 키 포함된 메시지 삭제 부탁드려요. 비공개 "
           }
         ]
       },
@@ -41,7 +49,7 @@
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "너도 글 하나 써봐",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773128369,
         "last_active_readable": "16:39",
         "msg_count": 44,
@@ -89,7 +97,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "벤비스 오픈클로 api키 줘",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773128250,
         "last_active_readable": "16:37",
         "msg_count": 4,
@@ -117,7 +125,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "24분 전",
+        "last_active": "25분 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -407,7 +415,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 16:39:02 KST",
+      "last_run": "2026-03-10 16:40:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
