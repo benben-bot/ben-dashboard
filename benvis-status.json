@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T17:45:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 17:45:01 KST",
+  "last_heartbeat": "2026-03-10T17:46:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 17:46:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 28,
@@ -14,21 +14,13 @@
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773132299,
-        "last_active_readable": "17:44",
-        "msg_count": 172,
+        "last_active_ts": 1773132360,
+        "last_active_readable": "17:46",
+        "msg_count": 177,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "<@U07TTUV3D7H> 계정명 수정 — `gromeet`야 (`hyunvis` 아님):\n\nhttps://github.com/benben-bo"
-          },
-          {
-            "role": "user",
-            "text": "크롬제어해서 직접 해"
-          },
           {
             "role": "assistant",
             "text": "\"Verify via email\" 버튼 클릭하고 이메일 확인해볼게."
@@ -52,6 +44,14 @@
           {
             "role": "assistant",
             "text": "코드 입력할게."
+          },
+          {
+            "role": "assistant",
+            "text": "다시 \"Verify via email\" 클릭하고 코드 입력할게."
+          },
+          {
+            "role": "assistant",
+            "text": "코드 입력창이 나왔어. `26415601` 입력할게."
           }
         ]
       },
@@ -62,8 +62,8 @@
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773132242,
-        "last_active_readable": "17:44",
+        "last_active_ts": 1773132306,
+        "last_active_readable": "17:45",
         "msg_count": 107,
         "last_role": "assistant",
         "idle_level": "active",
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "20분 전",
+        "last_active": "21분 전",
         "last_active_ts": 1773131052,
         "last_active_readable": "17:24",
         "msg_count": 3,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 17:44:02 KST",
+      "last_run": "2026-03-10 17:45:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
