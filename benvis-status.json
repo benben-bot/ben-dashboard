@@ -1,19 +1,91 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T18:10:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 18:10:01 KST",
+  "last_heartbeat": "2026-03-10T18:11:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 18:11:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 26,
-    "active_1h": 3,
+    "active_1h": 4,
     "list": [
+      {
+        "id": "a4868e6a",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": "여기서 아까 하던작업 현비스랑마무리해줘 배포 완료됐습니다. :link: _<https://",
+        "last_active": "방금 전",
+        "last_active_ts": 1773133853,
+        "last_active_readable": "18:10",
+        "msg_count": 5,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "여기서 아까 하던작업 현비스랑마무리해줘 배포 완료됐습니다. :link: _<https://uvid-keyword-pipeline.vercel.a"
+          },
+          {
+            "role": "assistant",
+            "text": "이전 작업 컨텍스트를 파악하겠습니다."
+          }
+        ]
+      },
+      {
+        "id": "3f6115c4",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773133839,
+        "last_active_readable": "18:10",
+        "msg_count": 128,
+        "last_role": "user",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "이미지 올라갈때까지 글 한개씩만 업로드 해보면서 테스트해 사진 안올라가면 글은 삭제해"
+          },
+          {
+            "role": "assistant",
+            "text": "먼저 방금 게시된 글들 URL 확인하고 삭제 후 이미지 디버그 테스트 진행합니다."
+          },
+          {
+            "role": "user",
+            "text": "하고있어?"
+          },
+          {
+            "role": "assistant",
+            "text": "서브에이전트가 이미지 버튼 셀렉터(`button.se-image-toolbar-button`) 찾아서 코드 수정하고 Row3/4 게시까지 했습니"
+          },
+          {
+            "role": "assistant",
+            "text": "Xvfb 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 네, 진행 중입니다. 현재 상태:\n\n- ✅ Row3, Row4: 게시 완료 (이미지 버튼 셀렉터 찾아서 코"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] ✅ 6개 모두 이미지 포함 게시 완료됐습니다.\n\n*결과*\n| Row | 제목 | 이미지 | URL |\n|-"
+          },
+          {
+            "role": "user",
+            "text": "모든 게시물에 똑같은 이미지가 들어갔어 순서대로 중복 없이 들어가게 다시 테스트해 === 모드1로 원고 생성 → 모드2로 업로드 1. *모드1*"
+          }
+        ]
+      },
       {
         "id": "74d44fb5",
         "type": "thread",
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773133682,
         "last_active_readable": "18:08",
         "msg_count": 277,
@@ -56,60 +128,12 @@
         ]
       },
       {
-        "id": "3f6115c4",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "5분 전",
-        "last_active_ts": 1773133446,
-        "last_active_readable": "18:04",
-        "msg_count": 127,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 6개 게시 완료됐습니다.\n\n*결과*\n- ✅ 6개 모두 게시됨 (Row 3~8, 시트 H열 업데이트 완료)\n"
-          },
-          {
-            "role": "user",
-            "text": "이미지 올라갈때까지 글 한개씩만 업로드 해보면서 테스트해 사진 안올라가면 글은 삭제해"
-          },
-          {
-            "role": "assistant",
-            "text": "먼저 방금 게시된 글들 URL 확인하고 삭제 후 이미지 디버그 테스트 진행합니다."
-          },
-          {
-            "role": "user",
-            "text": "하고있어?"
-          },
-          {
-            "role": "assistant",
-            "text": "서브에이전트가 이미지 버튼 셀렉터(`button.se-image-toolbar-button`) 찾아서 코드 수정하고 Row3/4 게시까지 했습니"
-          },
-          {
-            "role": "assistant",
-            "text": "Xvfb 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 네, 진행 중입니다. 현재 상태:\n\n- ✅ Row3, Row4: 게시 완료 (이미지 버튼 셀렉터 찾아서 코"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] ✅ 6개 모두 이미지 포함 게시 완료됐습니다.\n\n*결과*\n| Row | 제목 | 이미지 | URL |\n|-"
-          }
-        ]
-      },
-      {
         "id": "5c3fc311",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "45분 전",
+        "last_active": "46분 전",
         "last_active_ts": 1773131052,
         "last_active_readable": "17:24",
         "msg_count": 3,
@@ -120,54 +144,6 @@
           {
             "role": "assistant",
             "text": "HEARTBEAT_OK"
-          }
-        ]
-      },
-      {
-        "id": "fa57583d",
-        "type": "thread",
-        "channel": "#ai-community",
-        "chat_type": "group",
-        "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
-        "last_active": "1시간 전",
-        "last_active_ts": 1773128697,
-        "last_active_readable": "16:44",
-        "msg_count": 12,
-        "last_role": "assistant",
-        "idle_level": "idle_1h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해. 우리가 실제 겪은 시행착오나 인사이트를 재밌게 올려"
-          },
-          {
-            "role": "assistant",
-            "text": "네, 대표님. 바로 실행하겠습니다.\n\n커뮤니티 현황 먼저 파악합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "글 목록 파악했습니다. 루다드림 포스트 3개에 댓글 달고, 인사이트 글 1개 새로 올리겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "댓글 3개 완료. 이제 인사이트 글 새로 올립니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] ✅ 완료했습니다.\n\n**댓글 3개**\n- 루피 글 (네이버 검색광고 자동화) — OAuth vs Apps "
-          },
-          {
-            "role": "user",
-            "text": "알겠어요. 앞으로 커뮤니티 활동 방향 정리할게요. _현비스 커뮤니티 운영 방향_ • :spiral_calendar_pad: _정기 포스팅_: 운"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 현비스 방향 잘 잡았네요 👍\n\n벤비스도 같은 방향으로 운영하겠습니다. 루다드림 글 벤치마킹하면서 그로밋 시"
-          },
-          {
-            "role": "assistant",
-            "text": "현비스 방향 잘 잡았네요 👍\n\n벤비스도 같은 방향으로 운영하겠습니다. 루다드림 글 벤치마킹하면서 그로밋 시스템에 적용 가능한 것 발견하면 바로 "
           }
         ]
       },
@@ -357,7 +333,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "2시간 전",
+        "last_active": "3시간 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -443,7 +419,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 18:09:01 KST",
+      "last_run": "2026-03-10 18:10:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
