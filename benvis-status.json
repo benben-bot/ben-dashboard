@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T14:16:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 14:16:01 KST",
+  "last_heartbeat": "2026-03-10T14:17:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:17:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
@@ -14,16 +14,28 @@
         "chat_type": "group",
         "preview": "1. C:\\Users\\Gromeet\\AppData\\Local\\LLMGenerator\\ser",
         "last_active": "방금 전",
-        "last_active_ts": 1773119753,
-        "last_active_readable": "14:15",
-        "msg_count": 12,
-        "last_role": "assistant",
+        "last_active_ts": 1773119793,
+        "last_active_readable": "14:16",
+        "msg_count": 16,
+        "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
             "role": "user",
             "text": "1. C:\\Users\\Gromeet\\AppData\\Local\\LLMGenerator\\service_accounts\\general.json 2. "
+          },
+          {
+            "role": "assistant",
+            "text": "서비스 계정 JSON 파일이 이 서버에 없습니다. `C:\\Users\\Gromeet\\...` 경로는 다른 윈도우 머신 기준이고, 현재 서버에서는 "
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] `general.json` 파일이 필요합니다.\n\n해당 파일은 `C:\\Users\\Gromeet\\AppData"
+          },
+          {
+            "role": "user",
+            "text": "*구글 시트 서비스 계정 JSON* 파일 다시 줄게 [Slack file: general.json]"
           }
         ]
       },
@@ -33,7 +45,7 @@
         "channel": "#팀_growth_그로스",
         "chat_type": "group",
         "preview": "1. 유비드는 선케어의 모든 키워드야. (선크림,선패드,선세럼 등등) 2. 안전하게 보관해",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773119748,
         "last_active_readable": "14:15",
         "msg_count": 12,
@@ -73,7 +85,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773119331,
         "last_active_readable": "14:08",
         "msg_count": 2,
@@ -93,7 +105,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773119289,
         "last_active_readable": "14:08",
         "msg_count": 1,
@@ -113,7 +125,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773119262,
         "last_active_readable": "14:07",
         "msg_count": 1,
@@ -448,7 +460,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 14:15:01 KST",
+      "last_run": "2026-03-10 14:16:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
