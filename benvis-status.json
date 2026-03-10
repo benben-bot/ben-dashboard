@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T02:41:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 02:41:01 KST",
+  "last_heartbeat": "2026-03-11T02:42:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 02:42:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 16,
@@ -14,9 +14,9 @@
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
         "last_active": "방금 전",
-        "last_active_ts": 1773164444,
-        "last_active_readable": "02:40",
-        "msg_count": 7,
+        "last_active_ts": 1773164461,
+        "last_active_readable": "02:41",
+        "msg_count": 8,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -431,7 +431,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 02:40:02 KST",
+      "last_run": "2026-03-11 02:41:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
