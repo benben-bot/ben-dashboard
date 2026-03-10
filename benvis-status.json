@@ -1,12 +1,36 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T14:14:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 14:14:01 KST",
+  "last_heartbeat": "2026-03-10T14:15:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 14:15:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
     "active_1h": 5,
     "list": [
+      {
+        "id": "ed8e0d51",
+        "type": "main",
+        "channel": "#팀_growth_그로스",
+        "chat_type": "group",
+        "preview": "1. 유비드는 선케어의 모든 키워드야. (선크림,선패드,선세럼 등등) 2. 안전하게 보관해",
+        "last_active": "방금 전",
+        "last_active_ts": 1773119696,
+        "last_active_readable": "14:14",
+        "msg_count": 7,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "네, 지금 살아있습니다. 응답 늦어서 죄송합니다.\n\n사이트 확인했습니다. 키워드 디스커버리 파이프라인 v5 — 네이버 쇼핑인사이트 + Gemin"
+          },
+          {
+            "role": "user",
+            "text": "1. 유비드는 선케어의 모든 키워드야. (선크림,선패드,선세럼 등등) 2. 안전하게 보관해. a. 네이버 CUSTOMER_ID = 1748252"
+          }
+        ]
+      },
       {
         "id": "ba4ab542",
         "type": "thread",
@@ -14,9 +38,9 @@
         "chat_type": "group",
         "preview": "1. C:\\Users\\Gromeet\\AppData\\Local\\LLMGenerator\\ser",
         "last_active": "방금 전",
-        "last_active_ts": 1773119627,
-        "last_active_readable": "14:13",
-        "msg_count": 9,
+        "last_active_ts": 1773119687,
+        "last_active_readable": "14:14",
+        "msg_count": 10,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -33,7 +57,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "5분 전",
+        "last_active": "6분 전",
         "last_active_ts": 1773119331,
         "last_active_readable": "14:08",
         "msg_count": 2,
@@ -48,32 +72,12 @@
         ]
       },
       {
-        "id": "ed8e0d51",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "5분 전",
-        "last_active_ts": 1773119329,
-        "last_active_readable": "14:08",
-        "msg_count": 1,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "네, 지금 살아있습니다. 응답 늦어서 죄송합니다.\n\n사이트 확인했습니다. 키워드 디스커버리 파이프라인 v5 — 네이버 쇼핑인사이트 + Gemin"
-          }
-        ]
-      },
-      {
         "id": "8bb277a5",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "5분 전",
+        "last_active": "6분 전",
         "last_active_ts": 1773119289,
         "last_active_readable": "14:08",
         "msg_count": 1,
@@ -93,7 +97,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773119262,
         "last_active_readable": "14:07",
         "msg_count": 1,
@@ -428,7 +432,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 14:13:02 KST",
+      "last_run": "2026-03-10 14:14:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
