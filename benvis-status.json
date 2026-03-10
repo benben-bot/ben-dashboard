@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T11:35:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 11:35:01 KST",
+  "last_heartbeat": "2026-03-10T11:36:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 11:36:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "세션종료하는 기준이 뭐야? 계속 세션이 쌓여가서 많이 쌓이면 멈추고있어",
-        "last_active": "47분 전",
+        "last_active": "48분 전",
         "last_active_ts": 1773107243,
         "last_active_readable": "10:47",
         "msg_count": 31,
@@ -524,7 +524,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 11:34:01 KST",
+      "last_run": "2026-03-10 11:35:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
