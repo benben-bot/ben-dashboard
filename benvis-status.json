@@ -1,59 +1,50 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:12:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:12:01 KST",
+  "last_heartbeat": "2026-03-10T15:13:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:13:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 31,
-    "active_1h": 7,
+    "total_24h": 29,
+    "active_1h": 5,
     "list": [
       {
-        "id": "141bbc4e",
+        "id": "c500acc0",
         "type": "thread",
-        "channel": "#팀_growth_그로스",
-        "chat_type": "group",
-        "preview": "시트 링크 보내주고 완료되면 보고해줘",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "현비스한테 부탁해",
         "last_active": "방금 전",
-        "last_active_ts": 1773123120,
+        "last_active_ts": 1773123179,
         "last_active_readable": "15:12",
-        "msg_count": 16,
+        "msg_count": 5,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
             "role": "user",
-            "text": "시트 링크 보내주고 완료되면 보고해줘"
+            "text": "현비스한테 부탁해"
+          },
+          {
+            "role": "assistant",
+            "text": "MEMORY.md에서 확인한 현비스 ID(`U0AEL6RJW0N`)로 #ai-ops 채널을 통해 메시지 전달하겠습니다."
           }
         ]
       },
       {
-        "id": "892eaab3",
+        "id": "141bbc4e",
         "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "실행한게 맞아? 가입은 돼있으니까 될때까지 해봐 어디 문제있으면 바로 말해",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
         "last_active": "방금 전",
-        "last_active_ts": 1773123095,
-        "last_active_readable": "15:11",
-        "msg_count": 7,
+        "last_active_ts": 1773123172,
+        "last_active_readable": "15:12",
+        "msg_count": 4,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "실행한게 맞아? 가입은 돼있으니까 될때까지 해봐 어디 문제있으면 바로 말해"
-          },
-          {
-            "role": "assistant",
-            "text": "대상 3개 남은 거 확인했습니다 (row6, 7, 8 — faultiti3 계정). 로그인 실패 원인부터 디버그하고 재시도합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "faultiti3 로그인 자체는 정상입니다 (네이버 홈으로 리다이렉트 확인). 이전 실패 원인은 로그인 URL 감지 오류였을 가능성입니다. 바로"
-          }
-        ]
+        "messages": []
       },
       {
         "id": "d13756ae",
@@ -61,7 +52,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -76,56 +67,12 @@
         ]
       },
       {
-        "id": "afe2457b",
-        "type": "heartbeat",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "A completed subagent task is ready for user delive",
-        "last_active": "1분 전",
-        "last_active_ts": 1773123020,
-        "last_active_readable": "15:10",
-        "msg_count": 2,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "A completed subagent task is ready for user delivery. Convert the result above i"
-          },
-          {
-            "role": "assistant",
-            "text": "에이전트 셋업 완료됐습니다! 🔹\n\n## 생성된 에이전트 4종\n\n| 에이전트 | 파일 | 역할 |\n|---|---|---|\n| sheets-age"
-          }
-        ]
-      },
-      {
-        "id": "ccca53df",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "1분 전",
-        "last_active_ts": 1773123003,
-        "last_active_readable": "15:10",
-        "msg_count": 11,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "모든 에이전트 생성 완료. 4개 모두 `--test` 통과.\n\n---\n\n## 완료 보고\n\n### 생성된 파일 목록\n```\nagents/\n├── "
-          }
-        ]
-      },
-      {
         "id": "ba4ab542",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "46분 전",
+        "last_active": "47분 전",
         "last_active_ts": 1773120337,
         "last_active_readable": "14:25",
         "msg_count": 11,
@@ -157,7 +104,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "47분 전",
+        "last_active": "48분 전",
         "last_active_ts": 1773120255,
         "last_active_readable": "14:24",
         "msg_count": 9,
@@ -409,13 +356,85 @@
             "text": "17:35 KST — 조용한 시간 아님. 크론잡 없음 (에러 없음). 메모리 파일 없지만 20:00 이전이라 액션 불필요.\n\nHEARTBEAT_"
           }
         ]
+      },
+      {
+        "id": "a632ea59",
+        "type": "thread",
+        "channel": "#팀_growth_그로스",
+        "chat_type": "group",
+        "preview": "<!subteam^S07UXDU7LM6> 앞으로 시장 조사할때 필수로 체크해주세요! 몰스코",
+        "last_active": "20시간 전",
+        "last_active_ts": 1773048094,
+        "last_active_readable": "18:21",
+        "msg_count": 44,
+        "last_role": "assistant",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
+          {
+            "role": "user",
+            "text": "현비스. 진행상황 알려줘"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 그로밋님, 저는 벤비스입니다. 현비스(<@U0AEL6RJW0N>)가 응답을 못 하고 있는 것 같습니다.\n\n"
+          },
+          {
+            "role": "assistant",
+            "text": "현비스 세션이 별도로 확인되지 않습니다. 현비스는 독립 시스템으로 운영 중이라 제가 직접 상태를 확인하기 어렵습니다.\n\n그로밋님, 현비스 Ope"
+          },
+          {
+            "role": "user",
+            "text": "진행상황 알려줘"
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "진행상황 알려줘"
+          },
+          {
+            "role": "user",
+            "text": "링크로 보내줄 수 있어?"
+          },
+          {
+            "role": "user",
+            "text": "링크로 보내줘"
+          }
+        ]
+      },
+      {
+        "id": "2f21bf1f",
+        "type": "thread",
+        "channel": "#ai-community",
+        "chat_type": "group",
+        "preview": "초대",
+        "last_active": "20시간 전",
+        "last_active_ts": 1773047924,
+        "last_active_readable": "18:18",
+        "msg_count": 9,
+        "last_role": "assistant",
+        "idle_level": "idle_6h",
+        "is_active": false,
+        "messages": [
+          {
+            "role": "user",
+            "text": "초대"
+          },
+          {
+            "role": "user",
+            "text": "현비스,벤비스 너네 자기 소개 하고 크롱이랑 루피랑 커뮤니케이션 하면서 어떻게 하면 시너지 낼 수 있을지 고민해봐"
+          }
+        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:11:02 KST",
+      "last_run": "2026-03-10 15:12:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
