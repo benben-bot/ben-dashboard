@@ -1,12 +1,40 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T15:25:08+09:00",
-  "last_heartbeat_readable": "2026-03-10 15:25:08 KST",
+  "last_heartbeat": "2026-03-10T15:26:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 15:26:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 36,
-    "active_1h": 11,
+    "active_1h": 10,
     "list": [
+      {
+        "id": "a7414057",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "완료했어",
+        "last_active": "방금 전",
+        "last_active_ts": 1773123960,
+        "last_active_readable": "15:26",
+        "msg_count": 18,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "완료했어"
+          },
+          {
+            "role": "assistant",
+            "text": "Now, let me deploy the project."
+          },
+          {
+            "role": "assistant",
+            "text": "Google Sheets 서비스 계정 키가 아직 없네요. 일단 빌드 확인 후 배포 진행하겠습니다."
+          }
+        ]
+      },
       {
         "id": "34637eee",
         "type": "thread",
@@ -14,9 +42,9 @@
         "chat_type": "direct",
         "preview": "어떤문제가 발생한건지 파악하고 해결해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773123908,
+        "last_active_ts": 1773123939,
         "last_active_readable": "15:25",
-        "msg_count": 7,
+        "msg_count": 8,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -28,26 +56,10 @@
           {
             "role": "assistant",
             "text": "먼저 스크립트와 로그를 확인하겠습니다."
-          }
-        ]
-      },
-      {
-        "id": "a7414057",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "완료했어",
-        "last_active": "방금 전",
-        "last_active_ts": 1773123906,
-        "last_active_readable": "15:25",
-        "msg_count": 9,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
+          },
           {
-            "role": "user",
-            "text": "완료했어"
+            "role": "assistant",
+            "text": "진단 완료됐습니다. 결과 요약드립니다.\n\n---\n\n**🔍 진단 결과**\n\n**bash 스크립트 (`benvis-heartbeat.sh`)는 정상"
           }
         ]
       },
@@ -57,7 +69,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773123850,
         "last_active_readable": "15:24",
         "msg_count": 2,
@@ -81,7 +93,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -105,7 +117,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -133,7 +145,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773123708,
         "last_active_readable": "15:21",
         "msg_count": 3,
@@ -153,7 +165,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -185,7 +197,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -205,7 +217,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773123199,
         "last_active_readable": "15:13",
         "msg_count": 1,
@@ -225,7 +237,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "14분 전",
+        "last_active": "15분 전",
         "last_active_ts": 1773123035,
         "last_active_readable": "15:10",
         "msg_count": 2,
@@ -245,13 +257,13 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "59분 전",
+        "last_active": "1시간 전",
         "last_active_ts": 1773120337,
         "last_active_readable": "14:25",
         "msg_count": 11,
         "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
+        "idle_level": "idle_1h",
+        "is_active": false,
         "messages": [
           {
             "role": "assistant",
@@ -383,7 +395,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 15:25:01 KST",
+      "last_run": "2026-03-10 15:25:09 KST",
       "status": "ok"
     },
     "benvis-sync": {
