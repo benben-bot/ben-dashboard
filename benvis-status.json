@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T09:25:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 09:25:01 KST",
+  "last_heartbeat": "2026-03-10T09:25:38+09:00",
+  "last_heartbeat_readable": "2026-03-10 09:25:38 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 41,
@@ -14,17 +14,13 @@
         "chat_type": "direct",
         "preview": "상태대시보드 지금체크 눌러도 실시간 체크가 안되는것같은데? 확인하고 수정해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773102287,
-        "last_active_readable": "09:24",
-        "msg_count": 38,
+        "last_active_ts": 1773102338,
+        "last_active_readable": "09:25",
+        "msg_count": 39,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "이제 대시보드에 펼치기 기능 추가합니다."
-          },
           {
             "role": "assistant",
             "text": "이제 세션 카드 렌더링 JavaScript를 업데이트합니다."
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "OpenClaw에 `/tools/invoke` HTTP API가 있네요. 게이트웨이 설정 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "게이트웨이가 `loopback(127.0.0.1)`에 바인딩되어 있어 GitHub Pages에서 직접 호출 불가합니다. 먼저 **대화내역 없음*"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773102185,
         "last_active_readable": "09:23",
         "msg_count": 2,
@@ -568,7 +568,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 09:20:01 KST",
+      "last_run": "2026-03-10 09:25:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
