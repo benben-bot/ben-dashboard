@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T12:13:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 12:13:01 KST",
+  "last_heartbeat": "2026-03-10T12:14:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 12:14:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 29,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<https://www.notion.so/bustercorp/AI-V4-26f8555e3e",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773112352,
         "last_active_readable": "12:12",
         "msg_count": 40,
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "Current time: Tuesday, March 10th, 2026 — 4:21 AM ",
-        "last_active": "33분 전",
+        "last_active": "34분 전",
         "last_active_ts": 1773110343,
         "last_active_readable": "11:39",
         "msg_count": 2,
@@ -205,7 +205,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "너가 잘 돌아가고 있는건지 멈춰있는건지 모르겠어 대시보드 하나 만들어서 너가 돌아가고 있는",
-        "last_active": "16시간 전",
+        "last_active": "17시간 전",
         "last_active_ts": 1773051229,
         "last_active_readable": "19:13",
         "msg_count": 75,
@@ -253,7 +253,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "서로 여기서 태그하면서 대화해",
-        "last_active": "16시간 전",
+        "last_active": "17시간 전",
         "last_active_ts": 1773051201,
         "last_active_readable": "19:13",
         "msg_count": 12,
@@ -501,7 +501,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "<@U09TRNYM1SM>\n\n벤비스. 너가 확인해봐",
-        "last_active": "17시간 전",
+        "last_active": "18시간 전",
         "last_active_ts": 1773047613,
         "last_active_readable": "18:13",
         "msg_count": 10,
@@ -524,7 +524,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 12:12:02 KST",
+      "last_run": "2026-03-10 12:13:03 KST",
       "status": "ok"
     },
     "benvis-sync": {
