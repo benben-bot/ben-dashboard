@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-10T17:05:01+09:00",
-  "last_heartbeat_readable": "2026-03-10 17:05:01 KST",
+  "last_heartbeat": "2026-03-10T17:06:01+09:00",
+  "last_heartbeat_readable": "2026-03-10 17:06:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 32,
@@ -13,7 +13,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "삭제했어 마저 마무리해줘",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773129774,
         "last_active_readable": "17:02",
         "msg_count": 82,
@@ -61,7 +61,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773129410,
         "last_active_readable": "16:56",
         "msg_count": 55,
@@ -89,7 +89,7 @@
         "channel": "#ai-community",
         "chat_type": "group",
         "preview": "현비스,벤비스 너네도 앞으로 커뮤니티 활동 활발하게 하고, 댓글이나 좋아요 활동도 열심히해",
-        "last_active": "20분 전",
+        "last_active": "21분 전",
         "last_active_ts": 1773128697,
         "last_active_readable": "16:44",
         "msg_count": 12,
@@ -137,7 +137,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "```h8QJN5IEuKtXyHFescBLufhNwiFa2tIGEfAyI5QI``` 게이트",
-        "last_active": "21분 전",
+        "last_active": "22분 전",
         "last_active_ts": 1773128585,
         "last_active_readable": "16:43",
         "msg_count": 6,
@@ -177,7 +177,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "49분 전",
+        "last_active": "50분 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -443,7 +443,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-10 17:04:01 KST",
+      "last_run": "2026-03-10 17:05:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
