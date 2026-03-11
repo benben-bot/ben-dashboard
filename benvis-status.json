@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T16:20:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 16:20:01 KST",
+  "last_heartbeat": "2026-03-11T16:21:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 16:21:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
@@ -14,21 +14,13 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
         "last_active": "방금 전",
-        "last_active_ts": 1773213601,
+        "last_active_ts": 1773213653,
         "last_active_readable": "16:20",
-        "msg_count": 107,
+        "msg_count": 110,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "확인 결과입니다:\n\n| API | 무료 여부 | 한도 |\n|-----|-----------|------|\n| **Tavily** | ✅ 무료 있"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 16:11 GMT+9] Tavily\n\ntvly-dev-3mTuN-Y4HbOjf3XNBNJxIKUiLvh0BcvJl0"
-          },
           {
             "role": "assistant",
             "text": "`web-search-pro` 스킬이 Tavily를 지원합니다. `TAVILY_API_KEY` 환경변수로 설정하면 됩니다."
@@ -52,6 +44,14 @@
           {
             "role": "assistant",
             "text": "실시간 검색 결과 나왔습니다.\n\n---\n\n**유비드와 유사한 신생 · 잘팔리는 뷰티 브랜드 (2024~2025)**\n\n| 브랜드 | 특징 | 유"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 16:20 GMT+9] 각 브랜드들이 어떤 마케팅으로 성장을 했는지 찾을 수 있어?"
+          },
+          {
+            "role": "assistant",
+            "text": "검색 완료. 브랜드별 마케팅 전략 정리해드립니다:\n\n---\n\n**📊 브랜드별 성장 마케팅 전략**\n\n**🔵 아누아**\n- **고객 집착 데이터 "
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "다른 pc",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773213410,
         "last_active_readable": "16:16",
         "msg_count": 67,
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "바쁘니",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773213237,
         "last_active_readable": "16:13",
         "msg_count": 6,
@@ -141,7 +141,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773213112,
         "last_active_readable": "16:11",
         "msg_count": 56,
@@ -188,7 +188,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 16:19:01 KST",
+      "last_run": "2026-03-11 16:20:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
