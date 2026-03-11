@@ -1,12 +1,32 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T17:25:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 17:25:01 KST",
+  "last_heartbeat": "2026-03-11T17:26:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 17:26:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 3,
-    "active_1h": 2,
+    "total_24h": 4,
+    "active_1h": 4,
     "list": [
+      {
+        "id": "c8487233",
+        "type": "heartbeat",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "왜 실패했어?",
+        "last_active": "방금 전",
+        "last_active_ts": 1773217552,
+        "last_active_readable": "17:25",
+        "msg_count": 3,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "왜 실패했어?"
+          }
+        ]
+      },
       {
         "id": "028d1d74",
         "type": "main",
@@ -14,10 +34,10 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
         "last_active": "방금 전",
-        "last_active_ts": 1773217500,
+        "last_active_ts": 1773217526,
         "last_active_readable": "17:25",
-        "msg_count": 11,
-        "last_role": "user",
+        "msg_count": 10,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -44,12 +64,32 @@
         ]
       },
       {
+        "id": "cea384b0",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773217524,
+        "last_active_readable": "17:25",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "🚨 크론잡 실패 알림\n\n- **잡**: vivid-sa\n- **시각**: 2026-03-11 17:25 KST\n- **오류**: SIGTERM "
+          }
+        ]
+      },
+      {
         "id": "5a9863a8",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773217478,
         "last_active_readable": "17:24",
         "msg_count": 112,
@@ -90,61 +130,13 @@
             "text": "[[reply_to_current]] 위 이미지가 '호시자키 제빙기' 관련 이미지입니다.\n\n- **비율**: 1:1 ✅\n- **출처**: 네이버"
           }
         ]
-      },
-      {
-        "id": "51a1a2ec",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "다른 pc",
-        "last_active": "1시간 전",
-        "last_active_ts": 1773213410,
-        "last_active_readable": "16:16",
-        "msg_count": 67,
-        "last_role": "assistant",
-        "idle_level": "idle_1h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "게이트웨이는 지금 정상 실행 중입니다. \"draining for restart\" 메시지는 **재시작 과도기에 요청이 들어왔을 때** 뜨는 일시적"
-          },
-          {
-            "role": "user",
-            "text": "이렇게 떠 ERR_NGROK_3200 The endpoint <http://filamentous-evangelistic-blondell.ngro"
-          },
-          {
-            "role": "assistant",
-            "text": "ngrok이 또 죽었네요. 재시작할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "재시작 완료 ✅ URL 동일합니다.\n\n근데 ngrok이 자꾸 죽는 게 문제입니다. **systemd 서비스로 등록해서 자동 재시작**되게 만들어"
-          },
-          {
-            "role": "assistant",
-            "text": "이미 ngrok이 실행 중이라 충돌났습니다. 기존 프로세스 종료 후 systemd가 관리하게 할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] systemd 서비스로 등록 완료 ✅\n\n이제 ngrok이 죽어도 **자동으로 재시작**됩니다. WSL2 재"
-          },
-          {
-            "role": "user",
-            "text": "이제 게이트웨이 재시작 해도 괜찮아?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 네, 게이트웨이 재시작은 완전히 괜찮습니다 ✅\n\n- **게이트웨이 재시작** → ngrok은 별개 서비스라"
-          }
-        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 17:24:01 KST",
+      "last_run": "2026-03-11 17:25:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
