@@ -1,23 +1,47 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T22:00:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 22:00:01 KST",
+  "last_heartbeat": "2026-03-11T22:01:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 22:01:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 8,
-    "active_1h": 1,
+    "total_24h": 7,
+    "active_1h": 2,
     "list": [
+      {
+        "id": "80ca603e",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "Return your summary as plain text; it will be deli",
+        "last_active": "방금 전",
+        "last_active_ts": 1773234060,
+        "last_active_readable": "22:01",
+        "msg_count": 12,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "Return your summary as plain text; it will be delivered automatically. If the ta"
+          },
+          {
+            "role": "assistant",
+            "text": "오늘 작업 내역을 파악하기 위해 메모리 파일과 최근 세션 내역을 확인하겠습니다."
+          }
+        ]
+      },
       {
         "id": "fae08a5f",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사",
-        "last_active": "방금 전",
-        "last_active_ts": 1773234000,
+        "last_active": "1분 전",
+        "last_active_ts": 1773234001,
         "last_active_readable": "22:00",
-        "msg_count": 110,
-        "last_role": "user",
+        "msg_count": 111,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -72,86 +96,6 @@
         ]
       },
       {
-        "id": "6d23cce9",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "원고생성기",
-        "last_active": "3시간 전",
-        "last_active_ts": 1773221361,
-        "last_active_readable": "18:29",
-        "msg_count": 8,
-        "last_role": "assistant",
-        "idle_level": "idle_1h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "원고생성기"
-          },
-          {
-            "role": "assistant",
-            "text": "\"원고생성기\"에 대해 조금 더 알려주세요.\n\n어떤 브랜드(쿠참/UVID/포레몽 등)용인지, 어떤 용도인지(광고 카피, 네이버 카페 게시글, SN"
-          },
-          {
-            "role": "user",
-            "text": "작업 이어서 할게 :compression: 세션 컨텍스트 요약 (새 채팅 시작) *오늘 완료된 작업 (2026-03-11)* *네이버 카페 이미"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 컨텍스트 확인했습니다. 이어서 진행하겠습니다.\n\n다음 작업이 **원고생성기** 제작인가요? 맞다면 어떤 브"
-          }
-        ]
-      },
-      {
-        "id": "681adee2",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "확인해줘",
-        "last_active": "3시간 전",
-        "last_active_ts": 1773221282,
-        "last_active_readable": "18:28",
-        "msg_count": 16,
-        "last_role": "assistant",
-        "idle_level": "idle_1h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 새 채팅 만들게요. 잠깐만요."
-          },
-          {
-            "role": "assistant",
-            "text": "🗜️ 세션 컨텍스트 요약 (새 채팅 시작)\n\n*오늘 완료된 작업 (2026-03-11)*\n\n*네이버 카페 이미지 업로드*\n• Row3~8 게시 "
-          },
-          {
-            "role": "assistant",
-            "text": "새 채팅 열었습니다. 위 스레드에서 이어서 진행하시면 됩니다 🔹"
-          },
-          {
-            "role": "user",
-            "text": "슬랙에서 새로운 메세지 보내서 시작해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "🔹 새 세션 시작합니다.\n\n*컨텍스트 요약 (2026-03-11 인계)*\n\n*완료된 작업*\n• 네이버 카페 Row3~8 게시 완료 (run_mo"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 새 메시지로 시작했습니다. 저 메시지에서 이어서 진행하시면 됩니다 🔹"
-          },
-          {
-            "role": "user",
-            "text": "새로운 스레드로 다시 시작"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 방금 새 메시지 하나 보냈습니다 (바로 위). 그 메시지에 답글 달아주시면 새 스레드로 이어집니다 🔹"
-          }
-        ]
-      },
-      {
         "id": "5a9863a8",
         "type": "heartbeat",
         "channel": "슬랙 DM",
@@ -172,7 +116,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "3시간 전",
+        "last_active": "4시간 전",
         "last_active_ts": 1773219649,
         "last_active_readable": "18:00",
         "msg_count": 13,
@@ -263,12 +207,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 21:59:02 KST",
+      "last_run": "2026-03-11 22:00:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-11 22:00:01 KST",
+      "last_run": "2026-03-11 22:00:04 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
