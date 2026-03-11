@@ -1,40 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:03:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:03:01 KST",
+  "last_heartbeat": "2026-03-11T10:04:02+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:04:02 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
     "active_1h": 4,
     "list": [
-      {
-        "id": "a6eabc9e",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq",
-        "last_active": "방금 전",
-        "last_active_ts": 1773190975,
-        "last_active_readable": "10:02",
-        "msg_count": 6,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq3nZ?tab_id=2> 위에 링크에 있는 제빙기들 확"
-          },
-          {
-            "role": "assistant",
-            "text": "경쟁 제품 목록 확인했습니다. 쿠팡 제품들 상세 정보와 쿠참 제품 정보를 가져올게요."
-          },
-          {
-            "role": "assistant",
-            "text": "쿠팡이 차단됩니다. 브라우저로 접근할게요."
-          }
-        ]
-      },
       {
         "id": "ba418748",
         "type": "thread",
@@ -42,17 +14,13 @@
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
         "last_active": "방금 전",
-        "last_active_ts": 1773190969,
-        "last_active_readable": "10:02",
-        "msg_count": 30,
+        "last_active_ts": 1773191039,
+        "last_active_readable": "10:03",
+        "msg_count": 37,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] **Claude Code 코드 리뷰 기능** (리서치 프리뷰) 요약입니다.\n\n**기능 요약**\n- PR마다"
-          },
           {
             "role": "user",
             "text": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거있는지 확인해"
@@ -80,6 +48,46 @@
           {
             "role": "assistant",
             "text": "ID 파싱 정상 (13건). 크론잡 등록합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "시스템 타임존이 KST로 설정되어 있습니다. 기존 크론 방식(system crontab)에 맞게 변경하겠습니다."
+          }
+        ]
+      },
+      {
+        "id": "a6eabc9e",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq",
+        "last_active": "방금 전",
+        "last_active_ts": 1773191026,
+        "last_active_readable": "10:03",
+        "msg_count": 12,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq3nZ?tab_id=2> 위에 링크에 있는 제빙기들 확"
+          },
+          {
+            "role": "assistant",
+            "text": "경쟁 제품 목록 확인했습니다. 쿠팡 제품들 상세 정보와 쿠참 제품 정보를 가져올게요."
+          },
+          {
+            "role": "assistant",
+            "text": "쿠팡이 차단됩니다. 브라우저로 접근할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "캡차가 걸렸네요. 웹 검색으로 각 제품 정보 찾을게요."
+          },
+          {
+            "role": "assistant",
+            "text": "브라우저로 각 제품 페이지 확인할게요."
           }
         ]
       },
@@ -89,7 +97,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "구독형 계정으로 밴 안당한 사례들도 알려줘",
-        "last_active": "9분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773190406,
         "last_active_readable": "09:53",
         "msg_count": 7,
@@ -113,7 +121,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": ":rocket: antigravity-cli 오픈소스 공개합니다 Antigravity Pr",
-        "last_active": "14분 전",
+        "last_active": "15분 전",
         "last_active_ts": 1773190120,
         "last_active_readable": "09:48",
         "msg_count": 7,
@@ -415,7 +423,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:02:01 KST",
+      "last_run": "2026-03-11 10:03:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
