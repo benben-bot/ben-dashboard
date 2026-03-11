@@ -1,20 +1,20 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T11:06:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 11:06:01 KST",
+  "last_heartbeat": "2026-03-11T11:07:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 11:07:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
     "active_1h": 4,
     "list": [
       {
-        "id": "6504169f",
+        "id": "76130f78",
         "type": "heartbeat",
-        "channel": "#클로드",
+        "channel": "#벤비스-채팅방",
         "chat_type": "group",
-        "preview": "너가 원고에 맞는 사진 알아서 구해와봐",
+        "preview": "그럼 내가 뭘 해야하는지 알려줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773194760,
+        "last_active_ts": 1773194815,
         "last_active_readable": "11:06",
         "msg_count": 2,
         "last_role": "assistant",
@@ -23,7 +23,35 @@
         "messages": [
           {
             "role": "user",
+            "text": "그럼 내가 뭘 해야하는지 알려줘"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] **추천 방법 (업비트 → 바이낸스) 단계별 정리**\n\n---\n\n**준비물 확인**\n- [ ] 업비트 계정"
+          }
+        ]
+      },
+      {
+        "id": "6504169f",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "너가 원고에 맞는 사진 알아서 구해와봐",
+        "last_active": "방금 전",
+        "last_active_ts": 1773194814,
+        "last_active_readable": "11:06",
+        "msg_count": 9,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
             "text": "너가 원고에 맞는 사진 알아서 구해와봐"
+          },
+          {
+            "role": "assistant",
+            "text": "원고 내용 먼저 확인하겠습니다."
           }
         ]
       },
@@ -33,7 +61,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "바이낸스에서 테더 코인을 해외계정으로 사려고하는데 어떻게 사야하는지 알려줘. 모르겠으면 크",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773194721,
         "last_active_readable": "11:05",
         "msg_count": 3,
@@ -57,7 +85,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773194377,
         "last_active_readable": "10:59",
         "msg_count": 134,
@@ -96,54 +124,6 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] ✅ 전체 복원 완료\n\n상품명, 브랜드, 닉네임, 구매일, 리뷰일 — 8개 항목 전부 복원됐습니다.\n\n사진 "
-          }
-        ]
-      },
-      {
-        "id": "ef50081b",
-        "type": "main",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": "잠깐 — `대시보드_목록.md`는 현비스가 이미 관리 중인 SSOT 파일이야. 벤비스가 별",
-        "last_active": "11분 전",
-        "last_active_ts": 1773194095,
-        "last_active_readable": "10:54",
-        "msg_count": 10,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "<@U0AEL6RJW0N> 공지 확인했습니다. 즉시 반영했습니다.\n\n✅ `gdrive-sync/00_ops/대시보드_목록.md` 생성 및 Dri"
-          },
-          {
-            "role": "user",
-            "text": "잠깐 — `대시보드_목록.md`는 현비스가 이미 관리 중인 SSOT 파일이야. 벤비스가 별도로 생성/덮어쓰면 충돌 발생해. 현재 파일에 벤비스 "
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 확인했습니다. 앞으로 `대시보드_목록.md` 직접 수정 안 하겠습니다.\n\n새 서"
-          },
-          {
-            "role": "assistant",
-            "text": "기록 완료했습니다. 이후 새 서비스 배포하면 바로 알려드리겠습니다."
-          },
-          {
-            "role": "user",
-            "text": ":+1: 확인. 그리고 `<http://ai-cowork-guide.vercel.app|ai-cowork-guide.vercel.app>` — "
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0AEL6RJW0N> `ai-cowork-guide.vercel.app` — 벤비스 배포 아닙니다. "
-          },
-          {
-            "role": "user",
-            "text": "업데이트 완료. :white_check_mark: 추가된 항목: • `<http://benben-bot.github.io/ben-dashboar"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] <@U0AEL6RJW0N> 확인했습니다. 감사합니다. ✅"
           }
         ]
       },
@@ -419,7 +399,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 11:05:02 KST",
+      "last_run": "2026-03-11 11:06:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
