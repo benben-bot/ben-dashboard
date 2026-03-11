@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:46:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:46:01 KST",
+  "last_heartbeat": "2026-03-11T10:47:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:47:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -14,17 +14,13 @@
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773193551,
-        "last_active_readable": "10:45",
-        "msg_count": 102,
+        "last_active_ts": 1773193614,
+        "last_active_readable": "10:46",
+        "msg_count": 104,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
           {
             "role": "user",
             "text": "하고있어?"
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "브라우저 릴레이가 스냅샷 안 되고 있어요. PythonAnywhere 콘솔로 직접 DB 확인하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "DB 확인 완료. IDs 3,4,6,7,8,9,10,21 모두 빈값. 크롬도 똑같이 보입니다. \n\n쿠팡 링크로 상품명은 자동 복원 가능한데 닉네"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "현비스 로 배포한 링크들도 있으면 줘",
-        "last_active": "29분 전",
+        "last_active": "30분 전",
         "last_active_ts": 1773191795,
         "last_active_readable": "10:16",
         "msg_count": 2,
@@ -85,7 +85,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "31분 전",
+        "last_active": "32분 전",
         "last_active_ts": 1773191645,
         "last_active_readable": "10:14",
         "msg_count": 46,
@@ -133,7 +133,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq",
-        "last_active": "39분 전",
+        "last_active": "40분 전",
         "last_active_ts": 1773191206,
         "last_active_readable": "10:06",
         "msg_count": 19,
@@ -439,7 +439,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:45:02 KST",
+      "last_run": "2026-03-11 10:46:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
