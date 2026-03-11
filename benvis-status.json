@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T01:00:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 01:00:01 KST",
+  "last_heartbeat": "2026-03-12T01:01:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 01:01:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 7,
@@ -13,11 +13,11 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사",
-        "last_active": "방금 전",
-        "last_active_ts": 1773244800,
+        "last_active": "1분 전",
+        "last_active_ts": 1773244801,
         "last_active_readable": "01:00",
-        "msg_count": 188,
-        "last_role": "user",
+        "msg_count": 189,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -124,7 +124,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "6시간 전",
+        "last_active": "7시간 전",
         "last_active_ts": 1773219649,
         "last_active_readable": "18:00",
         "msg_count": 13,
@@ -215,12 +215,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 00:59:01 KST",
+      "last_run": "2026-03-12 01:00:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-12 01:00:01 KST",
+      "last_run": "2026-03-12 01:00:04 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
