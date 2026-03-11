@@ -1,19 +1,63 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T11:22:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 11:22:01 KST",
+  "last_heartbeat": "2026-03-11T11:23:02+09:00",
+  "last_heartbeat_readable": "2026-03-11 11:23:02 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
     "active_1h": 4,
     "list": [
       {
+        "id": "e8d00885",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "안녕 벤비스~! 포레몽 스마트스토어에 1+1 구매시 2만원 추가 할인 쿠폰이 안보여. 한정",
+        "last_active": "방금 전",
+        "last_active_ts": 1773195746,
+        "last_active_readable": "11:22",
+        "msg_count": 4,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "안녕 벤비스~! 포레몽 스마트스토어에 1+1 구매시 2만원 추가 할인 쿠폰이 안보여. 한정 수량 소진 완료인지 알 수 있는 경로가 따로 있을까?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 안녕하세요, 루미님! 🔹\n\n네이버 스마트스토어 쿠폰 소진 여부를 직접 확인할 수 있는 공개 경로는 없습니다"
+          }
+        ]
+      },
+      {
+        "id": "b769e5fa",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773195737,
+        "last_active_readable": "11:22",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "👤 Lumi (루미)님이 새 대화를 시작했습니다."
+          }
+        ]
+      },
+      {
         "id": "e1c1c2bb",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "5분 전",
+        "last_active": "6분 전",
         "last_active_ts": 1773195364,
         "last_active_readable": "11:16",
         "msg_count": 2,
@@ -33,7 +77,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "너가 원고에 맞는 사진 알아서 구해와봐",
-        "last_active": "5분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773195361,
         "last_active_readable": "11:16",
         "msg_count": 38,
@@ -72,62 +116,6 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] ✅ 완료됐습니다.\n\n**결과 요약**\n- Row6 (articles/6996), Row7 (articles"
-          }
-        ]
-      },
-      {
-        "id": "76130f78",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "그럼 내가 뭘 해야하는지 알려줘",
-        "last_active": "13분 전",
-        "last_active_ts": 1773194887,
-        "last_active_readable": "11:08",
-        "msg_count": 4,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "그럼 내가 뭘 해야하는지 알려줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] **추천 방법 (업비트 → 바이낸스) 단계별 정리**\n\n---\n\n**준비물 확인**\n- [ ] 업비트 계정"
-          },
-          {
-            "role": "user",
-            "text": "테더라는 코인을 보내는건데 리플 사야돼?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 네, 맞아요. 상황을 정리하면:\n\n**목표**: 한국 원화 → USDT(테더) → 해외 지갑으로 전송\n\n*"
-          }
-        ]
-      },
-      {
-        "id": "ba84da43",
-        "type": "heartbeat",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "바이낸스에서 테더 코인을 해외계정으로 사려고하는데 어떻게 사야하는지 알려줘. 모르겠으면 크",
-        "last_active": "16분 전",
-        "last_active_ts": 1773194721,
-        "last_active_readable": "11:05",
-        "msg_count": 3,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "바이낸스에서 테더 코인을 해외계정으로 사려고하는데 어떻게 사야하는지 알려줘. 모르겠으면 크롬켜서 제미나이한테 물어봐"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 바이낸스에서 테더(USDT) 구매 방법을 안내해 드릴게요.\n\n---\n\n## 바이낸스 테더(USDT) 구매 "
           }
         ]
       },
@@ -173,7 +161,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "벤비스야, GitHub에 아직 push 안 된 것 확인됨. `git push origin ",
-        "last_active": "19시간 전",
+        "last_active": "20시간 전",
         "last_active_ts": 1773123760,
         "last_active_readable": "15:22",
         "msg_count": 6,
@@ -197,7 +185,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "19시간 전",
+        "last_active": "20시간 전",
         "last_active_ts": 1773123752,
         "last_active_readable": "15:22",
         "msg_count": 10,
@@ -403,7 +391,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 11:21:01 KST",
+      "last_run": "2026-03-11 11:22:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
