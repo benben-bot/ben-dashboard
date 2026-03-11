@@ -1,12 +1,48 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T17:44:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 17:44:01 KST",
+  "last_heartbeat": "2026-03-11T17:45:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 17:45:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
     "active_1h": 4,
     "list": [
+      {
+        "id": "028d1d74",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
+        "last_active": "방금 전",
+        "last_active_ts": 1773218700,
+        "last_active_readable": "17:45",
+        "msg_count": 11,
+        "last_role": "user",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "안녕하세요, 벤! 🔹 BENVIS입니다. 오늘 뭐 도와드릴까요?"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋 마케터 \n수정해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "✅ 완료. USER.md 업데이트했습니다.\n\n- **이름**: 벤\n- **역할**: 그로밋 마케터\n- **팀**: 그로밋 / 그로밋팀"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 17:17 GMT+9] 벤 규칙 (최상위)\n여기에 있는 내용 수정한거 맞지?"
+          },
+          {
+            "role": "assistant",
+            "text": "아니요. 제가 수정한 건 **USER.md** (BENVIS 전용 사용자 정보 파일)입니다.\n\n`gromit-rules.md`의 §0 \"나는 누"
+          }
+        ]
+      },
       {
         "id": "5a9863a8",
         "type": "thread",
@@ -14,17 +50,13 @@
         "chat_type": "group",
         "preview": "하고있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773218639,
-        "last_active_readable": "17:43",
-        "msg_count": 144,
-        "last_role": "user",
+        "last_active_ts": 1773218671,
+        "last_active_readable": "17:44",
+        "msg_count": 146,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "이미지 6이 가장 적합합니다 — 실제 매장 설치, KAISER 로고 확인, 주방 환경 생동감 있는 후기컷."
-          },
           {
             "role": "assistant",
             "text": "kaiser_cand_06.jpg"
@@ -52,42 +84,10 @@
           {
             "role": "user",
             "text": "규칙 수정해줘 1. 네이버 카페 이미지 삽입할때 항상 실제 후기/연출컷 사진 찾고, 가공 완료 후 업로드해 2. 이미지 찾을때 제목 기반 선택으"
-          }
-        ]
-      },
-      {
-        "id": "028d1d74",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "3분 전",
-        "last_active_ts": 1773218402,
-        "last_active_readable": "17:40",
-        "msg_count": 10,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "안녕하세요, 벤! 🔹 BENVIS입니다. 오늘 뭐 도와드릴까요?"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋 마케터 \n수정해줘"
           },
           {
             "role": "assistant",
-            "text": "✅ 완료. USER.md 업데이트했습니다.\n\n- **이름**: 벤\n- **역할**: 그로밋 마케터\n- **팀**: 그로밋 / 그로밋팀"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 17:17 GMT+9] 벤 규칙 (최상위)\n여기에 있는 내용 수정한거 맞지?"
-          },
-          {
-            "role": "assistant",
-            "text": "아니요. 제가 수정한 건 **USER.md** (BENVIS 전용 사용자 정보 파일)입니다.\n\n`gromit-rules.md`의 §0 \"나는 누"
+            "text": "[[reply_to_current]] 규칙 업데이트 완료했습니다.\n\n**변경 내용**\n- 규칙 2: 문맥 기반 → **제목 기반** 선택으로 변"
           }
         ]
       },
@@ -97,7 +97,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "왜 실패했어?",
-        "last_active": "15분 전",
+        "last_active": "16분 전",
         "last_active_ts": 1773217740,
         "last_active_readable": "17:29",
         "msg_count": 10,
@@ -121,7 +121,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "18분 전",
+        "last_active": "19분 전",
         "last_active_ts": 1773217524,
         "last_active_readable": "17:25",
         "msg_count": 1,
@@ -140,7 +140,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 17:43:01 KST",
+      "last_run": "2026-03-11 17:44:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
