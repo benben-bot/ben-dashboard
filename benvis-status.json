@@ -1,95 +1,23 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:49:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:49:01 KST",
+  "last_heartbeat": "2026-03-11T15:50:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:50:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
     "active_1h": 4,
     "list": [
       {
-        "id": "51a1a2ec",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "다른 pc",
-        "last_active": "방금 전",
-        "last_active_ts": 1773211740,
-        "last_active_readable": "15:49",
-        "msg_count": 43,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "야간 4시 재시작 크론이 있는데, 이게 WSL2 전체를 재시작하면 ngrok도 끊깁니다. 크론 내용 확인할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "크론 상세 조회가 안 되네요. 핵심만 말씀드리면:\n\n- **게이트웨이 재시작** (`openclaw gateway restart`) → ngro"
-          },
-          {
-            "role": "user",
-            "text": "Snapshot Latest gateway handshake information. Status *Offline* Uptime *n/a* Tic"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] `origin not allowed` — OpenClaw 게이트웨이가 ngrok 도메인을 차단하고 있습니다"
-          },
-          {
-            "role": "assistant",
-            "text": "찾았습니다. `allowedOrigins`에 ngrok 주소를 추가하면 됩니다."
-          },
-          {
-            "role": "user",
-            "text": "확인해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "게이트웨이는 정상이지만 **ngrok이 종료됐습니다.** 재시작할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "ngrok 재시작 완료, 동일 URL 유지됐습니다 ✅\n\n다시 접속해보세요:\n\nhttps://filamentous-evangelistic-blon"
-          }
-        ]
-      },
-      {
-        "id": "e45fced1",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "바쁘니",
-        "last_active": "방금 전",
-        "last_active_ts": 1773211695,
-        "last_active_readable": "15:48",
-        "msg_count": 4,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "바쁘니"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 아니요, 여유 있습니다. 무엇이 필요하신가요?"
-          }
-        ]
-      },
-      {
         "id": "0a0aeeda",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "3분 전",
-        "last_active_ts": 1773211503,
-        "last_active_readable": "15:45",
-        "msg_count": 67,
-        "last_role": "assistant",
+        "last_active": "방금 전",
+        "last_active_ts": 1773211800,
+        "last_active_readable": "15:50",
+        "msg_count": 68,
+        "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -128,12 +56,84 @@
         ]
       },
       {
+        "id": "51a1a2ec",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "다른 pc",
+        "last_active": "방금 전",
+        "last_active_ts": 1773211788,
+        "last_active_readable": "15:49",
+        "msg_count": 47,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "Snapshot Latest gateway handshake information. Status *Offline* Uptime *n/a* Tic"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] `origin not allowed` — OpenClaw 게이트웨이가 ngrok 도메인을 차단하고 있습니다"
+          },
+          {
+            "role": "assistant",
+            "text": "찾았습니다. `allowedOrigins`에 ngrok 주소를 추가하면 됩니다."
+          },
+          {
+            "role": "user",
+            "text": "확인해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "게이트웨이는 정상이지만 **ngrok이 종료됐습니다.** 재시작할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "ngrok 재시작 완료, 동일 URL 유지됐습니다 ✅\n\n다시 접속해보세요:\n\nhttps://filamentous-evangelistic-blon"
+          },
+          {
+            "role": "user",
+            "text": "이렇게 떠 pairing required This device needs pairing approval from the gateway host."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 승인 완료됐습니다 ✅ 페이지 새로고침하면 접속됩니다. 🔹"
+          }
+        ]
+      },
+      {
+        "id": "e45fced1",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "바쁘니",
+        "last_active": "1분 전",
+        "last_active_ts": 1773211695,
+        "last_active_readable": "15:48",
+        "msg_count": 4,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "바쁘니"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 아니요, 여유 있습니다. 무엇이 필요하신가요?"
+          }
+        ]
+      },
+      {
         "id": "5a9863a8",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773211321,
         "last_active_readable": "15:42",
         "msg_count": 27,
@@ -212,7 +212,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:48:02 KST",
+      "last_run": "2026-03-11 15:49:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
