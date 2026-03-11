@@ -1,55 +1,23 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T16:14:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 16:14:01 KST",
+  "last_heartbeat": "2026-03-11T16:15:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 16:15:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
     "active_1h": 4,
     "list": [
       {
-        "id": "e45fced1",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "바쁘니",
-        "last_active": "방금 전",
-        "last_active_ts": 1773213237,
-        "last_active_readable": "16:13",
-        "msg_count": 6,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "바쁘니"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 아니요, 여유 있습니다. 무엇이 필요하신가요?"
-          },
-          {
-            "role": "user",
-            "text": "지금 돼?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 네, 됩니다!"
-          }
-        ]
-      },
-      {
         "id": "0a0aeeda",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "1분 전",
-        "last_active_ts": 1773213166,
-        "last_active_readable": "16:12",
-        "msg_count": 98,
-        "last_role": "assistant",
+        "last_active": "방금 전",
+        "last_active_ts": 1773213300,
+        "last_active_readable": "16:15",
+        "msg_count": 99,
+        "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -88,12 +56,92 @@
         ]
       },
       {
+        "id": "51a1a2ec",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "다른 pc",
+        "last_active": "방금 전",
+        "last_active_ts": 1773213281,
+        "last_active_readable": "16:14",
+        "msg_count": 57,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "이렇게 떠 pairing required This device needs pairing approval from the gateway host."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 승인 완료됐습니다 ✅ 페이지 새로고침하면 접속됩니다. 🔹"
+          },
+          {
+            "role": "user",
+            "text": "이러는데? unauthorized: gateway token mismatch (open the dashboard URL and paste the"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 토큰이 포함된 URL을 ngrok 주소로 바꿔서 접속하세요:\n\nhttps://filamentous-evan"
+          },
+          {
+            "role": "user",
+            "text": "pairing required This device needs pairing approval from the gateway host. openc"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 승인 완료 ✅ 페이지 새로고침해보세요. 🔹"
+          },
+          {
+            "role": "user",
+            "text": "왜 이렇게 뜨는거야? :warning: Agent failed before reply: Gateway is draining for restart"
+          },
+          {
+            "role": "assistant",
+            "text": "게이트웨이는 지금 정상 실행 중입니다. \"draining for restart\" 메시지는 **재시작 과도기에 요청이 들어왔을 때** 뜨는 일시적"
+          }
+        ]
+      },
+      {
+        "id": "e45fced1",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "바쁘니",
+        "last_active": "1분 전",
+        "last_active_ts": 1773213237,
+        "last_active_readable": "16:13",
+        "msg_count": 6,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "바쁘니"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 아니요, 여유 있습니다. 무엇이 필요하신가요?"
+          },
+          {
+            "role": "user",
+            "text": "지금 돼?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 네, 됩니다!"
+          }
+        ]
+      },
+      {
         "id": "5a9863a8",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773213112,
         "last_active_readable": "16:11",
         "msg_count": 56,
@@ -132,54 +180,6 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 파악했습니다. 이미지 확인해보니 img_001이 축구 사진, 나머지도 칵테일/커피 등 제빙기와 무관한 사진"
-          }
-        ]
-      },
-      {
-        "id": "51a1a2ec",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "다른 pc",
-        "last_active": "10분 전",
-        "last_active_ts": 1773212607,
-        "last_active_readable": "16:03",
-        "msg_count": 54,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "게이트웨이는 정상이지만 **ngrok이 종료됐습니다.** 재시작할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "ngrok 재시작 완료, 동일 URL 유지됐습니다 ✅\n\n다시 접속해보세요:\n\nhttps://filamentous-evangelistic-blon"
-          },
-          {
-            "role": "user",
-            "text": "이렇게 떠 pairing required This device needs pairing approval from the gateway host."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 승인 완료됐습니다 ✅ 페이지 새로고침하면 접속됩니다. 🔹"
-          },
-          {
-            "role": "user",
-            "text": "이러는데? unauthorized: gateway token mismatch (open the dashboard URL and paste the"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 토큰이 포함된 URL을 ngrok 주소로 바꿔서 접속하세요:\n\nhttps://filamentous-evan"
-          },
-          {
-            "role": "user",
-            "text": "pairing required This device needs pairing approval from the gateway host. openc"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 승인 완료 ✅ 페이지 새로고침해보세요. 🔹"
           }
         ]
       },
@@ -224,7 +224,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 16:13:02 KST",
+      "last_run": "2026-03-11 16:14:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
