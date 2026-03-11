@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:06:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:06:01 KST",
+  "last_heartbeat": "2026-03-11T15:07:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:07:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 12,
@@ -14,21 +14,13 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
         "last_active": "방금 전",
-        "last_active_ts": 1773209136,
-        "last_active_readable": "15:05",
-        "msg_count": 17,
+        "last_active_ts": 1773209216,
+        "last_active_readable": "15:06",
+        "msg_count": 24,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:02 GMT+9] 맞아 지금 기본 설정이 어떻게 돼이썽?"
-          },
-          {
-            "role": "assistant",
-            "text": "현재 주요 설정 요약:\n\n**🤖 AI 모델**\n- `anthropic/claude-sonnet-4-6` (기본)\n\n**⚙️ 에이전트**\n- 동시"
-          },
           {
             "role": "user",
             "text": "[Wed 2026-03-11 15:03 GMT+9] 뭐 추가할거 있을까? 추천해줘"
@@ -52,6 +44,14 @@
           {
             "role": "assistant",
             "text": "네, **자동**으로 사용됩니다. 다만 조건이 있습니다.\n\n---\n\n**자동 적용되는 경우** ✅\n- 새 기능/앱 만들기\n- 대규모 리팩토링\n-"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:06 GMT+9] openai-image-gen 광고 소재 이미지 생성\nsummarize 긴 리포트/문서 요약"
+          },
+          {
+            "role": "assistant",
+            "text": "각 스킬에 필요한 것 확인:"
           }
         ]
       },
@@ -364,7 +364,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:05:02 KST",
+      "last_run": "2026-03-11 15:06:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
