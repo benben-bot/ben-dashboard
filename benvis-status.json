@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T21:56:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 21:56:01 KST",
+  "last_heartbeat": "2026-03-11T21:57:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 21:57:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
@@ -263,7 +263,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 21:55:01 KST",
+      "last_run": "2026-03-11 21:56:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
