@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:02:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:02:01 KST",
+  "last_heartbeat": "2026-03-11T15:03:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:03:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 12,
@@ -12,18 +12,38 @@
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "11분 전",
-        "last_active_ts": 1773208241,
-        "last_active_readable": "14:50",
-        "msg_count": 3,
-        "last_role": "assistant",
+        "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
+        "last_active": "방금 전",
+        "last_active_ts": 1773208979,
+        "last_active_readable": "15:02",
+        "msg_count": 8,
+        "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
           {
             "role": "assistant",
             "text": "현재 시각 12:50 KST — 20:00 이전이므로 memory 파일 미생성 기준 미달. 크론잡 없음, 에러 없음.\n\nHEARTBEAT_OK"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:18789/chat?session=agent%3Amain%3A"
+          },
+          {
+            "role": "assistant",
+            "text": "네, 맞습니다. `127.0.0.1` (localhost) 주소라서 **OpenClaw가 실행 중인 컴퓨터에서만** 접근 가능합니다.\n\n다른 기"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:02 GMT+9] 지금 내가 누군지 알아?"
+          },
+          {
+            "role": "assistant",
+            "text": "네! **벤** 님이시죠. 😊\n\n- 그로스팀 리더\n- 퍼포먼스 마케팅 / 광고 운영 / 그로스 실험 담당\n- 간결한 소통 선호, 한국어 기본\n\n"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:02 GMT+9] 맞아 지금 기본 설정이 어떻게 돼이썽?"
           }
         ]
       },
@@ -336,7 +356,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:01:02 KST",
+      "last_run": "2026-03-11 15:02:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
