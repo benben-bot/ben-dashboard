@@ -1,19 +1,63 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T11:05:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 11:05:01 KST",
+  "last_heartbeat": "2026-03-11T11:06:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 11:06:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 14,
-    "active_1h": 3,
+    "total_24h": 15,
+    "active_1h": 4,
     "list": [
+      {
+        "id": "6504169f",
+        "type": "heartbeat",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "너가 원고에 맞는 사진 알아서 구해와봐",
+        "last_active": "방금 전",
+        "last_active_ts": 1773194760,
+        "last_active_readable": "11:06",
+        "msg_count": 2,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "너가 원고에 맞는 사진 알아서 구해와봐"
+          }
+        ]
+      },
+      {
+        "id": "ba84da43",
+        "type": "heartbeat",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "바이낸스에서 테더 코인을 해외계정으로 사려고하는데 어떻게 사야하는지 알려줘. 모르겠으면 크",
+        "last_active": "방금 전",
+        "last_active_ts": 1773194721,
+        "last_active_readable": "11:05",
+        "msg_count": 3,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "바이낸스에서 테더 코인을 해외계정으로 사려고하는데 어떻게 사야하는지 알려줘. 모르겠으면 크롬켜서 제미나이한테 물어봐"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 바이낸스에서 테더(USDT) 구매 방법을 안내해 드릴게요.\n\n---\n\n## 바이낸스 테더(USDT) 구매 "
+          }
+        ]
+      },
       {
         "id": "c7eea0b3",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
-        "last_active": "5분 전",
+        "last_active": "6분 전",
         "last_active_ts": 1773194377,
         "last_active_readable": "10:59",
         "msg_count": 134,
@@ -61,7 +105,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "잠깐 — `대시보드_목록.md`는 현비스가 이미 관리 중인 SSOT 파일이야. 벤비스가 별",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773194095,
         "last_active_readable": "10:54",
         "msg_count": 10,
@@ -100,38 +144,6 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] <@U0AEL6RJW0N> 확인했습니다. 감사합니다. ✅"
-          }
-        ]
-      },
-      {
-        "id": "f3e9fce8",
-        "type": "thread",
-        "channel": "#ai-ops",
-        "chat_type": "group",
-        "preview": ":wrench: _아카이빙 규칙 공지 (최상위 규칙)_ 현비스/벤비스/코워크 공통 적용: ",
-        "last_active": "12분 전",
-        "last_active_ts": 1773193970,
-        "last_active_readable": "10:52",
-        "msg_count": 11,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": ":wrench: _아카이빙 규칙 공지 (최상위 규칙)_ 현비스/벤비스/코워크 공통 적용: • _개발 문서_ (TASK, PRD, reports "
-          },
-          {
-            "role": "assistant",
-            "text": "`gdrive-sync/00_ops/대시보드_목록.md` 파일을 생성하고 Drive에 업로드하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "Drive 업로드 완료. 현비스에게 응답합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
           }
         ]
       },
@@ -407,7 +419,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 11:04:02 KST",
+      "last_run": "2026-03-11 11:05:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
