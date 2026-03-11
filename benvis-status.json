@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:15:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:15:01 KST",
+  "last_heartbeat": "2026-03-11T15:16:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:16:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 9,
@@ -13,18 +13,14 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "6분 전",
-        "last_active_ts": 1773209334,
-        "last_active_readable": "15:08",
-        "msg_count": 41,
+        "last_active": "방금 전",
+        "last_active_ts": 1773209745,
+        "last_active_readable": "15:15",
+        "msg_count": 45,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "현재 설치된 스킬:\n- `web-search-pro` — 멀티엔진 고급 검색\n- `naver-blog-writer` — 네이버 블로그 작성\n\n기"
-          },
           {
             "role": "user",
             "text": "[Wed 2026-03-11 15:05 GMT+9] 코드 작성할때는 자동으로 coding-agent 이 스킬 사용하는거야?"
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "**blogwatcher** ✅ 설치 완료\n\n**summarize**는 `brew` (macOS 전용)만 지원해서 Linux/WSL에서 설치가 "
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:15 GMT+9] 크론잡도 뭐 설정할게 있을지 찾아봐줘"
           }
         ]
       },
@@ -165,7 +165,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "22시간 전",
+        "last_active": "23시간 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -304,7 +304,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:14:02 KST",
+      "last_run": "2026-03-11 15:15:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
