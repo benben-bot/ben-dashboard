@@ -1,71 +1,23 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T17:24:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 17:24:01 KST",
+  "last_heartbeat": "2026-03-11T17:25:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 17:25:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 3,
     "active_1h": 2,
     "list": [
       {
-        "id": "5a9863a8",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "하고있어?",
-        "last_active": "방금 전",
-        "last_active_ts": 1773217438,
-        "last_active_readable": "17:23",
-        "msg_count": 106,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 확인했습니다. 중복 이미지 문제 수정합니다.\n\n- Row6: new_ice_003 + new_ice_004"
-          },
-          {
-            "role": "assistant",
-            "text": "완료됐습니다. 시트 확인 결과:\n\n- Row6 → articles/7005 ✅ (new_ice_003 + new_ice_004)\n- Row7 →"
-          },
-          {
-            "role": "assistant",
-            "text": "✅ Row6/Row7 재게시 완료 (중복 없음)\n\n• Row6 → articles/7005 (new_ice_003 + new_ice_004)\n•"
-          },
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "이미지 추출할 때 아래 내용 앞으로 지켜줘 추가로 이해 안되는거 있으면 나한테 질문해줘 1. 사진 비율 9:16만 제외, 주로 1:1, 4:5,"
-          },
-          {
-            "role": "assistant",
-            "text": "파악했습니다. 먼저 LEARNINGS.md에 기록하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 파악 완료. LEARNINGS.md에 기록했습니다.\n\n**확인된 규칙**\n1. 비율: 9:16 제외 → 1"
-          },
-          {
-            "role": "user",
-            "text": "'호시자키 제빙기' 키워드에 맞는 이미지 하나만 여기로 가져와봐"
-          }
-        ]
-      },
-      {
         "id": "028d1d74",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "3분 전",
-        "last_active_ts": 1773217203,
-        "last_active_readable": "17:20",
-        "msg_count": 10,
-        "last_role": "assistant",
+        "last_active": "방금 전",
+        "last_active_ts": 1773217500,
+        "last_active_readable": "17:25",
+        "msg_count": 11,
+        "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -88,6 +40,54 @@
           {
             "role": "assistant",
             "text": "아니요. 제가 수정한 건 **USER.md** (BENVIS 전용 사용자 정보 파일)입니다.\n\n`gromit-rules.md`의 §0 \"나는 누"
+          }
+        ]
+      },
+      {
+        "id": "5a9863a8",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "하고있어?",
+        "last_active": "방금 전",
+        "last_active_ts": 1773217478,
+        "last_active_readable": "17:24",
+        "msg_count": 112,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
+          },
+          {
+            "role": "user",
+            "text": "이미지 추출할 때 아래 내용 앞으로 지켜줘 추가로 이해 안되는거 있으면 나한테 질문해줘 1. 사진 비율 9:16만 제외, 주로 1:1, 4:5,"
+          },
+          {
+            "role": "assistant",
+            "text": "파악했습니다. 먼저 LEARNINGS.md에 기록하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 파악 완료. LEARNINGS.md에 기록했습니다.\n\n**확인된 규칙**\n1. 비율: 9:16 제외 → 1"
+          },
+          {
+            "role": "user",
+            "text": "'호시자키 제빙기' 키워드에 맞는 이미지 하나만 여기로 가져와봐"
+          },
+          {
+            "role": "assistant",
+            "text": "호시자키 제빙기 이미지 찾았습니다. 다운로드해서 보내드립니다."
+          },
+          {
+            "role": "assistant",
+            "text": "hoshizaki_test.jpg"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 위 이미지가 '호시자키 제빙기' 관련 이미지입니다.\n\n- **비율**: 1:1 ✅\n- **출처**: 네이버"
           }
         ]
       },
@@ -144,7 +144,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 17:23:01 KST",
+      "last_run": "2026-03-11 17:24:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
