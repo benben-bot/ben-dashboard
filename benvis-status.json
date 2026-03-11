@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:32:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:32:01 KST",
+  "last_heartbeat": "2026-03-11T10:33:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:33:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -13,7 +13,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773192518,
         "last_active_readable": "10:28",
         "msg_count": 57,
@@ -61,7 +61,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "현비스 로 배포한 링크들도 있으면 줘",
-        "last_active": "15분 전",
+        "last_active": "16분 전",
         "last_active_ts": 1773191795,
         "last_active_readable": "10:16",
         "msg_count": 2,
@@ -85,7 +85,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "17분 전",
+        "last_active": "18분 전",
         "last_active_ts": 1773191645,
         "last_active_readable": "10:14",
         "msg_count": 46,
@@ -133,7 +133,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq",
-        "last_active": "25분 전",
+        "last_active": "26분 전",
         "last_active_ts": 1773191206,
         "last_active_readable": "10:06",
         "msg_count": 19,
@@ -439,7 +439,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:31:01 KST",
+      "last_run": "2026-03-11 10:32:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
