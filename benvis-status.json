@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T18:50:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 18:50:01 KST",
+  "last_heartbeat": "2026-03-11T18:51:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 18:51:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773222601,
         "last_active_readable": "18:50",
         "msg_count": 29,
@@ -53,7 +53,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "원고생성기",
-        "last_active": "20분 전",
+        "last_active": "21분 전",
         "last_active_ts": 1773221361,
         "last_active_readable": "18:29",
         "msg_count": 8,
@@ -85,7 +85,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "확인해줘",
-        "last_active": "21분 전",
+        "last_active": "22분 전",
         "last_active_ts": 1773221282,
         "last_active_readable": "18:28",
         "msg_count": 16,
@@ -133,7 +133,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "세션 요약 확인 완료. 기록 상태 점검했습니다. :white_check_mark: _이미 ",
-        "last_active": "27분 전",
+        "last_active": "28분 전",
         "last_active_ts": 1773220922,
         "last_active_readable": "18:22",
         "msg_count": 4,
@@ -157,7 +157,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "43분 전",
+        "last_active": "44분 전",
         "last_active_ts": 1773219977,
         "last_active_readable": "18:06",
         "msg_count": 1,
@@ -172,7 +172,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "49분 전",
+        "last_active": "50분 전",
         "last_active_ts": 1773219649,
         "last_active_readable": "18:00",
         "msg_count": 13,
@@ -263,7 +263,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 18:49:02 KST",
+      "last_run": "2026-03-11 18:50:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
