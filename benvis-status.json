@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:25:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:25:01 KST",
+  "last_heartbeat": "2026-03-11T15:26:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:26:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
@@ -14,10 +14,10 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
         "last_active": "방금 전",
-        "last_active_ts": 1773210300,
+        "last_active_ts": 1773210311,
         "last_active_readable": "15:25",
-        "msg_count": 68,
-        "last_role": "user",
+        "msg_count": 67,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -141,7 +141,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "텔레그램 이용하려고하는데 보안안전해?",
-        "last_active": "3시간 전",
+        "last_active": "4시간 전",
         "last_active_ts": 1773195903,
         "last_active_readable": "11:25",
         "msg_count": 2,
@@ -200,7 +200,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:24:01 KST",
+      "last_run": "2026-03-11 15:25:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
