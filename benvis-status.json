@@ -1,19 +1,67 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T16:03:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 16:03:01 KST",
+  "last_heartbeat": "2026-03-11T16:04:02+09:00",
+  "last_heartbeat_readable": "2026-03-11 16:04:02 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
     "active_1h": 4,
     "list": [
       {
+        "id": "51a1a2ec",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "다른 pc",
+        "last_active": "방금 전",
+        "last_active_ts": 1773212607,
+        "last_active_readable": "16:03",
+        "msg_count": 54,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "게이트웨이는 정상이지만 **ngrok이 종료됐습니다.** 재시작할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "ngrok 재시작 완료, 동일 URL 유지됐습니다 ✅\n\n다시 접속해보세요:\n\nhttps://filamentous-evangelistic-blon"
+          },
+          {
+            "role": "user",
+            "text": "이렇게 떠 pairing required This device needs pairing approval from the gateway host."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 승인 완료됐습니다 ✅ 페이지 새로고침하면 접속됩니다. 🔹"
+          },
+          {
+            "role": "user",
+            "text": "이러는데? unauthorized: gateway token mismatch (open the dashboard URL and paste the"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 토큰이 포함된 URL을 ngrok 주소로 바꿔서 접속하세요:\n\nhttps://filamentous-evan"
+          },
+          {
+            "role": "user",
+            "text": "pairing required This device needs pairing approval from the gateway host. openc"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 승인 완료 ✅ 페이지 새로고침해보세요. 🔹"
+          }
+        ]
+      },
+      {
         "id": "0a0aeeda",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773212402,
         "last_active_readable": "16:00",
         "msg_count": 70,
@@ -56,60 +104,12 @@
         ]
       },
       {
-        "id": "51a1a2ec",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "다른 pc",
-        "last_active": "12분 전",
-        "last_active_ts": 1773211833,
-        "last_active_readable": "15:50",
-        "msg_count": 50,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "찾았습니다. `allowedOrigins`에 ngrok 주소를 추가하면 됩니다."
-          },
-          {
-            "role": "user",
-            "text": "확인해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "게이트웨이는 정상이지만 **ngrok이 종료됐습니다.** 재시작할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "ngrok 재시작 완료, 동일 URL 유지됐습니다 ✅\n\n다시 접속해보세요:\n\nhttps://filamentous-evangelistic-blon"
-          },
-          {
-            "role": "user",
-            "text": "이렇게 떠 pairing required This device needs pairing approval from the gateway host."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 승인 완료됐습니다 ✅ 페이지 새로고침하면 접속됩니다. 🔹"
-          },
-          {
-            "role": "user",
-            "text": "이러는데? unauthorized: gateway token mismatch (open the dashboard URL and paste the"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 토큰이 포함된 URL을 ngrok 주소로 바꿔서 접속하세요:\n\nhttps://filamentous-evan"
-          }
-        ]
-      },
-      {
         "id": "e45fced1",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "바쁘니",
-        "last_active": "14분 전",
+        "last_active": "15분 전",
         "last_active_ts": 1773211695,
         "last_active_readable": "15:48",
         "msg_count": 4,
@@ -133,7 +133,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "20분 전",
+        "last_active": "22분 전",
         "last_active_ts": 1773211321,
         "last_active_readable": "15:42",
         "msg_count": 27,
@@ -212,7 +212,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 16:02:01 KST",
+      "last_run": "2026-03-11 16:03:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
