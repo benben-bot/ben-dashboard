@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T17:14:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 17:14:01 KST",
+  "last_heartbeat": "2026-03-11T17:15:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 17:15:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
@@ -14,21 +14,13 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 16:56 GMT+9] 서현석 규칙 (최상위) 이거 벤으로 바",
         "last_active": "방금 전",
-        "last_active_ts": 1773216841,
+        "last_active_ts": 1773216879,
         "last_active_readable": "17:14",
-        "msg_count": 52,
+        "msg_count": 55,
         "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "이제 `gromit-rules.md` 폴더 구조 참조 업데이트할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "**✅ 완료:**\n\n| 파일 | 내용 |\n|------|------|\n| `~/gdrive-sync/.learnings/hyunvis-lesso"
-          },
           {
             "role": "user",
             "text": "[Wed 2026-03-11 17:08 GMT+9] 그래도 필요하다고 생각하는 부분 있으면 같이 추가해줘"
@@ -52,6 +44,14 @@
           {
             "role": "user",
             "text": "[Wed 2026-03-11 17:14 GMT+9] 추가 한거야?"
+          },
+          {
+            "role": "assistant",
+            "text": "네, 두 파일 다 정상적으로 생성됐어요. 방금 `.learnings/` 폴더가 날아갔을 때 혹시 또 사라진 건지 확인한 거였는데 이번엔 `00_"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 17:14 GMT+9] 현비스 파일 복구 된거야? 정확히 뭐가 날아간거야?"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773216621,
         "last_active_readable": "17:10",
         "msg_count": 98,
@@ -109,7 +109,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "다른 pc",
-        "last_active": "57분 전",
+        "last_active": "58분 전",
         "last_active_ts": 1773213410,
         "last_active_readable": "16:16",
         "msg_count": 67,
@@ -188,7 +188,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 17:13:02 KST",
+      "last_run": "2026-03-11 17:14:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
