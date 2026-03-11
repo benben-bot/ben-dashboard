@@ -1,19 +1,91 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:48:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:48:01 KST",
+  "last_heartbeat": "2026-03-11T15:49:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:49:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
     "active_1h": 4,
     "list": [
       {
+        "id": "51a1a2ec",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "다른 pc",
+        "last_active": "방금 전",
+        "last_active_ts": 1773211740,
+        "last_active_readable": "15:49",
+        "msg_count": 43,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "야간 4시 재시작 크론이 있는데, 이게 WSL2 전체를 재시작하면 ngrok도 끊깁니다. 크론 내용 확인할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "크론 상세 조회가 안 되네요. 핵심만 말씀드리면:\n\n- **게이트웨이 재시작** (`openclaw gateway restart`) → ngro"
+          },
+          {
+            "role": "user",
+            "text": "Snapshot Latest gateway handshake information. Status *Offline* Uptime *n/a* Tic"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] `origin not allowed` — OpenClaw 게이트웨이가 ngrok 도메인을 차단하고 있습니다"
+          },
+          {
+            "role": "assistant",
+            "text": "찾았습니다. `allowedOrigins`에 ngrok 주소를 추가하면 됩니다."
+          },
+          {
+            "role": "user",
+            "text": "확인해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "게이트웨이는 정상이지만 **ngrok이 종료됐습니다.** 재시작할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "ngrok 재시작 완료, 동일 URL 유지됐습니다 ✅\n\n다시 접속해보세요:\n\nhttps://filamentous-evangelistic-blon"
+          }
+        ]
+      },
+      {
+        "id": "e45fced1",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "바쁘니",
+        "last_active": "방금 전",
+        "last_active_ts": 1773211695,
+        "last_active_readable": "15:48",
+        "msg_count": 4,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "바쁘니"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 아니요, 여유 있습니다. 무엇이 필요하신가요?"
+          }
+        ]
+      },
+      {
         "id": "0a0aeeda",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773211503,
         "last_active_readable": "15:45",
         "msg_count": 67,
@@ -56,60 +128,12 @@
         ]
       },
       {
-        "id": "51a1a2ec",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "다른 pc",
-        "last_active": "5분 전",
-        "last_active_ts": 1773211349,
-        "last_active_readable": "15:42",
-        "msg_count": 39,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 터널 연결 완료됐습니다 ✅\n\n**지금 이 주소로 접속하세요:**\n\nhttps://filamentous-ev"
-          },
-          {
-            "role": "user",
-            "text": "서버 재시작은 개이트웨이 다시 시작하면 바뀐다는 얘기야?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 아니요, 게이트웨이 재시작은 괜찮습니다.\n\nURL이 바뀌는 경우:\n- **ngrok 프로세스가 종료될 때*"
-          },
-          {
-            "role": "assistant",
-            "text": "야간 4시 재시작 크론이 있는데, 이게 WSL2 전체를 재시작하면 ngrok도 끊깁니다. 크론 내용 확인할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "크론 상세 조회가 안 되네요. 핵심만 말씀드리면:\n\n- **게이트웨이 재시작** (`openclaw gateway restart`) → ngro"
-          },
-          {
-            "role": "user",
-            "text": "Snapshot Latest gateway handshake information. Status *Offline* Uptime *n/a* Tic"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] `origin not allowed` — OpenClaw 게이트웨이가 ngrok 도메인을 차단하고 있습니다"
-          },
-          {
-            "role": "assistant",
-            "text": "찾았습니다. `allowedOrigins`에 ngrok 주소를 추가하면 됩니다."
-          }
-        ]
-      },
-      {
         "id": "5a9863a8",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "5분 전",
+        "last_active": "6분 전",
         "last_active_ts": 1773211321,
         "last_active_readable": "15:42",
         "msg_count": 27,
@@ -144,38 +168,6 @@
           {
             "role": "assistant",
             "text": "NO_REPLY"
-          }
-        ]
-      },
-      {
-        "id": "65f4181e",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "텔레그램 이용하려고하는데 보안안전해?",
-        "last_active": "20분 전",
-        "last_active_ts": 1773210444,
-        "last_active_readable": "15:27",
-        "msg_count": 5,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "텔레그램 이용하려고하는데 보안안전해?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 텔레그램 보안 요약입니다.\n\n**✅ 안전한 부분**\n- 서버-클라이언트 암호화 (MTProto 프로토콜) "
-          },
-          {
-            "role": "user",
-            "text": "<http://192.168.123.45:18789/chat?session=agent%3Amain%3Amain> 연결이 안돼 왜이래?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 게이트웨이 자체는 정상 작동 중입니다 (`pid 349030`, port 18789 정상).\n\n연결 안 되"
           }
         ]
       },
@@ -220,7 +212,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:47:01 KST",
+      "last_run": "2026-03-11 15:48:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
