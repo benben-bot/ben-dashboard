@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T19:29:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 19:29:01 KST",
+  "last_heartbeat": "2026-03-11T19:30:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 19:30:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
-    "active_1h": 3,
+    "active_1h": 2,
     "list": [
       {
         "id": "fae08a5f",
@@ -13,10 +13,10 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사",
-        "last_active": "4분 전",
-        "last_active_ts": 1773224701,
-        "last_active_readable": "19:25",
-        "msg_count": 45,
+        "last_active": "방금 전",
+        "last_active_ts": 1773225001,
+        "last_active_readable": "19:30",
+        "msg_count": 47,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -53,7 +53,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "작업 이해한거 맞아? 알고있는거 설명해줘",
-        "last_active": "34분 전",
+        "last_active": "35분 전",
         "last_active_ts": 1773222892,
         "last_active_readable": "18:54",
         "msg_count": 4,
@@ -77,13 +77,13 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "원고생성기",
-        "last_active": "59분 전",
+        "last_active": "1시간 전",
         "last_active_ts": 1773221361,
         "last_active_readable": "18:29",
         "msg_count": 8,
         "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
+        "idle_level": "idle_1h",
+        "is_active": false,
         "messages": [
           {
             "role": "user",
@@ -263,7 +263,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 19:28:01 KST",
+      "last_run": "2026-03-11 19:29:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
