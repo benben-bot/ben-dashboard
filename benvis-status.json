@@ -1,10 +1,10 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:21:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:21:01 KST",
+  "last_heartbeat": "2026-03-11T15:22:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:22:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 8,
+    "total_24h": 7,
     "active_1h": 1,
     "list": [
       {
@@ -14,33 +14,13 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
         "last_active": "방금 전",
-        "last_active_ts": 1773210054,
-        "last_active_readable": "15:20",
-        "msg_count": 55,
-        "last_role": "user",
+        "last_active_ts": 1773210120,
+        "last_active_readable": "15:22",
+        "msg_count": 61,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:07 GMT+9] 이것만 설치\nsummarize → summarize.sh CLI 설치 필요\n\nLinux/WS"
-          },
-          {
-            "role": "assistant",
-            "text": "**blogwatcher** ✅ 설치 완료\n\n**summarize**는 `brew` (macOS 전용)만 지원해서 Linux/WSL에서 설치가 "
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:15 GMT+9] 크론잡도 뭐 설정할게 있을지 찾아봐줘"
-          },
-          {
-            "role": "assistant",
-            "text": "현재 등록된 크론잡이 **0개**입니다. MEMORY.md에 기록된 크론잡들(benvis-sync, heartbeat 등)도 실제로는 비어 있는"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:19 GMT+9] 필수 3개 등록해줘"
-          },
           {
             "role": "assistant",
             "text": "하트비트 스크립트가 없어서 3개 모두 OpenClaw 크론 시스템으로 직접 등록합니다."
@@ -52,6 +32,26 @@
           {
             "role": "user",
             "text": "[Wed 2026-03-11 15:20 GMT+9] 여러개의 채팅을 했어도 다 자동저장이 되는거야?"
+          },
+          {
+            "role": "assistant",
+            "text": "**부분적으로만** 자동저장됩니다. 정확히 설명하면:\n\n---\n\n**✅ 자동으로 저장되는 것**\n- **세션 내 대화** → OpenClaw가 "
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:21 GMT+9] 세션리셋 2시간마다 하지 말까?"
+          },
+          {
+            "role": "assistant",
+            "text": "얼마로 바꿀까요? 아니면 아예 끄는 것도 가능합니다.\n\n- **4시간** → 반나절 작업해도 안 끊김\n- **8시간** → 하루 업무 시간 커버"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:21 GMT+9] 8시간으로 하자"
+          },
+          {
+            "role": "assistant",
+            "text": "완료 ✅\n\n`idleMinutes: 120` → `480` (8시간)으로 변경됐습니다. 게이트웨이 재시작도 자동으로 됐어요.\n\n이제 8시간 동안"
           }
         ]
       },
@@ -246,33 +246,13 @@
             "text": "NO_REPLY"
           }
         ]
-      },
-      {
-        "id": "737fae23",
-        "type": "heartbeat",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "23시간 전",
-        "last_active_ts": 1773123708,
-        "last_active_readable": "15:21",
-        "msg_count": 3,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] ✅ 세션 정리 완료\n\n**오늘(2026-03-10) 주요 내용 저장:**\n- 컨텍스트 오버플로우 대응 (c"
-          }
-        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:20:01 KST",
+      "last_run": "2026-03-11 15:21:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
