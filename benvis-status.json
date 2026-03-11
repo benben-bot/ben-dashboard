@@ -1,12 +1,56 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T04:00:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 04:00:01 KST",
+  "last_heartbeat": "2026-03-12T04:01:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 04:01:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 6,
-    "active_1h": 0,
+    "total_24h": 7,
+    "active_1h": 2,
     "list": [
+      {
+        "id": "c9908310",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "Return your summary as plain text; it will be deli",
+        "last_active": "방금 전",
+        "last_active_ts": 1773255613,
+        "last_active_readable": "04:00",
+        "msg_count": 3,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "Return your summary as plain text; it will be delivered automatically. If the ta"
+          },
+          {
+            "role": "assistant",
+            "text": "야간 정기 재시작 완료. Gateway에 SIGUSR1 신호 전송됨 (PID: 360712). 2초 후 재시작 적용됩니다."
+          }
+        ]
+      },
+      {
+        "id": "6e93b7d4",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773255604,
+        "last_active_readable": "04:00",
+        "msg_count": 2,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "HEARTBEAT_OK"
+          }
+        ]
+      },
       {
         "id": "80ca603e",
         "type": "main",
@@ -40,30 +84,6 @@
         ]
       },
       {
-        "id": "c7391c19",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "작업 이해한거 맞아? 알고있는거 설명해줘",
-        "last_active": "9시간 전",
-        "last_active_ts": 1773222892,
-        "last_active_readable": "18:54",
-        "msg_count": 4,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "작업 이해한거 맞아? 알고있는거 설명해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 제가 현재 파악한 내용입니다.\n\n**완료된 작업**\n- `run_mode2.py`로 네이버 카페 이미지 업"
-          }
-        ]
-      },
-      {
         "id": "5a9863a8",
         "type": "heartbeat",
         "channel": "슬랙 DM",
@@ -84,7 +104,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "9시간 전",
+        "last_active": "10시간 전",
         "last_active_ts": 1773219649,
         "last_active_readable": "18:00",
         "msg_count": 13,
@@ -175,12 +195,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 03:59:01 KST",
+      "last_run": "2026-03-12 04:00:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-12 04:00:01 KST",
+      "last_run": "2026-03-12 04:00:04 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
