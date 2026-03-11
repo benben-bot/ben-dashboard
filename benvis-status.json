@@ -1,19 +1,47 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T18:23:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 18:23:01 KST",
+  "last_heartbeat": "2026-03-11T18:24:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 18:24:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
     "active_1h": 8,
     "list": [
       {
+        "id": "681adee2",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "확인해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773221034,
+        "last_active_readable": "18:23",
+        "msg_count": 7,
+        "last_role": "user",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "확인해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 세션 요약 확인 완료. 기록 상태 점검했습니다.\n\n*✅ 이미 기록된 내용*\n- `memory/2026-03"
+          },
+          {
+            "role": "user",
+            "text": "너가 새채팅방 만들어서 이어서해줘"
+          }
+        ]
+      },
+      {
         "id": "3e66cc3e",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "세션 요약 확인 완료. 기록 상태 점검했습니다. :white_check_mark: _이미 ",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773220922,
         "last_active_readable": "18:22",
         "msg_count": 4,
@@ -37,7 +65,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "원고생성기",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773220879,
         "last_active_readable": "18:21",
         "msg_count": 6,
@@ -61,7 +89,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773220801,
         "last_active_readable": "18:20",
         "msg_count": 17,
@@ -96,36 +124,12 @@
         ]
       },
       {
-        "id": "681adee2",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "확인해줘",
-        "last_active": "3분 전",
-        "last_active_ts": 1773220791,
-        "last_active_readable": "18:19",
-        "msg_count": 6,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "확인해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 세션 요약 확인 완료. 기록 상태 점검했습니다.\n\n*✅ 이미 기록된 내용*\n- `memory/2026-03"
-          }
-        ]
-      },
-      {
         "id": "5a9863a8",
         "type": "heartbeat",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "16분 전",
+        "last_active": "17분 전",
         "last_active_ts": 1773219977,
         "last_active_readable": "18:06",
         "msg_count": 1,
@@ -140,7 +144,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "22분 전",
+        "last_active": "23분 전",
         "last_active_ts": 1773219649,
         "last_active_readable": "18:00",
         "msg_count": 13,
@@ -188,7 +192,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "왜 실패했어?",
-        "last_active": "54분 전",
+        "last_active": "55분 전",
         "last_active_ts": 1773217740,
         "last_active_readable": "17:29",
         "msg_count": 10,
@@ -212,7 +216,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "57분 전",
+        "last_active": "58분 전",
         "last_active_ts": 1773217524,
         "last_active_readable": "17:25",
         "msg_count": 1,
@@ -231,7 +235,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 18:22:02 KST",
+      "last_run": "2026-03-11 18:23:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
