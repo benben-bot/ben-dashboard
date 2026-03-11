@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T16:43:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 16:43:01 KST",
+  "last_heartbeat": "2026-03-11T16:44:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 16:44:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
@@ -14,25 +14,13 @@
         "chat_type": "group",
         "preview": "하고있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773214934,
-        "last_active_readable": "16:42",
-        "msg_count": 90,
+        "last_active_ts": 1773215040,
+        "last_active_readable": "16:44",
+        "msg_count": 94,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "NO_REPLY"
-          },
-          {
-            "role": "user",
-            "text": "진행상황 알려줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 방금 완료됐습니다! 🧊\n\n- Row6 → articles/7002\n- Row7 → articles/7003"
-          },
           {
             "role": "user",
             "text": "[Wed 2026-03-11 16:30 GMT+9] 하고있지?"
@@ -52,6 +40,18 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 확인했습니다. 중복 이미지 문제 수정합니다.\n\n- Row6: new_ice_003 + new_ice_004"
+          },
+          {
+            "role": "assistant",
+            "text": "완료됐습니다. 시트 확인 결과:\n\n- Row6 → articles/7005 ✅ (new_ice_003 + new_ice_004)\n- Row7 →"
+          },
+          {
+            "role": "assistant",
+            "text": "✅ Row6/Row7 재게시 완료 (중복 없음)\n\n• Row6 → articles/7005 (new_ice_003 + new_ice_004)\n•"
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
           }
         ]
       },
@@ -61,10 +61,10 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "6분 전",
-        "last_active_ts": 1773214619,
-        "last_active_readable": "16:36",
-        "msg_count": 136,
+        "last_active": "방금 전",
+        "last_active_ts": 1773215036,
+        "last_active_readable": "16:43",
+        "msg_count": 140,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -109,7 +109,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "다른 pc",
-        "last_active": "26분 전",
+        "last_active": "27분 전",
         "last_active_ts": 1773213410,
         "last_active_readable": "16:16",
         "msg_count": 67,
@@ -157,7 +157,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "바쁘니",
-        "last_active": "29분 전",
+        "last_active": "30분 전",
         "last_active_ts": 1773213237,
         "last_active_readable": "16:13",
         "msg_count": 6,
@@ -188,7 +188,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 16:42:02 KST",
+      "last_run": "2026-03-11 16:43:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
