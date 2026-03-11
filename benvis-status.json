@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T09:55:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 09:55:01 KST",
+  "last_heartbeat": "2026-03-11T09:56:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 09:56:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -13,7 +13,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "구독형 계정으로 밴 안당한 사례들도 알려줘",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773190406,
         "last_active_readable": "09:53",
         "msg_count": 7,
@@ -37,7 +37,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773190267,
         "last_active_readable": "09:51",
         "msg_count": 12,
@@ -69,7 +69,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": ":rocket: antigravity-cli 오픈소스 공개합니다 Antigravity Pr",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773190120,
         "last_active_readable": "09:48",
         "msg_count": 7,
@@ -105,7 +105,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "14분 전",
+        "last_active": "15분 전",
         "last_active_ts": 1773189612,
         "last_active_readable": "09:40",
         "msg_count": 2,
@@ -391,7 +391,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 09:54:01 KST",
+      "last_run": "2026-03-11 09:55:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
