@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T17:26:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 17:26:01 KST",
+  "last_heartbeat": "2026-03-11T17:27:02+09:00",
+  "last_heartbeat_readable": "2026-03-11 17:27:02 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
@@ -9,14 +9,14 @@
     "list": [
       {
         "id": "c8487233",
-        "type": "heartbeat",
+        "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "왜 실패했어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773217552,
-        "last_active_readable": "17:25",
-        "msg_count": 3,
+        "last_active_ts": 1773217610,
+        "last_active_readable": "17:26",
+        "msg_count": 10,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -24,6 +24,10 @@
           {
             "role": "user",
             "text": "왜 실패했어?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 실패 원인 파악했습니다.\n\n**핵심: `교훈.md` 파일이 존재하지 않습니다.**\n\n`~/gdrive-sy"
           }
         ]
       },
@@ -33,7 +37,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773217526,
         "last_active_readable": "17:25",
         "msg_count": 10,
@@ -69,7 +73,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773217524,
         "last_active_readable": "17:25",
         "msg_count": 1,
@@ -89,7 +93,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773217478,
         "last_active_readable": "17:24",
         "msg_count": 112,
@@ -136,7 +140,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 17:25:02 KST",
+      "last_run": "2026-03-11 17:26:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
