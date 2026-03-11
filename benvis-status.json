@@ -1,19 +1,67 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:44:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:44:01 KST",
+  "last_heartbeat": "2026-03-11T15:45:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:45:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
     "active_1h": 4,
     "list": [
       {
+        "id": "0a0aeeda",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
+        "last_active": "방금 전",
+        "last_active_ts": 1773211500,
+        "last_active_readable": "15:45",
+        "msg_count": 68,
+        "last_role": "user",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:21 GMT+9] 세션리셋 2시간마다 하지 말까?"
+          },
+          {
+            "role": "assistant",
+            "text": "얼마로 바꿀까요? 아니면 아예 끄는 것도 가능합니다.\n\n- **4시간** → 반나절 작업해도 안 끊김\n- **8시간** → 하루 업무 시간 커버"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:21 GMT+9] 8시간으로 하자"
+          },
+          {
+            "role": "assistant",
+            "text": "완료 ✅\n\n`idleMinutes: 120` → `480` (8시간)으로 변경됐습니다. 게이트웨이 재시작도 자동으로 됐어요.\n\n이제 8시간 동안"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:22 GMT+9] 다른 컴퓨터에서도 이렇게 웹에서 대화할 수 있게 해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "두 가지 방법이 있어요. 어떤 상황인지에 따라 다릅니다:\n\n**A. 같은 와이파이 (집/사무실 내)**\n→ `bind: loopback` → `"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:23 GMT+9] 사무실 내에서 쓸거라서 사무실 내"
+          },
+          {
+            "role": "assistant",
+            "text": "완료 ✅\n\n이제 사무실 내 같은 와이파이에서 아래 URL로 접속하면 됩니다:\n\n```\nhttp://192.168.123.45:18789/chat"
+          }
+        ]
+      },
+      {
         "id": "51a1a2ec",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "다른 pc",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773211349,
         "last_active_readable": "15:42",
         "msg_count": 39,
@@ -56,60 +104,12 @@
         ]
       },
       {
-        "id": "0a0aeeda",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "1분 전",
-        "last_active_ts": 1773211335,
-        "last_active_readable": "15:42",
-        "msg_count": 67,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:21 GMT+9] 세션리셋 2시간마다 하지 말까?"
-          },
-          {
-            "role": "assistant",
-            "text": "얼마로 바꿀까요? 아니면 아예 끄는 것도 가능합니다.\n\n- **4시간** → 반나절 작업해도 안 끊김\n- **8시간** → 하루 업무 시간 커버"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:21 GMT+9] 8시간으로 하자"
-          },
-          {
-            "role": "assistant",
-            "text": "완료 ✅\n\n`idleMinutes: 120` → `480` (8시간)으로 변경됐습니다. 게이트웨이 재시작도 자동으로 됐어요.\n\n이제 8시간 동안"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:22 GMT+9] 다른 컴퓨터에서도 이렇게 웹에서 대화할 수 있게 해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "두 가지 방법이 있어요. 어떤 상황인지에 따라 다릅니다:\n\n**A. 같은 와이파이 (집/사무실 내)**\n→ `bind: loopback` → `"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:23 GMT+9] 사무실 내에서 쓸거라서 사무실 내"
-          },
-          {
-            "role": "assistant",
-            "text": "완료 ✅\n\n이제 사무실 내 같은 와이파이에서 아래 URL로 접속하면 됩니다:\n\n```\nhttp://192.168.123.45:18789/chat"
-          }
-        ]
-      },
-      {
         "id": "5a9863a8",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773211321,
         "last_active_readable": "15:42",
         "msg_count": 27,
@@ -153,7 +153,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "텔레그램 이용하려고하는데 보안안전해?",
-        "last_active": "16분 전",
+        "last_active": "17분 전",
         "last_active_ts": 1773210444,
         "last_active_readable": "15:27",
         "msg_count": 5,
@@ -220,7 +220,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:43:01 KST",
+      "last_run": "2026-03-11 15:44:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
