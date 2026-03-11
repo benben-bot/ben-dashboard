@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:17:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:17:01 KST",
+  "last_heartbeat": "2026-03-11T10:18:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:18:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -14,9 +14,9 @@
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773191816,
-        "last_active_readable": "10:16",
-        "msg_count": 20,
+        "last_active_ts": 1773191869,
+        "last_active_readable": "10:17",
+        "msg_count": 28,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -57,7 +57,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "현비스 로 배포한 링크들도 있으면 줘",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773191795,
         "last_active_readable": "10:16",
         "msg_count": 2,
@@ -81,7 +81,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773191645,
         "last_active_readable": "10:14",
         "msg_count": 46,
@@ -129,7 +129,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773191206,
         "last_active_readable": "10:06",
         "msg_count": 19,
@@ -277,7 +277,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "18시간 전",
+        "last_active": "19시간 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -435,7 +435,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:16:02 KST",
+      "last_run": "2026-03-11 10:17:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
