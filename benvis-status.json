@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:38:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:38:01 KST",
+  "last_heartbeat": "2026-03-11T15:39:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:39:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
@@ -13,7 +13,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773211080,
         "last_active_readable": "15:38",
         "msg_count": 22,
@@ -49,7 +49,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "다른 pc",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773211076,
         "last_active_readable": "15:37",
         "msg_count": 23,
@@ -97,7 +97,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773210612,
         "last_active_readable": "15:30",
         "msg_count": 67,
@@ -145,7 +145,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "텔레그램 이용하려고하는데 보안안전해?",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773210444,
         "last_active_readable": "15:27",
         "msg_count": 5,
@@ -212,7 +212,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:37:01 KST",
+      "last_run": "2026-03-11 15:38:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
