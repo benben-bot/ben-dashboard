@@ -1,12 +1,60 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:40:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:40:01 KST",
+  "last_heartbeat": "2026-03-11T15:41:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:41:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
     "active_1h": 4,
     "list": [
+      {
+        "id": "51a1a2ec",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "다른 pc",
+        "last_active": "방금 전",
+        "last_active_ts": 1773211261,
+        "last_active_readable": "15:41",
+        "msg_count": 33,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "sudo 비밀번호가 필요합니다. 대신 snap으로 시도할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "설치 완료. 근데 **ngrok 실행에 authtoken이 필수**입니다.\n\nhttps://dashboard.ngrok.com/signup\n\n여"
+          },
+          {
+            "role": "user",
+            "text": "3AmwZ0LnIZqZt1SiJBHwvw0QIx8_DmAjwrra8S3aNxESRZTd"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 터널 연결 완료됐습니다 ✅\n\n**지금 이 주소로 접속하세요:**\n\nhttps://filamentous-ev"
+          },
+          {
+            "role": "user",
+            "text": "서버 재시작은 개이트웨이 다시 시작하면 바뀐다는 얘기야?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 아니요, 게이트웨이 재시작은 괜찮습니다.\n\nURL이 바뀌는 경우:\n- **ngrok 프로세스가 종료될 때*"
+          },
+          {
+            "role": "assistant",
+            "text": "야간 4시 재시작 크론이 있는데, 이게 WSL2 전체를 재시작하면 ngrok도 끊깁니다. 크론 내용 확인할게요."
+          },
+          {
+            "role": "assistant",
+            "text": "크론 상세 조회가 안 되네요. 핵심만 말씀드리면:\n\n- **게이트웨이 재시작** (`openclaw gateway restart`) → ngro"
+          }
+        ]
+      },
       {
         "id": "5a9863a8",
         "type": "thread",
@@ -14,9 +62,9 @@
         "chat_type": "group",
         "preview": "하고있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773211200,
+        "last_active_ts": 1773211207,
         "last_active_readable": "15:40",
-        "msg_count": 22,
+        "msg_count": 24,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -44,60 +92,12 @@
         ]
       },
       {
-        "id": "51a1a2ec",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "다른 pc",
-        "last_active": "방금 전",
-        "last_active_ts": 1773211188,
-        "last_active_readable": "15:39",
-        "msg_count": 27,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] ngrok 먼저 설치 여부 확인할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "설치가 필요합니다. WSL2 터미널에서 실행해주세요:\n\n**1단계 — ngrok 설치:**\n```bash\ncurl -sSL https://ngr"
-          },
-          {
-            "role": "user",
-            "text": "너가 해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 설치부터 진행할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "sudo 비밀번호가 필요합니다. 대신 snap으로 시도할게요."
-          },
-          {
-            "role": "assistant",
-            "text": "설치 완료. 근데 **ngrok 실행에 authtoken이 필수**입니다.\n\nhttps://dashboard.ngrok.com/signup\n\n여"
-          },
-          {
-            "role": "user",
-            "text": "3AmwZ0LnIZqZt1SiJBHwvw0QIx8_DmAjwrra8S3aNxESRZTd"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 터널 연결 완료됐습니다 ✅\n\n**지금 이 주소로 접속하세요:**\n\nhttps://filamentous-ev"
-          }
-        ]
-      },
-      {
         "id": "0a0aeeda",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "9분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773210612,
         "last_active_readable": "15:30",
         "msg_count": 67,
@@ -145,7 +145,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "텔레그램 이용하려고하는데 보안안전해?",
-        "last_active": "12분 전",
+        "last_active": "13분 전",
         "last_active_ts": 1773210444,
         "last_active_readable": "15:27",
         "msg_count": 5,
@@ -212,7 +212,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:39:02 KST",
+      "last_run": "2026-03-11 15:40:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
