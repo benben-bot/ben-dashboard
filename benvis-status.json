@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:24:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:24:01 KST",
+  "last_heartbeat": "2026-03-11T10:25:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:25:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -14,17 +14,13 @@
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773192240,
+        "last_active_ts": 1773192290,
         "last_active_readable": "10:24",
-        "msg_count": 47,
+        "msg_count": 51,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "브라우저로 직접 확인하겠습니다."
-          },
           {
             "role": "assistant",
             "text": "문제 파악했습니다. 일부 쿠팡 링크가 검색 세션 파라미터(`searchId`, `traceId`, `rank` 등)를 포함해서 링크가 만료되면 "
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "지금 바로 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "원인 파악했습니다. 폼이 JavaScript로 값을 채우는 구조라 curl로 가져올 때 input 필드가 비어있었고, 그 빈 값으로 덮어썼습니다"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "현비스 로 배포한 링크들도 있으면 줘",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773191795,
         "last_active_readable": "10:16",
         "msg_count": 2,
@@ -85,7 +85,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "9분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773191645,
         "last_active_readable": "10:14",
         "msg_count": 46,
@@ -133,7 +133,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq",
-        "last_active": "17분 전",
+        "last_active": "18분 전",
         "last_active_ts": 1773191206,
         "last_active_readable": "10:06",
         "msg_count": 19,
@@ -405,7 +405,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "19시간 전",
+        "last_active": "20시간 전",
         "last_active_ts": 1773120255,
         "last_active_readable": "14:24",
         "msg_count": 9,
@@ -439,7 +439,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:23:01 KST",
+      "last_run": "2026-03-11 10:24:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
