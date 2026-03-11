@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T03:25:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 03:25:01 KST",
+  "last_heartbeat": "2026-03-12T03:26:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 03:26:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 7,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773253501,
         "last_active_readable": "03:25",
         "msg_count": 253,
@@ -196,7 +196,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "9시간 전",
+        "last_active": "10시간 전",
         "last_active_ts": 1773217524,
         "last_active_readable": "17:25",
         "msg_count": 1,
@@ -215,7 +215,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 03:24:02 KST",
+      "last_run": "2026-03-12 03:25:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
