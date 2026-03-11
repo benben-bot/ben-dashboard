@@ -1,10 +1,10 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:10:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:10:01 KST",
+  "last_heartbeat": "2026-03-11T15:11:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:11:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 12,
+    "total_24h": 11,
     "active_1h": 1,
     "list": [
       {
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773209334,
         "last_active_readable": "15:08",
         "msg_count": 41,
@@ -338,33 +338,13 @@
             "text": "[[reply_to_current]] ✅ 3개 모두 게시 완료했습니다.\n\n| # | 제목 | 계정 | 상태 |\n|---|------|------"
           }
         ]
-      },
-      {
-        "id": "d13756ae",
-        "type": "heartbeat",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "23시간 전",
-        "last_active_ts": 1773123035,
-        "last_active_readable": "15:10",
-        "msg_count": 2,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 확인 결과:\n\n**현재 배포 상태**: Sheets 버튼 미배포 ❌\n\n- 로컬 코드엔 `lib/sheets"
-          }
-        ]
       }
     ]
   },
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:09:01 KST",
+      "last_run": "2026-03-11 15:10:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
