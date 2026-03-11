@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:59:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:59:01 KST",
+  "last_heartbeat": "2026-03-11T11:00:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 11:00:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -14,21 +14,13 @@
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773194330,
-        "last_active_readable": "10:58",
-        "msg_count": 131,
+        "last_active_ts": 1773194377,
+        "last_active_readable": "10:59",
+        "msg_count": 134,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "브라우저 DevTools 콘솔에서 이거 실행하면 한번에 추출 가능합니다:\n\n```javascript\nconst rows = document.qu"
-          },
-          {
-            "role": "assistant",
-            "text": "브라우저 DevTools 콘솔에서 이거 실행하면 한번에 추출 가능합니다:\n\n```javascript\nconst rows = document.qu"
-          },
           {
             "role": "user",
             "text": "Warning: Don’t paste code into the DevTools Console that you don’t understand or"
@@ -52,6 +44,14 @@
           {
             "role": "user",
             "text": "[Slack file: 20260311_103619.jpg]"
+          },
+          {
+            "role": "assistant",
+            "text": "데이터 완전히 파악했습니다. 닉네임/날짜 전부 복원하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] ✅ 전체 복원 완료\n\n상품명, 브랜드, 닉네임, 구매일, 리뷰일 — 8개 항목 전부 복원됐습니다.\n\n사진 "
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": "잠깐 — `대시보드_목록.md`는 현비스가 이미 관리 중인 SSOT 파일이야. 벤비스가 별",
-        "last_active": "4분 전",
+        "last_active": "5분 전",
         "last_active_ts": 1773194095,
         "last_active_readable": "10:54",
         "msg_count": 10,
@@ -109,7 +109,7 @@
         "channel": "#ai-ops",
         "chat_type": "group",
         "preview": ":wrench: _아카이빙 규칙 공지 (최상위 규칙)_ 현비스/벤비스/코워크 공통 적용: ",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773193970,
         "last_active_readable": "10:52",
         "msg_count": 11,
@@ -141,7 +141,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "현비스 로 배포한 링크들도 있으면 줘",
-        "last_active": "42분 전",
+        "last_active": "43분 전",
         "last_active_ts": 1773191795,
         "last_active_readable": "10:16",
         "msg_count": 2,
@@ -431,12 +431,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:58:01 KST",
+      "last_run": "2026-03-11 10:59:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-11 10:00:04 KST",
+      "last_run": "2026-03-11 11:00:01 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
