@@ -1,12 +1,60 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T16:10:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 16:10:01 KST",
+  "last_heartbeat": "2026-03-11T16:11:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 16:11:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
     "active_1h": 4,
     "list": [
+      {
+        "id": "0a0aeeda",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
+        "last_active": "방금 전",
+        "last_active_ts": 1773213059,
+        "last_active_readable": "16:10",
+        "msg_count": 87,
+        "last_role": "user",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "웹 검색 API가 없어서 제한이 있지만, 유비드와 유사한 브랜드를 제 학습 데이터 기반으로 정리해드리겠습니다. (2024~2025 기준, 실시간"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 16:06 GMT+9] 응 추가해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "Brave Search API 키가 필요합니다. 직접 발급해주세요:\n\n**1단계 — 키 발급**\n```\nhttps://api.search.bra"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 16:07 GMT+9] 링크 접속 안돼는데?"
+          },
+          {
+            "role": "assistant",
+            "text": "정확한 URL로 다시 시도해보세요:\n\n```\nhttps://brave.com/search/api/\n```\n\n또는 구글에서 **\"Brave Sea"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 16:10 GMT+9] 무료요금제 없는거같은데?"
+          },
+          {
+            "role": "assistant",
+            "text": "맞아요, Brave API가 최근 **무료 플랜을 없앴습니다.** 유료만 있어요 ($3/월부터).\n\n---\n\n**대안 — 무료 웹 검색 API*"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 16:10 GMT+9] 에잇 다른건 다 무료 가능한지 다시 확인해"
+          }
+        ]
+      },
       {
         "id": "5a9863a8",
         "type": "thread",
@@ -14,17 +62,13 @@
         "chat_type": "group",
         "preview": "하고있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773212994,
-        "last_active_readable": "16:09",
-        "msg_count": 49,
+        "last_active_ts": 1773213033,
+        "last_active_readable": "16:10",
+        "msg_count": 53,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "상황 파악됐습니다. 서브에이전트로 바로 시작합니다.\n\n- 인덱스 현재 2 → 3.PNG, 4.PNG (기존 사진)\n- 자동 다운로드 사진은 인덱"
-          },
           {
             "role": "assistant",
             "text": "Row6~8 현황 파악 완료. 지금 서브에이전트로 처리합니다.\n- Row6: articles/6996 (기존 사진)\n- Row7: article"
@@ -52,54 +96,10 @@
           {
             "role": "assistant",
             "text": "로그인이 필요합니다. Login 버튼 클릭합니다."
-          }
-        ]
-      },
-      {
-        "id": "0a0aeeda",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "2분 전",
-        "last_active_ts": 1773212832,
-        "last_active_readable": "16:07",
-        "msg_count": 83,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "네, 됩니다! ✅\n\n`192.168.123.45:18789` 정상 응답 확인했습니다.\n\n사무실 내 다른 기기에서 이 URL로 바로 접속하세요:\n"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 16:05 GMT+9] 유비드랑 비슷한 브랜드가 어떤 브랜드가 있는지 찾아줘. \n신생, 화장품, 하지만 잘팔리는"
           },
           {
             "role": "assistant",
-            "text": "웹 검색 API 키가 없어서 브라우저로 직접 찾겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "웹 검색 API가 없어서 제한이 있지만, 유비드와 유사한 브랜드를 제 학습 데이터 기반으로 정리해드리겠습니다. (2024~2025 기준, 실시간"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 16:06 GMT+9] 응 추가해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "Brave Search API 키가 필요합니다. 직접 발급해주세요:\n\n**1단계 — 키 발급**\n```\nhttps://api.search.bra"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 16:07 GMT+9] 링크 접속 안돼는데?"
-          },
-          {
-            "role": "assistant",
-            "text": "정확한 URL로 다시 시도해보세요:\n\n```\nhttps://brave.com/search/api/\n```\n\n또는 구글에서 **\"Brave Sea"
+            "text": "브라우저 relay가 불안정합니다. Playwright 서브에이전트로 처리하는 게 빠릅니다."
           }
         ]
       },
@@ -109,7 +109,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "다른 pc",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773212607,
         "last_active_readable": "16:03",
         "msg_count": 54,
@@ -157,7 +157,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "바쁘니",
-        "last_active": "21분 전",
+        "last_active": "22분 전",
         "last_active_ts": 1773211695,
         "last_active_readable": "15:48",
         "msg_count": 4,
@@ -216,7 +216,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 16:09:01 KST",
+      "last_run": "2026-03-11 16:10:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
