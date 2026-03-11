@@ -1,60 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:04:02+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:04:02 KST",
+  "last_heartbeat": "2026-03-11T10:05:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:05:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
     "active_1h": 4,
     "list": [
-      {
-        "id": "ba418748",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "방금 전",
-        "last_active_ts": 1773191039,
-        "last_active_readable": "10:03",
-        "msg_count": 37,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거있는지 확인해"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] Reddit 커뮤니티 조사 결과입니다.\n\n**결론: 밴 사례 실제로 있음 ⚠️**\n\n---\n\n**확인된 사"
-          },
-          {
-            "role": "user",
-            "text": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq3nZ> 여기에서 상태 작성완료인것들만 체크하고 순위체"
-          },
-          {
-            "role": "assistant",
-            "text": "URL 먼저 확인하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "페이지 구조 파악했습니다. \"작성완료\" 항목들과 순위체크 API를 확인하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "API 구조 파악 완료. 스크립트 작성하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "ID 파싱 정상 (13건). 크론잡 등록합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "시스템 타임존이 KST로 설정되어 있습니다. 기존 크론 방식(system crontab)에 맞게 변경하겠습니다."
-          }
-        ]
-      },
       {
         "id": "a6eabc9e",
         "type": "thread",
@@ -62,9 +14,9 @@
         "chat_type": "group",
         "preview": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq",
         "last_active": "방금 전",
-        "last_active_ts": 1773191026,
-        "last_active_readable": "10:03",
-        "msg_count": 12,
+        "last_active_ts": 1773191098,
+        "last_active_readable": "10:04",
+        "msg_count": 15,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -92,12 +44,60 @@
         ]
       },
       {
+        "id": "ba418748",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
+        "last_active": "방금 전",
+        "last_active_ts": 1773191062,
+        "last_active_readable": "10:04",
+        "msg_count": 41,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] Reddit 커뮤니티 조사 결과입니다.\n\n**결론: 밴 사례 실제로 있음 ⚠️**\n\n---\n\n**확인된 사"
+          },
+          {
+            "role": "user",
+            "text": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq3nZ> 여기에서 상태 작성완료인것들만 체크하고 순위체"
+          },
+          {
+            "role": "assistant",
+            "text": "URL 먼저 확인하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "페이지 구조 파악했습니다. \"작성완료\" 항목들과 순위체크 API를 확인하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "API 구조 파악 완료. 스크립트 작성하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "ID 파싱 정상 (13건). 크론잡 등록합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "시스템 타임존이 KST로 설정되어 있습니다. 기존 크론 방식(system crontab)에 맞게 변경하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "등록 완료.\n\n[[reply_to_current]] ✅ 크론잡 등록 완료\n\n- **크론명**: `mulgil-rank-check`\n- **스케줄"
+          }
+        ]
+      },
+      {
         "id": "2a13203b",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "구독형 계정으로 밴 안당한 사례들도 알려줘",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773190406,
         "last_active_readable": "09:53",
         "msg_count": 7,
@@ -121,7 +121,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": ":rocket: antigravity-cli 오픈소스 공개합니다 Antigravity Pr",
-        "last_active": "15분 전",
+        "last_active": "16분 전",
         "last_active_ts": 1773190120,
         "last_active_readable": "09:48",
         "msg_count": 7,
@@ -423,7 +423,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:03:02 KST",
+      "last_run": "2026-03-11 10:04:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
