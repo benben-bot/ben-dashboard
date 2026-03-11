@@ -1,46 +1,22 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:00:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:00:01 KST",
+  "last_heartbeat": "2026-03-11T10:01:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:01:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
     "active_1h": 4,
     "list": [
       {
-        "id": "2a13203b",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "구독형 계정으로 밴 안당한 사례들도 알려줘",
-        "last_active": "6분 전",
-        "last_active_ts": 1773190406,
-        "last_active_readable": "09:53",
-        "msg_count": 7,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "구독형 계정으로 밴 안당한 사례들도 알려줘"
-          },
-          {
-            "role": "assistant",
-            "text": "조사 결과를 정리해 드립니다.\n\n---\n\n**결론: \"밴 안 당한\" 케이스는 공통점이 있음** ✅\n\n실제로 커뮤니티에서 Gemini를 안전하게 "
-          }
-        ]
-      },
-      {
         "id": "ba418748",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "8분 전",
-        "last_active_ts": 1773190267,
-        "last_active_readable": "09:51",
-        "msg_count": 12,
+        "last_active": "방금 전",
+        "last_active_ts": 1773190857,
+        "last_active_readable": "10:00",
+        "msg_count": 17,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -60,6 +36,42 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] Reddit 커뮤니티 조사 결과입니다.\n\n**결론: 밴 사례 실제로 있음 ⚠️**\n\n---\n\n**확인된 사"
+          },
+          {
+            "role": "user",
+            "text": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq3nZ> 여기에서 상태 작성완료인것들만 체크하고 순위체"
+          },
+          {
+            "role": "assistant",
+            "text": "URL 먼저 확인하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "페이지 구조 파악했습니다. \"작성완료\" 항목들과 순위체크 API를 확인하겠습니다."
+          }
+        ]
+      },
+      {
+        "id": "2a13203b",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "구독형 계정으로 밴 안당한 사례들도 알려줘",
+        "last_active": "7분 전",
+        "last_active_ts": 1773190406,
+        "last_active_readable": "09:53",
+        "msg_count": 7,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "구독형 계정으로 밴 안당한 사례들도 알려줘"
+          },
+          {
+            "role": "assistant",
+            "text": "조사 결과를 정리해 드립니다.\n\n---\n\n**결론: \"밴 안 당한\" 케이스는 공통점이 있음** ✅\n\n실제로 커뮤니티에서 Gemini를 안전하게 "
           }
         ]
       },
@@ -69,7 +81,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": ":rocket: antigravity-cli 오픈소스 공개합니다 Antigravity Pr",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773190120,
         "last_active_readable": "09:48",
         "msg_count": 7,
@@ -105,7 +117,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "19분 전",
+        "last_active": "20분 전",
         "last_active_ts": 1773189612,
         "last_active_readable": "09:40",
         "msg_count": 2,
@@ -391,12 +403,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 09:59:01 KST",
+      "last_run": "2026-03-11 10:00:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-11 10:00:01 KST",
+      "last_run": "2026-03-11 10:00:04 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
