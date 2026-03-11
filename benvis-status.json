@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T11:15:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 11:15:01 KST",
+  "last_heartbeat": "2026-03-11T11:16:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 11:16:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -14,17 +14,13 @@
         "chat_type": "group",
         "preview": "너가 원고에 맞는 사진 알아서 구해와봐",
         "last_active": "방금 전",
-        "last_active_ts": 1773195279,
-        "last_active_readable": "11:14",
-        "msg_count": 36,
-        "last_role": "assistant",
+        "last_active_ts": 1773195357,
+        "last_active_readable": "11:15",
+        "msg_count": 39,
+        "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "너가 원고에 맞는 사진 알아서 구해와봐"
-          },
           {
             "role": "assistant",
             "text": "원고 내용 먼저 확인하겠습니다."
@@ -48,6 +44,14 @@
           {
             "role": "assistant",
             "text": "이미지 6장 준비됐습니다. 이제 Row6~8 게시 실행합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "Row8 성공, Row6/7은 URL 형태가 달라서 게시 여부 불확실합니다. 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] ✅ 완료됐습니다.\n\n**결과 요약**\n- Row6 (articles/6996), Row7 (articles"
           }
         ]
       },
@@ -57,7 +61,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "그럼 내가 뭘 해야하는지 알려줘",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773194887,
         "last_active_readable": "11:08",
         "msg_count": 4,
@@ -89,7 +93,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "바이낸스에서 테더 코인을 해외계정으로 사려고하는데 어떻게 사야하는지 알려줘. 모르겠으면 크",
-        "last_active": "9분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773194721,
         "last_active_readable": "11:05",
         "msg_count": 3,
@@ -113,7 +117,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
-        "last_active": "15분 전",
+        "last_active": "16분 전",
         "last_active_ts": 1773194377,
         "last_active_readable": "10:59",
         "msg_count": 134,
@@ -161,7 +165,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "18시간 전",
+        "last_active": "19시간 전",
         "last_active_ts": 1773126960,
         "last_active_readable": "16:16",
         "msg_count": 12,
@@ -301,7 +305,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "19시간 전",
+        "last_active": "20시간 전",
         "last_active_ts": 1773123301,
         "last_active_readable": "15:15",
         "msg_count": 10,
@@ -427,7 +431,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 11:14:01 KST",
+      "last_run": "2026-03-11 11:15:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
