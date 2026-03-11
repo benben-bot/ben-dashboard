@@ -1,19 +1,39 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T12:50:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 12:50:01 KST",
+  "last_heartbeat": "2026-03-11T12:51:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 12:51:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
     "active_1h": 2,
     "list": [
       {
+        "id": "0a0aeeda",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773201045,
+        "last_active_readable": "12:50",
+        "msg_count": 3,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "현재 시각 12:50 KST — 20:00 이전이므로 memory 파일 미생성 기준 미달. 크론잡 없음, 에러 없음.\n\nHEARTBEAT_OK"
+          }
+        ]
+      },
+      {
         "id": "172a6c71",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "내 번호 노출 안되게 하려면 필요한 설정, 보안 관련설정들 알려줘",
-        "last_active": "35분 전",
+        "last_active": "36분 전",
         "last_active_ts": 1773198873,
         "last_active_readable": "12:14",
         "msg_count": 4,
@@ -45,13 +65,13 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "기존 사진이 들어갔는데 확인해줘",
-        "last_active": "59분 전",
+        "last_active": "1시간 전",
         "last_active_ts": 1773197429,
         "last_active_readable": "11:50",
         "msg_count": 30,
         "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
+        "idle_level": "idle_1h",
+        "is_active": false,
         "messages": [
           {
             "role": "user",
@@ -108,30 +128,6 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 텔레그램 보안 요약입니다.\n\n**✅ 안전한 부분**\n- 서버-클라이언트 암호화 (MTProto 프로토콜) "
-          }
-        ]
-      },
-      {
-        "id": "e8d00885",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "안녕 벤비스~! 포레몽 스마트스토어에 1+1 구매시 2만원 추가 할인 쿠폰이 안보여. 한정",
-        "last_active": "1시간 전",
-        "last_active_ts": 1773195746,
-        "last_active_readable": "11:22",
-        "msg_count": 4,
-        "last_role": "assistant",
-        "idle_level": "idle_1h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "안녕 벤비스~! 포레몽 스마트스토어에 1+1 구매시 2만원 추가 할인 쿠폰이 안보여. 한정 수량 소진 완료인지 알 수 있는 경로가 따로 있을까?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 안녕하세요, 루미님! 🔹\n\n네이버 스마트스토어 쿠폰 소진 여부를 직접 확인할 수 있는 공개 경로는 없습니다"
           }
         ]
       },
@@ -407,7 +403,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 12:49:01 KST",
+      "last_run": "2026-03-11 12:50:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
