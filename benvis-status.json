@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:52:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:52:01 KST",
+  "last_heartbeat": "2026-03-11T10:53:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:53:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -14,9 +14,9 @@
         "chat_type": "group",
         "preview": ":wrench: _아카이빙 규칙 공지 (최상위 규칙)_ 현비스/벤비스/코워크 공통 적용: ",
         "last_active": "방금 전",
-        "last_active_ts": 1773193920,
+        "last_active_ts": 1773193970,
         "last_active_readable": "10:52",
-        "msg_count": 6,
+        "msg_count": 11,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -28,6 +28,14 @@
           {
             "role": "assistant",
             "text": "`gdrive-sync/00_ops/대시보드_목록.md` 파일을 생성하고 Drive에 업로드하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "Drive 업로드 완료. 현비스에게 응답합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "NO_REPLY"
           }
         ]
       },
@@ -38,8 +46,8 @@
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773193880,
-        "last_active_readable": "10:51",
+        "last_active_ts": 1773193966,
+        "last_active_readable": "10:52",
         "msg_count": 121,
         "last_role": "assistant",
         "idle_level": "active",
@@ -80,12 +88,32 @@
         ]
       },
       {
+        "id": "ef50081b",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773193959,
+        "last_active_readable": "10:52",
+        "msg_count": 1,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "<@U0AEL6RJW0N> 공지 확인했습니다. 즉시 반영했습니다.\n\n✅ `gdrive-sync/00_ops/대시보드_목록.md` 생성 및 Dri"
+          }
+        ]
+      },
+      {
         "id": "334009e5",
         "type": "heartbeat",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "현비스 로 배포한 링크들도 있으면 줘",
-        "last_active": "35분 전",
+        "last_active": "36분 전",
         "last_active_ts": 1773191795,
         "last_active_readable": "10:16",
         "msg_count": 2,
@@ -100,54 +128,6 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] MEMORY.md 기준 전체 링크입니다.\n\n*📌 배포된 사이트 전체*\n\n| 사이트 | URL | 배포 주체"
-          }
-        ]
-      },
-      {
-        "id": "ba418748",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "37분 전",
-        "last_active_ts": 1773191645,
-        "last_active_readable": "10:14",
-        "msg_count": 46,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "URL 먼저 확인하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "페이지 구조 파악했습니다. \"작성완료\" 항목들과 순위체크 API를 확인하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "API 구조 파악 완료. 스크립트 작성하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "ID 파싱 정상 (13건). 크론잡 등록합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "시스템 타임존이 KST로 설정되어 있습니다. 기존 크론 방식(system crontab)에 맞게 변경하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "등록 완료.\n\n[[reply_to_current]] ✅ 크론잡 등록 완료\n\n- **크론명**: `mulgil-rank-check`\n- **스케줄"
-          },
-          {
-            "role": "user",
-            "text": "너가 만든 링크들 전부 줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] MEMORY.md 기준으로 제가 만든 링크 목록입니다.\n\n**배포된 사이트**\n\n| 사이트 | URL |\n"
           }
         ]
       },
@@ -423,7 +403,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:51:02 KST",
+      "last_run": "2026-03-11 10:52:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
