@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:16:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:16:01 KST",
+  "last_heartbeat": "2026-03-11T15:17:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:17:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 9,
@@ -14,17 +14,13 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
         "last_active": "방금 전",
-        "last_active_ts": 1773209745,
-        "last_active_readable": "15:15",
-        "msg_count": 45,
+        "last_active_ts": 1773209762,
+        "last_active_readable": "15:16",
+        "msg_count": 46,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:05 GMT+9] 코드 작성할때는 자동으로 coding-agent 이 스킬 사용하는거야?"
-          },
           {
             "role": "assistant",
             "text": "네, **자동**으로 사용됩니다. 다만 조건이 있습니다.\n\n---\n\n**자동 적용되는 경우** ✅\n- 새 기능/앱 만들기\n- 대규모 리팩토링\n-"
@@ -52,6 +48,10 @@
           {
             "role": "user",
             "text": "[Wed 2026-03-11 15:15 GMT+9] 크론잡도 뭐 설정할게 있을지 찾아봐줘"
+          },
+          {
+            "role": "assistant",
+            "text": "현재 등록된 크론잡이 **0개**입니다. MEMORY.md에 기록된 크론잡들(benvis-sync, heartbeat 등)도 실제로는 비어 있는"
           }
         ]
       },
@@ -304,7 +304,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:15:01 KST",
+      "last_run": "2026-03-11 15:16:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
