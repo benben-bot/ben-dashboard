@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:49:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:49:01 KST",
+  "last_heartbeat": "2026-03-11T10:50:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:50:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -14,21 +14,13 @@
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773193727,
-        "last_active_readable": "10:48",
-        "msg_count": 115,
-        "last_role": "assistant",
+        "last_active_ts": 1773193781,
+        "last_active_readable": "10:49",
+        "msg_count": 119,
+        "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 이전 작업에서 문제가 생겼습니다. 보고드려야 할 것 같아서요.\n\n쿠팡 링크 수정 과정에서 **폼 데이터 덮"
-          },
-          {
-            "role": "user",
-            "text": "<https://www.pythonanywhere.com/login/?next=/user/Gromeet/webapps/#tab_id_gromee"
-          },
           {
             "role": "assistant",
             "text": "브라우저 스냅샷이 안 되네요. curl로 PythonAnywhere API 토큰을 받아서 진행하겠습니다."
@@ -52,6 +44,14 @@
           {
             "role": "assistant",
             "text": "브라우저 CDP 제어 전체가 안 됩니다. 웹 검색으로 상품명 찾겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 콘솔도 한도 초과로 막혔어요. 여러 방법 시도했는데 결론은:\n\n**DB 내 데이터 완전 소실 확인** — "
+          },
+          {
+            "role": "user",
+            "text": "지금 내 컴퓨터에서는 이전페이지에서 새로고침 전이라서 아직 기록이 남아있긴한데 한번에 전달하는 방법이 있을까? [Slack file: image"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "현비스 로 배포한 링크들도 있으면 줘",
-        "last_active": "32분 전",
+        "last_active": "33분 전",
         "last_active_ts": 1773191795,
         "last_active_readable": "10:16",
         "msg_count": 2,
@@ -85,7 +85,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "34분 전",
+        "last_active": "35분 전",
         "last_active_ts": 1773191645,
         "last_active_readable": "10:14",
         "msg_count": 46,
@@ -133,7 +133,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq",
-        "last_active": "42분 전",
+        "last_active": "43분 전",
         "last_active_ts": 1773191206,
         "last_active_readable": "10:06",
         "msg_count": 19,
@@ -439,7 +439,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:48:01 KST",
+      "last_run": "2026-03-11 10:49:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
