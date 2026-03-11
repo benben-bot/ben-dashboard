@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T19:14:02+09:00",
-  "last_heartbeat_readable": "2026-03-11 19:14:02 KST",
+  "last_heartbeat": "2026-03-11T19:15:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 19:15:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
@@ -13,10 +13,10 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사",
-        "last_active": "4분 전",
-        "last_active_ts": 1773223801,
-        "last_active_readable": "19:10",
-        "msg_count": 39,
+        "last_active": "방금 전",
+        "last_active_ts": 1773224101,
+        "last_active_readable": "19:15",
+        "msg_count": 41,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -53,7 +53,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "작업 이해한거 맞아? 알고있는거 설명해줘",
-        "last_active": "19분 전",
+        "last_active": "20분 전",
         "last_active_ts": 1773222892,
         "last_active_readable": "18:54",
         "msg_count": 4,
@@ -77,7 +77,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "원고생성기",
-        "last_active": "44분 전",
+        "last_active": "45분 전",
         "last_active_ts": 1773221361,
         "last_active_readable": "18:29",
         "msg_count": 8,
@@ -109,7 +109,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "확인해줘",
-        "last_active": "45분 전",
+        "last_active": "46분 전",
         "last_active_ts": 1773221282,
         "last_active_readable": "18:28",
         "msg_count": 16,
@@ -263,7 +263,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 19:13:02 KST",
+      "last_run": "2026-03-11 19:14:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
