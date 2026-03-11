@@ -1,34 +1,50 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:51:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:51:01 KST",
+  "last_heartbeat": "2026-03-11T10:52:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:52:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 14,
-    "active_1h": 3,
+    "total_24h": 15,
+    "active_1h": 4,
     "list": [
+      {
+        "id": "f3e9fce8",
+        "type": "thread",
+        "channel": "#ai-ops",
+        "chat_type": "group",
+        "preview": ":wrench: _아카이빙 규칙 공지 (최상위 규칙)_ 현비스/벤비스/코워크 공통 적용: ",
+        "last_active": "방금 전",
+        "last_active_ts": 1773193920,
+        "last_active_readable": "10:52",
+        "msg_count": 6,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": ":wrench: _아카이빙 규칙 공지 (최상위 규칙)_ 현비스/벤비스/코워크 공통 적용: • _개발 문서_ (TASK, PRD, reports "
+          },
+          {
+            "role": "assistant",
+            "text": "`gdrive-sync/00_ops/대시보드_목록.md` 파일을 생성하고 Drive에 업로드하겠습니다."
+          }
+        ]
+      },
       {
         "id": "c7eea0b3",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
-        "last_active": "1분 전",
-        "last_active_ts": 1773193781,
-        "last_active_readable": "10:49",
-        "msg_count": 119,
-        "last_role": "user",
+        "last_active": "방금 전",
+        "last_active_ts": 1773193880,
+        "last_active_readable": "10:51",
+        "msg_count": 121,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "브라우저 스냅샷이 안 되네요. curl로 PythonAnywhere API 토큰을 받아서 진행하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] DB 복구 시도했지만 백업이 없습니다.\n\n**상황:**\n- reviews.db 다운로드해서 확인 → 8개 "
-          },
           {
             "role": "user",
             "text": "크롬으로 직접 들어가도 안보여?"
@@ -52,6 +68,14 @@
           {
             "role": "user",
             "text": "지금 내 컴퓨터에서는 이전페이지에서 새로고침 전이라서 아직 기록이 남아있긴한데 한번에 전달하는 방법이 있을까? [Slack file: image"
+          },
+          {
+            "role": "assistant",
+            "text": "브라우저 DevTools 콘솔에서 이거 실행하면 한번에 추출 가능합니다:\n\n```javascript\nconst rows = document.qu"
+          },
+          {
+            "role": "assistant",
+            "text": "브라우저 DevTools 콘솔에서 이거 실행하면 한번에 추출 가능합니다:\n\n```javascript\nconst rows = document.qu"
           }
         ]
       },
@@ -61,7 +85,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "현비스 로 배포한 링크들도 있으면 줘",
-        "last_active": "34분 전",
+        "last_active": "35분 전",
         "last_active_ts": 1773191795,
         "last_active_readable": "10:16",
         "msg_count": 2,
@@ -85,7 +109,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "36분 전",
+        "last_active": "37분 전",
         "last_active_ts": 1773191645,
         "last_active_readable": "10:14",
         "msg_count": 46,
@@ -399,7 +423,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:50:01 KST",
+      "last_run": "2026-03-11 10:51:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
