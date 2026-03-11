@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:09:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:09:01 KST",
+  "last_heartbeat": "2026-03-11T10:10:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:10:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -13,7 +13,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773191213,
         "last_active_readable": "10:06",
         "msg_count": 41,
@@ -61,7 +61,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773191206,
         "last_active_readable": "10:06",
         "msg_count": 19,
@@ -101,7 +101,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "구독형 계정으로 밴 안당한 사례들도 알려줘",
-        "last_active": "15분 전",
+        "last_active": "16분 전",
         "last_active_ts": 1773190406,
         "last_active_readable": "09:53",
         "msg_count": 7,
@@ -125,7 +125,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": ":rocket: antigravity-cli 오픈소스 공개합니다 Antigravity Pr",
-        "last_active": "20분 전",
+        "last_active": "21분 전",
         "last_active_ts": 1773190120,
         "last_active_readable": "09:48",
         "msg_count": 7,
@@ -427,7 +427,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:08:02 KST",
+      "last_run": "2026-03-11 10:09:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
