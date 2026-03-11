@@ -1,19 +1,67 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T16:17:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 16:17:01 KST",
+  "last_heartbeat": "2026-03-11T16:18:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 16:18:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
     "active_1h": 4,
     "list": [
       {
+        "id": "0a0aeeda",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
+        "last_active": "방금 전",
+        "last_active_ts": 1773213480,
+        "last_active_readable": "16:18",
+        "msg_count": 101,
+        "last_role": "user",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "맞아요, Brave API가 최근 **무료 플랜을 없앴습니다.** 유료만 있어요 ($3/월부터).\n\n---\n\n**대안 — 무료 웹 검색 API*"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 16:10 GMT+9] 에잇 다른건 다 무료 가능한지 다시 확인해"
+          },
+          {
+            "role": "assistant",
+            "text": "확인 결과입니다:\n\n| API | 무료 여부 | 한도 |\n|-----|-----------|------|\n| **Tavily** | ✅ 무료 있"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 16:11 GMT+9] Tavily\n\ntvly-dev-3mTuN-Y4HbOjf3XNBNJxIKUiLvh0BcvJl0"
+          },
+          {
+            "role": "assistant",
+            "text": "`web-search-pro` 스킬이 Tavily를 지원합니다. `TAVILY_API_KEY` 환경변수로 설정하면 됩니다."
+          },
+          {
+            "role": "assistant",
+            "text": "완료 ✅\n\n- `TAVILY_API_KEY` → `.bashrc` 등록\n- 웹 검색 활성화 (`tools.web.search.enabled: t"
+          },
+          {
+            "role": "assistant",
+            "text": "⚠️ Agent failed before reply: Gateway is draining for restart; new tasks are not"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 16:18 GMT+9] 아까 질문하신 유비드 유사 브랜드 다시 검색해드릴까요? 다시 해줘"
+          }
+        ]
+      },
+      {
         "id": "51a1a2ec",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "다른 pc",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773213410,
         "last_active_readable": "16:16",
         "msg_count": 67,
@@ -56,60 +104,12 @@
         ]
       },
       {
-        "id": "0a0aeeda",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "2분 전",
-        "last_active_ts": 1773213301,
-        "last_active_readable": "16:15",
-        "msg_count": 100,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 16:10 GMT+9] 무료요금제 없는거같은데?"
-          },
-          {
-            "role": "assistant",
-            "text": "맞아요, Brave API가 최근 **무료 플랜을 없앴습니다.** 유료만 있어요 ($3/월부터).\n\n---\n\n**대안 — 무료 웹 검색 API*"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 16:10 GMT+9] 에잇 다른건 다 무료 가능한지 다시 확인해"
-          },
-          {
-            "role": "assistant",
-            "text": "확인 결과입니다:\n\n| API | 무료 여부 | 한도 |\n|-----|-----------|------|\n| **Tavily** | ✅ 무료 있"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 16:11 GMT+9] Tavily\n\ntvly-dev-3mTuN-Y4HbOjf3XNBNJxIKUiLvh0BcvJl0"
-          },
-          {
-            "role": "assistant",
-            "text": "`web-search-pro` 스킬이 Tavily를 지원합니다. `TAVILY_API_KEY` 환경변수로 설정하면 됩니다."
-          },
-          {
-            "role": "assistant",
-            "text": "완료 ✅\n\n- `TAVILY_API_KEY` → `.bashrc` 등록\n- 웹 검색 활성화 (`tools.web.search.enabled: t"
-          },
-          {
-            "role": "assistant",
-            "text": "⚠️ Agent failed before reply: Gateway is draining for restart; new tasks are not"
-          }
-        ]
-      },
-      {
         "id": "e45fced1",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "바쁘니",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773213237,
         "last_active_readable": "16:13",
         "msg_count": 6,
@@ -141,7 +141,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "5분 전",
+        "last_active": "6분 전",
         "last_active_ts": 1773213112,
         "last_active_readable": "16:11",
         "msg_count": 56,
@@ -188,7 +188,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 16:16:01 KST",
+      "last_run": "2026-03-11 16:17:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
