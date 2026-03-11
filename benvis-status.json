@@ -1,19 +1,39 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T09:52:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 09:52:01 KST",
+  "last_heartbeat": "2026-03-11T09:53:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 09:53:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 16,
-    "active_1h": 3,
+    "total_24h": 15,
+    "active_1h": 4,
     "list": [
+      {
+        "id": "2a13203b",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "구독형 계정으로 밴 안당한 사례들도 알려줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773190380,
+        "last_active_readable": "09:53",
+        "msg_count": 5,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "구독형 계정으로 밴 안당한 사례들도 알려줘"
+          }
+        ]
+      },
       {
         "id": "ba418748",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773190267,
         "last_active_readable": "09:51",
         "msg_count": 12,
@@ -45,7 +65,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": ":rocket: antigravity-cli 오픈소스 공개합니다 Antigravity Pr",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773190120,
         "last_active_readable": "09:48",
         "msg_count": 7,
@@ -81,7 +101,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773189612,
         "last_active_readable": "09:40",
         "msg_count": 2,
@@ -92,54 +112,6 @@
           {
             "role": "assistant",
             "text": "HEARTBEAT_OK"
-          }
-        ]
-      },
-      {
-        "id": "3f6115c4",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "이미지 어떤식으로 업로드하는건지 확인해서 알기쉽게 알려줘",
-        "last_active": "15시간 전",
-        "last_active_ts": 1773135598,
-        "last_active_readable": "18:39",
-        "msg_count": 158,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "`[이미지N]` 태그당 1장으로 수정하고 바로 실행합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이미지 2장 → 1장으로 수정합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이미지 부족 시 멈추는 로직 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이미지 부족 시 `continue`(스킵)가 아닌 게시 중단(return)으로 변경합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이제 main()에서 None 반환 시 루프 전체 멈추도록 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이제 Row4~8 게시 실행합니다. 현재 인덱스 4 (캡처.PNG, 캡처1.PNG 2장 남음) → 글 1개당 2장 소비 → Row4 1개 가능."
-          },
-          {
-            "role": "assistant",
-            "text": "Row4~8에 이전 URL 남아있어서 스킵됨. H열 초기화 후 재실행합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 결과 보고드립니다.\n\n*완료*\n- ✅ Row4: 캡처.PNG + 캡처1.PNG 포함 게시 완료 (artic"
           }
         ]
       },
@@ -415,7 +387,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 09:51:02 KST",
+      "last_run": "2026-03-11 09:52:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
