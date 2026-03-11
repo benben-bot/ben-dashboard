@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:08:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:08:01 KST",
+  "last_heartbeat": "2026-03-11T15:09:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:09:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 12,
@@ -14,17 +14,13 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
         "last_active": "방금 전",
-        "last_active_ts": 1773209280,
+        "last_active_ts": 1773209334,
         "last_active_readable": "15:08",
-        "msg_count": 31,
+        "msg_count": 41,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:04 GMT+9] 스킬같은거는?"
-          },
           {
             "role": "assistant",
             "text": "현재 설치된 스킬:\n- `web-search-pro` — 멀티엔진 고급 검색\n- `naver-blog-writer` — 네이버 블로그 작성\n\n기"
@@ -52,6 +48,10 @@
           {
             "role": "user",
             "text": "[Wed 2026-03-11 15:07 GMT+9] 이것만 설치\nsummarize → summarize.sh CLI 설치 필요\n\nLinux/WS"
+          },
+          {
+            "role": "assistant",
+            "text": "**blogwatcher** ✅ 설치 완료\n\n**summarize**는 `brew` (macOS 전용)만 지원해서 Linux/WSL에서 설치가 "
           }
         ]
       },
@@ -364,7 +364,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:07:02 KST",
+      "last_run": "2026-03-11 15:08:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
