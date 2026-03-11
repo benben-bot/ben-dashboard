@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:04:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:04:01 KST",
+  "last_heartbeat": "2026-03-11T15:05:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:05:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 12,
@@ -14,21 +14,13 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
         "last_active": "방금 전",
-        "last_active_ts": 1773209038,
-        "last_active_readable": "15:03",
-        "msg_count": 12,
+        "last_active_ts": 1773209087,
+        "last_active_readable": "15:04",
+        "msg_count": 15,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:18789/chat?session=agent%3Amain%3A"
-          },
-          {
-            "role": "assistant",
-            "text": "네, 맞습니다. `127.0.0.1` (localhost) 주소라서 **OpenClaw가 실행 중인 컴퓨터에서만** 접근 가능합니다.\n\n다른 기"
-          },
           {
             "role": "user",
             "text": "[Wed 2026-03-11 15:02 GMT+9] 지금 내가 누군지 알아?"
@@ -52,6 +44,14 @@
           {
             "role": "assistant",
             "text": "현재 설정 기준으로 추천 3가지:\n\n---\n\n**1. 📱 Telegram 채널 추가** ⭐ 가장 추천\n- 지금은 Slack만 연결됨\n- Tele"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:04 GMT+9] 스킬같은거는?"
+          },
+          {
+            "role": "assistant",
+            "text": "현재 설치된 스킬:\n- `web-search-pro` — 멀티엔진 고급 검색\n- `naver-blog-writer` — 네이버 블로그 작성\n\n기"
           }
         ]
       },
@@ -364,7 +364,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:03:02 KST",
+      "last_run": "2026-03-11 15:04:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
