@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:16:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:16:01 KST",
+  "last_heartbeat": "2026-03-11T10:17:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:17:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -14,9 +14,9 @@
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773191728,
-        "last_active_readable": "10:15",
-        "msg_count": 14,
+        "last_active_ts": 1773191816,
+        "last_active_readable": "10:16",
+        "msg_count": 20,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -40,6 +40,38 @@
           {
             "role": "assistant",
             "text": "PythonAnywhere 앱 접근 방법 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "앱 소스 파악을 위해 PythonAnywhere API 확인합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "브라우저로 직접 확인하겠습니다."
+          }
+        ]
+      },
+      {
+        "id": "334009e5",
+        "type": "heartbeat",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "현비스 로 배포한 링크들도 있으면 줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773191795,
+        "last_active_readable": "10:16",
+        "msg_count": 2,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "현비스 로 배포한 링크들도 있으면 줘"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] MEMORY.md 기준 전체 링크입니다.\n\n*📌 배포된 사이트 전체*\n\n| 사이트 | URL | 배포 주체"
           }
         ]
       },
@@ -49,7 +81,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773191645,
         "last_active_readable": "10:14",
         "msg_count": 46,
@@ -97,7 +129,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq",
-        "last_active": "9분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773191206,
         "last_active_readable": "10:06",
         "msg_count": 19,
@@ -128,30 +160,6 @@
           {
             "role": "assistant",
             "text": "충분한 정보를 확보했습니다. 분석 결과 정리할게요.\n\n[[reply_to_current]] 제품별 쿠참 우위 포인트 정리했습니다.\n\n---\n\n*"
-          }
-        ]
-      },
-      {
-        "id": "2a13203b",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "구독형 계정으로 밴 안당한 사례들도 알려줘",
-        "last_active": "22분 전",
-        "last_active_ts": 1773190406,
-        "last_active_readable": "09:53",
-        "msg_count": 7,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "구독형 계정으로 밴 안당한 사례들도 알려줘"
-          },
-          {
-            "role": "assistant",
-            "text": "조사 결과를 정리해 드립니다.\n\n---\n\n**결론: \"밴 안 당한\" 케이스는 공통점이 있음** ✅\n\n실제로 커뮤니티에서 Gemini를 안전하게 "
           }
         ]
       },
@@ -427,7 +435,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:15:01 KST",
+      "last_run": "2026-03-11 10:16:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
