@@ -1,52 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T03:59:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 03:59:01 KST",
+  "last_heartbeat": "2026-03-12T04:00:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 04:00:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 7,
-    "active_1h": 1,
+    "total_24h": 6,
+    "active_1h": 0,
     "list": [
-      {
-        "id": "fae08a5f",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사",
-        "last_active": "4분 전",
-        "last_active_ts": 1773255301,
-        "last_active_readable": "03:55",
-        "msg_count": 265,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사용하고있어?"
-          },
-          {
-            "role": "assistant",
-            "text": "컨텍스트 요약(context summarization)은 서브에이전트를 사용하지 않습니다.\n\nOpenClaw의 컨텍스트 요약은 **메인 세션 모"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 18:09 GMT+9] 컨텍스트 압축하는것도 항상 서브에이전트가 하도록 수정해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "확인해봤는데, **현재 OpenClaw의 컨텍스트 압축(compaction) 설정에는 서브에이전트를 사용하는 네이티브 옵션이 없습니다.**\n\n현"
-          },
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 18:11 GMT+9] 아니면 스킬은 만드는건?"
-          },
-          {
-            "role": "assistant",
-            "text": "HEARTBEAT_OK\n\n---\n\n스킬로 만드는 건 **현실적으로 어렵습니다.**\n\n**이유:**\n컨텍스트 압축은 OpenClaw가 토큰 한계에"
-          }
-        ]
-      },
       {
         "id": "80ca603e",
         "type": "main",
@@ -215,12 +175,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 03:58:01 KST",
+      "last_run": "2026-03-12 03:59:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-12 03:00:04 KST",
+      "last_run": "2026-03-12 04:00:01 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
