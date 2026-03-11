@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T18:10:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 18:10:01 KST",
+  "last_heartbeat": "2026-03-11T18:11:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 18:11:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
@@ -14,9 +14,9 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사",
         "last_active": "방금 전",
-        "last_active_ts": 1773220201,
+        "last_active_ts": 1773220222,
         "last_active_readable": "18:10",
-        "msg_count": 5,
+        "msg_count": 10,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -32,6 +32,10 @@
           {
             "role": "user",
             "text": "[Wed 2026-03-11 18:09 GMT+9] 컨텍스트 압축하는것도 항상 서브에이전트가 하도록 수정해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "확인해봤는데, **현재 OpenClaw의 컨텍스트 압축(compaction) 설정에는 서브에이전트를 사용하는 네이티브 옵션이 없습니다.**\n\n현"
           }
         ]
       },
@@ -41,7 +45,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773219977,
         "last_active_readable": "18:06",
         "msg_count": 1,
@@ -56,7 +60,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "9분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773219649,
         "last_active_readable": "18:00",
         "msg_count": 13,
@@ -104,7 +108,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "왜 실패했어?",
-        "last_active": "41분 전",
+        "last_active": "42분 전",
         "last_active_ts": 1773217740,
         "last_active_readable": "17:29",
         "msg_count": 10,
@@ -128,7 +132,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "44분 전",
+        "last_active": "45분 전",
         "last_active_ts": 1773217524,
         "last_active_readable": "17:25",
         "msg_count": 1,
@@ -147,7 +151,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 18:09:02 KST",
+      "last_run": "2026-03-11 18:10:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
