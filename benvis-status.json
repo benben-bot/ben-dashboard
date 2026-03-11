@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:19:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:19:01 KST",
+  "last_heartbeat": "2026-03-11T15:20:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:20:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
@@ -13,18 +13,14 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "2분 전",
-        "last_active_ts": 1773209762,
-        "last_active_readable": "15:16",
-        "msg_count": 46,
+        "last_active": "방금 전",
+        "last_active_ts": 1773209990,
+        "last_active_readable": "15:19",
+        "msg_count": 50,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "네, **자동**으로 사용됩니다. 다만 조건이 있습니다.\n\n---\n\n**자동 적용되는 경우** ✅\n- 새 기능/앱 만들기\n- 대규모 리팩토링\n-"
-          },
           {
             "role": "user",
             "text": "[Wed 2026-03-11 15:06 GMT+9] openai-image-gen 광고 소재 이미지 생성\nsummarize 긴 리포트/문서 요약"
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "현재 등록된 크론잡이 **0개**입니다. MEMORY.md에 기록된 크론잡들(benvis-sync, heartbeat 등)도 실제로는 비어 있는"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:19 GMT+9] 필수 3개 등록해줘"
           }
         ]
       },
@@ -272,7 +272,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:18:02 KST",
+      "last_run": "2026-03-11 15:19:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
