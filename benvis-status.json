@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T11:17:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 11:17:01 KST",
+  "last_heartbeat": "2026-03-11T11:18:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 11:18:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773195364,
         "last_active_readable": "11:16",
         "msg_count": 2,
@@ -33,7 +33,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "너가 원고에 맞는 사진 알아서 구해와봐",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773195361,
         "last_active_readable": "11:16",
         "msg_count": 38,
@@ -81,7 +81,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "그럼 내가 뭘 해야하는지 알려줘",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773194887,
         "last_active_readable": "11:08",
         "msg_count": 4,
@@ -113,7 +113,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "바이낸스에서 테더 코인을 해외계정으로 사려고하는데 어떻게 사야하는지 알려줘. 모르겠으면 크",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773194721,
         "last_active_readable": "11:05",
         "msg_count": 3,
@@ -245,7 +245,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "19시간 전",
+        "last_active": "20시간 전",
         "last_active_ts": 1773123437,
         "last_active_readable": "15:17",
         "msg_count": 18,
@@ -403,7 +403,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 11:16:02 KST",
+      "last_run": "2026-03-11 11:17:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
