@@ -1,36 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T11:07:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 11:07:01 KST",
+  "last_heartbeat": "2026-03-11T11:08:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 11:08:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
     "active_1h": 4,
     "list": [
-      {
-        "id": "76130f78",
-        "type": "heartbeat",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "그럼 내가 뭘 해야하는지 알려줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773194815,
-        "last_active_readable": "11:06",
-        "msg_count": 2,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "그럼 내가 뭘 해야하는지 알려줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] **추천 방법 (업비트 → 바이낸스) 단계별 정리**\n\n---\n\n**준비물 확인**\n- [ ] 업비트 계정"
-          }
-        ]
-      },
       {
         "id": "6504169f",
         "type": "thread",
@@ -38,9 +14,9 @@
         "chat_type": "group",
         "preview": "너가 원고에 맞는 사진 알아서 구해와봐",
         "last_active": "방금 전",
-        "last_active_ts": 1773194814,
-        "last_active_readable": "11:06",
-        "msg_count": 9,
+        "last_active_ts": 1773194881,
+        "last_active_readable": "11:08",
+        "msg_count": 18,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -52,6 +28,38 @@
           {
             "role": "assistant",
             "text": "원고 내용 먼저 확인하겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "시트에서 원고 내용 확인합니다."
+          }
+        ]
+      },
+      {
+        "id": "76130f78",
+        "type": "heartbeat",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "그럼 내가 뭘 해야하는지 알려줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773194873,
+        "last_active_readable": "11:07",
+        "msg_count": 3,
+        "last_role": "user",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "그럼 내가 뭘 해야하는지 알려줘"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] **추천 방법 (업비트 → 바이낸스) 단계별 정리**\n\n---\n\n**준비물 확인**\n- [ ] 업비트 계정"
+          },
+          {
+            "role": "user",
+            "text": "테더라는 코인을 보내는건데 리플 사야돼?"
           }
         ]
       },
@@ -61,7 +69,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "바이낸스에서 테더 코인을 해외계정으로 사려고하는데 어떻게 사야하는지 알려줘. 모르겠으면 크",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773194721,
         "last_active_readable": "11:05",
         "msg_count": 3,
@@ -85,7 +93,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773194377,
         "last_active_readable": "10:59",
         "msg_count": 134,
@@ -399,7 +407,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 11:06:01 KST",
+      "last_run": "2026-03-11 11:07:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
