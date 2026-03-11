@@ -1,19 +1,47 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:26:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:26:01 KST",
+  "last_heartbeat": "2026-03-11T15:27:02+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:27:02 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
-    "active_1h": 1,
+    "active_1h": 2,
     "list": [
+      {
+        "id": "65f4181e",
+        "type": "heartbeat",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "텔레그램 이용하려고하는데 보안안전해?",
+        "last_active": "방금 전",
+        "last_active_ts": 1773210421,
+        "last_active_readable": "15:27",
+        "msg_count": 3,
+        "last_role": "user",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "텔레그램 이용하려고하는데 보안안전해?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 텔레그램 보안 요약입니다.\n\n**✅ 안전한 부분**\n- 서버-클라이언트 암호화 (MTProto 프로토콜) "
+          },
+          {
+            "role": "user",
+            "text": "<http://192.168.123.45:18789/chat?session=agent%3Amain%3Amain> 연결이 안돼 왜이래?"
+          }
+        ]
+      },
       {
         "id": "0a0aeeda",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773210311,
         "last_active_readable": "15:25",
         "msg_count": 67,
@@ -136,30 +164,6 @@
         ]
       },
       {
-        "id": "65f4181e",
-        "type": "heartbeat",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "텔레그램 이용하려고하는데 보안안전해?",
-        "last_active": "4시간 전",
-        "last_active_ts": 1773195903,
-        "last_active_readable": "11:25",
-        "msg_count": 2,
-        "last_role": "assistant",
-        "idle_level": "idle_1h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "텔레그램 이용하려고하는데 보안안전해?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 텔레그램 보안 요약입니다.\n\n**✅ 안전한 부분**\n- 서버-클라이언트 암호화 (MTProto 프로토콜) "
-          }
-        ]
-      },
-      {
         "id": "c049a963",
         "type": "thread",
         "channel": "슬랙 DM",
@@ -200,7 +204,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:25:02 KST",
+      "last_run": "2026-03-11 15:26:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
