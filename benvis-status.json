@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T16:29:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 16:29:01 KST",
+  "last_heartbeat": "2026-03-11T16:30:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 16:30:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
@@ -14,17 +14,13 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
         "last_active": "방금 전",
-        "last_active_ts": 1773214139,
-        "last_active_readable": "16:28",
-        "msg_count": 120,
+        "last_active_ts": 1773214185,
+        "last_active_readable": "16:29",
+        "msg_count": 122,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 16:20 GMT+9] 각 브랜드들이 어떤 마케팅으로 성장을 했는지 찾을 수 있어?"
-          },
           {
             "role": "assistant",
             "text": "검색 완료. 브랜드별 마케팅 전략 정리해드립니다:\n\n---\n\n**📊 브랜드별 성장 마케팅 전략**\n\n**🔵 아누아**\n- **고객 집착 데이터 "
@@ -52,6 +48,10 @@
           {
             "role": "assistant",
             "text": "먼저 유비드 현황 파악하고 답드릴게요."
+          },
+          {
+            "role": "assistant",
+            "text": "유비드 현황 다 파악했습니다. 구체적으로 적용해드릴게요.\n\n---\n\n**라운드랩 전략 → 유비드 적용 플랜**\n\n---\n\n**① Pain Poi"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773214137,
         "last_active_readable": "16:28",
         "msg_count": 66,
@@ -109,7 +109,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "다른 pc",
-        "last_active": "12분 전",
+        "last_active": "13분 전",
         "last_active_ts": 1773213410,
         "last_active_readable": "16:16",
         "msg_count": 67,
@@ -157,7 +157,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "바쁘니",
-        "last_active": "15분 전",
+        "last_active": "16분 전",
         "last_active_ts": 1773213237,
         "last_active_readable": "16:13",
         "msg_count": 6,
@@ -188,7 +188,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 16:28:02 KST",
+      "last_run": "2026-03-11 16:29:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
