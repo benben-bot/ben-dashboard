@@ -1,19 +1,83 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:32:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:32:01 KST",
+  "last_heartbeat": "2026-03-11T15:33:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:33:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
-    "active_1h": 3,
+    "active_1h": 4,
     "list": [
+      {
+        "id": "5a9863a8",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "하고있어?",
+        "last_active": "방금 전",
+        "last_active_ts": 1773210780,
+        "last_active_readable": "15:33",
+        "msg_count": 6,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "하고있어?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 현재 실행 중인 서브에이전트가 없습니다. 벤 님의 \"새 사진으로 올려줘\" 요청 이후 서브에이전트가 종료된 "
+          }
+        ]
+      },
+      {
+        "id": "51a1a2ec",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "다른 pc",
+        "last_active": "방금 전",
+        "last_active_ts": 1773210742,
+        "last_active_readable": "15:32",
+        "msg_count": 6,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "다른 pc"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 다른 PC라면 WSL2 포트 포워딩 문제가 거의 확실합니다.\n\n**원인**: WSL2는 내부 가상 네트워크"
+          },
+          {
+            "role": "user",
+            "text": "(base) PS C:\\Users\\Gromeet&gt; # WSL2 IP 확인 &gt;&gt; wsl hostname -I &gt;&gt; &g"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 지금 **접속하려는 클라이언트 PC**에서 실행하셨는데, 명령어는 **서버 PC (192.168.123.4"
+          },
+          {
+            "role": "user",
+            "text": "PS C:\\WINDOWS\\system32&gt; # 1. WSL2 내부 IP 확인 &gt;&gt; wsl hostname -I 192.168.1"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 방화벽 허용 완료됐습니다 (`확인됨`) ✅\n\n그런데 흥미로운 점 — `wsl hostname -I`가 `1"
+          }
+        ]
+      },
       {
         "id": "0a0aeeda",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773210612,
         "last_active_readable": "15:30",
         "msg_count": 67,
@@ -56,44 +120,12 @@
         ]
       },
       {
-        "id": "51a1a2ec",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "다른 pc",
-        "last_active": "1분 전",
-        "last_active_ts": 1773210609,
-        "last_active_readable": "15:30",
-        "msg_count": 4,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "다른 pc"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 다른 PC라면 WSL2 포트 포워딩 문제가 거의 확실합니다.\n\n**원인**: WSL2는 내부 가상 네트워크"
-          },
-          {
-            "role": "user",
-            "text": "(base) PS C:\\Users\\Gromeet&gt; # WSL2 IP 확인 &gt;&gt; wsl hostname -I &gt;&gt; &g"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 지금 **접속하려는 클라이언트 PC**에서 실행하셨는데, 명령어는 **서버 PC (192.168.123.4"
-          }
-        ]
-      },
-      {
         "id": "65f4181e",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "텔레그램 이용하려고하는데 보안안전해?",
-        "last_active": "4분 전",
+        "last_active": "5분 전",
         "last_active_ts": 1773210444,
         "last_active_readable": "15:27",
         "msg_count": 5,
@@ -116,38 +148,6 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 게이트웨이 자체는 정상 작동 중입니다 (`pid 349030`, port 18789 정상).\n\n연결 안 되"
-          }
-        ]
-      },
-      {
-        "id": "172a6c71",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "내 번호 노출 안되게 하려면 필요한 설정, 보안 관련설정들 알려줘",
-        "last_active": "3시간 전",
-        "last_active_ts": 1773198873,
-        "last_active_readable": "12:14",
-        "msg_count": 4,
-        "last_role": "assistant",
-        "idle_level": "idle_1h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "내 번호 노출 안되게 하려면 필요한 설정, 보안 관련설정들 알려줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]]\n📱 **텔레그램 번호 보호 + 보안 설정 가이드**\n\n---\n\n**🔒 전화번호 숨기기** *(가장 중요)*"
-          },
-          {
-            "role": "user",
-            "text": "확인해줘"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]]\n**우선순위 순서로 정리해 드릴게요.**\n\n---\n\n**① 전화번호 숨기기** ← 가장 먼저\n`설정 → 개"
           }
         ]
       },
@@ -192,7 +192,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:31:01 KST",
+      "last_run": "2026-03-11 15:32:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
