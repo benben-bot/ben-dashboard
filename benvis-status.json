@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T11:23:02+09:00",
-  "last_heartbeat_readable": "2026-03-11 11:23:02 KST",
+  "last_heartbeat": "2026-03-11T11:24:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 11:24:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "안녕 벤비스~! 포레몽 스마트스토어에 1+1 구매시 2만원 추가 할인 쿠폰이 안보여. 한정",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773195746,
         "last_active_readable": "11:22",
         "msg_count": 4,
@@ -37,7 +37,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773195737,
         "last_active_readable": "11:22",
         "msg_count": 1,
@@ -57,7 +57,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773195364,
         "last_active_readable": "11:16",
         "msg_count": 2,
@@ -391,7 +391,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 11:22:01 KST",
+      "last_run": "2026-03-11 11:23:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
