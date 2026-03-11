@@ -1,20 +1,20 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T18:21:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 18:21:01 KST",
+  "last_heartbeat": "2026-03-11T18:22:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 18:22:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 7,
-    "active_1h": 7,
+    "total_24h": 8,
+    "active_1h": 8,
     "list": [
       {
-        "id": "6d23cce9",
+        "id": "3e66cc3e",
         "type": "heartbeat",
         "channel": "#클로드",
         "chat_type": "group",
-        "preview": "원고생성기",
+        "preview": "세션 요약 확인 완료. 기록 상태 점검했습니다. :white_check_mark: _이미 ",
         "last_active": "방금 전",
-        "last_active_ts": 1773220860,
+        "last_active_ts": 1773220913,
         "last_active_readable": "18:21",
         "msg_count": 3,
         "last_role": "assistant",
@@ -23,7 +23,31 @@
         "messages": [
           {
             "role": "user",
+            "text": "세션 요약 확인 완료. 기록 상태 점검했습니다. :white_check_mark: _이미 기록된 내용_ • `memory/2026-03-11.m"
+          }
+        ]
+      },
+      {
+        "id": "6d23cce9",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "원고생성기",
+        "last_active": "방금 전",
+        "last_active_ts": 1773220879,
+        "last_active_readable": "18:21",
+        "msg_count": 6,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
             "text": "원고생성기"
+          },
+          {
+            "role": "assistant",
+            "text": "\"원고생성기\"에 대해 조금 더 알려주세요.\n\n어떤 브랜드(쿠참/UVID/포레몽 등)용인지, 어떤 용도인지(광고 카피, 네이버 카페 게시글, SN"
           }
         ]
       },
@@ -33,7 +57,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773220801,
         "last_active_readable": "18:20",
         "msg_count": 17,
@@ -73,7 +97,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "확인해줘",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773220791,
         "last_active_readable": "18:19",
         "msg_count": 6,
@@ -97,7 +121,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "14분 전",
+        "last_active": "15분 전",
         "last_active_ts": 1773219977,
         "last_active_readable": "18:06",
         "msg_count": 1,
@@ -112,7 +136,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "20분 전",
+        "last_active": "21분 전",
         "last_active_ts": 1773219649,
         "last_active_readable": "18:00",
         "msg_count": 13,
@@ -160,7 +184,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "왜 실패했어?",
-        "last_active": "52분 전",
+        "last_active": "53분 전",
         "last_active_ts": 1773217740,
         "last_active_readable": "17:29",
         "msg_count": 10,
@@ -184,7 +208,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "55분 전",
+        "last_active": "56분 전",
         "last_active_ts": 1773217524,
         "last_active_readable": "17:25",
         "msg_count": 1,
@@ -203,7 +227,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 18:20:01 KST",
+      "last_run": "2026-03-11 18:21:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
