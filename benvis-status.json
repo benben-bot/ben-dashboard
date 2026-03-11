@@ -1,19 +1,67 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T18:04:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 18:04:01 KST",
+  "last_heartbeat": "2026-03-11T18:05:02+09:00",
+  "last_heartbeat_readable": "2026-03-11 18:05:02 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
     "active_1h": 4,
     "list": [
       {
+        "id": "5a9863a8",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "하고있어?",
+        "last_active": "방금 전",
+        "last_active_ts": 1773219894,
+        "last_active_readable": "18:04",
+        "msg_count": 164,
+        "last_role": "user",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 규칙 업데이트 완료했습니다.\n\n**변경 내용**\n- 규칙 2: 문맥 기반 → **제목 기반** 선택으로 변"
+          },
+          {
+            "role": "user",
+            "text": "'가정용제빙기' 키워드로 이미지 2장 가져와줘, 테스트용"
+          },
+          {
+            "role": "assistant",
+            "text": "탭이 자꾸 닫힙니다. curl로 직접 처리합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "이미지 3, 4, 5, 6이 실제 후기 + 워터마크 없음. 3번(가로)과 6번(세로) 선택합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "final_01.jpg"
+          },
+          {
+            "role": "assistant",
+            "text": "final_02.jpg"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 2장 전송했습니다.\n\n- **1번** (3:2 가로) — 실제 주방 배경, 가정용 제빙기 놓인 모습\n- *"
+          },
+          {
+            "role": "user",
+            "text": "지금 컨텍스트가 너무 많이 쌓였으니까 요약 정리 후 새채팅에서 다시 시작해 정리 후에 세션정리까지"
+          }
+        ]
+      },
+      {
         "id": "028d1d74",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773219649,
         "last_active_readable": "18:00",
         "msg_count": 13,
@@ -56,60 +104,12 @@
         ]
       },
       {
-        "id": "5a9863a8",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "하고있어?",
-        "last_active": "14분 전",
-        "last_active_ts": 1773218960,
-        "last_active_readable": "17:49",
-        "msg_count": 163,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "규칙 수정해줘 1. 네이버 카페 이미지 삽입할때 항상 실제 후기/연출컷 사진 찾고, 가공 완료 후 업로드해 2. 이미지 찾을때 제목 기반 선택으"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 규칙 업데이트 완료했습니다.\n\n**변경 내용**\n- 규칙 2: 문맥 기반 → **제목 기반** 선택으로 변"
-          },
-          {
-            "role": "user",
-            "text": "'가정용제빙기' 키워드로 이미지 2장 가져와줘, 테스트용"
-          },
-          {
-            "role": "assistant",
-            "text": "탭이 자꾸 닫힙니다. curl로 직접 처리합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이미지 3, 4, 5, 6이 실제 후기 + 워터마크 없음. 3번(가로)과 6번(세로) 선택합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "final_01.jpg"
-          },
-          {
-            "role": "assistant",
-            "text": "final_02.jpg"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 2장 전송했습니다.\n\n- **1번** (3:2 가로) — 실제 주방 배경, 가정용 제빙기 놓인 모습\n- *"
-          }
-        ]
-      },
-      {
         "id": "c8487233",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "왜 실패했어?",
-        "last_active": "35분 전",
+        "last_active": "36분 전",
         "last_active_ts": 1773217740,
         "last_active_readable": "17:29",
         "msg_count": 10,
@@ -133,7 +133,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "38분 전",
+        "last_active": "39분 전",
         "last_active_ts": 1773217524,
         "last_active_readable": "17:25",
         "msg_count": 1,
@@ -152,7 +152,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 18:03:02 KST",
+      "last_run": "2026-03-11 18:04:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
