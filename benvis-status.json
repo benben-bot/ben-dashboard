@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T17:20:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 17:20:01 KST",
+  "last_heartbeat": "2026-03-11T17:21:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 17:21:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
@@ -14,10 +14,10 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
         "last_active": "방금 전",
-        "last_active_ts": 1773217200,
+        "last_active_ts": 1773217203,
         "last_active_readable": "17:20",
-        "msg_count": 11,
-        "last_role": "user",
+        "msg_count": 10,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -49,7 +49,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "9분 전",
+        "last_active": "10분 전",
         "last_active_ts": 1773216621,
         "last_active_readable": "17:10",
         "msg_count": 98,
@@ -176,7 +176,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 17:19:01 KST",
+      "last_run": "2026-03-11 17:20:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
