@@ -1,71 +1,23 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T17:39:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 17:39:01 KST",
+  "last_heartbeat": "2026-03-11T17:40:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 17:40:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
     "active_1h": 4,
     "list": [
       {
-        "id": "5a9863a8",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "하고있어?",
-        "last_active": "방금 전",
-        "last_active_ts": 1773218333,
-        "last_active_readable": "17:38",
-        "msg_count": 138,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 두 장 올렸습니다.\n\n- **1번** (3:4) — 실제 매장 선반 옆에 설치된 호시자키 제빙기\n- **2"
-          },
-          {
-            "role": "user",
-            "text": "이 이미지처럼 실제 후기/연출컷 사진으로 다시 가져와줘 [Slack file: image.png]"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 네이버 이미지 검색에서 가져왔습니다.\n\n1. 네이버 이미지 검색 (`search.naver.com/sear"
-          },
-          {
-            "role": "user",
-            "text": "이번엔 키워드 '카이저제빙기'로 가져와줘"
-          },
-          {
-            "role": "assistant",
-            "text": "이미지 6이 가장 적합합니다 — 실제 매장 설치, KAISER 로고 확인, 주방 환경 생동감 있는 후기컷."
-          },
-          {
-            "role": "assistant",
-            "text": "kaiser_cand_06.jpg"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 카이저 제빙기 후기컷 보내드렸습니다.\n\n- 실제 매장 주방에 설치된 KAISER 제빙기 전체 외관\n- KA"
-          },
-          {
-            "role": "user",
-            "text": "아래 내용 바탕으로 '카이저 제빙기' 키워드로 이미지 다시 추출해 === 이미지 다운로드 후, 슬랙 전송 전에 아래 가공 단계를 반드시 수행해:"
-          }
-        ]
-      },
-      {
         "id": "028d1d74",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "3분 전",
-        "last_active_ts": 1773218102,
-        "last_active_readable": "17:35",
-        "msg_count": 10,
-        "last_role": "assistant",
+        "last_active": "방금 전",
+        "last_active_ts": 1773218400,
+        "last_active_readable": "17:40",
+        "msg_count": 11,
+        "last_role": "user",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -92,12 +44,60 @@
         ]
       },
       {
+        "id": "5a9863a8",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "하고있어?",
+        "last_active": "방금 전",
+        "last_active_ts": 1773218367,
+        "last_active_readable": "17:39",
+        "msg_count": 143,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "이번엔 키워드 '카이저제빙기'로 가져와줘"
+          },
+          {
+            "role": "assistant",
+            "text": "이미지 6이 가장 적합합니다 — 실제 매장 설치, KAISER 로고 확인, 주방 환경 생동감 있는 후기컷."
+          },
+          {
+            "role": "assistant",
+            "text": "kaiser_cand_06.jpg"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 카이저 제빙기 후기컷 보내드렸습니다.\n\n- 실제 매장 주방에 설치된 KAISER 제빙기 전체 외관\n- KA"
+          },
+          {
+            "role": "user",
+            "text": "아래 내용 바탕으로 '카이저 제빙기' 키워드로 이미지 다시 추출해 === 이미지 다운로드 후, 슬랙 전송 전에 아래 가공 단계를 반드시 수행해:"
+          },
+          {
+            "role": "assistant",
+            "text": "워터마크 없음 확인됩니다. 크롭 불필요 — 원본 그대로 전송합니다."
+          },
+          {
+            "role": "assistant",
+            "text": "kaiser_raw_실제매장설치.jpg"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 이미지 가공 규칙 적용 결과입니다.\n\n**검사 결과**\n- 블로그 워터마크/출처 텍스트: ❌ 없음 → 크롭"
+          }
+        ]
+      },
+      {
         "id": "c8487233",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "왜 실패했어?",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773217740,
         "last_active_readable": "17:29",
         "msg_count": 10,
@@ -121,7 +121,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "13분 전",
+        "last_active": "14분 전",
         "last_active_ts": 1773217524,
         "last_active_readable": "17:25",
         "msg_count": 1,
@@ -140,7 +140,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 17:38:02 KST",
+      "last_run": "2026-03-11 17:39:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
