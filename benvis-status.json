@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T12:41:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 12:41:01 KST",
+  "last_heartbeat": "2026-03-11T12:42:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 12:42:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
@@ -13,7 +13,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "내 번호 노출 안되게 하려면 필요한 설정, 보안 관련설정들 알려줘",
-        "last_active": "26분 전",
+        "last_active": "27분 전",
         "last_active_ts": 1773198873,
         "last_active_readable": "12:14",
         "msg_count": 4,
@@ -45,7 +45,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "기존 사진이 들어갔는데 확인해줘",
-        "last_active": "50분 전",
+        "last_active": "51분 전",
         "last_active_ts": 1773197429,
         "last_active_readable": "11:50",
         "msg_count": 30,
@@ -407,7 +407,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 12:40:02 KST",
+      "last_run": "2026-03-11 12:41:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
