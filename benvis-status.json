@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T18:06:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 18:06:01 KST",
+  "last_heartbeat": "2026-03-11T18:07:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 18:07:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
@@ -9,51 +9,18 @@
     "list": [
       {
         "id": "5a9863a8",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "하고있어?",
+        "type": "heartbeat",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
         "last_active": "방금 전",
-        "last_active_ts": 1773219959,
-        "last_active_readable": "18:05",
-        "msg_count": 169,
+        "last_active_ts": 1773219977,
+        "last_active_readable": "18:06",
+        "msg_count": 1,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "탭이 자꾸 닫힙니다. curl로 직접 처리합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이미지 3, 4, 5, 6이 실제 후기 + 워터마크 없음. 3번(가로)과 6번(세로) 선택합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "final_01.jpg"
-          },
-          {
-            "role": "assistant",
-            "text": "final_02.jpg"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 2장 전송했습니다.\n\n- **1번** (3:2 가로) — 실제 주방 배경, 가정용 제빙기 놓인 모습\n- *"
-          },
-          {
-            "role": "user",
-            "text": "지금 컨텍스트가 너무 많이 쌓였으니까 요약 정리 후 새채팅에서 다시 시작해 정리 후에 세션정리까지"
-          },
-          {
-            "role": "assistant",
-            "text": "먼저 오늘 작업 내용 메모리에 기록합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 요약 완료. 세션 정리합니다.\n\n**오늘 작업 요약**\n- Row3~8 네이버 카페 게시 완료 (artic"
-          }
-        ]
+        "messages": []
       },
       {
         "id": "028d1d74",
@@ -61,7 +28,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "5분 전",
+        "last_active": "6분 전",
         "last_active_ts": 1773219649,
         "last_active_readable": "18:00",
         "msg_count": 13,
@@ -109,7 +76,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "왜 실패했어?",
-        "last_active": "37분 전",
+        "last_active": "38분 전",
         "last_active_ts": 1773217740,
         "last_active_readable": "17:29",
         "msg_count": 10,
@@ -133,7 +100,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "40분 전",
+        "last_active": "41분 전",
         "last_active_ts": 1773217524,
         "last_active_readable": "17:25",
         "msg_count": 1,
@@ -152,7 +119,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 18:05:02 KST",
+      "last_run": "2026-03-11 18:06:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
