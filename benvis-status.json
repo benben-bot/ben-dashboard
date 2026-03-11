@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T17:32:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 17:32:01 KST",
+  "last_heartbeat": "2026-03-11T17:33:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 17:33:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 4,
@@ -14,25 +14,13 @@
         "chat_type": "group",
         "preview": "하고있어?",
         "last_active": "방금 전",
-        "last_active_ts": 1773217920,
+        "last_active_ts": 1773217975,
         "last_active_readable": "17:32",
-        "msg_count": 130,
+        "msg_count": 135,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "블로그 후기 사진들이 있습니다. 여러 개 다운로드해서 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이미지 1(매장 설치, 3:4)과 이미지 4(카페 카운터 설치, 4:3)가 가장 적합합니다. 두 개 보내드리겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "hoshi_cand_01.jpg"
-          },
           {
             "role": "assistant",
             "text": "hoshi_cand_04.jpg"
@@ -52,6 +40,18 @@
           {
             "role": "user",
             "text": "이번엔 키워드 '카이저제빙기'로 가져와줘"
+          },
+          {
+            "role": "assistant",
+            "text": "이미지 6이 가장 적합합니다 — 실제 매장 설치, KAISER 로고 확인, 주방 환경 생동감 있는 후기컷."
+          },
+          {
+            "role": "assistant",
+            "text": "kaiser_cand_06.jpg"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 카이저 제빙기 후기컷 보내드렸습니다.\n\n- 실제 매장 주방에 설치된 KAISER 제빙기 전체 외관\n- KA"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773217803,
         "last_active_readable": "17:30",
         "msg_count": 10,
@@ -97,7 +97,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "왜 실패했어?",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773217740,
         "last_active_readable": "17:29",
         "msg_count": 10,
@@ -121,7 +121,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "6분 전",
+        "last_active": "7분 전",
         "last_active_ts": 1773217524,
         "last_active_readable": "17:25",
         "msg_count": 1,
@@ -140,7 +140,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 17:31:01 KST",
+      "last_run": "2026-03-11 17:32:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
