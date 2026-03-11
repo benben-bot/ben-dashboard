@@ -1,42 +1,22 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T18:19:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 18:19:01 KST",
+  "last_heartbeat": "2026-03-11T18:20:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 18:20:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 6,
     "active_1h": 6,
     "list": [
       {
-        "id": "681adee2",
-        "type": "heartbeat",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "확인해줘",
-        "last_active": "방금 전",
-        "last_active_ts": 1773220738,
-        "last_active_readable": "18:18",
-        "msg_count": 3,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "확인해줘"
-          }
-        ]
-      },
-      {
         "id": "fae08a5f",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 18:09 GMT+9] 지금 컨텍스트 요약할때 서브에이전트 사",
-        "last_active": "4분 전",
-        "last_active_ts": 1773220501,
-        "last_active_readable": "18:15",
-        "msg_count": 15,
+        "last_active": "방금 전",
+        "last_active_ts": 1773220801,
+        "last_active_readable": "18:20",
+        "msg_count": 17,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -68,12 +48,36 @@
         ]
       },
       {
+        "id": "681adee2",
+        "type": "thread",
+        "channel": "#클로드",
+        "chat_type": "group",
+        "preview": "확인해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773220791,
+        "last_active_readable": "18:19",
+        "msg_count": 6,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "확인해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 세션 요약 확인 완료. 기록 상태 점검했습니다.\n\n*✅ 이미 기록된 내용*\n- `memory/2026-03"
+          }
+        ]
+      },
+      {
         "id": "5a9863a8",
         "type": "heartbeat",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "12분 전",
+        "last_active": "13분 전",
         "last_active_ts": 1773219977,
         "last_active_readable": "18:06",
         "msg_count": 1,
@@ -88,7 +92,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "18분 전",
+        "last_active": "19분 전",
         "last_active_ts": 1773219649,
         "last_active_readable": "18:00",
         "msg_count": 13,
@@ -136,7 +140,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "왜 실패했어?",
-        "last_active": "50분 전",
+        "last_active": "51분 전",
         "last_active_ts": 1773217740,
         "last_active_readable": "17:29",
         "msg_count": 10,
@@ -160,7 +164,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "53분 전",
+        "last_active": "54분 전",
         "last_active_ts": 1773217524,
         "last_active_readable": "17:25",
         "msg_count": 1,
@@ -179,7 +183,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 18:18:01 KST",
+      "last_run": "2026-03-11 18:19:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
