@@ -1,19 +1,39 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T10:12:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 10:12:01 KST",
+  "last_heartbeat": "2026-03-11T10:13:02+09:00",
+  "last_heartbeat_readable": "2026-03-11 10:13:02 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
     "active_1h": 4,
     "list": [
       {
+        "id": "c7eea0b3",
+        "type": "heartbeat",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
+        "last_active": "방금 전",
+        "last_active_ts": 1773191576,
+        "last_active_readable": "10:12",
+        "msg_count": 3,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?"
+          }
+        ]
+      },
+      {
         "id": "ba418748",
         "type": "thread",
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "<https://news.hada.io/topic?id=27362> 이거 확인하고 적용할거",
-        "last_active": "5분 전",
+        "last_active": "6분 전",
         "last_active_ts": 1773191213,
         "last_active_readable": "10:06",
         "msg_count": 41,
@@ -61,7 +81,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "<https://gromeet.pythonanywhere.com/mulgil_rv_8xKq",
-        "last_active": "5분 전",
+        "last_active": "6분 전",
         "last_active_ts": 1773191206,
         "last_active_readable": "10:06",
         "msg_count": 19,
@@ -101,7 +121,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "구독형 계정으로 밴 안당한 사례들도 알려줘",
-        "last_active": "18분 전",
+        "last_active": "19분 전",
         "last_active_ts": 1773190406,
         "last_active_readable": "09:53",
         "msg_count": 7,
@@ -116,42 +136,6 @@
           {
             "role": "assistant",
             "text": "조사 결과를 정리해 드립니다.\n\n---\n\n**결론: \"밴 안 당한\" 케이스는 공통점이 있음** ✅\n\n실제로 커뮤니티에서 Gemini를 안전하게 "
-          }
-        ]
-      },
-      {
-        "id": "110024e3",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": ":rocket: antigravity-cli 오픈소스 공개합니다 Antigravity Pr",
-        "last_active": "23분 전",
-        "last_active_ts": 1773190120,
-        "last_active_readable": "09:48",
-        "msg_count": 7,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": ":rocket: antigravity-cli 오픈소스 공개합니다 Antigravity Pro 쓰시는 분들, 무제한 Opus가 IDE 안에서만 돌"
-          },
-          {
-            "role": "assistant",
-            "text": "내용 확인해볼게요."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] **antigravity-cli 리뷰**\n\n**기술 구조 (합법성)**\n- Bridge Extension "
-          },
-          {
-            "role": "user",
-            "text": "이걸로 오픈클로처럼 써도 된다는거야?"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] 아니요, 방향이 다릅니다.\n\n**antigravity-cli vs OpenClaw 차이**\n\n| | ant"
           }
         ]
       },
@@ -427,7 +411,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 10:11:02 KST",
+      "last_run": "2026-03-11 10:12:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
