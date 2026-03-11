@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T15:50:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 15:50:01 KST",
+  "last_heartbeat": "2026-03-11T15:51:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 15:51:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 5,
@@ -14,21 +14,13 @@
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 15:02 GMT+9] http://127.0.0.1:1878",
         "last_active": "방금 전",
-        "last_active_ts": 1773211800,
+        "last_active_ts": 1773211855,
         "last_active_readable": "15:50",
-        "msg_count": 68,
-        "last_role": "user",
+        "msg_count": 70,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "[Wed 2026-03-11 15:21 GMT+9] 세션리셋 2시간마다 하지 말까?"
-          },
-          {
-            "role": "assistant",
-            "text": "얼마로 바꿀까요? 아니면 아예 끄는 것도 가능합니다.\n\n- **4시간** → 반나절 작업해도 안 끊김\n- **8시간** → 하루 업무 시간 커버"
-          },
           {
             "role": "user",
             "text": "[Wed 2026-03-11 15:21 GMT+9] 8시간으로 하자"
@@ -52,6 +44,14 @@
           {
             "role": "assistant",
             "text": "완료 ✅\n\n이제 사무실 내 같은 와이파이에서 아래 URL로 접속하면 됩니다:\n\n```\nhttp://192.168.123.45:18789/chat"
+          },
+          {
+            "role": "user",
+            "text": "[Wed 2026-03-11 15:50 GMT+9] 이제 돼?"
+          },
+          {
+            "role": "assistant",
+            "text": "네, 됩니다! ✅\n\n`192.168.123.45:18789` 정상 응답 확인했습니다.\n\n사무실 내 다른 기기에서 이 URL로 바로 접속하세요:\n"
           }
         ]
       },
@@ -62,21 +62,13 @@
         "chat_type": "group",
         "preview": "다른 pc",
         "last_active": "방금 전",
-        "last_active_ts": 1773211788,
-        "last_active_readable": "15:49",
-        "msg_count": 47,
+        "last_active_ts": 1773211833,
+        "last_active_readable": "15:50",
+        "msg_count": 50,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "user",
-            "text": "Snapshot Latest gateway handshake information. Status *Offline* Uptime *n/a* Tic"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] `origin not allowed` — OpenClaw 게이트웨이가 ngrok 도메인을 차단하고 있습니다"
-          },
           {
             "role": "assistant",
             "text": "찾았습니다. `allowedOrigins`에 ngrok 주소를 추가하면 됩니다."
@@ -100,6 +92,14 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 승인 완료됐습니다 ✅ 페이지 새로고침하면 접속됩니다. 🔹"
+          },
+          {
+            "role": "user",
+            "text": "이러는데? unauthorized: gateway token mismatch (open the dashboard URL and paste the"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 토큰이 포함된 URL을 ngrok 주소로 바꿔서 접속하세요:\n\nhttps://filamentous-evan"
           }
         ]
       },
@@ -109,7 +109,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "바쁘니",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773211695,
         "last_active_readable": "15:48",
         "msg_count": 4,
@@ -133,7 +133,7 @@
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "하고있어?",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773211321,
         "last_active_readable": "15:42",
         "msg_count": 27,
@@ -212,7 +212,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 15:49:02 KST",
+      "last_run": "2026-03-11 15:50:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
