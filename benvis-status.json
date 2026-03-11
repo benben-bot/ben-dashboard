@@ -1,11 +1,11 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T11:24:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 11:24:01 KST",
+  "last_heartbeat": "2026-03-11T11:25:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 11:25:01 KST",
   "check_interval_min": 5,
   "sessions": {
-    "total_24h": 15,
-    "active_1h": 4,
+    "total_24h": 14,
+    "active_1h": 3,
     "list": [
       {
         "id": "e8d00885",
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "안녕 벤비스~! 포레몽 스마트스토어에 1+1 구매시 2만원 추가 할인 쿠폰이 안보여. 한정",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773195746,
         "last_active_readable": "11:22",
         "msg_count": 4,
@@ -37,7 +37,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "1분 전",
+        "last_active": "2분 전",
         "last_active_ts": 1773195737,
         "last_active_readable": "11:22",
         "msg_count": 1,
@@ -57,7 +57,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773195364,
         "last_active_readable": "11:16",
         "msg_count": 2,
@@ -68,54 +68,6 @@
           {
             "role": "assistant",
             "text": "HEARTBEAT_OK"
-          }
-        ]
-      },
-      {
-        "id": "6504169f",
-        "type": "thread",
-        "channel": "#클로드",
-        "chat_type": "group",
-        "preview": "너가 원고에 맞는 사진 알아서 구해와봐",
-        "last_active": "7분 전",
-        "last_active_ts": 1773195361,
-        "last_active_readable": "11:16",
-        "msg_count": 38,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "원고 내용 먼저 확인하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "시트에서 원고 내용 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "원고는 모두 **제빙기** 관련입니다. Row6~8 아직 이미지 없이 미게시.\n\n이미지 자동 검색/다운로드 스크립트를 서브에이전트에 위임합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이미지 6장 다운로드됐습니다. 이미지가 실제 제빙기 사진인지 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "img_002가 아이스링크 정빙기라 부적합합니다. 더 정확한 이미지로 교체하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이미지 6장 준비됐습니다. 이제 Row6~8 게시 실행합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "Row8 성공, Row6/7은 URL 형태가 달라서 게시 여부 불확실합니다. 확인합니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] ✅ 완료됐습니다.\n\n**결과 요약**\n- Row6 (articles/6996), Row7 (articles"
           }
         ]
       },
@@ -357,7 +309,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "20시간 전",
+        "last_active": "21시간 전",
         "last_active_ts": 1773120255,
         "last_active_readable": "14:24",
         "msg_count": 9,
@@ -391,7 +343,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 11:23:02 KST",
+      "last_run": "2026-03-11 11:24:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
