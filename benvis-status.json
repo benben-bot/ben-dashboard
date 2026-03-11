@@ -1,23 +1,43 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-11T11:16:01+09:00",
-  "last_heartbeat_readable": "2026-03-11 11:16:01 KST",
+  "last_heartbeat": "2026-03-11T11:17:01+09:00",
+  "last_heartbeat_readable": "2026-03-11 11:17:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 15,
     "active_1h": 4,
     "list": [
       {
+        "id": "e1c1c2bb",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773195364,
+        "last_active_readable": "11:16",
+        "msg_count": 2,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "HEARTBEAT_OK"
+          }
+        ]
+      },
+      {
         "id": "6504169f",
         "type": "thread",
         "channel": "#클로드",
         "chat_type": "group",
         "preview": "너가 원고에 맞는 사진 알아서 구해와봐",
-        "last_active": "방금 전",
-        "last_active_ts": 1773195357,
-        "last_active_readable": "11:15",
-        "msg_count": 39,
-        "last_role": "user",
+        "last_active": "1분 전",
+        "last_active_ts": 1773195361,
+        "last_active_readable": "11:16",
+        "msg_count": 38,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -61,7 +81,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "그럼 내가 뭘 해야하는지 알려줘",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773194887,
         "last_active_readable": "11:08",
         "msg_count": 4,
@@ -93,7 +113,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "바이낸스에서 테더 코인을 해외계정으로 사려고하는데 어떻게 사야하는지 알려줘. 모르겠으면 크",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773194721,
         "last_active_readable": "11:05",
         "msg_count": 3,
@@ -108,54 +128,6 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 바이낸스에서 테더(USDT) 구매 방법을 안내해 드릴게요.\n\n---\n\n## 바이낸스 테더(USDT) 구매 "
-          }
-        ]
-      },
-      {
-        "id": "c7eea0b3",
-        "type": "thread",
-        "channel": "#벤비스-채팅방",
-        "chat_type": "group",
-        "preview": "지금 쿠팡 제품들 링크 누르면 안들어가지는데 들어가지는 실제 링크로 바꿔줄 수 있어?",
-        "last_active": "16분 전",
-        "last_active_ts": 1773194377,
-        "last_active_readable": "10:59",
-        "msg_count": 134,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "user",
-            "text": "Warning: Don’t paste code into the DevTools Console that you don’t understand or"
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] Chrome 보안 경고예요. 콘솔에 `allow pasting` 타이핑하고 Enter → 그 다음 스크립트"
-          },
-          {
-            "role": "user",
-            "text": "똑같이 떠"
-          },
-          {
-            "role": "assistant",
-            "text": "스크린샷에서 데이터 읽었습니다. 상품명/브랜드 복원하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] ✅ 상품명/브랜드 8개 복원 완료\n\n스크린샷에서 읽어서 복원했습니다.\n\n**복원된 것:** 상품명, 브랜드"
-          },
-          {
-            "role": "user",
-            "text": "[Slack file: 20260311_103619.jpg]"
-          },
-          {
-            "role": "assistant",
-            "text": "데이터 완전히 파악했습니다. 닉네임/날짜 전부 복원하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "[[reply_to_current]] ✅ 전체 복원 완료\n\n상품명, 브랜드, 닉네임, 구매일, 리뷰일 — 8개 항목 전부 복원됐습니다.\n\n사진 "
           }
         ]
       },
@@ -431,7 +403,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-11 11:15:01 KST",
+      "last_run": "2026-03-11 11:16:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
