@@ -1,12 +1,32 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T09:20:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 09:20:01 KST",
+  "last_heartbeat": "2026-03-12T09:21:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 09:21:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 7,
-    "active_1h": 1,
+    "active_1h": 2,
     "list": [
+      {
+        "id": "01cb2193",
+        "type": "thread",
+        "channel": "#벤비스-채팅방",
+        "chat_type": "group",
+        "preview": "확인해줘",
+        "last_active": "방금 전",
+        "last_active_ts": 1773274860,
+        "last_active_readable": "09:21",
+        "msg_count": 4,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "확인해줘"
+          }
+        ]
+      },
       {
         "id": "6e93b7d4",
         "type": "main",
@@ -14,10 +34,10 @@
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
         "last_active": "방금 전",
-        "last_active_ts": 1773274800,
+        "last_active_ts": 1773274802,
         "last_active_readable": "09:20",
-        "msg_count": 3,
-        "last_role": "user",
+        "msg_count": 2,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -48,38 +68,6 @@
           {
             "role": "assistant",
             "text": "야간 정기 재시작 완료. Gateway에 SIGUSR1 신호 전송됨 (PID: 360712). 2초 후 재시작 적용됩니다."
-          }
-        ]
-      },
-      {
-        "id": "80ca603e",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "Return your summary as plain text; it will be deli",
-        "last_active": "11시간 전",
-        "last_active_ts": 1773234145,
-        "last_active_readable": "22:02",
-        "msg_count": 21,
-        "last_role": "assistant",
-        "idle_level": "idle_6h",
-        "is_active": false,
-        "messages": [
-          {
-            "role": "user",
-            "text": "Return your summary as plain text; it will be delivered automatically. If the ta"
-          },
-          {
-            "role": "assistant",
-            "text": "오늘 작업 내역을 파악하기 위해 메모리 파일과 최근 세션 내역을 확인하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "이제 오늘 작업 내역을 충분히 파악했습니다. `memory/2026-03-11.md`를 업데이트하겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "✅ `memory/2026-03-11.md` 저장 완료\n\n오늘 주요 내용 요약:\n\n**완료된 작업**\n- 네이버 카페 쿠참 게시물 Row3~8 "
           }
         ]
       },
@@ -195,7 +183,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 09:19:01 KST",
+      "last_run": "2026-03-12 09:20:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
