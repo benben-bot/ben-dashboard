@@ -1,40 +1,12 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T09:46:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 09:46:01 KST",
+  "last_heartbeat": "2026-03-12T09:47:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 09:47:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
     "active_1h": 3,
     "list": [
-      {
-        "id": "6e93b7d4",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
-        "last_active_ts": 1773276360,
-        "last_active_readable": "09:46",
-        "msg_count": 12,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "HEARTBEAT_OK"
-          },
-          {
-            "role": "assistant",
-            "text": "`daily-memory-flush` 크론잡이 어제 밤 22:00에 실행되었으나 **error** 상태입니다. 벤에게 DM을 보내겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "벤에게 DM 전송 완료. `daily-memory-flush` 크론잡 에러 알림 발송했습니다."
-          }
-        ]
-      },
       {
         "id": "01cb2193",
         "type": "thread",
@@ -42,17 +14,13 @@
         "chat_type": "group",
         "preview": "확인해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773276359,
-        "last_active_readable": "09:45",
-        "msg_count": 56,
+        "last_active_ts": 1773276399,
+        "last_active_readable": "09:46",
+        "msg_count": 58,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "영상 1 스크립트 확보 완료. 영상 2도 가져올게요."
-          },
           {
             "role": "assistant",
             "text": "브라우저 릴레이 탭 연결이 끊겼네요. 영상 2는 웹 검색으로 보완할게요."
@@ -80,6 +48,38 @@
           {
             "role": "assistant",
             "text": "[[reply_to_current]] 확장 프로그램은 설치돼 있어도, 탭마다 **릴레이 배지(badge)** 가 ON 상태여야 연결됩니다.\n\n두"
+          },
+          {
+            "role": "user",
+            "text": "너가 탭 열어서 해ㅡ"
+          }
+        ]
+      },
+      {
+        "id": "6e93b7d4",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "1분 전",
+        "last_active_ts": 1773276360,
+        "last_active_readable": "09:46",
+        "msg_count": 12,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "HEARTBEAT_OK"
+          },
+          {
+            "role": "assistant",
+            "text": "`daily-memory-flush` 크론잡이 어제 밤 22:00에 실행되었으나 **error** 상태입니다. 벤에게 DM을 보내겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "벤에게 DM 전송 완료. `daily-memory-flush` 크론잡 에러 알림 발송했습니다."
           }
         ]
       },
@@ -89,7 +89,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773276357,
         "last_active_readable": "09:45",
         "msg_count": 1,
@@ -239,7 +239,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 09:45:01 KST",
+      "last_run": "2026-03-12 09:46:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
