@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T09:21:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 09:21:01 KST",
+  "last_heartbeat": "2026-03-12T09:22:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 09:22:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 7,
@@ -14,9 +14,9 @@
         "chat_type": "group",
         "preview": "확인해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773274860,
+        "last_active_ts": 1773274910,
         "last_active_readable": "09:21",
-        "msg_count": 4,
+        "msg_count": 10,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -24,6 +24,10 @@
           {
             "role": "user",
             "text": "확인해줘"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 두 영상 제목만 확인됐습니다. 자막/내용 추출은 실패했어요.\n\n**영상 1** — https://youtu"
           }
         ]
       },
@@ -33,7 +37,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773274802,
         "last_active_readable": "09:20",
         "msg_count": 2,
@@ -183,7 +187,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 09:20:01 KST",
+      "last_run": "2026-03-12 09:21:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
