@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T09:56:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 09:56:01 KST",
+  "last_heartbeat": "2026-03-12T09:57:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 09:57:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
@@ -13,7 +13,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773276902,
         "last_active_readable": "09:55",
         "msg_count": 12,
@@ -41,7 +41,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "원인이 뭔데?",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773276539,
         "last_active_readable": "09:48",
         "msg_count": 12,
@@ -73,7 +73,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "확인해줘",
-        "last_active": "7분 전",
+        "last_active": "8분 전",
         "last_active_ts": 1773276528,
         "last_active_readable": "09:48",
         "msg_count": 73,
@@ -121,7 +121,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "10분 전",
+        "last_active": "11분 전",
         "last_active_ts": 1773276357,
         "last_active_readable": "09:45",
         "msg_count": 1,
@@ -247,7 +247,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 09:55:01 KST",
+      "last_run": "2026-03-12 09:56:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
