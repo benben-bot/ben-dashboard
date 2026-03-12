@@ -1,12 +1,44 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T09:48:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 09:48:01 KST",
+  "last_heartbeat": "2026-03-12T09:49:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 09:49:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
     "active_1h": 4,
     "list": [
+      {
+        "id": "7749edd2",
+        "type": "thread",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "원인이 뭔데?",
+        "last_active": "방금 전",
+        "last_active_ts": 1773276539,
+        "last_active_readable": "09:48",
+        "msg_count": 12,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "user",
+            "text": "원인이 뭔데?"
+          },
+          {
+            "role": "assistant",
+            "text": "[[reply_to_current]] 원인 파악했습니다.\n\n**에러**: `channel_not_found`\n\n크론잡 자체 작업(메모리 저장)은"
+          },
+          {
+            "role": "user",
+            "text": "응"
+          },
+          {
+            "role": "assistant",
+            "text": "원인 확인됐습니다.\n\n`delivery.mode: \"announce\"` 설정이 있는데, 전송 대상 채널이 지정 안 돼 있어서 채널을 못 찾고 에"
+          }
+        ]
+      },
       {
         "id": "01cb2193",
         "type": "thread",
@@ -14,17 +46,13 @@
         "chat_type": "group",
         "preview": "확인해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773276480,
+        "last_active_ts": 1773276528,
         "last_active_readable": "09:48",
-        "msg_count": 67,
+        "msg_count": 73,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "영상 1은 전체 스크립트 확보했고, 영상 2는 제목 기반으로 분석하겠습니다.\n\n---\n\n[[reply_to_current]] **📊 두 영상 분"
-          },
           {
             "role": "user",
             "text": "영상2도 가져와"
@@ -52,26 +80,10 @@
           {
             "role": "assistant",
             "text": "브라우저 릴레이는 벤님이 어태치한 탭에서만 작동해요. 다른 방법으로 시도해볼게요."
-          }
-        ]
-      },
-      {
-        "id": "7749edd2",
-        "type": "thread",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "원인이 뭔데?",
-        "last_active": "방금 전",
-        "last_active_ts": 1773276480,
-        "last_active_readable": "09:48",
-        "msg_count": 6,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
+          },
           {
-            "role": "user",
-            "text": "원인이 뭔데?"
+            "role": "assistant",
+            "text": "스크립트 확보 완료. 분석해드릴게요.\n\n---\n\n[[reply_to_current]] **🎬 영상 2 — 바이브코딩 서비스 보안 5가지 체크리스"
           }
         ]
       },
@@ -81,7 +93,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773276360,
         "last_active_readable": "09:46",
         "msg_count": 12,
@@ -109,7 +121,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773276357,
         "last_active_readable": "09:45",
         "msg_count": 1,
@@ -235,7 +247,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 09:47:01 KST",
+      "last_run": "2026-03-12 09:48:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
