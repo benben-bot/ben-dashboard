@@ -1,19 +1,47 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T09:49:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 09:49:01 KST",
+  "last_heartbeat": "2026-03-12T09:50:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 09:50:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
     "active_1h": 4,
     "list": [
       {
+        "id": "6e93b7d4",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773276600,
+        "last_active_readable": "09:50",
+        "msg_count": 13,
+        "last_role": "user",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "HEARTBEAT_OK"
+          },
+          {
+            "role": "assistant",
+            "text": "`daily-memory-flush` 크론잡이 어제 밤 22:00에 실행되었으나 **error** 상태입니다. 벤에게 DM을 보내겠습니다."
+          },
+          {
+            "role": "assistant",
+            "text": "벤에게 DM 전송 완료. `daily-memory-flush` 크론잡 에러 알림 발송했습니다."
+          }
+        ]
+      },
+      {
         "id": "7749edd2",
         "type": "thread",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "원인이 뭔데?",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773276539,
         "last_active_readable": "09:48",
         "msg_count": 12,
@@ -45,7 +73,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "확인해줘",
-        "last_active": "방금 전",
+        "last_active": "1분 전",
         "last_active_ts": 1773276528,
         "last_active_readable": "09:48",
         "msg_count": 73,
@@ -88,40 +116,12 @@
         ]
       },
       {
-        "id": "6e93b7d4",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "3분 전",
-        "last_active_ts": 1773276360,
-        "last_active_readable": "09:46",
-        "msg_count": 12,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
-          {
-            "role": "assistant",
-            "text": "HEARTBEAT_OK"
-          },
-          {
-            "role": "assistant",
-            "text": "`daily-memory-flush` 크론잡이 어제 밤 22:00에 실행되었으나 **error** 상태입니다. 벤에게 DM을 보내겠습니다."
-          },
-          {
-            "role": "assistant",
-            "text": "벤에게 DM 전송 완료. `daily-memory-flush` 크론잡 에러 알림 발송했습니다."
-          }
-        ]
-      },
-      {
         "id": "d7207cd7",
         "type": "main",
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "3분 전",
+        "last_active": "4분 전",
         "last_active_ts": 1773276357,
         "last_active_readable": "09:45",
         "msg_count": 1,
@@ -247,7 +247,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 09:48:01 KST",
+      "last_run": "2026-03-12 09:49:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
