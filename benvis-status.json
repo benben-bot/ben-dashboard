@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T09:35:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 09:35:01 KST",
+  "last_heartbeat": "2026-03-12T09:36:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 09:36:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 7,
@@ -14,10 +14,10 @@
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
         "last_active": "방금 전",
-        "last_active_ts": 1773275700,
+        "last_active_ts": 1773275702,
         "last_active_readable": "09:35",
-        "msg_count": 3,
-        "last_role": "user",
+        "msg_count": 2,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -33,7 +33,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "확인해줘",
-        "last_active": "8분 전",
+        "last_active": "9분 전",
         "last_active_ts": 1773275165,
         "last_active_readable": "09:26",
         "msg_count": 43,
@@ -211,7 +211,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 09:34:01 KST",
+      "last_run": "2026-03-12 09:35:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
