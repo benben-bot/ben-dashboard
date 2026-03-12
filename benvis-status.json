@@ -1,12 +1,32 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T09:26:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 09:26:01 KST",
+  "last_heartbeat": "2026-03-12T09:27:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 09:27:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 7,
     "active_1h": 2,
     "list": [
+      {
+        "id": "6e93b7d4",
+        "type": "main",
+        "channel": "슬랙 DM",
+        "chat_type": "direct",
+        "preview": "(미리보기 없음)",
+        "last_active": "방금 전",
+        "last_active_ts": 1773275168,
+        "last_active_readable": "09:26",
+        "msg_count": 2,
+        "last_role": "assistant",
+        "idle_level": "active",
+        "is_active": true,
+        "messages": [
+          {
+            "role": "assistant",
+            "text": "HEARTBEAT_OK"
+          }
+        ]
+      },
       {
         "id": "01cb2193",
         "type": "thread",
@@ -14,9 +34,9 @@
         "chat_type": "group",
         "preview": "확인해줘",
         "last_active": "방금 전",
-        "last_active_ts": 1773275138,
-        "last_active_readable": "09:25",
-        "msg_count": 42,
+        "last_active_ts": 1773275165,
+        "last_active_readable": "09:26",
+        "msg_count": 43,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
@@ -48,26 +68,10 @@
           {
             "role": "assistant",
             "text": "브라우저 릴레이 탭 연결이 끊겼네요. 영상 2는 웹 검색으로 보완할게요."
-          }
-        ]
-      },
-      {
-        "id": "6e93b7d4",
-        "type": "main",
-        "channel": "슬랙 DM",
-        "chat_type": "direct",
-        "preview": "(미리보기 없음)",
-        "last_active": "5분 전",
-        "last_active_ts": 1773274802,
-        "last_active_readable": "09:20",
-        "msg_count": 2,
-        "last_role": "assistant",
-        "idle_level": "active",
-        "is_active": true,
-        "messages": [
+          },
           {
             "role": "assistant",
-            "text": "HEARTBEAT_OK"
+            "text": "영상 1은 전체 스크립트 확보했고, 영상 2는 제목 기반으로 분석하겠습니다.\n\n---\n\n[[reply_to_current]] **📊 두 영상 분"
           }
         ]
       },
@@ -207,7 +211,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 09:25:01 KST",
+      "last_run": "2026-03-12 09:26:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
