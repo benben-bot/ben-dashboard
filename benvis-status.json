@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T10:00:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 10:00:01 KST",
+  "last_heartbeat": "2026-03-12T10:01:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 10:01:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
@@ -14,10 +14,10 @@
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
         "last_active": "방금 전",
-        "last_active_ts": 1773277200,
+        "last_active_ts": 1773277214,
         "last_active_readable": "10:00",
-        "msg_count": 13,
-        "last_role": "user",
+        "msg_count": 12,
+        "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
@@ -41,7 +41,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "원인이 뭔데?",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773276539,
         "last_active_readable": "09:48",
         "msg_count": 12,
@@ -73,7 +73,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "확인해줘",
-        "last_active": "11분 전",
+        "last_active": "12분 전",
         "last_active_ts": 1773276528,
         "last_active_readable": "09:48",
         "msg_count": 73,
@@ -121,7 +121,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "14분 전",
+        "last_active": "15분 전",
         "last_active_ts": 1773276357,
         "last_active_readable": "09:45",
         "msg_count": 1,
@@ -156,7 +156,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "[Wed 2026-03-11 17:16 GMT+9] 나는 누구인가\n이름: 벤\n역할: 그로밋",
-        "last_active": "15시간 전",
+        "last_active": "16시간 전",
         "last_active_ts": 1773219649,
         "last_active_readable": "18:00",
         "msg_count": 13,
@@ -247,12 +247,12 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 09:59:01 KST",
+      "last_run": "2026-03-12 10:00:02 KST",
       "status": "ok"
     },
     "benvis-sync": {
       "registered": true,
-      "last_run": "2026-03-12 10:00:01 KST",
+      "last_run": "2026-03-12 10:00:04 KST",
       "status": "ok"
     },
     "openclaw-nightly-restart": {
