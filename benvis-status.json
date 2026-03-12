@@ -1,7 +1,7 @@
 {
   "status": "online",
-  "last_heartbeat": "2026-03-12T10:08:01+09:00",
-  "last_heartbeat_readable": "2026-03-12 10:08:01 KST",
+  "last_heartbeat": "2026-03-12T10:09:01+09:00",
+  "last_heartbeat_readable": "2026-03-12 10:09:01 KST",
   "check_interval_min": 5,
   "sessions": {
     "total_24h": 8,
@@ -14,21 +14,13 @@
         "chat_type": "direct",
         "preview": "[Thu 2026-03-12 10:06 GMT+9] 크론잡 물길리뷰 확인하는거 확인 가능해",
         "last_active": "방금 전",
-        "last_active_ts": 1773277664,
-        "last_active_readable": "10:07",
-        "msg_count": 10,
+        "last_active_ts": 1773277708,
+        "last_active_readable": "10:08",
+        "msg_count": 12,
         "last_role": "assistant",
         "idle_level": "active",
         "is_active": true,
         "messages": [
-          {
-            "role": "assistant",
-            "text": "현재 등록된 크론잡 목록이에요:\n\n| 크론명 | 스케줄 | 상태 |\n|--------|--------|------|\n| benvis-heartb"
-          },
-          {
-            "role": "user",
-            "text": "[Thu 2026-03-12 10:06 GMT+9] 매일 9시30분에 실행하는 크론잡 없어?"
-          },
           {
             "role": "assistant",
             "text": "네, 현재 **매일 9시 30분 실행 크론잡은 없습니다.**\n\n등록된 크론 스케줄:\n- `*/5 * * * *` — 5분마다 (benvis-he"
@@ -52,6 +44,14 @@
           {
             "role": "assistant",
             "text": "네, 다릅니다.\n\n| | **시스템 crontab** | **OpenClaw 크론잡** |\n|---|---|---|\n| 관리 | `crontab"
+          },
+          {
+            "role": "user",
+            "text": "[Thu 2026-03-12 10:08 GMT+9] 크론탭에 등록돼있는거 다른것들도 알려줘"
+          },
+          {
+            "role": "assistant",
+            "text": "시스템 crontab 전체 목록이에요:\n\n| 스케줄 | 스크립트 | 설명 |\n|--------|---------|------|\n| 매시 정각 |"
           }
         ]
       },
@@ -61,7 +61,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "(미리보기 없음)",
-        "last_active": "2분 전",
+        "last_active": "3분 전",
         "last_active_ts": 1773277509,
         "last_active_readable": "10:05",
         "msg_count": 12,
@@ -89,7 +89,7 @@
         "channel": "슬랙 DM",
         "chat_type": "direct",
         "preview": "원인이 뭔데?",
-        "last_active": "19분 전",
+        "last_active": "20분 전",
         "last_active_ts": 1773276539,
         "last_active_readable": "09:48",
         "msg_count": 12,
@@ -121,7 +121,7 @@
         "channel": "#벤비스-채팅방",
         "chat_type": "group",
         "preview": "확인해줘",
-        "last_active": "19분 전",
+        "last_active": "20분 전",
         "last_active_ts": 1773276528,
         "last_active_readable": "09:48",
         "msg_count": 73,
@@ -275,7 +275,7 @@
   "crons": {
     "benvis-heartbeat": {
       "registered": true,
-      "last_run": "2026-03-12 10:07:01 KST",
+      "last_run": "2026-03-12 10:08:01 KST",
       "status": "ok"
     },
     "benvis-sync": {
